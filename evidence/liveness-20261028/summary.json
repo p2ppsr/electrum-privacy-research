@@ -132,7 +132,7 @@
     },
     {
       "host": "esv.bitails.io",
-      "classification": "responsive; tip currency incomplete/behind",
+      "classification": "responsive; current tip not established in every sample",
       "responsive_samples": 2,
       "current_samples": 1,
       "total_samples": 2,

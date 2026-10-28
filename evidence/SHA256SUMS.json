@@ -8,8 +8,8 @@
     "bytes": 6317
   },
   "REPORT.md": {
-    "sha256": "dfc618dba5a43aa087dabcd40b5378c41b3ee7accc268d1deb2c7e22034bfa88",
-    "bytes": 45191
+    "sha256": "a41c4a86eefbc7ee04e6bd3be70d5cb8ee4074a0f2d42e6f01b2c20fbc32cd0b",
+    "bytes": 45204
   },
   "REPRODUCE.md": {
     "sha256": "8a4b0695907b2fb1b660c2b7b8ee0f3e29d5edac2dac502e495df96903970455",
@@ -156,8 +156,8 @@
     "bytes": 3451
   },
   "evidence/liveness-20261028/liveness-table.md": {
-    "sha256": "19e7142b0771a6a62842b929d536eadba5b7c886a576a257e93394b60a84a1fa",
-    "bytes": 1138
+    "sha256": "47f4f93e4ec2de7ee3614be6da298eb629ab71ece6360b2d8494f78d56b15970",
+    "bytes": 1151
   },
   "evidence/liveness-20261028/round-1.json": {
     "sha256": "12ecbf45e80398c0143857f4053a3d5eb2324f7ee4cc6aa66287d363117324fd",
@@ -168,8 +168,8 @@
     "bytes": 27040
   },
   "evidence/liveness-20261028/summary.json": {
-    "sha256": "8c88e1df929f9eadf1834dcd61fac267ac03d64d2c5cdd9bd9ee6639250a253b",
-    "bytes": 14354
+    "sha256": "444810077b54fd16471e5725f0eb15d6c78ed20986990797360d7a7f5b9d8c73",
+    "bytes": 14367
   },
   "evidence/ownership-20261028/dns-zones.json": {
     "sha256": "9f70abab16a7ab49021bc2c571ef646b786864613042dc9f32d9c992694361d2",
@@ -288,8 +288,8 @@
     "bytes": 6722
   },
   "privacy_lab/liveness.py": {
-    "sha256": "a381f1875b0ce38dfb30a86f88c36dc54d8dd0812a5e5ec06e94b584b690ff33",
-    "bytes": 9863
+    "sha256": "ef30b4b2343c36795c331a8790464bd09eb1044143319e703730390cd0fe8986",
+    "bytes": 9876
   },
   "privacy_lab/ownership.py": {
     "sha256": "65914da7bfa64993bb71831bede246bf1d723fe0c5ec8fce2cbf49c6e95fe1de",

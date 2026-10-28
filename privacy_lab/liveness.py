@@ -145,7 +145,7 @@ def main():
         success=sum(s["electrum_response"] for s in samples)
         current=sum(a["apparent_current"] for a in assessments)
         classification="responsive and apparently current" if current==args.rounds else (
-            "responsive; tip currency incomplete/behind" if success else "no response from this vantage in bounded samples")
+            "responsive; current tip not established in every sample" if success else "no response from this vantage in bounded samples")
         summary.append(dict(host=host,classification=classification,responsive_samples=success,
             current_samples=current,total_samples=args.rounds,assessments=assessments,
             errors=[dict(round=i+1,phase=s.get("failed_phase"),error=s["error"]) for i,s in enumerate(samples) if "error" in s]))
