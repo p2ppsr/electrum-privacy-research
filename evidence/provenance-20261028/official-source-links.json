@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://electrumr.io/index.html",
+    "at": "2026-10-28T22:44:45.942476+00:00",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "url": "https://electrumr.io/docs.html",
+    "at": "2026-10-28T22:44:46.175834+00:00",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  }
+]

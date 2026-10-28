@@ -1,0 +1,38 @@
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-28 15:44:45,987:WARNING:config:not changing config key 'server' set on the command line
+WARNING:[127.0.0.1:49734 SSL #0]:
+===== THROTTLE =====
+session : 4456255440
+key     : 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+waiting : False
+2026-10-28 15:44:46,631:WARNING:[127.0.0.1:49734 SSL #0]:
+===== THROTTLE =====
+session : 4456255440
+key     : 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+waiting : False
+WARNING:[127.0.0.1:49734 SSL #0]:CREATED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+2026-10-28 15:44:46,632:WARNING:[127.0.0.1:49734 SSL #0]:CREATED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 966553
+2026-10-28 15:44:47,417:WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 966553
+WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 968568
+2026-10-28 15:44:47,656:WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 968568
+WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 968569
+2026-10-28 15:44:48,007:WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 968569
+WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 970584
+2026-10-28 15:44:48,249:WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 970584
+WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 970585
+2026-10-28 15:44:48,626:WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 970585
+WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 972600
+2026-10-28 15:44:48,860:WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 972600
+WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 972601
+2026-10-28 15:44:49,085:WARNING:[127.0.0.1:49734 SSL #0]:Downloading chunk starting at height 972601
+WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 973090
+2026-10-28 15:44:49,148:WARNING:[127.0.0.1:49734 SSL #0]:headers_obj.tip.height now = 973090
+WARNING:[127.0.0.1:49734 SSL #0]:========== CATCH UP END ==========
+final local tip : 973090
+2026-10-28 15:44:49,148:WARNING:[127.0.0.1:49734 SSL #0]:========== CATCH UP END ==========
+final local tip : 973090
+WARNING:[127.0.0.1:49734 SSL #0]:RELEASED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+2026-10-28 15:44:49,148:WARNING:[127.0.0.1:49734 SSL #0]:RELEASED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+[ELECTRUMX] FAIL blockchain.block.header -> electrum.server.sv:50002 (S) after 5.010s: TimeoutError('timed out')
+{"status": "PASS", "connected": true, "initial_scripts": 40, "response_count": 40, "wallet_source_unchanged": true}

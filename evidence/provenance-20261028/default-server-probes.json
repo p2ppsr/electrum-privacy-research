@@ -1,0 +1,100 @@
+[
+  {
+    "host": "sv.electrumr.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:44:41.929617+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.197"
+    ],
+    "peer": [
+      "198.154.93.197",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "cfe9dc308a9024583aee3faeb8b2f69cef660b970f79aa117d06605e9c8bea27",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumR 0.2.0",
+        "1.4.2"
+      ]
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "hosts": {
+          "sv.electrumr.sv": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "protocol_max": "1.4.2",
+        "protocol_min": "1.4",
+        "pruning": null,
+        "server_version": "ElectrumR 0.2.0",
+        "services": []
+      }
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "High performance ElectrumR server: sv.electrumr.sv"
+    }
+  },
+  {
+    "host": "sv2.electrumr.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:44:41.929935+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.212"
+    ],
+    "peer": [
+      "198.154.93.212",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "92dfa3f03c2d6fdb01ab16e8f8eeb5fcd71153f9013795a80c261125ae1d9dc8",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumR 0.2.0",
+        "1.4.2"
+      ]
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "hosts": {
+          "sv2.electrumr.sv": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "protocol_max": "1.4.2",
+        "protocol_min": "1.4",
+        "pruning": null,
+        "server_version": "ElectrumR 0.2.0",
+        "services": []
+      }
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "High performance ElectrumR server: sv2.electrumr.sv"
+    }
+  }
+]

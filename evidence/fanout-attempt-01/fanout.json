@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "source_start_line": 335,
+  "source_end_line": 500,
+  "mode": "exact upstream helper function, eight controlled local TLS peers",
+  "controls": [
+    "SERVERS replaced with eight local TLS peers",
+    "socket host routing for loopback isolation",
+    "no Tor"
+  ],
+  "recipients": 8,
+  "first_success": {
+    "id": 0,
+    "result": "controlled-response"
+  },
+  "requests": [
+    {
+      "server": "controlled-server-4",
+      "utc": "2026-10-28T22:46:25.103171+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-1",
+      "utc": "2026-10-28T22:46:25.103627+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-3",
+      "utc": "2026-10-28T22:46:25.103650+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-5",
+      "utc": "2026-10-28T22:46:25.103708+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-7",
+      "utc": "2026-10-28T22:46:25.103783+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-6",
+      "utc": "2026-10-28T22:46:25.103803+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-0",
+      "utc": "2026-10-28T22:46:25.103829+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    },
+    {
+      "server": "controlled-server-2",
+      "utc": "2026-10-28T22:46:25.103905+00:00",
+      "request": {
+        "id": 0,
+        "method": "blockchain.transaction.get",
+        "params": [
+          "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        ]
+      }
+    }
+  ],
+  "implication": "Returning the first response does not retract requests already delivered to other servers."
+}

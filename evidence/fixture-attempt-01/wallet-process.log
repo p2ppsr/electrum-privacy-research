@@ -1,0 +1,130 @@
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-28 15:44:23,996:WARNING:config:not changing config key 'server' set on the command line
+ERROR:async:async task raised an unhandled exception
+Traceback (most recent call last):
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/async_.py", line 100, in _collect
+    future.result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1543, in _main_task
+    async with TaskGroup() as group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 213, in join
+    raise task.exception()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1575, in _maintain_connections
+    async with TaskGroup() as group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 213, in join
+    raise task.exception()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1591, in _maintain_connection
+    await server.connect(self, n)
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 342, in connect
+    await session.run()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1291, in run
+    await self._negotiate_protocol()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 749, in _negotiate_protocol
+    server_string, protocol_string = await self.send_request(method, args)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 537, in send_request
+    return await self._send_concurrent(message, future, 1)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 507, in _send_concurrent
+    return await future
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 721, in receive_message
+    item, request_id = self._protocol.message_to_item(message)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 273, in message_to_item
+    return cls._process_response(payload)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 220, in _process_response
+    raise cls._error(code, message, False, request_id)
+aiorpcx.jsonrpc.ProtocolError: (-32600, '"jsonrpc" is not "2.0"')
+2026-10-28 15:44:24,000:ERROR:async:async task raised an unhandled exception
+Traceback (most recent call last):
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/async_.py", line 100, in _collect
+    future.result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1543, in _main_task
+    async with TaskGroup() as group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 213, in join
+    raise task.exception()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1575, in _maintain_connections
+    async with TaskGroup() as group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 213, in join
+    raise task.exception()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1591, in _maintain_connection
+    await server.connect(self, n)
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 342, in connect
+    await session.run()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1291, in run
+    await self._negotiate_protocol()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 749, in _negotiate_protocol
+    server_string, protocol_string = await self.send_request(method, args)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 537, in send_request
+    return await self._send_concurrent(message, future, 1)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 507, in _send_concurrent
+    return await future
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 721, in receive_message
+    item, request_id = self._protocol.message_to_item(message)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 273, in message_to_item
+    return cls._process_response(payload)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 220, in _process_response
+    raise cls._error(code, message, False, request_id)
+aiorpcx.jsonrpc.ProtocolError: (-32600, '"jsonrpc" is not "2.0"')
+Traceback (most recent call last):
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/wallet_session.py", line 137, in <module>
+    main()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/wallet_session.py", line 87, in main
+    network.future.result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/async_.py", line 100, in _collect
+    future.result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1543, in _main_task
+    async with TaskGroup() as group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 213, in join
+    raise task.exception()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1575, in _maintain_connections
+    async with TaskGroup() as group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 213, in join
+    raise task.exception()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1591, in _maintain_connection
+    await server.connect(self, n)
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 342, in connect
+    await session.run()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 1291, in run
+    await self._negotiate_protocol()
+  File "/Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py", line 749, in _negotiate_protocol
+    server_string, protocol_string = await self.send_request(method, args)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 537, in send_request
+    return await self._send_concurrent(message, future, 1)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 507, in _send_concurrent
+    return await future
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 721, in receive_message
+    item, request_id = self._protocol.message_to_item(message)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 273, in message_to_item
+    return cls._process_response(payload)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 220, in _process_response
+    raise cls._error(code, message, False, request_id)
+aiorpcx.jsonrpc.ProtocolError: (-32600, '"jsonrpc" is not "2.0"')

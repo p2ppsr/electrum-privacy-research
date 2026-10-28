@@ -1,0 +1,30 @@
+{
+  "client": "ElectrumSVP 0.2.0 real Wallet/Network",
+  "upstream": "manufactured protocol fixture, NOT ElectrumR",
+  "mode": "real upstream Wallet/Network against manufactured unconfirmed ledger",
+  "self_hosted_electrumr": false,
+  "exit_code": 0,
+  "controls": [
+    "loopback TLS endpoint",
+    "oneserver=True",
+    "auto_connect=False",
+    "headless application callbacks",
+    "isolated application data",
+    "verification helper endpoints redirected to local fixture",
+    "non-loopback connections denied",
+    "scripted controlled payment"
+  ],
+  "defaults_preserved": [
+    "20 receiving + 20 change lookahead",
+    "P2PKH scripts",
+    "history/transaction RPC logic"
+  ],
+  "no_real_chain_funding": true,
+  "confirmed_transaction_claims": false,
+  "signature_checks": [
+    {
+      "txid": "90a165681cb3036bcf95e42dff075e98b4a953c3daafc005c6a3c316ec0a3b2c",
+      "result": "valid BSV input signatures against fixture prevouts"
+    }
+  ]
+}

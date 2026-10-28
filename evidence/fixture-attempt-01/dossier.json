@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "evidence_source": "evidence/fixture-attempt-01/capture.jsonl",
+  "method_counts": {
+    "blockchain.block.header": 1,
+    "server.version": 1
+  },
+  "clusters": [
+    {
+      "session": 1,
+      "peer": [
+        "127.0.0.1",
+        49727
+      ],
+      "client_versions": [],
+      "script_count": 0,
+      "resolved_script_count": 0,
+      "unresolved_script_count": 0,
+      "scripts": [],
+      "history_transaction_count": 0,
+      "missing_transaction_bodies": [],
+      "observed_unspent_sats": 0,
+      "balance_complete_for_observed_history": true,
+      "utxos": [],
+      "activity": []
+    },
+    {
+      "session": 2,
+      "peer": [
+        "127.0.0.1",
+        49729
+      ],
+      "client_versions": [
+        [
+          "0.2.0",
+          [
+            "1.4",
+            "1.4.2"
+          ]
+        ]
+      ],
+      "script_count": 0,
+      "resolved_script_count": 0,
+      "unresolved_script_count": 0,
+      "scripts": [],
+      "history_transaction_count": 0,
+      "missing_transaction_bodies": [],
+      "observed_unspent_sats": 0,
+      "balance_complete_for_observed_history": true,
+      "utxos": [],
+      "activity": []
+    }
+  ],
+  "broadcasts": [],
+  "attribution": "Session associates queried interests; ownership, identity, income and payment purpose are not proven."
+}

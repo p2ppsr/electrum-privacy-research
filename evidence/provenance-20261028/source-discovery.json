@@ -1,0 +1,95 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/ElectrumR"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}",
+    "stderr": "gh: Not Found (HTTP 404)\n",
+    "at": "2026-10-28T22:44:43.569615+00:00"
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/ElectrumR/releases"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#list-releases\",\"status\":\"404\"}",
+    "stderr": "gh: Not Found (HTTP 404)\n",
+    "at": "2026-10-28T22:44:44.083727+00:00"
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "users/KeyvanJS/repos?per_page=100",
+      "--jq",
+      "[.[] | {full_name,updated_at}]"
+    ],
+    "exit_code": 0,
+    "stdout": "[{\"full_name\":\"KeyvanJS/bccpool\",\"updated_at\":\"2017-12-26T19:42:34Z\"},{\"full_name\":\"KeyvanJS/bitcoin\",\"updated_at\":\"2018-08-21T18:58:56Z\"},{\"full_name\":\"KeyvanJS/bitcoin-abc\",\"updated_at\":\"2017-12-21T12:26:29Z\"},{\"full_name\":\"KeyvanJS/bitcoinxt\",\"updated_at\":\"2015-11-10T23:08:14Z\"},{\"full_name\":\"KeyvanJS/block-frontend\",\"updated_at\":\"2026-04-13T11:50:28Z\"},{\"full_name\":\"KeyvanJS/blog\",\"updated_at\":\"2018-06-13T11:49:21Z\"},{\"full_name\":\"KeyvanJS/btcpool\",\"updated_at\":\"2017-02-02T20:14:17Z\"},{\"full_name\":\"KeyvanJS/electrumsv\",\"updated_at\":\"2025-01-15T18:26:31Z\"},{\"full_name\":\"KeyvanJS/electrumx-banner-updater\",\"updated_at\":\"2019-01-11T20:47:51Z\"},{\"full_name\":\"KeyvanJS/iptv\",\"updated_at\":\"2026-01-22T11:44:49Z\"},{\"full_name\":\"KeyvanJS/node-stratum\",\"updated_at\":\"2013-11-30T18:23:31Z\"},{\"full_name\":\"KeyvanJS/planning-with-files\",\"updated_at\":\"2026-01-06T18:22:17Z\"},{\"full_name\":\"KeyvanJS/pluralsight-vscode-samples\",\"updated_at\":\"2018-04-03T11:37:30Z\"},{\"full_name\":\"KeyvanJS/pools\",\"updated_at\":\"2026-10-24T20:52:20Z\"},{\"full_name\":\"KeyvanJS/Telescope\",\"updated_at\":\"2017-03-15T15:21:14Z\"}]\n",
+    "stderr": "",
+    "at": "2026-10-28T22:44:44.671268+00:00"
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "repos",
+      "ElectrumR",
+      "--limit",
+      "50",
+      "--json",
+      "fullName,description,url"
+    ],
+    "exit_code": 0,
+    "stdout": "[{\"description\":\"Golang JSON RPC client to talk with Electrum server\",\"fullName\":\"MarinX/electrumrpc\",\"url\":\"https://github.com/MarinX/electrumrpc\"},{\"description\":\"Controlled ElectrumSVP and ElectrumR privacy research with reproducible operator-side financial dossier reconstruction\",\"fullName\":\"p2ppsr/electrum-privacy-research\",\"url\":\"https://github.com/p2ppsr/electrum-privacy-research\"}]\n",
+    "stderr": "",
+    "at": "2026-10-28T22:44:45.420319+00:00"
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "code",
+      "\"ElectrumR\" \"SessionManager\"",
+      "--limit",
+      "30",
+      "--json",
+      "repository,path"
+    ],
+    "exit_code": 0,
+    "stdout": "[]\n",
+    "stderr": "",
+    "at": "2026-10-28T22:44:45.895377+00:00"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/Users/tyeverett/projects/ElectrumSVP",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "672df8f4512f6adf16a3c99146baa6be9b93d86f\n",
+    "stderr": "",
+    "at": "2026-10-28T22:44:45.909274+00:00"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/Users/tyeverett/projects/ElectrumSVP",
+      "status",
+      "--porcelain"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "at": "2026-10-28T22:44:45.940007+00:00"
+  }
+]

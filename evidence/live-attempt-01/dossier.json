@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "evidence_source": "evidence/live-attempt-01/capture.jsonl",
+  "method_counts": {
+    "server.version": 1,
+    "blockchain.headers.subscribe": 1,
+    "blockchain.block.headers": 4,
+    "server.banner": 1,
+    "server.donation_address": 1,
+    "server.peers.subscribe": 1,
+    "blockchain.scripthash.subscribe": 40,
+    "blockchain.scripthash.unsubscribe": 40
+  },
+  "clusters": [
+    {
+      "session": 1,
+      "peer": [
+        "127.0.0.1",
+        49712
+      ],
+      "client_versions": [
+        [
+          "0.2.0",
+          [
+            "1.4",
+            "1.4.2"
+          ]
+        ]
+      ],
+      "script_count": 40,
+      "resolved_script_count": 0,
+      "unresolved_script_count": 40,
+      "scripts": [
+        {
+          "scripthash": "06d6f49c3664467a9a1199b2fc50271825eea9a11a6b7263c5a000153e14ce74",
+          "first_seen": "2026-10-28T22:42:48.978234+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "0bd61122edb064bdf4ec0d9e0a80c4ab0bdef98c7cb2b4f24294316a8364959d",
+          "first_seen": "2026-10-28T22:42:48.978330+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "104716f1afbeea26bbf3c96eb2e018d5d1e2ca8bf9a028c510bd4b6c1f24dd44",
+          "first_seen": "2026-10-28T22:42:48.978412+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "14c6068fc25ff40916bb5750965a7c47cdd87da059b88da9fa445cfcb13b7aac",
+          "first_seen": "2026-10-28T22:42:48.979196+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "165df5b22129b9f6dba0a2febe6455da44b4982d8f0c65f111a546bab6606934",
+          "first_seen": "2026-10-28T22:42:48.979052+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "19d0f6d122ad19cb15ce44c5c2aec6ee740597b8b68d982d29593d1ce4718aff",
+          "first_seen": "2026-10-28T22:42:48.979412+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "333dca1b3b65104ae447156fc082bf0b379b76869ad6e05686342a5644d16d8b",
+          "first_seen": "2026-10-28T22:42:48.978587+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "3cc698c7ddb7764d6fd065f986ff5ceab218a635dafb497883e37db14ab7f143",
+          "first_seen": "2026-10-28T22:42:48.978296+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "40e92f690fa05908522a107bbcd415858e29b964fe9dd0c4174db7b13d196464",
+          "first_seen": "2026-10-28T22:42:48.979173+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "437fc88cfdc1d0540eb323658aa21f6adaeab213b24862296127195a7a24b509",
+          "first_seen": "2026-10-28T22:42:48.979292+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "5fe556a241686992b367517f847ccc10826424036868c6ed276b3fe3438a92fa",
+          "first_seen": "2026-10-28T22:42:48.979459+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "61e3d6868f54a6d529f970dc806470a87ebec641839bb1c91d8a02d2fc5c4993",
+          "first_seen": "2026-10-28T22:42:48.978561+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "6297caf202d3bd1c933688a1c90890c8f9a0e5126d2ad0c8b6608c07842cfc19",
+          "first_seen": "2026-10-28T22:42:48.979435+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "691a828bf1b32a4b7b63e87abc157fa376f8d155a4554f363077a68bd2b0247b",
+          "first_seen": "2026-10-28T22:42:48.979245+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "6cb2de51abcf8ef47de6a7a62829598b3d918a7a9c93bb725db092dbb07881fc",
+          "first_seen": "2026-10-28T22:42:48.978946+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "6d5ecb0d260ad84eef6bf060ba26686a201cdd4cf8516adcb6dbd8f9134cb69e",
+          "first_seen": "2026-10-28T22:42:48.979364+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "6f1b5b5db920b3274963a7246d06e80c1387e0570f81b03b782df49c0ca41197",
+          "first_seen": "2026-10-28T22:42:48.978734+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "6feb5eb7e2ef9a3fd6691e9479a7e90a9651c30969c101b031bbadb7a22a38ff",
+          "first_seen": "2026-10-28T22:42:48.979078+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "71ad4a2914fc1405f4dd2b1eef34cd285b537f7b2c0244d16cdda5a772c2a2a0",
+          "first_seen": "2026-10-28T22:42:48.979268+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "7bb83a6e2071fea7802600ec0c9f550fc1f340e2701f820bcc950702b6d9d000",
+          "first_seen": "2026-10-28T22:42:48.978615+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "839ec7e039a1e7522050ed97aca4e67a7625f88bd8f9a7e5828490415e39cfde",
+          "first_seen": "2026-10-28T22:42:48.978359+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "8db1e8fd043724296ade334835c4971486f228282058e95f4837256e21da674f",
+          "first_seen": "2026-10-28T22:42:48.978832+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "8f55859f997f19e1d61a25b95bd3e326847d06ba5e62a3f2c02c5782218d504c",
+          "first_seen": "2026-10-28T22:42:48.979388+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "8ffdd00b0f787c8c755a3a31378b381bd5cf654ca97e50cd6ce9560b0c532dfd",
+          "first_seen": "2026-10-28T22:42:48.978643+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "960e5266651824e178f243f57db6c20c426fcb1dcaa0bce411afb8ae4b1d7023",
+          "first_seen": "2026-10-28T22:42:48.979149+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "96a8d8a24f56817033e3bc66db0ffa1362ad07c476079ee786d647af5be180d5",
+          "first_seen": "2026-10-28T22:42:48.978668+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "99d80a02200daa9c2116957e735b32ef77e2182bffdd286c0ce39ec8ee09a534",
+          "first_seen": "2026-10-28T22:42:48.978439+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "b67b57798073d9b617b2648812bb337e5a0794a73c4412beead669496d8c9e9b",
+          "first_seen": "2026-10-28T22:42:48.979102+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "b9dbd5ce752e533effa6ea6fed265646a02c1e01ab337b9e9e18a4a197ec30db",
+          "first_seen": "2026-10-28T22:42:48.978534+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "bb190073ef4cf193ff9ecc34c8d079477490f29a296deb0a27e5cac61a5ddd83",
+          "first_seen": "2026-10-28T22:42:48.978761+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "bb2c204f21c8c282cf9b4fe188f018d83ce26d9a4036873ab3d21e0661bf9145",
+          "first_seen": "2026-10-28T22:42:48.978386+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "bef0588b6fc5a7c64ecd3a4993c2079f44c079210f39cf95bd87f2be4c4377e7",
+          "first_seen": "2026-10-28T22:42:48.978855+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "cd1de7484b6dcc2362d3e458796162b36c73e220240e197c9e6f39b9f46044d4",
+          "first_seen": "2026-10-28T22:42:48.978785+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "d60ad4bd2ad683d2982a59fcebcc5af7c4cb508f13b44e00df8859aa8c7d17db",
+          "first_seen": "2026-10-28T22:42:48.979341+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "dcb8cb7bd2476cde6031d7639c3530f899bb6a96f80544b6bfdf4046dc1bc400",
+          "first_seen": "2026-10-28T22:42:48.979317+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "e5e67e09ec7bd0447f888fc1fced9dc038a9f333b600fa4988e063b3ad609aad",
+          "first_seen": "2026-10-28T22:42:48.978701+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "ea5f6e2e2d92b3148a7b6b4fa042f4687c690ae53825b807c75879e478e90435",
+          "first_seen": "2026-10-28T22:42:48.979126+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "ec355a5d8c9e59e7a52f1aa7662eec5ba4574184cdfb9a0f5bcd07271b3dc48f",
+          "first_seen": "2026-10-28T22:42:48.978970+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "ef4a9d0a85df2eb98f51423b9bfddb26ffbfdce5b5c8f2529b1693c5fedac67f",
+          "first_seen": "2026-10-28T22:42:48.978808+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        },
+        {
+          "scripthash": "f030751198a4bbfb02f3c40f5d01ad04e74bdacf29b30fa72af7982f5db73a1e",
+          "first_seen": "2026-10-28T22:42:48.979220+00:00",
+          "methods": [
+            "blockchain.scripthash.subscribe",
+            "blockchain.scripthash.unsubscribe"
+          ]
+        }
+      ],
+      "history_transaction_count": 0,
+      "missing_transaction_bodies": [],
+      "observed_unspent_sats": 0,
+      "balance_complete_for_observed_history": false,
+      "utxos": [],
+      "activity": []
+    }
+  ],
+  "broadcasts": [],
+  "attribution": "Session associates queried interests; ownership, identity, income and payment purpose are not proven."
+}

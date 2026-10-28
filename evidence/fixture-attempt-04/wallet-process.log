@@ -1,0 +1,7 @@
+{"progress": true, "connected": false, "responses": 0, "balance": 0, "sent": false}
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-28 15:46:57,694:WARNING:config:not changing config key 'server' set on the command line
+broadcast_transaction_and_wait called with type: <class 'electrumsv.transaction.Transaction'>
+Serialized transaction type: <class 'str'>
+Prepared tx_hex: 0100000001201c5da76d...
+{"status": "PASS", "connected": true, "initial_scripts": 40, "response_count": 47, "wallet_source_unchanged": true, "fixture_wallet_balance_sats": 8499000}

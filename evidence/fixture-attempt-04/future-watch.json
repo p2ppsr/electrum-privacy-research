@@ -1,0 +1,19 @@
+{
+  "scenario": "manufactured later ledger event after wallet process exited; NOT a real-chain transaction",
+  "raw_transaction": "01000000010891f8478bb378cc66ee098e452d491fb45eed0457999896b58a8d8b04f531d60000000000ffffffff01a0f01900000000001976a91473330b9f52393a460a960db9fa68ff47b9b9855588ac00000000",
+  "txid": "230f32352b7de06e5a85c1902bdbf3590da3e6045291a3789cd84fae10133d49",
+  "matching_outputs": [
+    {
+      "index": 0,
+      "value_sats": 1700000,
+      "script": "76a91473330b9f52393a460a960db9fa68ff47b9b9855588ac",
+      "scripthash": "c8997a110ce045e854888785978c01e96a800ddce60a8fef24aab2b2eab653e9",
+      "address": "1BW7rkujKk6fA2jtR71QH3CxCKkbhr6XM4"
+    }
+  ],
+  "analyzer_inputs": [
+    "capture.jsonl",
+    "this later raw transaction"
+  ],
+  "requires_wallet_online": false
+}

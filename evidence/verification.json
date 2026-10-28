@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "live_scripts": 40,
+  "fixture_scripts": 47,
+  "fixture_transactions": 4,
+  "fixture_incoming_sats": 13500000,
+  "fixture_external_payment_sats": 5000000,
+  "fixture_fee_sats": 1000,
+  "fixture_remaining_sats": 8499000,
+  "future_watch_sats": 1700000,
+  "fanout_recipients": 8,
+  "analyzer_inputs": "retained server-side capture only; future check adds a modeled later ledger transaction",
+  "limitations": [
+    "No self-hosted ElectrumR source or binary was available",
+    "Funded case is a manufactured unconfirmed ledger, not real BSV",
+    "Endpoint identity strings are self-reported"
+  ]
+}

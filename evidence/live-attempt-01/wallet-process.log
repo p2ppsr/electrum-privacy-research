@@ -1,0 +1,74 @@
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-28 15:42:45,686:WARNING:config:not changing config key 'server' set on the command line
+WARNING:[127.0.0.1:49700 SSL #0]:
+===== THROTTLE =====
+session : 4484846672
+key     : 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+waiting : False
+2026-10-28 15:42:46,324:WARNING:[127.0.0.1:49700 SSL #0]:
+===== THROTTLE =====
+session : 4484846672
+key     : 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+waiting : False
+WARNING:[127.0.0.1:49700 SSL #0]:CREATED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+2026-10-28 15:42:46,324:WARNING:[127.0.0.1:49700 SSL #0]:CREATED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 966553
+2026-10-28 15:42:47,157:WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 966553
+WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 968568
+2026-10-28 15:42:47,389:WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 968568
+WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 968569
+2026-10-28 15:42:47,760:WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 968569
+WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 970584
+2026-10-28 15:42:47,991:WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 970584
+WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 970585
+2026-10-28 15:42:48,510:WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 970585
+WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 972600
+2026-10-28 15:42:48,741:WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 972600
+WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 972601
+2026-10-28 15:42:48,919:WARNING:[127.0.0.1:49700 SSL #0]:Downloading chunk starting at height 972601
+WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 973090
+2026-10-28 15:42:48,975:WARNING:[127.0.0.1:49700 SSL #0]:headers_obj.tip.height now = 973090
+WARNING:[127.0.0.1:49700 SSL #0]:========== CATCH UP END ==========
+final local tip : 973090
+2026-10-28 15:42:48,975:WARNING:[127.0.0.1:49700 SSL #0]:========== CATCH UP END ==========
+final local tip : 973090
+WARNING:[127.0.0.1:49700 SSL #0]:RELEASED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+2026-10-28 15:42:48,975:WARNING:[127.0.0.1:49700 SSL #0]:RELEASED throttle entry for 0040442a25042f61e4b896d1c963619fdda464c830f49af05facdd030000000000000000b56e7fd662f80b4dd173ff29428eba32ca2dc712cc360bea873369b0d4533ce2b876e26a698323185321403a
+[ELECTRUMX] FAIL blockchain.block.header -> electrum.server.sv:50002 (S) after 5.124s: TimeoutError('timed out')
+{"status": "PASS", "connected": true, "initial_scripts": 40, "response_count": 40, "wallet_source_unchanged": true}
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-15' coro=<Network._maintain_connection() running at /Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py:1591> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[TaskGroup._on_done()]>
+2026-10-28 15:42:51,336:ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-15' coro=<Network._maintain_connection() running at /Users/tyeverett/projects/ElectrumSVP/electrumsv/network.py:1591> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[TaskGroup._on_done()]>
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<RPCSession._process_messages() running at /Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py:442> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[TaskGroup._on_done()]>
+2026-10-28 15:42:51,336:ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<RPCSession._process_messages() running at /Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py:442> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[TaskGroup._on_done()]>
+Exception ignored in: <coroutine object RPCSession._process_messages at 0x10b581770>
+Traceback (most recent call last):
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 442, in _process_messages
+    message = await recv_message()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/rawsocket.py", line 70, in receive_message
+    return await self._framer.receive_message()
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/framing.py", line 95, in receive_message
+    part = await self.queue.get()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/queues.py", line 161, in get
+    getter.cancel()  # Just in case getter is not done yet.
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<RSTransport.process_messages() running at /Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/rawsocket.py:62> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-10-28 15:42:51,336:ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<RSTransport.process_messages() running at /Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/rawsocket.py:62> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+Exception ignored in: <coroutine object RSTransport.process_messages at 0x10b5815b0>
+Traceback (most recent call last):
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/rawsocket.py", line 62, in process_messages
+    await self.session.process_messages(self.receive_message)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 222, in process_messages
+    async with self._group:
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/curio.py", line 255, in __aexit__
+    await self.join()
+RuntimeError: coroutine ignored GeneratorExit
