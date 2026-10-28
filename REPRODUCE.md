@@ -68,3 +68,21 @@ To refresh the nine literal destinations and collect ordinary public DNS/metadat
 ```
 
 The report distinguishes the source pools from DNS, connected peer addresses, self-reported versions, saved/discovered peers and malformed fallback entries. Metadata probes contain no wallet addresses or transactions.
+
+The attribution/source/liveness follow-up can be inspected offline without any wallet, network access or third-party Python packages:
+
+```bash
+python3 -S -m privacy_lab.verify_followup
+```
+
+To collect new public snapshots, use unique output directories (the collectors refuse overwrites):
+
+```bash
+.venv/bin/python -m privacy_lab.ownership --output evidence/my-ownership-check
+.venv/bin/python -m privacy_lab.server_sources --output evidence/my-source-check
+.venv/bin/python -m privacy_lab.liveness --output evidence/my-liveness-check
+```
+
+Ownership collection queries public registration/routing/DNS records, official sites and the existing nine TLS endpoints. It omits individual registry-contact names, street addresses, phone numbers and mailbox details from retained registry summaries. Source discovery queries public repository/code indexes and obtains narrow facts from pinned public files; inaccessible repositories, failed queries and inconclusive archive responses remain explicit. The public profile name/company fields are self-declarations, not legal-identity attestations.
+
+Liveness collection performs two bounded rounds, ten seconds apart, against the nine literal TLS endpoints. It sends only version, header-subscription and ping methods, and brackets observations with public Bitails/WhatsOnChain chain-info responses. It distinguishes reachability, protocol replies and apparent current tip. It does not query wallets, validate complete chains, establish an uptime SLA, or prove historical indexing completeness. The retained verifier deliberately checks the October 28 canonical snapshots; a new snapshot requires review and updated expected observations before being substituted into the report.

@@ -1,0 +1,37 @@
+{
+  "command": [
+    "gh",
+    "api",
+    "repos/KeyvanJS/block-frontend/git/trees/b8297240b8c696546f0ffd0fa62e35b20fd9fed8?recursive=1",
+    "--jq",
+    "{sha,truncated,files:[.tree[]|select(.type==\"blob\")|{path,sha,size}]}"
+  ],
+  "observed_at": "2026-10-28T23:21:00.824838+00:00",
+  "exit_code": 0,
+  "result": {
+    "files": [
+      {
+        "path": ".claude/skills/api/SKILL.md",
+        "sha": "9a74988e387995babc67db80256255c923275db7",
+        "size": 14258
+      },
+      {
+        "path": ".claude/skills/ui/SKILL.md",
+        "sha": "1ecccdba2e952583acfb89b1e886c5106b398c85",
+        "size": 4300
+      },
+      {
+        "path": "API.md",
+        "sha": "92a75c1198ebf45b414334f7ce6d9a9538155f06",
+        "size": 27125
+      },
+      {
+        "path": "ui.MD",
+        "sha": "43aec9ae8e8ed6b2e5a4706f811c4c88ffad5e81",
+        "size": 4275
+      }
+    ],
+    "sha": "b8297240b8c696546f0ffd0fa62e35b20fd9fed8",
+    "truncated": false
+  }
+}

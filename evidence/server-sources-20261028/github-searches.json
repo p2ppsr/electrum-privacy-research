@@ -1,0 +1,237 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/ElectrumR"
+    ],
+    "observed_at": "2026-10-28T23:11:41.402482+00:00",
+    "exit_code": 1,
+    "result": {
+      "message": "Not Found",
+      "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+      "status": "404"
+    },
+    "stderr": "gh: Not Found (HTTP 404)\n"
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/ElectrumR/releases"
+    ],
+    "observed_at": "2026-10-28T23:11:41.918998+00:00",
+    "exit_code": 1,
+    "result": {
+      "message": "Not Found",
+      "documentation_url": "https://docs.github.com/rest/releases/releases#list-releases",
+      "status": "404"
+    },
+    "stderr": "gh: Not Found (HTTP 404)\n"
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "users/KeyvanJS/repos?per_page=100",
+      "--jq",
+      "[.[]|{full_name,description,default_branch,fork}]"
+    ],
+    "observed_at": "2026-10-28T23:11:42.789705+00:00",
+    "exit_code": 0,
+    "result": [
+      {
+        "default_branch": "master",
+        "description": "Bitcoin Cash Pool",
+        "fork": true,
+        "full_name": "KeyvanJS/bccpool"
+      },
+      {
+        "default_branch": "master",
+        "description": "Bitcoin Core integration/staging tree",
+        "fork": true,
+        "full_name": "KeyvanJS/bitcoin"
+      },
+      {
+        "default_branch": "master",
+        "description": null,
+        "fork": true,
+        "full_name": "KeyvanJS/bitcoin-abc"
+      },
+      {
+        "default_branch": "master",
+        "description": null,
+        "fork": true,
+        "full_name": "KeyvanJS/bitcoinxt"
+      },
+      {
+        "default_branch": "master",
+        "description": null,
+        "fork": false,
+        "full_name": "KeyvanJS/block-frontend"
+      },
+      {
+        "default_branch": "master",
+        "description": null,
+        "fork": false,
+        "full_name": "KeyvanJS/blog"
+      },
+      {
+        "default_branch": "master",
+        "description": "backend of pool.btc.com",
+        "fork": true,
+        "full_name": "KeyvanJS/btcpool"
+      },
+      {
+        "default_branch": "master",
+        "description": "A desktop wallet for Bitcoin SV",
+        "fork": true,
+        "full_name": "KeyvanJS/electrumsv"
+      },
+      {
+        "default_branch": "master",
+        "description": "This script can be used to update the ElectrumX banner file to contain information about memory pool and fees.",
+        "fork": true,
+        "full_name": "KeyvanJS/electrumx-banner-updater"
+      },
+      {
+        "default_branch": "master",
+        "description": "Collection of publicly available IPTV channels from all over the world",
+        "fork": true,
+        "full_name": "KeyvanJS/iptv"
+      },
+      {
+        "default_branch": "master",
+        "description": "Stratum protocol server and client for Node.js",
+        "fork": true,
+        "full_name": "KeyvanJS/node-stratum"
+      },
+      {
+        "default_branch": "master",
+        "description": "Claude Code skill implementing Manus-style persistent markdown planning \u2014 the workflow pattern behind the $2B acquisition.",
+        "fork": true,
+        "full_name": "KeyvanJS/planning-with-files"
+      },
+      {
+        "default_branch": "master",
+        "description": "VS Code samples for Pluralsight course on Code",
+        "fork": true,
+        "full_name": "KeyvanJS/pluralsight-vscode-samples"
+      },
+      {
+        "default_branch": "main",
+        "description": "Pool-ID",
+        "fork": false,
+        "full_name": "KeyvanJS/pools"
+      },
+      {
+        "default_branch": "master",
+        "description": ":telescope: A tookit to quickly build apps with React, GraphQL & Meteor",
+        "fork": true,
+        "full_name": "KeyvanJS/Telescope"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "repos",
+      "ElectrumR in:name fork:true",
+      "--visibility",
+      "public",
+      "--limit",
+      "100",
+      "--json",
+      "fullName,description,url"
+    ],
+    "observed_at": "2026-10-28T23:11:43.399902+00:00",
+    "exit_code": 0,
+    "result": [
+      {
+        "description": "Golang JSON RPC client to talk with Electrum server",
+        "fullName": "MarinX/electrumrpc",
+        "url": "https://github.com/MarinX/electrumrpc"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "code",
+      "\"electrumr.sock\" is:public",
+      "--limit",
+      "50",
+      "--json",
+      "repository,path,url"
+    ],
+    "observed_at": "2026-10-28T23:11:43.973181+00:00",
+    "exit_code": 0,
+    "result": []
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "code",
+      "\"ElectrumR\" \"SessionManager\" is:public",
+      "--limit",
+      "50",
+      "--json",
+      "repository,path,url"
+    ],
+    "observed_at": "2026-10-28T23:11:45.085043+00:00",
+    "exit_code": 0,
+    "result": []
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "code",
+      "\"electrumr_db\" language:Rust is:public",
+      "--limit",
+      "50",
+      "--json",
+      "repository,path,url"
+    ],
+    "observed_at": "2026-10-28T23:11:45.463415+00:00",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "HTTP 422: ERROR_TYPE_QUERY_PARSING_FATAL unable to parse query! (https://api.github.com/search/code?page=1&per_page=50&q=%22electrumr_db%22+language%3A%22Rust+is%3Apublic%22)\n"
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "code",
+      "\"sv.electrumr.sv\" language:Rust is:public",
+      "--limit",
+      "50",
+      "--json",
+      "repository,path,url"
+    ],
+    "observed_at": "2026-10-28T23:11:45.809142+00:00",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "HTTP 422: ERROR_TYPE_QUERY_PARSING_FATAL unable to parse query! (https://api.github.com/search/code?page=1&per_page=50&q=%22sv.electrumr.sv%22+language%3A%22Rust+is%3Apublic%22)\n"
+  },
+  {
+    "command": [
+      "gh",
+      "search",
+      "repos",
+      "electrumx org:GorillaPool",
+      "--visibility",
+      "public",
+      "--limit",
+      "50",
+      "--json",
+      "fullName,description,url"
+    ],
+    "observed_at": "2026-10-28T23:11:46.406867+00:00",
+    "exit_code": 0,
+    "result": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://data.iana.org/rdap/ipv4.json",
+    "observed_at": "2026-10-28T23:09:01.608108+00:00",
+    "status": 200,
+    "final_url": "https://data.iana.org/rdap/ipv4.json",
+    "bytes": 5629,
+    "sha256": "f6ad30d1ebbd16fed6121e1eb54ae7db86edbf5e425345a040aa7893b0447d78"
+  },
+  {
+    "url": "https://data.iana.org/rdap/ipv6.json",
+    "observed_at": "2026-10-28T23:09:01.820169+00:00",
+    "status": 200,
+    "final_url": "https://data.iana.org/rdap/ipv6.json",
+    "bytes": 1476,
+    "sha256": "3292eb71787b903f7a6798ff31f7f2239fb61ce346be142a3719ffa26deaf080"
+  },
+  {
+    "url": "https://data.iana.org/rdap/dns.json",
+    "observed_at": "2026-10-28T23:09:01.998322+00:00",
+    "status": 200,
+    "final_url": "https://data.iana.org/rdap/dns.json",
+    "bytes": 71328,
+    "sha256": "2789f2f92f7ba785e0d3cd4cdcc70709e0ded1d331619e6784317c8bf2bc72b6"
+  },
+  {
+    "domain": "satoshi.io",
+    "error": "No domain RDAP endpoint found in IANA bootstrap"
+  },
+  {
+    "domain": "electrumr.io",
+    "error": "No domain RDAP endpoint found in IANA bootstrap"
+  },
+  {
+    "domain": "electrumr.sv",
+    "error": "No domain RDAP endpoint found in IANA bootstrap"
+  },
+  {
+    "domain": "server.sv",
+    "error": "No domain RDAP endpoint found in IANA bootstrap"
+  },
+  {
+    "domain": "gorillapool.io",
+    "error": "No domain RDAP endpoint found in IANA bootstrap"
+  },
+  {
+    "domain": "bitails.io",
+    "error": "No domain RDAP endpoint found in IANA bootstrap"
+  }
+]

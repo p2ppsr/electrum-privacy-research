@@ -8,3 +8,4 @@ research_python="${RESEARCH_PYTHON:-.venv/bin/python}"
   --fixture evidence/fixture-attempt-04 \
   --fanout evidence/fanout-attempt-01/fanout.json \
   --output evidence/verification.json
+"$research_python" -m privacy_lab.verify_followup

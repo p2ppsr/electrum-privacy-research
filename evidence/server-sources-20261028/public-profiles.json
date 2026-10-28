@@ -1,0 +1,59 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "users/KeyvanJS",
+      "--jq",
+      "{login,name,company,blog,bio,html_url}"
+    ],
+    "observed_at": "2026-10-28T23:11:39.797408+00:00",
+    "exit_code": 0,
+    "result": {
+      "bio": null,
+      "blog": "",
+      "company": "Satoshi.io",
+      "html_url": "https://github.com/KeyvanJS",
+      "login": "KeyvanJS",
+      "name": "Kayvan"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "users/TruthMachine",
+      "--jq",
+      "{login,name,company,blog,bio,html_url}"
+    ],
+    "observed_at": "2026-10-28T23:11:40.371329+00:00",
+    "exit_code": 0,
+    "result": {
+      "bio": null,
+      "blog": "",
+      "company": null,
+      "html_url": "https://github.com/TruthMachine",
+      "login": "TruthMachine",
+      "name": "Truth Machine"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "orgs/bitails",
+      "--jq",
+      "{login,name,company,blog,description,html_url}"
+    ],
+    "observed_at": "2026-10-28T23:11:40.861866+00:00",
+    "exit_code": 0,
+    "result": {
+      "blog": "https://bitails.io",
+      "company": null,
+      "description": "We prioritize simplicity to seamlessly connect you to the BSV blockchain, allowing you to navigate, create, and innovate without unnecessary complexity.",
+      "html_url": "https://github.com/bitails",
+      "login": "bitails",
+      "name": "Bitails"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://gitlab.com/api/v4/projects?search=ElectrumR&simple=true&per_page=100",
+    "observed_at": "2026-10-28T23:11:55.217911+00:00",
+    "status": 200,
+    "final_url": "https://gitlab.com/api/v4/projects?search=ElectrumR&simple=true&per_page=100",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "result": []
+  },
+  {
+    "url": "https://codeberg.org/api/v1/repos/search?q=ElectrumR&limit=50",
+    "observed_at": "2026-10-28T23:11:55.712696+00:00",
+    "status": 200,
+    "final_url": "https://codeberg.org/api/v1/repos/search?q=ElectrumR&limit=50",
+    "bytes": 22,
+    "sha256": "7c60055808f1242bb4ee29c5aac08d78235f51f17b2c4bd692ffc798399dddd9",
+    "result": {
+      "ok": true,
+      "data": []
+    }
+  },
+  {
+    "url": "https://archive.softwareheritage.org/api/1/origin/https%3A%2F%2Fgithub.com%2FKeyvanJS%2FElectrumR/get/",
+    "observed_at": "2026-10-28T23:12:05.875362+00:00",
+    "status": 200,
+    "final_url": "https://archive.softwareheritage.org/api/1/origin/https%3A%2F%2Fgithub.com%2FKeyvanJS%2FElectrumR/get/",
+    "bytes": 4633,
+    "sha256": "8a071a2c14b0e61b2ec91a6ed86ef3a4fd3ff86ecd2fd6389ca7d92bf40e03d7",
+    "parse_error": "Response was not JSON; cannot establish archive/search absence."
+  }
+]

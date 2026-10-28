@@ -1,0 +1,52 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/contents/LICENCE?ref=8245608f847be7b186012246d638f90fdb7cec48"
+    ],
+    "observed_at": "2026-10-28T23:15:00.400685+00:00",
+    "exit_code": 0,
+    "repository": "kyuupichan/electrumx",
+    "path": "LICENCE",
+    "ref": "8245608f847be7b186012246d638f90fdb7cec48",
+    "blob_sha": "d3a42aa163ee93cf1053d22bc2ea57b39b673e38",
+    "content_sha256": "f1eef280fb334bf2975fcfb0d03f46f3962f5d688faa035b4abd1c33b10163d2",
+    "source_url": "https://github.com/kyuupichan/electrumx/blob/8245608f847be7b186012246d638f90fdb7cec48/LICENCE",
+    "matched_lines": [
+      {
+        "line": 5,
+        "text": "Open BSV License version 3"
+      },
+      {
+        "line": 18,
+        "text": "can only be used on the Bitcoin SV blockchains. The Bitcoin SV blockchains are defined,"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/contents/LICENCE?ref=76280a15b48ea3ff0ee6ae47d21833cbaad8522f"
+    ],
+    "observed_at": "2026-10-28T23:15:00.717082+00:00",
+    "exit_code": 0,
+    "repository": "kyuupichan/electrumx",
+    "path": "LICENCE",
+    "ref": "76280a15b48ea3ff0ee6ae47d21833cbaad8522f",
+    "blob_sha": "2c6e55e1ba31898b3872a63b5590f1b6423a4035",
+    "content_sha256": "c452598872f8ef26aa9d81e6827dd88dec28149d322d5326222ee4b9b520d35f",
+    "source_url": "https://github.com/kyuupichan/electrumx/blob/76280a15b48ea3ff0ee6ae47d21833cbaad8522f/LICENCE",
+    "matched_lines": [
+      {
+        "line": 6,
+        "text": "Open BSV License version 3"
+      },
+      {
+        "line": 19,
+        "text": "can only be used on the Bitcoin SV blockchains. The Bitcoin SV blockchains are defined,"
+      }
+    ]
+  }
+]

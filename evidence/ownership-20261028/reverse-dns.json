@@ -1,0 +1,52 @@
+[
+  {
+    "ip": "128.140.53.204",
+    "observed_at": "2026-10-28T23:08:42.672997+00:00",
+    "ptr": "static.204.53.140.128.clients.your-server.de"
+  },
+  {
+    "ip": "198.154.93.195",
+    "observed_at": "2026-10-28T23:08:42.673071+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "198.154.93.197",
+    "observed_at": "2026-10-28T23:08:42.673160+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "198.154.93.200",
+    "observed_at": "2026-10-28T23:08:42.673202+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "198.154.93.202",
+    "observed_at": "2026-10-28T23:08:42.673240+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "198.154.93.210",
+    "observed_at": "2026-10-28T23:08:42.673283+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "198.154.93.212",
+    "observed_at": "2026-10-28T23:08:42.673320+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "2a01:4f8:c17:3e4c::1",
+    "observed_at": "2026-10-28T23:08:42.673370+00:00",
+    "error": "herror(1, 'Unknown host')"
+  },
+  {
+    "ip": "49.13.228.56",
+    "observed_at": "2026-10-28T23:08:42.673408+00:00",
+    "ptr": "static.56.228.13.49.clients.your-server.de"
+  },
+  {
+    "ip": "99.127.49.102",
+    "observed_at": "2026-10-28T23:08:42.673445+00:00",
+    "ptr": "99-127-49-102.lightspeed.austtx.sbcglobal.net"
+  }
+]

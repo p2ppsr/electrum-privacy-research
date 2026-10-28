@@ -1,0 +1,79 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "orgs/bitails/repos?type=public&per_page=100",
+      "--jq",
+      "[.[]|{full_name,description,default_branch}]"
+    ],
+    "observed_at": "2026-10-28T23:16:15.596751+00:00",
+    "exit_code": 0,
+    "result": [
+      {
+        "default_branch": "master",
+        "description": null,
+        "full_name": "bitails/upfile-server"
+      },
+      {
+        "default_branch": "main",
+        "description": null,
+        "full_name": "bitails/zixo-wallet-flutter"
+      },
+      {
+        "default_branch": "main",
+        "description": "The Bitails ElectrumX Adapter connects ElectrumSV clients to the Bitails API, enabling enhanced data access and leveraging the full functionality of ElectrumX service. It is designed for simplicity, efficiency, and scalability during network peak times, offering optimal performance for users.",
+        "full_name": "bitails/electrumx-adaptor"
+      },
+      {
+        "default_branch": "master",
+        "description": null,
+        "full_name": "bitails/zixo-connect"
+      },
+      {
+        "default_branch": "main",
+        "description": null,
+        "full_name": "bitails/zixo-merchant"
+      },
+      {
+        "default_branch": "main",
+        "description": null,
+        "full_name": "bitails/Zixo-Privacy-Policy"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitcoin-sv/bitcoin-sv",
+      "--jq",
+      "{full_name,html_url,default_branch,archived,license:.license.spdx_id}"
+    ],
+    "observed_at": "2026-10-28T23:16:16.180997+00:00",
+    "exit_code": 0,
+    "result": {
+      "archived": false,
+      "default_branch": "master",
+      "full_name": "bitcoin-sv/bitcoin-sv",
+      "html_url": "https://github.com/bitcoin-sv/bitcoin-sv",
+      "license": "NOASSERTION"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitcoin-sv/bitcoin-sv/commits/master",
+      "--jq",
+      "{sha,date:.commit.committer.date,message:.commit.message}"
+    ],
+    "observed_at": "2026-10-28T23:16:16.962434+00:00",
+    "exit_code": 0,
+    "result": {
+      "date": "2026-10-05T06:27:47Z",
+      "message": "Merge remote-tracking branch 'origin/dev_1_2_3'",
+      "sha": "6504a3aff65ba97c0f6c80962b033e35ecbfed4b"
+    }
+  }
+]

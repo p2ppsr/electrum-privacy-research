@@ -1,0 +1,267 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor/contents/src/tcp/tcp.service.ts?ref=f184a1ad862ea37e93eec339de0c6cafa4e2cd36"
+    ],
+    "observed_at": "2026-10-28T23:11:51.867578+00:00",
+    "exit_code": 0,
+    "repository": "bitails/electrumx-adaptor",
+    "path": "src/tcp/tcp.service.ts",
+    "ref": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36",
+    "blob_sha": "66231c238170a7983bf362eead2260f88aa48a5d",
+    "content_sha256": "8e914b6a97a676f0e8a4447e305ebce99ebc5d56a802a66972f38ff772da7923",
+    "source_url": "https://github.com/bitails/electrumx-adaptor/blob/f184a1ad862ea37e93eec339de0c6cafa4e2cd36/src/tcp/tcp.service.ts",
+    "matched_lines": [
+      {
+        "line": 77,
+        "text": "      case ELECTRUMX_METHODS.BLOCKCHAIN_SCRIPTHASH_SUBSCRIBE: {"
+      },
+      {
+        "line": 85,
+        "text": "                method: ELECTRUMX_METHODS.BLOCKCHAIN_SCRIPTHASH_SUBSCRIBE,"
+      },
+      {
+        "line": 104,
+        "text": "      case ELECTRUMX_METHODS.SERVER_VERSION:"
+      },
+      {
+        "line": 105,
+        "text": "        result = ['ElectrumX 1.20.2', '1.4'];"
+      },
+      {
+        "line": 108,
+        "text": "        result = 'Welcome to Bitails ElectrumX adapter';"
+      },
+      {
+        "line": 123,
+        "text": "        result = await this.scriptHashGetHistory(request.params);"
+      },
+      {
+        "line": 221,
+        "text": "  private async scriptHashGetHistoryItems("
+      },
+      {
+        "line": 228,
+        "text": "      const page = await this.bitailsApiService.scripthashGetHistory("
+      },
+      {
+        "line": 299,
+        "text": "    const history = await this.scriptHashGetHistoryItems(scripthash);"
+      },
+      {
+        "line": 303,
+        "text": "  private async scriptHashGetHistory("
+      },
+      {
+        "line": 306,
+        "text": "    return this.scriptHashGetHistoryItems(params[0]);"
+      },
+      {
+        "line": 313,
+        "text": "      const result = await this.bitailsApiService.scripthashGetHistory("
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor/contents/src/bitails/api/bitails.api.service.ts?ref=f184a1ad862ea37e93eec339de0c6cafa4e2cd36"
+    ],
+    "observed_at": "2026-10-28T23:11:52.282499+00:00",
+    "exit_code": 0,
+    "repository": "bitails/electrumx-adaptor",
+    "path": "src/bitails/api/bitails.api.service.ts",
+    "ref": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36",
+    "blob_sha": "d71ace6b913541f657544db97944e0bf9f58e447",
+    "content_sha256": "97a16653da837ab172d3a836e17e0ccfd79601ca4ea1b57fc5db1064399e0a46",
+    "source_url": "https://github.com/bitails/electrumx-adaptor/blob/f184a1ad862ea37e93eec339de0c6cafa4e2cd36/src/bitails/api/bitails.api.service.ts",
+    "matched_lines": [
+      {
+        "line": 48,
+        "text": "        `${this.configService.API_ENDPOINT}/scripthash/${scripthash}/history?limit=${limit}${pgkey ? `&pgkey=${pgkey}` : ''}`,"
+      },
+      {
+        "line": 128,
+        "text": "      >(`${this.configService.API_ENDPOINT}/scripthash/${scripthash}/balance`, {"
+      },
+      {
+        "line": 150,
+        "text": "        `${this.configService.API_ENDPOINT}/scripthash/${scripthash}/unspent?from=0&limit=10000`,"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor/contents/.env.sample?ref=f184a1ad862ea37e93eec339de0c6cafa4e2cd36"
+    ],
+    "observed_at": "2026-10-28T23:11:52.726910+00:00",
+    "exit_code": 0,
+    "repository": "bitails/electrumx-adaptor",
+    "path": ".env.sample",
+    "ref": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36",
+    "blob_sha": "7adec4ce445cd6120d21438da6cce610a632daaf",
+    "content_sha256": "22946fea59ad89c89f776cfb1adc3b70038a94ffeaefe1ad0cb3cbd6d9e22ec6",
+    "source_url": "https://github.com/bitails/electrumx-adaptor/blob/f184a1ad862ea37e93eec339de0c6cafa4e2cd36/.env.sample",
+    "matched_lines": [
+      {
+        "line": 8,
+        "text": "BITAILS_API_ENDPOINT=https://api.bitails.io"
+      },
+      {
+        "line": 12,
+        "text": "BITAILS_MAPI_ENDPOINT=https://mapi.bitails.io"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor/contents/src/bitails/socket/bitails.socket.ts?ref=f184a1ad862ea37e93eec339de0c6cafa4e2cd36"
+    ],
+    "observed_at": "2026-10-28T23:11:53.066220+00:00",
+    "exit_code": 0,
+    "repository": "bitails/electrumx-adaptor",
+    "path": "src/bitails/socket/bitails.socket.ts",
+    "ref": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36",
+    "blob_sha": "92f1f2934d4080105a22e35f5ace8afc99cdfe3e",
+    "content_sha256": "d5185e4287b118055de0c8554eb67dd9286327f08736e1bb2ad91649b31e7aa6",
+    "source_url": "https://github.com/bitails/electrumx-adaptor/blob/f184a1ad862ea37e93eec339de0c6cafa4e2cd36/src/bitails/socket/bitails.socket.ts",
+    "matched_lines": [
+      {
+        "line": 11,
+        "text": "    const socket = io.connect(`${this.configService.API_ENDPOINT}/global`, {"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor/contents/LICENSE?ref=f184a1ad862ea37e93eec339de0c6cafa4e2cd36"
+    ],
+    "observed_at": "2026-10-28T23:11:53.393623+00:00",
+    "exit_code": 0,
+    "repository": "bitails/electrumx-adaptor",
+    "path": "LICENSE",
+    "ref": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36",
+    "blob_sha": "f7fbf0ba42affde65c39bd7f27e0a37979fef0ac",
+    "content_sha256": "58f134b13f3e7d0b1c6ccefdf6ad158d4b2531a3f1d8adcb6e2d865685442edc",
+    "source_url": "https://github.com/bitails/electrumx-adaptor/blob/f184a1ad862ea37e93eec339de0c6cafa4e2cd36/LICENSE",
+    "matched_lines": [
+      {
+        "line": 1,
+        "text": "MIT License"
+      },
+      {
+        "line": 3,
+        "text": "Copyright (c) 2024 Omegachains"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/contents/electrumx/__init__.py?ref=8245608f847be7b186012246d638f90fdb7cec48"
+    ],
+    "observed_at": "2026-10-28T23:11:53.833957+00:00",
+    "exit_code": 0,
+    "repository": "kyuupichan/electrumx",
+    "path": "electrumx/__init__.py",
+    "ref": "8245608f847be7b186012246d638f90fdb7cec48",
+    "blob_sha": "2fd419099660c1733cdbd3bcd3c7914e49301d01",
+    "content_sha256": "2617060715663ee6f44d593d76c2022227744264a1e8a70f73e964b7c069c852",
+    "source_url": "https://github.com/kyuupichan/electrumx/blob/8245608f847be7b186012246d638f90fdb7cec48/electrumx/__init__.py",
+    "matched_lines": [
+      {
+        "line": 1,
+        "text": "version = 'ElectrumX 1.20.2'"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/contents/electrumx/lib/coins.py?ref=8245608f847be7b186012246d638f90fdb7cec48"
+    ],
+    "observed_at": "2026-10-28T23:11:54.470195+00:00",
+    "exit_code": 0,
+    "repository": "kyuupichan/electrumx",
+    "path": "electrumx/lib/coins.py",
+    "ref": "8245608f847be7b186012246d638f90fdb7cec48",
+    "blob_sha": "08d39218b06054fdf04bdfed39e371a8025e25a2",
+    "content_sha256": "6aa23ee05668ca4a1902191ebc4b8992fbbba609422a5ad21ab3c8ba3e52f7b0",
+    "source_url": "https://github.com/kyuupichan/electrumx/blob/8245608f847be7b186012246d638f90fdb7cec48/electrumx/lib/coins.py",
+    "matched_lines": [
+      {
+        "line": 166,
+        "text": "class BitcoinSV(Coin):"
+      },
+      {
+        "line": 198,
+        "text": "class BitcoinSVTestnet(BitcoinTestnetMixin, Coin):"
+      },
+      {
+        "line": 222,
+        "text": "class BitcoinSVRegtest(BitcoinSVTestnet):"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/contents/electrumx/__init__.py?ref=918efa0ced96e0d64dad91a2c9abe1457a6facdf"
+    ],
+    "observed_at": "2026-10-28T23:11:54.866188+00:00",
+    "exit_code": 0,
+    "repository": "kyuupichan/electrumx",
+    "path": "electrumx/__init__.py",
+    "ref": "918efa0ced96e0d64dad91a2c9abe1457a6facdf",
+    "blob_sha": "f6d0ada41b854924a73d6822bac7e3044a457b9c",
+    "content_sha256": "c39d32d9d6848d896d4025aff8ed527c22b85147f9c1068e660a454b753dfd61",
+    "source_url": "https://github.com/kyuupichan/electrumx/blob/918efa0ced96e0d64dad91a2c9abe1457a6facdf/electrumx/__init__.py",
+    "matched_lines": [
+      {
+        "line": 1,
+        "text": "version = 'ElectrumX 1.19'"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/spesmilo/electrumx/contents/README.md?ref=280cb339aa158e099eb936033eecd15719770651"
+    ],
+    "observed_at": "2026-10-28T23:11:55.216336+00:00",
+    "exit_code": 0,
+    "repository": "spesmilo/electrumx",
+    "path": "README.md",
+    "ref": "280cb339aa158e099eb936033eecd15719770651",
+    "blob_sha": "1fae1e155c3a218c48d8f702a4583ecbc1cb2ec8",
+    "content_sha256": "b97957aae05218b590a03835176b0d61faef51d497e8737e7571a502702bf7b1",
+    "source_url": "https://github.com/spesmilo/electrumx/blob/280cb339aa158e099eb936033eecd15719770651/README.md",
+    "matched_lines": [
+      {
+        "line": 4,
+        "text": "Licence: MIT"
+      },
+      {
+        "line": 13,
+        "text": "This project is a fork of [kyuupichan/electrumx](https://github.com/kyuupichan/electrumx)."
+      },
+      {
+        "line": 14,
+        "text": "The original author dropped support for Bitcoin, which we intend to keep."
+      }
+    ]
+  }
+]

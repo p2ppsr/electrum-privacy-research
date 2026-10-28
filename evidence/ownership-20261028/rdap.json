@@ -1,0 +1,713 @@
+[
+  {
+    "url": "https://rdap.arin.net/registry/ip/198.154.93.197",
+    "observed_at": "2026-10-28T23:09:02.140401+00:00",
+    "status": 200,
+    "final_url": "https://rdap.arin.net/registry/ip/198.154.93.197",
+    "bytes": 8100,
+    "sha256": "a56df654607ef9ffbc3b4df910855e2cf880e61187b69662d5f02c531801dea7",
+    "registry_facts": {
+      "handle": "NET-198-154-80-0-1",
+      "name": "B2NETSOLUTIONS",
+      "startAddress": "198.154.80.0",
+      "endAddress": "198.154.95.255",
+      "ipVersion": "v4",
+      "type": "DIRECT ALLOCATION",
+      "parentHandle": "NET-198-0-0-0-0",
+      "cidr0_cidrs": [
+        {
+          "v4prefix": "198.154.80.0",
+          "length": 20
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2020-10-14T11:19:46-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2012-04-09T17:32:03-04:00"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "href": "https://rdap.arin.net/registry/ip/198.154.80.0",
+          "rel": "self",
+          "type": "application/rdap+json",
+          "value": "https://rdap.arin.net/registry/ip/198.154.93.197"
+        },
+        {
+          "href": "https://whois.arin.net/rest/net/NET-198-154-80-0-1",
+          "rel": "alternate",
+          "type": "application/xml",
+          "value": "https://rdap.arin.net/registry/ip/198.154.93.197"
+        }
+      ],
+      "port43": "whois.arin.net",
+      "organizations": [
+        {
+          "handle": "BNS-34",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "org",
+          "name": "B2 Net Solutions Inc.",
+          "organization": null,
+          "links": [
+            "https://rdap.arin.net/registry/entity/BNS-34",
+            "https://whois.arin.net/rest/org/BNS-34"
+          ]
+        },
+        {
+          "handle": "ABUSE8009-ARIN",
+          "roles": [
+            "abuse"
+          ],
+          "kind": "group",
+          "name": "Abuse Department",
+          "organization": "ServerMania Inc",
+          "links": [
+            "https://rdap.arin.net/registry/entity/ABUSE8009-ARIN",
+            "https://whois.arin.net/rest/poc/ABUSE8009-ARIN"
+          ]
+        }
+      ],
+      "nameservers": []
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  },
+  {
+    "url": "https://rdap.arin.net/registry/ip/128.140.53.204",
+    "observed_at": "2026-10-28T23:09:02.140648+00:00",
+    "status": 200,
+    "final_url": "https://rdap.db.ripe.net/ip/128.140.53.204",
+    "bytes": 14732,
+    "sha256": "6ef20ba6db7e3a54ba5ecccdadcbe9e81c7dae6f496988495271eade923a122b",
+    "registry_facts": {
+      "handle": "128.140.48.0 - 128.140.63.255",
+      "name": "CLOUD-FSN1",
+      "startAddress": "128.140.48.0",
+      "endAddress": "128.140.63.255",
+      "ipVersion": "v4",
+      "type": "ASSIGNED PA",
+      "country": "DE",
+      "parentHandle": "128.140.0.0 - 128.140.127.255",
+      "cidr0_cidrs": [
+        {
+          "v4prefix": "128.140.48.0",
+          "length": 20
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2023-12-12T12:20:28Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-12-12T12:20:28Z"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "rdap-up",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/128.140.48.0%20-%20128.140.63.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "rdap-up rdap-active",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/128.140.48.0%20-%20128.140.63.255?status=active",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "rdap-down",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-down/128.140.48.0%20-%20128.140.63.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "rdap-top",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/128.140.48.0%20-%20128.140.63.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "rdap-top rdap-active",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/128.140.48.0%20-%20128.140.63.255?status=active",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "rdap-bottom",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-bottom/128.140.48.0%20-%20128.140.63.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "rel": "self",
+          "href": "https://rdap.db.ripe.net/ip/128.140.53.204",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+          "rel": "copyright",
+          "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+        }
+      ],
+      "port43": "whois.ripe.net",
+      "organizations": [
+        {
+          "handle": "HOAC1-RIPE",
+          "roles": [
+            "administrative",
+            "technical"
+          ],
+          "kind": "group",
+          "name": "Hetzner Online GmbH - Contact Role",
+          "organization": "ORG-HOA1-RIPE",
+          "links": [
+            "https://rdap.db.ripe.net/entity/HOAC1-RIPE",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "HOS-GUN",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "individual",
+          "name": null,
+          "organization": null,
+          "links": [
+            "https://rdap.db.ripe.net/entity/HOS-GUN",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "ORG-HOA1-RIPE",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "org",
+          "name": "Hetzner Online GmbH",
+          "organization": null,
+          "links": [
+            "https://rdap.db.ripe.net/entity/ORG-HOA1-RIPE",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "HOAC1-RIPE",
+          "roles": [
+            "abuse"
+          ],
+          "kind": "group",
+          "name": "Hetzner Online GmbH - Contact Role",
+          "organization": "ORG-HOA1-RIPE",
+          "links": []
+        }
+      ],
+      "nameservers": []
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  },
+  {
+    "url": "https://rdap.apnic.net/ip/49.13.228.56",
+    "observed_at": "2026-10-28T23:09:02.140782+00:00",
+    "status": 200,
+    "final_url": "https://rdap.db.ripe.net/ip/49.13.228.56",
+    "bytes": 14669,
+    "sha256": "945de9f2dd58370abc08ac980f1eae5a70c092ae24534b8dda98bfdd4652e32f",
+    "registry_facts": {
+      "handle": "49.13.224.0 - 49.13.239.255",
+      "name": "CLOUD-NBG1",
+      "startAddress": "49.13.224.0",
+      "endAddress": "49.13.239.255",
+      "ipVersion": "v4",
+      "type": "ASSIGNED PA",
+      "country": "DE",
+      "parentHandle": "49.12.0.0 - 49.13.255.255",
+      "cidr0_cidrs": [
+        {
+          "v4prefix": "49.13.224.0",
+          "length": 20
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2024-01-08T12:17:40Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2024-01-08T12:17:40Z"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "rdap-up",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/49.13.224.0%20-%2049.13.239.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "rdap-up rdap-active",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/49.13.224.0%20-%2049.13.239.255?status=active",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "rdap-down",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-down/49.13.224.0%20-%2049.13.239.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "rdap-top",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/49.13.224.0%20-%2049.13.239.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "rdap-top rdap-active",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/49.13.224.0%20-%2049.13.239.255?status=active",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "rdap-bottom",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-bottom/49.13.224.0%20-%2049.13.239.255",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "rel": "self",
+          "href": "https://rdap.db.ripe.net/ip/49.13.228.56",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+          "rel": "copyright",
+          "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+        }
+      ],
+      "port43": "whois.ripe.net",
+      "organizations": [
+        {
+          "handle": "HOAC1-RIPE",
+          "roles": [
+            "administrative",
+            "technical"
+          ],
+          "kind": "group",
+          "name": "Hetzner Online GmbH - Contact Role",
+          "organization": "ORG-HOA1-RIPE",
+          "links": [
+            "https://rdap.db.ripe.net/entity/HOAC1-RIPE",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "HOS-GUN",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "individual",
+          "name": null,
+          "organization": null,
+          "links": [
+            "https://rdap.db.ripe.net/entity/HOS-GUN",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "ORG-HOA1-RIPE",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "org",
+          "name": "Hetzner Online GmbH",
+          "organization": null,
+          "links": [
+            "https://rdap.db.ripe.net/entity/ORG-HOA1-RIPE",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "HOAC1-RIPE",
+          "roles": [
+            "abuse"
+          ],
+          "kind": "group",
+          "name": "Hetzner Online GmbH - Contact Role",
+          "organization": "ORG-HOA1-RIPE",
+          "links": []
+        }
+      ],
+      "nameservers": []
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  },
+  {
+    "url": "https://rdap.arin.net/registry/ip/99.127.49.102",
+    "observed_at": "2026-10-28T23:09:02.140911+00:00",
+    "status": 200,
+    "final_url": "https://rdap.arin.net/registry/ip/99.127.49.102",
+    "bytes": 9376,
+    "sha256": "b61a2735ab53233da0f0a5127b95c6d2267808dc60d6b3224195fcbc529633ee",
+    "registry_facts": {
+      "handle": "NET-99-105-192-0-1",
+      "name": "SBCIS-SBIS",
+      "startAddress": "99.105.192.0",
+      "endAddress": "99.127.255.255",
+      "ipVersion": "v4",
+      "type": "DIRECT ALLOCATION",
+      "parentHandle": "NET-99-0-0-0-0",
+      "cidr0_cidrs": [
+        {
+          "v4prefix": "99.105.192.0",
+          "length": 18
+        },
+        {
+          "v4prefix": "99.106.0.0",
+          "length": 15
+        },
+        {
+          "v4prefix": "99.108.0.0",
+          "length": 14
+        },
+        {
+          "v4prefix": "99.112.0.0",
+          "length": 12
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2024-12-05T10:40:51-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2008-02-25T14:09:00-05:00"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "href": "https://rdap.arin.net/registry/ip/99.105.192.0",
+          "rel": "self",
+          "type": "application/rdap+json",
+          "value": "https://rdap.arin.net/registry/ip/99.127.49.102"
+        },
+        {
+          "href": "https://whois.arin.net/rest/net/NET-99-105-192-0-1",
+          "rel": "alternate",
+          "type": "application/xml",
+          "value": "https://rdap.arin.net/registry/ip/99.127.49.102"
+        }
+      ],
+      "port43": "whois.arin.net",
+      "organizations": [
+        {
+          "handle": "AEL-360",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "org",
+          "name": "AT&T Enterprises, LLC",
+          "organization": null,
+          "links": [
+            "https://rdap.arin.net/registry/entity/AEL-360",
+            "https://whois.arin.net/rest/org/AEL-360"
+          ]
+        }
+      ],
+      "nameservers": []
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  },
+  {
+    "url": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+    "observed_at": "2026-10-28T23:09:02.141098+00:00",
+    "status": 200,
+    "final_url": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+    "bytes": 14758,
+    "sha256": "f4dcab31d996f60c89b56f0914dc93c2bdb69f96c6f1c1ea0569b924fbc66b4b",
+    "registry_facts": {
+      "handle": "2a01:4f8:c17::/48",
+      "name": "CLOUD-FSN1",
+      "startAddress": "2a01:4f8:c17::",
+      "endAddress": "2a01:4f8:c17:ffff:ffff:ffff:ffff:ffff",
+      "ipVersion": "v6",
+      "type": "ASSIGNED",
+      "country": "DE",
+      "parentHandle": "2a01:4f8::/29",
+      "cidr0_cidrs": [
+        {
+          "v6prefix": "2a01:4f8:c17::",
+          "length": 48
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2023-12-12T12:05:55Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-12-12T12:05:55Z"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "rdap-up",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/2a01:4f8:c17::/48",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "rdap-up rdap-active",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/2a01:4f8:c17::/48?status=active",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "rdap-down",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-down/2a01:4f8:c17::/48",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "rdap-top",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/2a01:4f8:c17::/48",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "rdap-top rdap-active",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/2a01:4f8:c17::/48?status=active",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "rdap-bottom",
+          "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-bottom/2a01:4f8:c17::/48",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "rel": "self",
+          "href": "https://rdap.db.ripe.net/ip/2a01:4f8:c17:3e4c::1",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+          "rel": "copyright",
+          "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+        }
+      ],
+      "port43": "whois.ripe.net",
+      "organizations": [
+        {
+          "handle": "HOAC1-RIPE",
+          "roles": [
+            "administrative",
+            "technical"
+          ],
+          "kind": "group",
+          "name": "Hetzner Online GmbH - Contact Role",
+          "organization": "ORG-HOA1-RIPE",
+          "links": [
+            "https://rdap.db.ripe.net/entity/HOAC1-RIPE",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "HOS-GUN",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "individual",
+          "name": null,
+          "organization": null,
+          "links": [
+            "https://rdap.db.ripe.net/entity/HOS-GUN",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "ORG-HOA1-RIPE",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "org",
+          "name": "Hetzner Online GmbH",
+          "organization": null,
+          "links": [
+            "https://rdap.db.ripe.net/entity/ORG-HOA1-RIPE",
+            "http://www.ripe.net/data-tools/support/documentation/terms"
+          ]
+        },
+        {
+          "handle": "HOAC1-RIPE",
+          "roles": [
+            "abuse"
+          ],
+          "kind": "group",
+          "name": "Hetzner Online GmbH - Contact Role",
+          "organization": "ORG-HOA1-RIPE",
+          "links": []
+        }
+      ],
+      "nameservers": []
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  },
+  {
+    "url": "https://rdap.arin.net/registry/autnum/55286",
+    "observed_at": "2026-10-28T23:09:02.141476+00:00",
+    "status": 200,
+    "final_url": "https://rdap.arin.net/registry/autnum/55286",
+    "bytes": 6114,
+    "sha256": "8381f0a3c370163818a638ceadb9f318912397dbfe4e27c3d762ea726aff6b94",
+    "registry_facts": {
+      "handle": "AS55286",
+      "name": "SERVER-MANIA",
+      "startAutnum": 55286,
+      "endAutnum": 55286,
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2013-05-16T15:18:15-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2013-05-16T15:18:15-04:00"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "href": "https://rdap.arin.net/registry/autnum/55286",
+          "rel": "self",
+          "type": "application/rdap+json",
+          "value": "https://rdap.arin.net/registry/autnum/55286"
+        },
+        {
+          "href": "https://whois.arin.net/rest/asn/AS55286",
+          "rel": "alternate",
+          "type": "application/xml",
+          "value": "https://rdap.arin.net/registry/autnum/55286"
+        }
+      ],
+      "port43": "whois.arin.net",
+      "organizations": [
+        {
+          "handle": "BNS-34",
+          "roles": [
+            "registrant"
+          ],
+          "kind": "org",
+          "name": "B2 Net Solutions Inc.",
+          "organization": null,
+          "links": [
+            "https://rdap.arin.net/registry/entity/BNS-34",
+            "https://whois.arin.net/rest/org/BNS-34"
+          ]
+        }
+      ],
+      "nameservers": []
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  },
+  {
+    "url": "https://rdap.publicinterestregistry.org/rdap/domain/aftrek.org",
+    "observed_at": "2026-10-28T23:09:02.141561+00:00",
+    "status": 200,
+    "final_url": "https://rdap.publicinterestregistry.org/rdap/domain/aftrek.org",
+    "bytes": 7900,
+    "sha256": "be6f4ec5a364170524721914e6bad6a9ed3adcf75d4789ff9ff8349cf1e951c3",
+    "registry_facts": {
+      "ldhName": "aftrek.org",
+      "events": [
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-07-18T12:53:55.675Z"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2019-07-18T12:53:55.675Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-08-11T23:36:34.819Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-10-28T23:09:02.493Z"
+        }
+      ],
+      "status": [
+        "active"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.publicinterestregistry.org/rdap/domain/aftrek.org",
+          "rel": "related",
+          "href": "https://rdap.registrar.amazon.com/rdap/domain/aftrek.org",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.publicinterestregistry.org/rdap/domain/aftrek.org",
+          "rel": "self",
+          "href": "https://rdap.publicinterestregistry.org/rdap/domain/aftrek.org",
+          "type": "application/rdap+json"
+        }
+      ],
+      "organizations": [
+        {
+          "handle": "468",
+          "roles": [
+            "registrar"
+          ],
+          "kind": null,
+          "name": "Amazon Registrar, Inc.",
+          "organization": null,
+          "links": [
+            "https://rdap.publicinterestregistry.org/rdap/entity/468",
+            "https://rdap.registrar.amazon.com/rdap/"
+          ]
+        }
+      ],
+      "nameservers": [
+        "ns-1028.awsdns-00.org",
+        "ns-1012.awsdns-62.net",
+        "ns-2022.awsdns-60.co.uk",
+        "ns-27.awsdns-03.com"
+      ]
+    },
+    "filtered": "Contact addresses, phone numbers and mailboxes omitted. Registry holder is not necessarily the application operator."
+  }
+]

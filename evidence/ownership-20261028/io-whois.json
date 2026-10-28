@@ -1,0 +1,62 @@
+[
+  {
+    "domain": "satoshi.io",
+    "server": "whois.nic.io:43",
+    "server_source": "https://www.iana.org/domains/root/db/io.html",
+    "observed_at": "2026-10-28T23:13:47.383049+00:00",
+    "bytes": 4571,
+    "sha256": "88412abd1964a3e8045f876af341e03194851f1eff0e9c3af32c04517b815f89",
+    "facts": [
+      "Domain Name: satoshi.io",
+      "Registrar URL: http://www.ascio.com",
+      "Updated Date: 2026-08-12T10:02:24Z",
+      "Creation Date: 2013-04-04T01:12:26Z",
+      "Registry Expiry Date: 2027-04-04T01:12:26Z",
+      "Registrar: Ascio Technologies, Inc. Danmark - Filial af Ascio technologies, Inc. USA",
+      "Registrant Organization: Data Protected",
+      "Registrant Country: DE",
+      "Name Server: ivan.ns.cloudflare.com",
+      "Name Server: vera.ns.cloudflare.com",
+      "DNSSEC: unsigned"
+    ],
+    "privacy_redaction_mentioned": true,
+    "contact_fields_omitted": true
+  },
+  {
+    "domain": "electrumr.io",
+    "server": "whois.nic.io:43",
+    "server_source": "https://www.iana.org/domains/root/db/io.html",
+    "observed_at": "2026-10-28T23:13:47.383530+00:00",
+    "error": "ConnectionResetError(54, 'Connection reset by peer')"
+  },
+  {
+    "domain": "bitails.io",
+    "server": "whois.nic.io:43",
+    "server_source": "https://www.iana.org/domains/root/db/io.html",
+    "observed_at": "2026-10-28T23:13:47.383666+00:00",
+    "bytes": 4576,
+    "sha256": "c95c1613d768560dbfdb3315664d1d898240286e5aaf12bfab9f0116aa0bc125",
+    "facts": [
+      "Domain Name: bitails.io",
+      "Registrar URL: https://www.namecheap.com/",
+      "Updated Date: 2026-08-11T20:46:40Z",
+      "Creation Date: 2023-01-16T22:00:56Z",
+      "Registry Expiry Date: 2027-01-16T22:00:56Z",
+      "Registrar: NameCheap, Inc.",
+      "Registrant Organization: Privacy service provided by WITHHELD FOR PRIVACY LLC",
+      "Registrant Country: US",
+      "Name Server: emma.ns.cloudflare.com",
+      "Name Server: donald.ns.cloudflare.com",
+      "DNSSEC: unsigned"
+    ],
+    "privacy_redaction_mentioned": true,
+    "contact_fields_omitted": true
+  },
+  {
+    "domain": "gorillapool.io",
+    "server": "whois.nic.io:43",
+    "server_source": "https://www.iana.org/domains/root/db/io.html",
+    "observed_at": "2026-10-28T23:13:47.383809+00:00",
+    "error": "ConnectionResetError(54, 'Connection reset by peer')"
+  }
+]

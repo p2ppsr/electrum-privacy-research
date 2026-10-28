@@ -41,6 +41,9 @@ A [modeled later transaction](evidence/fixture-attempt-04/future-watch.json) als
 
 - [Detailed findings, trust model and provenance gap](REPORT.md)
 - [All literal destinations, current IPs and hardcoded defaults](REPORT.md#hardcoded-destinations-and-current-network-observations)
+- [Operator attribution and verified infrastructure](REPORT.md#operator-attribution-and-verified-infrastructure-relationships)
+- [Public liveness snapshot](REPORT.md#public-liveness-and-apparent-chain-currency)
+- [Public server-side source inventory](REPORT.md#server-side-source-discovery-found-code-and-remaining-gaps)
 - [Reproduction instructions](REPRODUCE.md)
 - [Machine-readable verification results](evidence/verification.json)
 - [Offline replay from a clean Git export without wallet files or site packages](evidence/clean-replay.json)
@@ -51,3 +54,5 @@ A [modeled later transaction](evidence/fixture-attempt-04/future-watch.json) als
 - [Attempt ledger, including failures](evidence/ATTEMPTS.md)
 
 The unresolved work is a self-hosted, source-pinned ElectrumR run with consensus-valid local-chain funding and confirmed history. The absence of accessible server source is recorded as an audit/reproducibility limitation, not concealed by substituting another server implementation.
+
+The ownership/liveness follow-up identifies B2 Net Solutions / ServerMania AS55286 behind the shared prefix, with application-operator attribution limits preserved. At **16:13 PDT on 2026-10-28**, eight of nine endpoints responded in both bounded samples; seven supplied a matching current tip in both, Bitails did so in one, and `electrum.server.sv` timed out at TCP in both. Public Bitails adapter and Python ElectrumX source were located; matching deployed-build attestations and ElectrumR implementation source remain unavailable. See the linked report and retained public-source receipts.

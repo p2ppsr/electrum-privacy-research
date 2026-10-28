@@ -1,0 +1,260 @@
+[
+  {
+    "domain": "satoshi.io",
+    "observed_at": "2026-10-28T23:08:43.194490+00:00",
+    "records": [
+      {
+        "type": "A",
+        "ttl": 192,
+        "values": [
+          "172.66.40.251",
+          "172.66.43.5"
+        ]
+      },
+      {
+        "type": "AAAA",
+        "ttl": 300,
+        "values": [
+          "2606:4700:3108::ac42:2b05",
+          "2606:4700:3108::ac42:28fb"
+        ]
+      },
+      {
+        "type": "NS",
+        "ttl": 86400,
+        "values": [
+          "ivan.ns.cloudflare.com.",
+          "vera.ns.cloudflare.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 1800,
+        "values": [
+          "ivan.ns.cloudflare.com. dns.cloudflare.com. 2418326593 10000 2400 604800 1800"
+        ]
+      },
+      {
+        "type": "MX",
+        "ttl": 300,
+        "values": [
+          "10 mail.protonmail.ch.",
+          "20 mailsec.protonmail.ch."
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "electrumr.io",
+    "observed_at": "2026-10-28T23:08:43.194588+00:00",
+    "records": [
+      {
+        "type": "A",
+        "ttl": 300,
+        "values": [
+          "172.67.154.23",
+          "104.21.34.33"
+        ]
+      },
+      {
+        "type": "AAAA",
+        "ttl": 300,
+        "values": [
+          "2606:4700:3036::ac43:9a17",
+          "2606:4700:3033::6815:2221"
+        ]
+      },
+      {
+        "type": "NS",
+        "ttl": 86400,
+        "values": [
+          "ivan.ns.cloudflare.com.",
+          "vera.ns.cloudflare.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 1800,
+        "values": [
+          "ivan.ns.cloudflare.com. dns.cloudflare.com. 2418278108 10000 2400 604800 1800"
+        ]
+      },
+      {
+        "type": "MX",
+        "ttl": 300,
+        "values": [
+          "10 mx01.easyname.eu.",
+          "10 mx02.easyname.eu."
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "electrumr.sv",
+    "observed_at": "2026-10-28T23:08:43.194745+00:00",
+    "records": [
+      {
+        "type": "A",
+        "ttl": 300,
+        "values": [
+          "172.67.183.47",
+          "104.21.67.246"
+        ]
+      },
+      {
+        "type": "AAAA",
+        "ttl": 300,
+        "values": [
+          "2606:4700:3033::6815:43f6",
+          "2606:4700:3030::ac43:b72f"
+        ]
+      },
+      {
+        "type": "NS",
+        "ttl": 86400,
+        "values": [
+          "terin.ns.cloudflare.com.",
+          "virginia.ns.cloudflare.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 1800,
+        "values": [
+          "terin.ns.cloudflare.com. dns.cloudflare.com. 2416920704 10000 2400 604800 1800"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "server.sv",
+    "observed_at": "2026-10-28T23:08:43.194904+00:00",
+    "records": [
+      {
+        "type": "NS",
+        "ttl": 86400,
+        "values": [
+          "ns1.101domain.com.",
+          "ns2.101domain.com.",
+          "ns5.101domain.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 14400,
+        "values": [
+          "ns1.101domain.com. ADMIN.server.sv. 2019030223 10800 3600 604800 3600"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "gorillapool.io",
+    "observed_at": "2026-10-28T23:08:43.195008+00:00",
+    "records": [
+      {
+        "type": "A",
+        "ttl": 300,
+        "values": [
+          "216.150.1.193",
+          "216.150.16.193"
+        ]
+      },
+      {
+        "type": "NS",
+        "ttl": 86400,
+        "values": [
+          "anita.ns.cloudflare.com.",
+          "arvind.ns.cloudflare.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 1800,
+        "values": [
+          "anita.ns.cloudflare.com. dns.cloudflare.com. 2418688894 10000 2400 604800 1800"
+        ]
+      },
+      {
+        "type": "MX",
+        "ttl": 300,
+        "values": [
+          "1 aspmx.l.google.com.",
+          "10 alt3.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
+          "15 xs5pcjcz3svalc4bf5ddkpwk6bcanrvdu3hsvlfqze4u3lk5f22q.mx-verification.google.com.",
+          "5 alt1.aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com."
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "bitails.io",
+    "observed_at": "2026-10-28T23:08:43.195166+00:00",
+    "records": [
+      {
+        "type": "A",
+        "ttl": 300,
+        "values": [
+          "104.21.63.201",
+          "172.67.150.13"
+        ]
+      },
+      {
+        "type": "AAAA",
+        "ttl": 300,
+        "values": [
+          "2606:4700:3032::6815:3fc9",
+          "2606:4700:3037::ac43:960d"
+        ]
+      },
+      {
+        "type": "NS",
+        "ttl": 86400,
+        "values": [
+          "donald.ns.cloudflare.com.",
+          "emma.ns.cloudflare.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 1800,
+        "values": [
+          "donald.ns.cloudflare.com. dns.cloudflare.com. 2417757293 10000 2400 604800 1800"
+        ]
+      },
+      {
+        "type": "MX",
+        "ttl": 60,
+        "values": [
+          "10 mx1.privateemail.com.",
+          "10 mx2.privateemail.com."
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "aftrek.org",
+    "observed_at": "2026-10-28T23:08:43.195760+00:00",
+    "records": [
+      {
+        "type": "NS",
+        "ttl": 172800,
+        "values": [
+          "ns-1012.awsdns-62.net.",
+          "ns-1028.awsdns-00.org.",
+          "ns-2022.awsdns-60.co.uk.",
+          "ns-27.awsdns-03.com."
+        ]
+      },
+      {
+        "type": "SOA",
+        "ttl": 900,
+        "values": [
+          "ns-1028.awsdns-00.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        ]
+      }
+    ]
+  }
+]

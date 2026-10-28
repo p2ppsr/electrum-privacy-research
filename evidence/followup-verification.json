@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "literal_endpoints": 9,
+  "rounds": 2,
+  "responsive_in_both_samples": 8,
+  "current_in_both_samples": 7,
+  "valid_headers_matching_both_reference_providers": 15,
+  "registered_network_holder": "B2 Net Solutions Inc.",
+  "shared_prefix": "198.154.93.0/24",
+  "origin_asn": 55286,
+  "observed_unique_spki_fingerprints": 8,
+  "public_bitails_source_verified": true,
+  "legal_application_operator_for_all_six_shared_prefix_hosts_established": false,
+  "electrumr_deployed_build_source_attested": false
+}

@@ -1,0 +1,47 @@
+{
+  "earlier_local_startup_error": "System Python could not import asn1crypto; no external query was sent. Re-executed with the existing research virtual environment.",
+  "query_repairs": [
+    {
+      "command": [
+        "gh",
+        "api",
+        "-X",
+        "GET",
+        "search/code",
+        "-f",
+        "q=\"electrumr_db\" language:Rust is:public",
+        "-f",
+        "per_page=50",
+        "--jq",
+        "{total_count,items:[.items[]|{repository:.repository.full_name,path,html_url}]}"
+      ],
+      "observed_at": "2026-10-28T23:14:59.676163+00:00",
+      "exit_code": 0,
+      "result": {
+        "items": [],
+        "total_count": 0
+      }
+    },
+    {
+      "command": [
+        "gh",
+        "api",
+        "-X",
+        "GET",
+        "search/code",
+        "-f",
+        "q=\"sv.electrumr.sv\" language:Rust is:public",
+        "-f",
+        "per_page=50",
+        "--jq",
+        "{total_count,items:[.items[]|{repository:.repository.full_name,path,html_url}]}"
+      ],
+      "observed_at": "2026-10-28T23:15:00.042455+00:00",
+      "exit_code": 0,
+      "result": {
+        "items": [],
+        "total_count": 0
+      }
+    }
+  ]
+}

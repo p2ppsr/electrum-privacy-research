@@ -1,0 +1,215 @@
+[
+  {
+    "host": "bsv.aftrek.org",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.654574+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "128.140.53.204",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "40a874e43574e77c41a3d120925d51d704dc6ac33dfbe5ac7d786fb9b7f2a0ef",
+    "subject": {
+      "common_name": "bsv.aftrek.org"
+    },
+    "issuer": {
+      "common_name": "bsv.aftrek.org"
+    },
+    "validity": {
+      "not_before": "2023-04-24T10:01:11+00:00",
+      "not_after": "2028-02-03T09:30:39+00:00"
+    },
+    "spki_sha256": "94ad84113f5df26b130570792d5d59a3815bdac89ce72fa738c10c86c8e892dd",
+    "subject_alternative_names": [
+      "bsv.aftrek.org"
+    ]
+  },
+  {
+    "host": "electrum.server.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.654843+00:00",
+    "certificate_identity_authenticated": false,
+    "error": "TimeoutError('timed out')"
+  },
+  {
+    "host": "electrumx.gorillapool.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.654904+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "99.127.49.102",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "3122f02d2eea35060038fd9ec7044cd3ca1234f1aabc43c98c61001eb97202f2",
+    "subject": {
+      "common_name": "electrumx.gorillapool.io"
+    },
+    "issuer": {
+      "country_name": "US",
+      "organization_name": "Let's Encrypt",
+      "common_name": "YR2"
+    },
+    "validity": {
+      "not_before": "2026-09-26T19:35:57+00:00",
+      "not_after": "2026-12-25T19:35:56+00:00"
+    },
+    "spki_sha256": "b3c00a2d1ded552073e3da244026b284ddfac9f9576508c7705430bc727b3017",
+    "subject_alternative_names": [
+      "electrumx.gorillapool.io"
+    ]
+  },
+  {
+    "host": "esv.bitails.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.654958+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "49.13.228.56",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "66d0c972af89f447b0036b0bcc13ff30897b0904224f897310b7aed65b19b333",
+    "subject": {
+      "common_name": "esv.bitails.io"
+    },
+    "issuer": {
+      "country_name": "US",
+      "organization_name": "Let's Encrypt",
+      "common_name": "YE1"
+    },
+    "validity": {
+      "not_before": "2026-10-16T05:24:53+00:00",
+      "not_after": "2027-01-14T05:24:52+00:00"
+    },
+    "spki_sha256": "856e2e8ccee42c645c40e51beae7c0360e3712a66e121773c78c8f1938ffd806",
+    "subject_alternative_names": [
+      "esv.bitails.io"
+    ]
+  },
+  {
+    "host": "sv.electrumr.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.654997+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "198.154.93.197",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "cfe9dc308a9024583aee3faeb8b2f69cef660b970f79aa117d06605e9c8bea27",
+    "subject": {
+      "common_name": "electrumr"
+    },
+    "issuer": {
+      "common_name": "electrumr"
+    },
+    "validity": {
+      "not_before": "2026-03-09T00:47:12+00:00",
+      "not_after": "2031-03-08T00:47:12+00:00"
+    },
+    "spki_sha256": "d1c9ebbf9ebf5839d06f7a80f80a4f10c68091284d8b588fc7bbe5e5a56fd087",
+    "subject_alternative_names": []
+  },
+  {
+    "host": "sv.satoshi.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.655030+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "198.154.93.195",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "f43a3b0fe7be10206074a8cf565671a4960f616d2b56ce4b66a6e100383b2b8a",
+    "subject": {
+      "country_name": "AU",
+      "state_or_province_name": "Some-State",
+      "organization_name": "Internet Widgits Pty Ltd"
+    },
+    "issuer": {
+      "country_name": "AU",
+      "state_or_province_name": "Some-State",
+      "organization_name": "Internet Widgits Pty Ltd"
+    },
+    "validity": {
+      "not_before": "2019-01-11T10:15:20+00:00",
+      "not_after": "2024-01-10T10:15:20+00:00"
+    },
+    "spki_sha256": "ee25464ad8d2a91f1a9e354e50c0cd39e72b9b76fa9941e89c7e63fd65f8e533",
+    "subject_alternative_names": []
+  },
+  {
+    "host": "sv2.electrumr.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.655080+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "198.154.93.212",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "92dfa3f03c2d6fdb01ab16e8f8eeb5fcd71153f9013795a80c261125ae1d9dc8",
+    "subject": {
+      "common_name": "electrumr"
+    },
+    "issuer": {
+      "common_name": "electrumr"
+    },
+    "validity": {
+      "not_before": "2026-03-02T23:40:54+00:00",
+      "not_after": "2031-03-01T23:40:54+00:00"
+    },
+    "spki_sha256": "9a08290a349485e886ad5162655dbbad5b1e213760d0cbb3d81a9d428b4f5c6a",
+    "subject_alternative_names": []
+  },
+  {
+    "host": "sv2.satoshi.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.655117+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "198.154.93.202",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "fcb4dc7bd7b2becf5f2cb19994c7021aa6695325a04d0be479db33ed472476ea",
+    "subject": {
+      "common_name": "electrumr"
+    },
+    "issuer": {
+      "common_name": "electrumr"
+    },
+    "validity": {
+      "not_before": "2026-02-17T07:03:10+00:00",
+      "not_after": "2031-02-16T07:03:10+00:00"
+    },
+    "spki_sha256": "6bc4db89c3948b1ba3e8512bb832c0857469c0be9e858ca524fcd655aaf933b4",
+    "subject_alternative_names": []
+  },
+  {
+    "host": "sv3.satoshi.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T23:08:35.655157+00:00",
+    "certificate_identity_authenticated": false,
+    "peer": [
+      "198.154.93.200",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "3e6c19324a0903e0de6a13b3946420569dd2ad8808f3aedd35b34fea71c2cfd0",
+    "subject": {
+      "common_name": "electrumr"
+    },
+    "issuer": {
+      "common_name": "electrumr"
+    },
+    "validity": {
+      "not_before": "2026-03-12T15:34:44+00:00",
+      "not_after": "2031-03-11T15:34:44+00:00"
+    },
+    "spki_sha256": "3de7e4e6412b84c141f94e3ff594a408163f2e631aa06ad7cc7087e714aab706",
+    "subject_alternative_names": []
+  }
+]

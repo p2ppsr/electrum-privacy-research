@@ -1,0 +1,421 @@
+{
+  "collected_on": "2026-10-28T23:13:33.427618+00:00",
+  "samples": [
+    {
+      "host": "bsv.aftrek.org",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "host": "electrum.server.sv",
+      "classification": "no response from this vantage in bounded samples",
+      "responsive_samples": 0,
+      "current_samples": 0,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": false,
+          "tip": null,
+          "apparent_current": false
+        },
+        {
+          "round": 2,
+          "electrum_response": false,
+          "tip": null,
+          "apparent_current": false
+        }
+      ],
+      "errors": [
+        {
+          "round": 1,
+          "phase": "TCP",
+          "error": "TimeoutError('timed out')"
+        },
+        {
+          "round": 2,
+          "phase": "TCP",
+          "error": "TimeoutError('timed out')"
+        }
+      ]
+    },
+    {
+      "host": "electrumx.gorillapool.io",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "host": "esv.bitails.io",
+      "classification": "responsive; tip currency incomplete/behind",
+      "responsive_samples": 2,
+      "current_samples": 1,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": null,
+          "apparent_current": false
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": [
+        {
+          "round": 1,
+          "phase": "blockchain.headers.subscribe",
+          "error": "TimeoutError('The read operation timed out')"
+        }
+      ]
+    },
+    {
+      "host": "sv.electrumr.sv",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "host": "sv.satoshi.io",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "host": "sv2.electrumr.sv",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "host": "sv2.satoshi.io",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "host": "sv3.satoshi.io",
+      "classification": "responsive and apparently current",
+      "responsive_samples": 2,
+      "current_samples": 2,
+      "total_samples": 2,
+      "assessments": [
+        {
+          "round": 1,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        },
+        {
+          "round": 2,
+          "electrum_response": true,
+          "tip": {
+            "height": 973092,
+            "block_hash": "00000000000000001cd1257bef560cc66a726ebcd032b33567a11e07f121050c",
+            "header_timestamp": 1793228169,
+            "header_time_utc": "2026-10-28T22:56:09+00:00",
+            "locally_computed_hash": true,
+            "proof_of_work_validated": false
+          },
+          "reference_max_height": 973092,
+          "height_lag": 0,
+          "same_height_reference_hash_matches": [
+            "https://api.bitails.io/network/info",
+            "https://api.whatsonchain.com/v1/bsv/main/chain/info"
+          ],
+          "apparent_current": true
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "criteria": "Apparently current = valid 80-byte reported header within 0..2 blocks of contemporaneous public reference maximum; same-height reference hash must match when available.",
+  "limits": [
+    "Bounded samples from one network vantage, not an uptime SLA or proof of global outage",
+    "Headers are self-reported; only their hash is computed locally; no proof-of-work or full-chain validation",
+    "Reachability/current tip does not prove historical completeness, backend data integrity, privacy, physical independence or published-code deployment"
+  ]
+}

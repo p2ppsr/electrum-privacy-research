@@ -1,0 +1,192 @@
+[
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor",
+      "--jq",
+      "{full_name,html_url,default_branch,visibility,archived,description,license:.license.spdx_id}"
+    ],
+    "observed_at": "2026-10-28T23:11:46.892055+00:00",
+    "exit_code": 0,
+    "result": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "The Bitails ElectrumX Adapter connects ElectrumSV clients to the Bitails API, enabling enhanced data access and leveraging the full functionality of ElectrumX service. It is designed for simplicity, efficiency, and scalability during network peak times, offering optimal performance for users.",
+      "full_name": "bitails/electrumx-adaptor",
+      "html_url": "https://github.com/bitails/electrumx-adaptor",
+      "license": "MIT",
+      "visibility": "public"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/bitails/electrumx-adaptor/commits/main",
+      "--jq",
+      "{sha,date:.commit.committer.date,message:.commit.message}"
+    ],
+    "observed_at": "2026-10-28T23:11:47.292158+00:00",
+    "exit_code": 0,
+    "result": {
+      "date": "2026-09-27T15:03:35Z",
+      "message": "Fix scripthash.subscribe to return Electrum 1.4 status hash\n\nStandard clients compare subscribe status to sha256 of get_history.\nReturning txid:height caused mismatch loops and extra history fetches.\nHash available Bitails history for subscribe and notifications, and\nalign get_history with the same confirmed/mempool ordering.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+      "sha": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx",
+      "--jq",
+      "{full_name,html_url,default_branch,visibility,archived,description,license:.license.spdx_id}"
+    ],
+    "observed_at": "2026-10-28T23:11:47.749462+00:00",
+    "exit_code": 0,
+    "result": {
+      "archived": false,
+      "default_branch": "master",
+      "description": "Alternative implementation of spesmilo/electrum-server",
+      "full_name": "kyuupichan/electrumx",
+      "html_url": "https://github.com/kyuupichan/electrumx",
+      "license": "NOASSERTION",
+      "visibility": "public"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/commits/master",
+      "--jq",
+      "{sha,date:.commit.committer.date,message:.commit.message}"
+    ],
+    "observed_at": "2026-10-28T23:11:48.163254+00:00",
+    "exit_code": 0,
+    "result": {
+      "date": "2022-12-30T00:52:11Z",
+      "message": "Update for state",
+      "sha": "76280a15b48ea3ff0ee6ae47d21833cbaad8522f"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/spesmilo/electrumx",
+      "--jq",
+      "{full_name,html_url,default_branch,visibility,archived,description,license:.license.spdx_id}"
+    ],
+    "observed_at": "2026-10-28T23:11:48.867477+00:00",
+    "exit_code": 0,
+    "result": {
+      "archived": false,
+      "default_branch": "master",
+      "description": "Server impl for Electrum Protocol, for public-facing or personal usage",
+      "full_name": "spesmilo/electrumx",
+      "html_url": "https://github.com/spesmilo/electrumx",
+      "license": "MIT",
+      "visibility": "public"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/spesmilo/electrumx/commits/master",
+      "--jq",
+      "{sha,date:.commit.committer.date,message:.commit.message}"
+    ],
+    "observed_at": "2026-10-28T23:11:49.389514+00:00",
+    "exit_code": 0,
+    "result": {
+      "date": "2026-07-03T16:01:04Z",
+      "message": "Merge pull request #389 from SomberNight/202607_release_2_0\n\nprepare release 2.0.0",
+      "sha": "280cb339aa158e099eb936033eecd15719770651"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/block-frontend",
+      "--jq",
+      "{full_name,html_url,default_branch,visibility,archived,description,license:.license.spdx_id}"
+    ],
+    "observed_at": "2026-10-28T23:11:49.853900+00:00",
+    "exit_code": 0,
+    "result": {
+      "archived": false,
+      "default_branch": "master",
+      "description": null,
+      "full_name": "KeyvanJS/block-frontend",
+      "html_url": "https://github.com/KeyvanJS/block-frontend",
+      "license": null,
+      "visibility": "public"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/block-frontend/commits/master",
+      "--jq",
+      "{sha,date:.commit.committer.date,message:.commit.message}"
+    ],
+    "observed_at": "2026-10-28T23:11:50.581967+00:00",
+    "exit_code": 0,
+    "result": {
+      "date": "2026-04-13T11:47:26Z",
+      "message": "Initial commit: project scaffolding with API reference and UI skill files\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "sha": "b8297240b8c696546f0ffd0fa62e35b20fd9fed8"
+    }
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/kyuupichan/electrumx/tags?per_page=100",
+      "--jq",
+      "[.[]|select(.name==\"1.20.2\" or .name==\"1.19.0\")|{name,sha:.commit.sha}]"
+    ],
+    "observed_at": "2026-10-28T23:11:51.014972+00:00",
+    "exit_code": 0,
+    "result": [
+      {
+        "name": "1.20.2",
+        "sha": "8245608f847be7b186012246d638f90fdb7cec48"
+      },
+      {
+        "name": "1.19.0",
+        "sha": "918efa0ced96e0d64dad91a2c9abe1457a6facdf"
+      }
+    ]
+  },
+  {
+    "command": [
+      "gh",
+      "api",
+      "repos/KeyvanJS/block-frontend/contents",
+      "--jq",
+      "[.[]|{name,type}] "
+    ],
+    "observed_at": "2026-10-28T23:11:51.367477+00:00",
+    "exit_code": 0,
+    "result": [
+      {
+        "name": ".claude",
+        "type": "dir"
+      },
+      {
+        "name": "API.md",
+        "type": "file"
+      },
+      {
+        "name": "ui.MD",
+        "type": "file"
+      }
+    ]
+  }
+]

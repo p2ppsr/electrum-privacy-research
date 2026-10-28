@@ -1,0 +1,12 @@
+{
+  "repository": "openssl/openssl",
+  "ref": "openssl-3.0.0",
+  "path": "apps/openssl.cnf",
+  "blob_sha": "03330e0120a291fc10e942f0d25f6f5af16f776f",
+  "source_url": "https://github.com/openssl/openssl/blob/openssl-3.0.0/apps/openssl.cnf#L173-L178",
+  "matched_lines": [
+    {"line": 173, "text": "stateOrProvinceName_default = Some-State"},
+    {"line": 178, "text": "0.organizationName_default = Internet Widgits Pty Ltd"}
+  ],
+  "scope": "Public template defaults matching generic certificate subject fields; not evidence of the server operator's legal identity."
+}

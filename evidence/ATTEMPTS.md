@@ -13,3 +13,13 @@ All attempts are retained separately. Later successes do not erase failed or qua
 | `fixture-attempt-04` | Passed, canonical financial sample | Adds retained post-session future-watch evidence and verification of history/status consistency. Captured 47 scripts and four modeled transactions; wallet and capture-only reconstruction agree. |
 
 Unperformed: self-hosted source-pinned ElectrumR, consensus-valid funded BSV chain, confirmed financial history through that server, and packaged desktop GUI qualification. The server source/artifact was unavailable after scoped public and authenticated discovery. See the report and provenance receipts.
+
+## Public attribution, source and liveness follow-up
+
+- Public registry/routing collection succeeded for the shared prefix and other endpoint networks. Domain registry channels did not reveal an end-user legal operator for the shared-prefix services; two .io WHOIS connections reset. Those outcomes remain inconclusive.
+- Two GitHub CLI language-filter queries failed with HTTP 422 due to CLI query parsing. Their failed receipts remain in `server-sources-20261028/github-searches.json`; corrected direct API queries completed with zero results in `github-search-query-repairs.json`.
+- Two isolated source-repair/tree-check launches used system Python and failed to import the collector's ASN.1 dependency before sending external requests. Corrected launches used the existing research virtual environment. No server state or successful liveness sample was altered by these local startup errors.
+- Software Heritage returned non-JSON HTML. This is an inconclusive archive check, not a successful absence result.
+- Liveness round 1: eight endpoints answered Electrum; seven returned current matching headers. Bitails answered version but timed out on the header request. `electrum.server.sv` timed out during TCP connection.
+- Liveness round 2: eight endpoints answered Electrum and supplied matching current headers; `electrum.server.sv` again timed out during TCP connection. This later Bitails success does not erase or convert its first timeout.
+- All 15 obtained headers matched the contemporaneous Bitails and WhatsOnChain reference hashes at height 973092. These bounded observations are not an uptime or historical-completeness qualification.
