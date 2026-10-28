@@ -1,0 +1,80 @@
+{
+  "source_capture": "evidence/live-attempt-02/capture.jsonl",
+  "source_method": "SVSession._parse_peers_subscribe",
+  "source_lines": [
+    1182,
+    1196
+  ],
+  "response": {
+    "id": 8,
+    "jsonrpc": "2.0",
+    "result": [
+      [
+        "198.154.93.212",
+        "sv2.electrumr.sv",
+        [
+          "v1.4.2",
+          "s",
+          "t"
+        ]
+      ],
+      [
+        "198.154.93.200",
+        "sv3.satoshi.io",
+        [
+          "v1.4.2",
+          "s",
+          "t"
+        ]
+      ],
+      [
+        "128.140.53.204",
+        "bsv.aftrek.org",
+        [
+          "v1.6.0",
+          "s",
+          "t"
+        ]
+      ],
+      [
+        "195.144.22.198",
+        "neptune.api.sv",
+        [
+          "v1.4.2",
+          "s",
+          "t"
+        ]
+      ],
+      [
+        "78.110.160.26",
+        "electrum.api.sv",
+        [
+          "v1.4.2",
+          "s",
+          "t"
+        ]
+      ],
+      [
+        "99.127.49.102",
+        "electrumx.gorillapool.io",
+        [
+          "v1.4.2",
+          "s"
+        ]
+      ],
+      [
+        "198.154.93.197",
+        "sv.electrumr.sv",
+        [
+          "v1.4.2",
+          "s",
+          "t"
+        ]
+      ]
+    ]
+  },
+  "advertised_peer_count": 7,
+  "accepted_peer_count": 0,
+  "reason": "Advertised s/t flags have no numeric port; this client parser tries the empty string as a port and rejects it. No default port was silently supplied.",
+  "classification": "Advertisements are not evidence of client connections; other peers with explicit numeric ports can still extend the known-server pool."
+}

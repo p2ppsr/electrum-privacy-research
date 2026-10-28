@@ -4,20 +4,44 @@
     "bytes": 46
   },
   "README.md": {
-    "sha256": "00d650f5ee18c06b5762a948cd8dafbc218e4938b881f3b5498f33ec1d59fac8",
-    "bytes": 5269
+    "sha256": "00b56de0ddf4259b95f29b42176985c72b0cdadac7c81f08e29d6dfb2c6894b8",
+    "bytes": 5401
   },
   "REPORT.md": {
-    "sha256": "06cf772437374db5433da26a1a6eb5ffd4e65ef7a6748909d05ff6aa120840d4",
-    "bytes": 14390
+    "sha256": "8f0fcce8c1237ae22cbce868cd155400c30ede2d469eaa6076226e2ca5eb1928",
+    "bytes": 26134
   },
   "REPRODUCE.md": {
-    "sha256": "9aad0f6d089b1289f7d65016c029138221856b19804ae51558a8d30207545b39",
-    "bytes": 4732
+    "sha256": "b10304947e358c517b42ca971cd9204a00add97f59881d8b5b76fc1e45c66084",
+    "bytes": 5218
   },
   "evidence/ATTEMPTS.md": {
     "sha256": "f7f4b37cd30ef7984f9fccfc9075a9a148131ddb00be1446da24e5c96ae62eab",
     "bytes": 2079
+  },
+  "evidence/clean-replay.json": {
+    "sha256": "8c32376af917e881b3169ebd53af0e0e810d0f28cbd520237bc6dca4ebf731b6",
+    "bytes": 1387
+  },
+  "evidence/destinations-20261028/destinations-table.md": {
+    "sha256": "6143b09f07770a23559bfcc4255a8d5d440f5b3a41010179718213c9eb6eface",
+    "bytes": 1023
+  },
+  "evidence/destinations-20261028/dns.json": {
+    "sha256": "03167e2a202774d535d09cac17580a2bc24db2bbcce82db245fa0128d59ad87d",
+    "bytes": 3379
+  },
+  "evidence/destinations-20261028/endpoint-metadata.json": {
+    "sha256": "0c92c8309665c390939c462c6dae65ea24f9a3f6946326f1aa312175d9d04483",
+    "bytes": 10382
+  },
+  "evidence/destinations-20261028/peer-discovery-check.json": {
+    "sha256": "a0a65854c77faa7450172a9ce7ab6c83117c441ba038ca69ba16ed6e2eb03c40",
+    "bytes": 1585
+  },
+  "evidence/destinations-20261028/source-destinations.json": {
+    "sha256": "c818cb97683e87af6031b771309d5c358d0f9e35cf8270e83434f32a810a0296",
+    "bytes": 3178
   },
   "evidence/fanout-attempt-01/fanout.json": {
     "sha256": "f3c5d1b4d036fc134b52acad943dd5a413dca3bc036a1c209b2d857b168a9ddf",
@@ -151,6 +175,10 @@
     "sha256": "40f0229293b356edc49b9bf3c17f169481c3ee9bf507ab60418da3b36f684cb7",
     "bytes": 59
   },
+  "privacy_lab/destinations.py": {
+    "sha256": "dcd4ad6245802f598f7f8e65d4a3c8ee818382daf49c0e18bf912e1453b2f530",
+    "bytes": 4903
+  },
   "privacy_lab/dossier.py": {
     "sha256": "a0d723d6871dd7d1ee4ff3eef7ccf4ba3195ee425827ba97d889fab3c560b3aa",
     "bytes": 11352
@@ -194,9 +222,5 @@
   "tests/test_dossier.py": {
     "sha256": "78cbd389d990da2251150cc806a17983c0365f20eaa09adb0ae9ff64c24894a0",
     "bytes": 4815
-  },
-  "evidence/clean-replay.json": {
-    "sha256": "8c32376af917e881b3169ebd53af0e0e810d0f28cbd520237bc6dca4ebf731b6",
-    "bytes": 1387
   }
 }

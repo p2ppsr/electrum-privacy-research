@@ -1,0 +1,173 @@
+[
+  {
+    "host": "bsv.aftrek.org",
+    "observed_at": "2026-10-28T22:53:41.852289+00:00",
+    "addresses": [
+      "128.140.53.204",
+      "2a01:4f8:c17:3e4c::1"
+    ],
+    "answers": [
+      {
+        "name": "bsv.aftrek.org.",
+        "ttl": 60,
+        "type": "A",
+        "records": [
+          "128.140.53.204"
+        ]
+      },
+      {
+        "name": "bsv.aftrek.org.",
+        "ttl": 60,
+        "type": "AAAA",
+        "records": [
+          "2a01:4f8:c17:3e4c::1"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "electrum.server.sv",
+    "observed_at": "2026-10-28T22:53:41.852557+00:00",
+    "addresses": [
+      "198.154.93.210"
+    ],
+    "answers": [
+      {
+        "name": "electrum.server.sv.",
+        "ttl": 21600,
+        "type": "A",
+        "records": [
+          "198.154.93.210"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "electrumx.gorillapool.io",
+    "observed_at": "2026-10-28T22:53:41.852658+00:00",
+    "addresses": [
+      "99.127.49.102"
+    ],
+    "answers": [
+      {
+        "name": "electrumx.gorillapool.io.",
+        "ttl": 300,
+        "type": "A",
+        "records": [
+          "99.127.49.102"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "esv.bitails.io",
+    "observed_at": "2026-10-28T22:53:41.852751+00:00",
+    "addresses": [
+      "49.13.228.56"
+    ],
+    "answers": [
+      {
+        "name": "esv.bitails.io.",
+        "ttl": 60,
+        "type": "A",
+        "records": [
+          "49.13.228.56"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "sv.electrumr.sv",
+    "observed_at": "2026-10-28T22:53:41.852803+00:00",
+    "addresses": [
+      "198.154.93.197"
+    ],
+    "answers": [
+      {
+        "name": "sv.electrumr.sv.",
+        "ttl": 300,
+        "type": "A",
+        "records": [
+          "198.154.93.197"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "sv.satoshi.io",
+    "observed_at": "2026-10-28T22:53:41.852905+00:00",
+    "addresses": [
+      "198.154.93.195"
+    ],
+    "answers": [
+      {
+        "name": "sv.satoshi.io.",
+        "ttl": 300,
+        "type": "A",
+        "records": [
+          "198.154.93.195"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "sv2.electrumr.sv",
+    "observed_at": "2026-10-28T22:53:41.852978+00:00",
+    "addresses": [
+      "198.154.93.212"
+    ],
+    "answers": [
+      {
+        "name": "sv2.electrumr.sv.",
+        "ttl": 21600,
+        "type": "A",
+        "records": [
+          "198.154.93.212"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "sv2.satoshi.io",
+    "observed_at": "2026-10-28T22:53:41.853366+00:00",
+    "addresses": [
+      "198.154.93.202"
+    ],
+    "answers": [
+      {
+        "name": "sv2.satoshi.io.",
+        "ttl": 300,
+        "type": "A",
+        "records": [
+          "198.154.93.202"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  },
+  {
+    "host": "sv3.satoshi.io",
+    "observed_at": "2026-10-28T22:53:41.853601+00:00",
+    "addresses": [
+      "198.154.93.200"
+    ],
+    "answers": [
+      {
+        "name": "sv3.satoshi.io.",
+        "ttl": 300,
+        "type": "A",
+        "records": [
+          "198.154.93.200"
+        ]
+      }
+    ],
+    "dnssec_authenticated": false
+  }
+]

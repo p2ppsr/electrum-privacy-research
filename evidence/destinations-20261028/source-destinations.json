@@ -1,0 +1,151 @@
+{
+  "wallet_commit": "672df8f4512f6adf16a3c99146baa6be9b93d86f",
+  "priority_pool": {
+    "source": "electrumsv/network.py",
+    "line": 1704,
+    "entries": [
+      [
+        "electrumx.gorillapool.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv.electrumr.sv",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv2.electrumr.sv",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv.satoshi.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv2.satoshi.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "esv.bitails.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "electrum.server.sv",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "bsv.aftrek.org",
+        {
+          "s": "50002"
+        }
+      ]
+    ]
+  },
+  "verification_pool": {
+    "source": "electrumsv/verification_utils.py",
+    "line": 30,
+    "entries": {
+      "sv.electrumr.sv": {
+        "s": 50002
+      },
+      "electrumx.gorillapool.io": {
+        "s": 50002
+      },
+      "sv2.electrumr.sv": {
+        "s": 50002
+      },
+      "sv2.satoshi.io": {
+        "s": 50002
+      },
+      "sv.satoshi.io": {
+        "s": 50002
+      },
+      "sv3.satoshi.io": {
+        "s": 50002
+      },
+      "electrum.server.sv": {
+        "s": 50002
+      },
+      "bsv.aftrek.org": {
+        "s": 50002
+      }
+    }
+  },
+  "fallback_json": {
+    "source": "electrumsv/data/servers.json",
+    "entries": {
+      "electrumx.gorillapool.io": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      },
+      "sv.electrumr.sv'": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      },
+      "sv2.electrumr.sv'": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      },
+      "sv.satoshi.io": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      },
+      "sv2.satoshi.io": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      },
+      "esv.bitails.io": {
+        "pruning": "-",
+        "s": "50002",
+        "version": "1.4"
+      },
+      "electrum.server.sv": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      },
+      "bsv.aftrek.org": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+      }
+    },
+    "note": "Fallback import is conditional on fewer than five known server objects after priority insertion. Two literal keys have trailing apostrophes; do not silently correct them."
+  },
+  "excluded_commented_hosts": [
+    "electrum.api.sv",
+    "neptune.api.sv",
+    "alpha-esv.api.sv"
+  ],
+  "core_ssl_context_runtime": {
+    "constructor": "ssl.SSLContext(ssl.PROTOCOL_TLS)",
+    "verify_mode": "CERT_NONE",
+    "check_hostname": false
+  },
+  "scope": "Nine literal active mainnet destinations. Peer-discovered, cached, custom, testnet and browser destinations are separate; this is not an exhaustive egress allowlist."
+}

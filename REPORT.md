@@ -14,6 +14,78 @@ The [ElectrumR documentation](https://electrumr.io/docs.html) points to `https:/
 
 These observations do not establish that the implementation is legally proprietary, that source never existed, or that an operator actually misuses requests. A 404 alone cannot determine whether a repository was made private, deleted, renamed or is otherwise inaccessible. The available evidence also cannot determine the latest unpublished build; 0.2.0 is the version advertised by the two bundled endpoints on the research date.
 
+## Hardcoded destinations and current network observations
+
+The table below combines the eight literal core priority hosts in `network.py` with the eight literal verification-helper hosts in `verification_utils.py`: **nine unique hostnames**. The pool columns identify request paths; they do not imply every server received the complete wallet collection. A selected core main server receives core wallet subscriptions/history/broadcasts. A helper recipient receives copies of the individual helper RPCs that are invoked. Auxiliary core connections ordinarily receive protocol/header traffic rather than the entire subscription set.
+
+Source locations: [core pool](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1699-L1753), [verification pool](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/verification_utils.py#L30-L44). Hostnames and ports are pinned source facts; the IP addresses and advertised software below are independent DNS/metadata observations collected on **2026-10-28 UTC**. All active literal entries use **TLS on port 50002**. We performed ordinary metadata RPCs only; no third-party wallet was queried.
+
+| Hostname | Core priority pool | Verification helper | Port/transport | DNS addresses observed | Advertised server version |
+| --- | --- | --- | --- | --- | --- |
+| `bsv.aftrek.org` | Yes | Yes | `50002` / TLS | `128.140.53.204`, `2a01:4f8:c17:3e4c::1` | `ElectrumX 1.19.0` |
+| `electrum.server.sv` | Yes | Yes | `50002` / TLS | `198.154.93.210` | `No successful identification; see raw error` |
+| `electrumx.gorillapool.io` | Yes | Yes | `50002` / TLS | `99.127.49.102` | `ElectrumX 1.20.2` |
+| `esv.bitails.io` | Yes | No | `50002` / TLS | `49.13.228.56` | `ElectrumX 1.20.2` |
+| `sv.electrumr.sv` | Yes | Yes | `50002` / TLS | `198.154.93.197` | `ElectrumR 0.2.0` |
+| `sv.satoshi.io` | Yes | Yes | `50002` / TLS | `198.154.93.195` | `ElectrumX 1.20.2` |
+| `sv2.electrumr.sv` | Yes | Yes | `50002` / TLS | `198.154.93.212` | `ElectrumR 0.2.0` |
+| `sv2.satoshi.io` | Yes | Yes | `50002` / TLS | `198.154.93.202` | `ElectrumR 0.2.0` |
+| `sv3.satoshi.io` | No | Yes | `50002` / TLS | `198.154.93.200` | `ElectrumR 0.2.0` |
+
+Raw [DNS answers, record types and TTLs](evidence/destinations-20261028/dns.json), [metadata RPC responses, connected peer addresses and certificate fingerprints](evidence/destinations-20261028/endpoint-metadata.json), and [literal source pools](evidence/destinations-20261028/source-destinations.json) are retained separately. DNS was not authenticated with DNSSEC. A DNS answer establishes a candidate address at the observation time; it does not establish a successful connection, long-term routing, operator identity, or ownership.
+
+Four responding hostnames advertised **ElectrumR 0.2.0**: `sv.electrumr.sv`, `sv2.electrumr.sv`, `sv2.satoshi.io`, and `sv3.satoshi.io`. `electrum.server.sv` resolved but did not successfully identify itself during the bounded probe; that is not evidence it is permanently offline. Six of the nine names resolved to IPv4 addresses in `198.154.93.0/24`. This address grouping does not prove common ownership or independent operators. Different names, IPs and self-reported software versions do not attest different collection policies or independently controlled systems.
+
+This is **not an exhaustive egress allowlist**. Cached/custom server objects and server-supplied peers with usable ports can expand the core pool. Main selection uses `random.choice` over eligible server objects, not a promise to choose the first listed hostname. In the retained live run, the main server also advertised these additional names:
+
+| Advertised hostname | Server-advertised IP | Advertised transport flags | Acceptance in the tested client parser |
+| --- | --- | --- | --- |
+| `neptune.api.sv` | `195.144.22.198` | `s`, `t`, without numeric ports | Rejected |
+| `electrum.api.sv` | `78.110.160.26` | `s`, `t`, without numeric ports | Rejected |
+
+Those IPs are server-provided advertisements, not current DNS results or proof of connections. An [exact upstream parser check](evidence/destinations-20261028/peer-discovery-check.json) found that **all seven peers in that captured response were rejected**: bare `s`/`t` flags produced empty port strings rather than numeric ports in this client. The report does not silently supply default ports or claim those advertised servers received data in this run. Other peer responses containing explicit usable ports can still extend the pool. See [the parser](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1182-L1196).
+
+There are also important differences between bundled configuration sources:
+
+- `esv.bitails.io` is in the core priority pool but absent from the verification-helper pool.
+- `sv3.satoshi.io` is in the helper pool but absent from the literal core priority pool.
+- `electrum.api.sv`, `neptune.api.sv`, and `alpha-esv.api.sv` appear as **commented-out** entries in the examined pool code. Commented entries are not active literal defaults; advertisements or saved user state are separate paths.
+- The fallback [mainnet `servers.json`](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/data/servers.json) literally contains `sv.electrumr.sv'` and `sv2.electrumr.sv'`, with trailing apostrophes. These must not be silently normalized in a provenance record. It lists TLS `s=50002` and, except for Bitails, optional plaintext `t=50001`, protocol label `1.4`, and pruning marker `-`. Import from that fallback is conditional on fewer than five known server objects after priority insertion; the eight valid priority entries ordinarily already exceed that threshold. Its presence does not prove the malformed hosts are contacted by a fresh default run.
+
+## Relevant hardcoded default values
+
+These are the reviewed release's fresh ordinary-desktop/mainnet values, rather than a dump of an existing user's configuration. Saved configuration, another network mode, an explicit server selection or a discovered peer can change destinations. The controlled experiments' endpoint pinning and one-server settings remain explicit deviations.
+
+| Setting / source path | Default or literal value | Relevance |
+| --- | --- | --- |
+| `commands.add_network_options`: `server` | `None` | No user-pinned endpoint on a fresh configuration. |
+| `Network._read_config` / `_random_server_nowait` | Random eligible server using protocol `s` | The selected main endpoint can vary. |
+| `oneserver` / connection-loop target | `False` / **10** connection slots | This is a target, not proof ten distinct servers connected or all received address subscriptions. |
+| `Network.auto_connect` | `True` | Main selection can move to another eligible endpoint after failure/lag. |
+| `Network._read_config`: `proxy` | `None` | Ordinary desktop default connects directly. TAILS/helper Tor handling is separate. |
+| Core pool fallback threshold | Fewer than **5** known server objects | Controls when bundled JSON entries are imported. |
+| Startup main-server batch | `server.banner`, `server.donation_address`, `server.peers.subscribe` | The peer response can influence the known-server collection. |
+| Client version / protocol range | `0.2.0` / `1.4` through `1.4.2` | Supplied in the version handshake. |
+| Receiving / change lookahead | **20 / 20** | A fresh standard account initially monitors 40 scripts. |
+| Enabled standard-account script type | `P2PKH` | Requests contain hashes of these output scripts. |
+| Script identifier | Reversed hexadecimal `SHA256(locking_script)` | Matches the server's public-ledger index and future outputs. |
+| `deactivate_used_keys` | `False` | Spent keys are not automatically removed from monitoring. |
+| New-account seed / BIP39 passphrase | **12** words / empty string | Wallet-creation defaults; no generated seed is published in this research. |
+| Mainnet BIP44 coin type / account 0 | **0** / `m/44'/0'/0'` | Source wizard default; receiving/change suffixes are local wallet structure. |
+| Change / multiple-change settings | `True` / `True`; `max_change_outputs=10` | These affect which wallet-associated outputs may appear. |
+| Fee-rate fallback | `DEFAULT_FEE=105` sats/kB | The experiment's fixed **1,000-sat total fee** is a scenario control, not this default rate. |
+| Script subscription retry loop | **3** attempts, **2** seconds between temporary-failure retries | Repeated requests can expose the same identifiers again. |
+| Per-server connect retry loop | Up to **6** attempts, **10**-second failure sleeps | Failed connectivity can lead to retries and later main-server changes. |
+| Verification helper default pool / workers | `SERVERS` / `len(server_items)`; **8** peers here | Parallel copies may reach several operators. |
+| Verification helper socket timeout | `TIMEOUT=5` seconds | Bounds each connect/read stage, not a deletion/retention window. |
+| Helper Tor endpoint / detection probe | `127.0.0.1:9050` / **1** second | Helper independently selects SOCKS5 on TAILS or when a local Tor daemon responds. |
+| Core connector TLS context | `ssl.SSLContext(ssl.PROTOCOL_TLS)` | In the tested Python 3.10 runtime: **`CERT_NONE`, `check_hostname=False`**. |
+| Verification helper TLS context | `ssl._create_unverified_context()` | Certificate and hostname authentication are disabled on this path. |
+
+The core constructor is visible [here](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L296-L307); the helper context and independent Tor choice are visible [here](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/verification_utils.py#L335-L410). We separately evaluated the core constructor's verification flags in the recorded research runtime. The presence of `certifi` imports or bundled PEM files does not establish that this connector enables verification. This is a source/runtime observation, not a staged MITM or a packaged-binary audit. TLS encryption on these paths should not be described as proof of an authenticated operator identity.
+
+Further source anchors: [CLI defaults](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/commands.py#L294-L301), [connection slots](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1573-L1587), [automatic switching](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L2007-L2008), [subscription retries](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1096-L1117), [account discovery](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L2208-L2221), [standard scripts](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L2261-L2272), [account creation](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/account_wizard.py#L427-L447), [mainnet derivation](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/networks.py#L74-L87), [change policy](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L1455-L1474), and [fee fallback](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/simple_config.py#L276-L282).
+
 ## What one connection directly reveals
 
 The wallet sends [all active script subscriptions for each loaded account through the main session](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1886-L1909). A standard account generates a [20-key lookahead](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L418-L419) on [both receiving and change chains](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L2208-L2221). Default deactivation of spent keys is [disabled](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L1853-L1861).

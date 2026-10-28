@@ -1,0 +1,390 @@
+[
+  {
+    "host": "bsv.aftrek.org",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.140929+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "128.140.53.204",
+      "2a01:4f8:c17:3e4c::1"
+    ],
+    "peer": [
+      "128.140.53.204",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "40a874e43574e77c41a3d120925d51d704dc6ac33dfbe5ac7d786fb9b7f2a0ef",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "result": [
+        "ElectrumX 1.19.0",
+        "1.4.2"
+      ],
+      "id": 1
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "result": {
+        "hosts": {
+          "bsv.aftrek.org": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "pruning": null,
+        "server_version": "ElectrumX 1.19.0",
+        "protocol_min": "1.4",
+        "protocol_max": "1.6.0",
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "services": [
+          "ssl://bsv.aftrek.org:50002",
+          "tcp://bsv.aftrek.org:50001"
+        ]
+      },
+      "id": 2
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "result": "You are connected to an ElectrumX 1.19.0 server.",
+      "id": 3
+    }
+  },
+  {
+    "host": "electrum.server.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.140971+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.210"
+    ],
+    "error": "TimeoutError('timed out')"
+  },
+  {
+    "host": "electrumx.gorillapool.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.140993+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "99.127.49.102"
+    ],
+    "peer": [
+      "99.127.49.102",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "3122f02d2eea35060038fd9ec7044cd3ca1234f1aabc43c98c61001eb97202f2",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "result": [
+        "ElectrumX 1.20.2",
+        "1.4.2"
+      ],
+      "id": 1
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "result": {
+        "hosts": {
+          "electrumx.gorillapool.io": {
+            "ssl_port": 50002
+          }
+        },
+        "pruning": null,
+        "server_version": "ElectrumX 1.20.2",
+        "protocol_min": "1.4",
+        "protocol_max": "1.4.2",
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "services": [
+          "ssl://electrumx.gorillapool.io:50002"
+        ]
+      },
+      "id": 2
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "result": "You are connected to an ElectrumX 1.20.2 server.",
+      "id": 3
+    }
+  },
+  {
+    "host": "esv.bitails.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.141012+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "49.13.228.56"
+    ],
+    "peer": [
+      "49.13.228.56",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "66d0c972af89f447b0036b0bcc13ff30897b0904224f897310b7aed65b19b333",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumX 1.20.2",
+        "1.4"
+      ]
+    },
+    "error": "TimeoutError('The read operation timed out')"
+  },
+  {
+    "host": "sv.electrumr.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.141032+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.197"
+    ],
+    "peer": [
+      "198.154.93.197",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "cfe9dc308a9024583aee3faeb8b2f69cef660b970f79aa117d06605e9c8bea27",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumR 0.2.0",
+        "1.4.2"
+      ]
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "hosts": {
+          "sv.electrumr.sv": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "protocol_max": "1.4.2",
+        "protocol_min": "1.4",
+        "pruning": null,
+        "server_version": "ElectrumR 0.2.0",
+        "services": []
+      }
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "High performance ElectrumR server: sv.electrumr.sv"
+    }
+  },
+  {
+    "host": "sv.satoshi.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.141051+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.195"
+    ],
+    "peer": [
+      "198.154.93.195",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "f43a3b0fe7be10206074a8cf565671a4960f616d2b56ce4b66a6e100383b2b8a",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "result": [
+        "ElectrumX 1.20.2",
+        "1.4.2"
+      ],
+      "id": 1
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "result": {
+        "hosts": {
+          "sv.satoshi.io": {
+            "tcp_port": 50001,
+            "ssl_port": 50002
+          }
+        },
+        "pruning": null,
+        "server_version": "ElectrumX 1.20.2",
+        "protocol_min": "1.4",
+        "protocol_max": "1.4.2",
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "services": [
+          "tcp://sv.satoshi.io:50001",
+          "ssl://sv.satoshi.io:50002"
+        ]
+      },
+      "id": 2
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "result": "    ________          __                      ______    __\n   / ____/ /__  _____/ /________  ______ ___ / ___/ |  / /\n  / __/ / / _ \\/ ___/ __/ ___/ / / / __ `__ \\\\__ \\| | / / \n / /___/ /  __/ /__/ /_/ /  / /_/ / / / / / /__/ /| |/ /  \n/_____/_/\\___/\\___/\\__/_/   \\__,_/_/ /_/ /_/____/ |___/   \n                                                          \n\nElectrumSV Server 1.20.2\nBitcoind 1.2.0\n\nHostname: sv.satoshi.io\n\nDOWNLOAD CLIENT ONLY FROM!: https://electrumsv.io/\nAlways verify hash of download.\n\nThis server is run by http://satoshi.io\nTelegram Support Channel: https://t.me/satoshi_io\n",
+      "id": 3
+    }
+  },
+  {
+    "host": "sv2.electrumr.sv",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.141061+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.212"
+    ],
+    "peer": [
+      "198.154.93.212",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "92dfa3f03c2d6fdb01ab16e8f8eeb5fcd71153f9013795a80c261125ae1d9dc8",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumR 0.2.0",
+        "1.4.2"
+      ]
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "hosts": {
+          "sv2.electrumr.sv": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "protocol_max": "1.4.2",
+        "protocol_min": "1.4",
+        "pruning": null,
+        "server_version": "ElectrumR 0.2.0",
+        "services": []
+      }
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "High performance ElectrumR server: sv2.electrumr.sv"
+    }
+  },
+  {
+    "host": "sv2.satoshi.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.141072+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.202"
+    ],
+    "peer": [
+      "198.154.93.202",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "fcb4dc7bd7b2becf5f2cb19994c7021aa6695325a04d0be479db33ed472476ea",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumR 0.2.0",
+        "1.4.2"
+      ]
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "hosts": {
+          "sv2.satoshi.io": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "protocol_max": "1.4.2",
+        "protocol_min": "1.4",
+        "pruning": null,
+        "server_version": "ElectrumR 0.2.0",
+        "services": []
+      }
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "High performance ElectrumR server: sv2.satoshi.io"
+    }
+  },
+  {
+    "host": "sv3.satoshi.io",
+    "port": 50002,
+    "observed_at": "2026-10-28T22:53:44.141085+00:00",
+    "identification_is_self_reported": true,
+    "binary_attestation": false,
+    "dns": [
+      "198.154.93.200"
+    ],
+    "peer": [
+      "198.154.93.200",
+      50002
+    ],
+    "tls": "TLSv1.3",
+    "certificate_sha256": "3e6c19324a0903e0de6a13b3946420569dd2ad8808f3aedd35b34fea71c2cfd0",
+    "certificate_validation": false,
+    "server.version": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": [
+        "ElectrumR 0.2.0",
+        "1.4.2"
+      ]
+    },
+    "server.features": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "genesis_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "hash_function": "sha256",
+        "hosts": {
+          "sv3.satoshi.io": {
+            "ssl_port": 50002,
+            "tcp_port": 50001
+          }
+        },
+        "protocol_max": "1.4.2",
+        "protocol_min": "1.4",
+        "pruning": null,
+        "server_version": "ElectrumR 0.2.0",
+        "services": []
+      }
+    },
+    "server.banner": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "High performance ElectrumR server: sv3.satoshi.io"
+    }
+  }
+]

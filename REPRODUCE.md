@@ -58,3 +58,13 @@ Repeat source discovery or the exact-function fanout check:
 Each new experiment creates ignored `.runtime/<output-directory-name>/` state: disposable wallet data, seed, header copies and TLS private keys. These are excluded from Git and never supplied to reconstruction. Use unique directory names, never fund generated accounts on a real chain, and remove that run's disposable state after reviewing the evidence. Captures contain only the controlled experiment's public scripts, transactions and protocol metadata; do not substitute production wallets or collect uninvolved clients.
 
 The remaining self-hosted ElectrumR experiment requires an accessible source/build artifact and an isolated consensus-valid chain setup. This repository deliberately does not disguise the fixture as that missing implementation.
+
+To refresh the nine literal destinations and collect ordinary public DNS/metadata responses, use a new directory:
+
+```bash
+.venv/bin/python -m privacy_lab.destinations \
+  --source /Users/tyeverett/projects/ElectrumSVP \
+  --output evidence/my-destination-check
+```
+
+The report distinguishes the source pools from DNS, connected peer addresses, self-reported versions, saved/discovered peers and malformed fallback entries. Metadata probes contain no wallet addresses or transactions.
