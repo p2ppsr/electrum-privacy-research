@@ -1,0 +1,62 @@
+test_failed_broadcast_is_retained_but_not_counted_as_balance (test_dossier.DossierTests) ... ok
+test_missing_history_body_makes_balance_incomplete (test_dossier.DossierTests) ... ok
+test_request_ids_are_scoped_to_sessions (test_dossier.DossierTests) ... ok
+test_tampering_is_rejected (test_dossier.DossierTests) ... ok
+test_transaction_hash_mismatch_is_rejected (test_dossier.DossierTests) ... ok
+test_unanswered_status_change_makes_balance_incomplete (test_dossier.DossierTests) ... ok
+test_unknown_funding_parent_does_not_invent_fee (test_dossier.DossierTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.004s
+
+OK
+{
+  "status": "PASS",
+  "live_scripts": 40,
+  "fixture_scripts": 47,
+  "fixture_transactions": 4,
+  "fixture_incoming_sats": 13500000,
+  "fixture_external_payment_sats": 5000000,
+  "fixture_fee_sats": 1000,
+  "fixture_remaining_sats": 8499000,
+  "future_watch_sats": 1700000,
+  "fanout_recipients": 8,
+  "analyzer_inputs": "retained server-side capture only; future check adds a modeled later ledger transaction",
+  "limitations": [
+    "No self-hosted ElectrumR source or binary was available",
+    "Funded case is a manufactured unconfirmed ledger, not real BSV",
+    "Endpoint identity strings are self-reported"
+  ]
+}
+{
+  "status": "PASS",
+  "literal_endpoints": 9,
+  "rounds": 2,
+  "responsive_in_both_samples": 8,
+  "current_in_both_samples": 7,
+  "valid_headers_matching_both_reference_providers": 15,
+  "registered_network_holder": "B2 Net Solutions Inc.",
+  "shared_prefix": "198.154.93.0/24",
+  "origin_asn": 55286,
+  "observed_unique_spki_fingerprints": 8,
+  "public_bitails_source_verified": true,
+  "legal_application_operator_for_all_six_shared_prefix_hosts_established": false,
+  "electrumr_deployed_build_source_attested": false
+}
+{
+  "status": "PASS",
+  "core_rpc_response_hosts": 7,
+  "helper_tls_send_hosts": 7,
+  "observed_electrum_hostname_union": 8,
+  "attribution_buckets_represented": 4,
+  "consumer_correlation_domains_represented": 4,
+  "origin_organizations_represented": 3,
+  "full_script_collection_recipients": [
+    "sv2.electrumr.sv"
+  ],
+  "script_hashes": 40,
+  "financial_helper_rpc_observed": false,
+  "helper_scope": "block height only; successful client TLS send does not prove server retention",
+  "gui_http_observed": false,
+  "independent_legal_operator_count": null
+}

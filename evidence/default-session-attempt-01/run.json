@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "no_real_funds": true,
+  "gui_observed": false,
+  "financial_helper_fanout_observed": false,
+  "observer": "client-side RPC completions and successful TLS send calls; not server logs",
+  "controls": [
+    "headless app callbacks",
+    "isolated application data",
+    "fresh unfunded BIP39 wallet",
+    "client observation wrappers"
+  ],
+  "network_settings_supplied": [],
+  "observation_seconds": 35,
+  "wallet_response_count": 40,
+  "observed_balance_sats": 0,
+  "main_server_at_end": "sv2.electrumr.sv",
+  "connected_servers_at_end": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "network_target_connections": 10,
+  "auto_connect": true,
+  "proxy": "None",
+  "core_completed_hosts": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "core_connect_attempt_hosts": [
+    "bsv.aftrek.org",
+    "electrum.server.sv",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "helper_sent_hosts": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io",
+    "sv3.satoshi.io"
+  ],
+  "helper_methods": {
+    "blockchain.block.header": 7
+  },
+  "financial_query_hosts": [
+    "sv2.electrumr.sv"
+  ],
+  "subscribed_script_counts": {
+    "sv2.electrumr.sv": 40
+  },
+  "disposable_state_removed": true
+}

@@ -1,0 +1,217 @@
+{
+  "wallet_commit": "672df8f4512f6adf16a3c99146baa6be9b93d86f",
+  "counts": {
+    "core_literal_hosts": 8,
+    "helper_literal_hosts": 8,
+    "overlap": 7,
+    "union": 9,
+    "core_only": [
+      "esv.bitails.io"
+    ],
+    "helper_only": [
+      "sv3.satoshi.io"
+    ],
+    "attribution_buckets": 5,
+    "identified_public_association_buckets": 3,
+    "unresolved_endpoint_buckets": 2,
+    "independent_legal_operator_count": null,
+    "network_resource_origin_organizations": 3,
+    "authoritative_dns_provider_brands": 3,
+    "core_connection_target": 10,
+    "additional_default_http_hosts": 2,
+    "literal_client_service_hostname_inventory": 11,
+    "consumer_correlation_domains_union": 4,
+    "consumer_correlation_domains_core": 4,
+    "consumer_correlation_domains_helper": 3,
+    "all_provider_sharing_financial_correlation_domains": 1,
+    "shared_prefix_union_hosts": 6,
+    "shared_prefix_core_hosts": 5,
+    "shared_prefix_helper_hosts": 6
+  },
+  "distributions": {
+    "core": {
+      "attribution_bucket": {
+        "Bitails first-party endpoint/source association": 1,
+        "GorillaPool first-party operator statement": 1,
+        "Satoshi.io / ElectrumR public association": 4,
+        "Unresolved: bsv.aftrek.org": 1,
+        "Unresolved: electrum.server.sv": 1
+      },
+      "origin_asn": {
+        "24940": 2,
+        "55286": 5,
+        "7018": 1
+      },
+      "dns_provider": {
+        "101domain": 1,
+        "AWS DNS": 1,
+        "Cloudflare": 6
+      },
+      "consumer_correlation_domain": {
+        "Bitails first-party endpoint/source association": 1,
+        "GorillaPool first-party operator statement": 1,
+        "Shared 198.154.93.0/24": 5,
+        "Unresolved: bsv.aftrek.org": 1
+      }
+    },
+    "helper": {
+      "attribution_bucket": {
+        "GorillaPool first-party operator statement": 1,
+        "Satoshi.io / ElectrumR public association": 5,
+        "Unresolved: bsv.aftrek.org": 1,
+        "Unresolved: electrum.server.sv": 1
+      },
+      "origin_asn": {
+        "24940": 1,
+        "55286": 6,
+        "7018": 1
+      },
+      "dns_provider": {
+        "101domain": 1,
+        "AWS DNS": 1,
+        "Cloudflare": 6
+      },
+      "consumer_correlation_domain": {
+        "GorillaPool first-party operator statement": 1,
+        "Shared 198.154.93.0/24": 6,
+        "Unresolved: bsv.aftrek.org": 1
+      }
+    },
+    "union": {
+      "attribution_bucket": {
+        "Bitails first-party endpoint/source association": 1,
+        "GorillaPool first-party operator statement": 1,
+        "Satoshi.io / ElectrumR public association": 5,
+        "Unresolved: bsv.aftrek.org": 1,
+        "Unresolved: electrum.server.sv": 1
+      },
+      "origin_asn": {
+        "24940": 2,
+        "55286": 6,
+        "7018": 1
+      },
+      "dns_provider": {
+        "101domain": 1,
+        "AWS DNS": 1,
+        "Cloudflare": 7
+      },
+      "consumer_correlation_domain": {
+        "Bitails first-party endpoint/source association": 1,
+        "GorillaPool first-party operator statement": 1,
+        "Shared 198.154.93.0/24": 6,
+        "Unresolved: bsv.aftrek.org": 1
+      }
+    }
+  },
+  "endpoints": [
+    {
+      "host": "bsv.aftrek.org",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "Unresolved: bsv.aftrek.org",
+      "origin_asn": "24940",
+      "dns_provider": "AWS DNS",
+      "consumer_correlation_domain": "Unresolved: bsv.aftrek.org"
+    },
+    {
+      "host": "electrum.server.sv",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "Unresolved: electrum.server.sv",
+      "origin_asn": "55286",
+      "dns_provider": "101domain",
+      "consumer_correlation_domain": "Shared 198.154.93.0/24"
+    },
+    {
+      "host": "electrumx.gorillapool.io",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "GorillaPool first-party operator statement",
+      "origin_asn": "7018",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "GorillaPool first-party operator statement"
+    },
+    {
+      "host": "esv.bitails.io",
+      "core": true,
+      "helper": false,
+      "attribution_bucket": "Bitails first-party endpoint/source association",
+      "origin_asn": "24940",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "Bitails first-party endpoint/source association"
+    },
+    {
+      "host": "sv.electrumr.sv",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "Satoshi.io / ElectrumR public association",
+      "origin_asn": "55286",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "Shared 198.154.93.0/24"
+    },
+    {
+      "host": "sv.satoshi.io",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "Satoshi.io / ElectrumR public association",
+      "origin_asn": "55286",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "Shared 198.154.93.0/24"
+    },
+    {
+      "host": "sv2.electrumr.sv",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "Satoshi.io / ElectrumR public association",
+      "origin_asn": "55286",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "Shared 198.154.93.0/24"
+    },
+    {
+      "host": "sv2.satoshi.io",
+      "core": true,
+      "helper": true,
+      "attribution_bucket": "Satoshi.io / ElectrumR public association",
+      "origin_asn": "55286",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "Shared 198.154.93.0/24"
+    },
+    {
+      "host": "sv3.satoshi.io",
+      "core": false,
+      "helper": true,
+      "attribution_bucket": "Satoshi.io / ElectrumR public association",
+      "origin_asn": "55286",
+      "dns_provider": "Cloudflare",
+      "consumer_correlation_domain": "Shared 198.154.93.0/24"
+    }
+  ],
+  "consumer_assumptions": [
+    "Treat all six 198.154.93.0/24 endpoints as related and pooling all observations",
+    "Evaluate every service provider sharing its received observations across brands",
+    "These are conservative threat assumptions, not verified common ownership or actual sharing"
+  ],
+  "default_http": [
+    {
+      "host": "electrumsv.io",
+      "url": "https://electrumsv.io/release.json",
+      "trigger": "GUI startup, check_updates=True and not offline",
+      "wallet_identifiers_in_reviewed_call": false
+    },
+    {
+      "host": "bananablocks.com",
+      "url": "https://bananablocks.com/api/v1/exchangerates",
+      "history_url": "https://bananablocks.com/api/v1/stats/chart/exchange_rate?days=365",
+      "trigger": "online daemon FxTask, enabled by default, USD default",
+      "wallet_identifiers_in_reviewed_call": false
+    }
+  ],
+  "limits": [
+    "Attribution buckets are not established independent legal operators",
+    "Network and DNS provider counts overlap application relationships and must not be summed",
+    "Literal destination inventory is not a guarantee every destination receives a request in every session",
+    "Core main changes, cached/discovered peers, HTTP redirects and downstream services prevent a universal fixed party count",
+    "HTTP defaults are source findings; the headless observation does not run the GUI or daemon FX task",
+    "No likelihood, equal selection probability, or operational independence follows from counts"
+  ]
+}

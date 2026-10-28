@@ -86,3 +86,20 @@ To collect new public snapshots, use unique output directories (the collectors r
 Ownership collection queries public registration/routing/DNS records, official sites and the existing nine TLS endpoints. It omits individual registry-contact names, street addresses, phone numbers and mailbox details from retained registry summaries. Source discovery queries public repository/code indexes and obtains narrow facts from pinned public files; inaccessible repositories, failed queries and inconclusive archive responses remain explicit. The public profile name/company fields are self-declarations, not legal-identity attestations.
 
 Liveness collection performs two bounded rounds, ten seconds apart, against the nine literal TLS endpoints. It sends only version, header-subscription and ping methods, and brackets observations with public Bitails/WhatsOnChain chain-info responses. It distinguishes reachability, protocol replies and apparent current tip. It does not query wallets, validate complete chains, establish an uptime SLA, or prove historical indexing completeness. The retained verifier deliberately checks the October 28 canonical snapshots; a new snapshot requires review and updated expected observations before being substituted into the report.
+
+
+The default-core observation leaves `server`, `oneserver`, `auto_connect`, `proxy` and the server cache unset. It creates and removes a fresh unfunded wallet under ignored `.runtime/` state and directly contacts public endpoints. It records client-side RPC completions and successful helper TLS sends, not remote retention logs. It does not start the GUI or daemon FX task. Use a new output directory:
+
+```bash
+.venv/bin/python -m privacy_lab.default_session \
+  --source /Users/tyeverett/projects/ElectrumSVP \
+  --output evidence/my-default-core-run
+```
+
+The retained count and observation accounting can be checked offline with standard-library Python, without network access or any wallet files:
+
+```bash
+python3 -S -m privacy_lab.trust_model --verify
+```
+
+The verifier checks the canonical October 28 run, not an arbitrary future run. The model calculates literal pool intersections, attribution and conservative correlation groups separately, and checks network/DNS annotations against retained receipts. `source-receipts.json` records hashes of pinned wallet files reviewed for startup helper, automatic proof/BEEF, price, update and extension paths. The collector requires unchanged pinned source; evidence directories are retained rather than overwritten. Common ownership and actual data sharing remain unverified; the consumer sharing assumptions are explicit.

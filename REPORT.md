@@ -86,6 +86,54 @@ The core constructor is visible [here](https://github.com/TruthMachine/ElectrumS
 
 Further source anchors: [CLI defaults](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/commands.py#L294-L301), [connection slots](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1573-L1587), [automatic switching](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L2007-L2008), [subscription retries](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py#L1096-L1117), [account discovery](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L2208-L2221), [standard scripts](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L2261-L2272), [account creation](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/account_wizard.py#L427-L447), [mainnet derivation](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/networks.py#L74-L87), [change policy](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py#L1455-L1474), and [fee fallback](https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/simple_config.py#L276-L282).
 
+## Counted trust relationships and consumer sharing model
+
+**Major centralization risk:** six of the nine literal Electrum destinations share **198.154.93.0/24**. That is **66.7% of the union**, **62.5% (5/8) of core entries**, and **75% (6/8) of helper entries**. These are inventory proportions, not traffic shares, selection probabilities or proof of physical co-location.
+
+At the user's request, this report's **consumer threat model assumes those six endpoints are related and pool all observations**, unless their separation can be verified. It also evaluates sharing across every service provider. Different names or brands are not assumed to enforce privacy separation. This is a conservative risk assumption; the preceding and following public records do not prove common legal ownership, common administration or actual sharing. Lack of disproof alone is not ownership evidence. Sharing combines the data each service receives; it does not turn every block-header request into disclosure of an entire wallet.
+
+| Relationship being counted | Result |
+| --- | --- |
+| Core / helper / shared entries | 8 / 8 / 7 |
+| Unique literal Electrum destinations | **9 = 8 + 8 − 7** |
+| Default core connection target | **10 slots**, not ten distinct hosts or operators |
+| Conservative correlation domains, core / helper / union | **4 / 3 / 4** after collapsing the six shared-segment hosts |
+| Public attribution buckets before that assumption | 5: three public brand/association buckets and two unresolved endpoints; not five verified independent legal persons |
+| Network resource/origin organizations | 3: B2 Net Solutions / ServerMania, Hetzner, AT&T |
+| Authoritative DNS provider brands | 3: Cloudflare, 101domain, AWS DNS |
+| Additional default HTTP service hostnames | 2: `electrumsv.io` updates, `bananablocks.com` prices; no wallet identifiers in reviewed calls |
+| Reviewed literal client service hostname inventory | **11**, not a guaranteed eleven-party session |
+| Exact independent legal-party total | **Unknown**; unlike counts must not be added |
+
+The four conservative Electrum domains are the shared segment, GorillaPool, Bitails and Aftrek. The helper spans three of them because Bitails is core-only; `sv3.satoshi.io` is helper-only. Under the wider sharing scenario, these services constitute **one potential financial correlation domain**. Core main switching, cached/discovered peers, HTTP redirects, server backends and environment-specific network/resolver providers prevent a universal fixed company count.
+
+A new fresh **unfunded** core-wallet observation at approximately **2026-10-28 16:40:51–16:41:30 PDT** left all main-network routing settings unset. It recorded attempts to all eight core hosts, completed RPCs from seven, and seven locally completed startup-helper TLS sends. The union was **eight Electrum hosts, four conservative correlation domains and three network-provider organizations**. Only `sv2.electrumr.sv`, the selected main, completed all **40 distinct script subscriptions**. Every observed helper message was `blockchain.block.header` with a block height; no financial helper lookup occurred in this unfunded run. GUI update and daemon FX traffic were not run by this headless harness. The [raw events](evidence/default-session-attempt-01/events.jsonl), [run summary](evidence/default-session-attempt-01/run.json) and [offline event-accounting check](evidence/trust-model-20261028/observation-verification.json) preserve these boundaries. This is client-side instrumentation with isolated paths and fresh disposable state, not server retention logs or a full desktop qualification. Disposable wallet state was removed.
+
+The diagram shows roles, which can overlap at one operator. Solid arrows carry application content; dotted arrows show metadata or conditional backend exposure.
+
+```mermaid
+flowchart LR
+    W["Your wallet"]
+    M["Main Electrum service<br/>1 main role at a time<br/>Wallet script collection and ledger"]
+    A["Other core connections<br/>Protocol, headers and connection timing<br/>No ordinary full wallet subscription set"]
+    H["Hardcoded helper<br/>8 candidates; 3 conservative domains<br/>Copies of each invoked helper lookup"]
+    B["Service backends<br/>Bitails adapter defaults use Bitails APIs<br/>Exact production forwarding unattested"]
+    P["Price and update services<br/>2 additional default HTTP hostnames<br/>No wallet identifiers in reviewed calls"]
+    N["B2 Net / ServerMania, Hetzner, AT&T<br/>Plus the user's access network<br/>Passive view: IPs, timing and volume"]
+    D["Cloudflare, 101domain, AWS DNS<br/>Plus the user's recursive resolver<br/>Domain queries as caching permits"]
+    W -->|"Wallet queries and broadcasts"| M
+    W -->|"Version and header requests"| A
+    W -->|"Header; financial lookup if invoked"| H
+    M -.->|"Conditional forwarding"| B
+    W -->|"Generic GETs"| P
+    W -.->|"Transport metadata"| N
+    W -.->|"Name resolution"| D
+```
+
+Under the sharing assumption, combine the observations of the shared-segment services; in the wider case, combine participating application services across brands. Passive carriers and DNS providers are not automatically assigned decrypted financial data. The source/runtime's unauthenticated Electrum TLS also creates a conditional impersonation risk for an attacker able to redirect or intercept that path; no such attack was performed.
+
+The [full count and visibility matrix](TRUST-MODEL.md) distinguishes startup header-only fanout, conditional and sometimes automatic financial helper lookups, price/update metadata, infrastructure roles, downstream Bitails queries and exact counting limits. [Plain-language privacy stories](PRIVACY-STORIES.md) explain checking wages, paying a shop, future watching, choosing a server, switching names and using shared Wi-Fi. They are fictional scenarios tied to the evidence, not claims about operators' behavior.
+
 ## Operator attribution and verified infrastructure relationships
 
 “Network resource holder,” “routing carrier,” “DNS/registrar provider,” “public service operator,” and “administrator of the running process” are different relationships. This investigation verifies the first three where public records support them, records first-party operator statements, and leaves legal/application-control gaps explicit. It does not turn a shared subnet, public profile field, or certificate subject into proof that one person administers every endpoint.

@@ -4,6 +4,8 @@ One normal ElectrumSVP account discloses a collection of wallet interests to its
 
 **Research date: October 28, 2026. Private repository.** This evaluates what a covert operator can collect, without relying on promises about logging defaults, deletion, or acceptable use.
 
+Start with [Who can see my wallet?](PRIVACY-STORIES.md) for everyday examples, or [the counted trust model and data-visibility diagram](TRUST-MODEL.md). The consumer model treats the six shared-segment endpoints as related and able to pool observations, and considers sharing across all providers. This is a threat assumption, distinct from verified ownership.
+
 ## What was actually demonstrated
 
 | Experiment | Actual components | Result |
@@ -11,6 +13,7 @@ One normal ElectrumSVP account discloses a collection of wallet interests to its
 | Live endpoint observation | Unchanged ElectrumSVP 0.2.0 `Wallet`/`Network`, fresh BIP39 account, recording TLS relay, bundled `sv.electrumr.sv` endpoint | One session disclosed 40 distinct script hashes. The unfunded account had zero transaction history. |
 | Controlled financial dossier | Unchanged ElectrumSVP wallet/network/signing code, recording TLS endpoint, explicitly manufactured Electrum protocol ledger | One wallet session disclosed 47 scripts and four transactions. Capture-only reconstruction recovered the payment, fee, change and remaining balance. |
 | Parallel verification disclosure | Exact upstream `electrum_request` function, eight controlled local TLS peers | All eight peers received the same transaction lookup before a winning response was returned. |
+| Default core routing observation | Unchanged wallet/core, fresh unfunded account, isolated paths, routing settings unset; client observation wrappers | Eight unique Electrum hosts had completed RPCs or helper TLS sends; one main received 40 script subscriptions. Helper sends carried only a block height. |
 | Source provenance | Both bundled ElectrumR endpoints, documented source link, GitHub repository/releases lookup, publisher public-repository enumeration and repository/code search | Both endpoints advertised `ElectrumR 0.2.0`; no matching accessible public source or release artifact was found. |
 
 **We did not self-host or modify an ElectrumR binary.** Its documented repository returned HTTP 404 publicly and through the operator's authenticated GitHub account. Consequently, the financial experiment uses an explicitly labeled local protocol fixture, **not ElectrumR**. It contains manufactured, unconfirmed funding transactions with fictional parents, not consensus-valid real-chain deposits. The outgoing transaction is signed by the real wallet and its BSV signatures are independently checked against the fixture prevouts. No real BSV was funded or spent.
@@ -39,6 +42,8 @@ A [modeled later transaction](evidence/fixture-attempt-04/future-watch.json) als
 
 ## Read and reproduce
 
+- [Plain-language privacy stories](PRIVACY-STORIES.md)
+- [Counted trust relationships, centralization risk and visibility diagram](TRUST-MODEL.md)
 - [Detailed findings, trust model and provenance gap](REPORT.md)
 - [All literal destinations, current IPs and hardcoded defaults](REPORT.md#hardcoded-destinations-and-current-network-observations)
 - [Operator attribution and verified infrastructure](REPORT.md#operator-attribution-and-verified-infrastructure-relationships)

@@ -1,0 +1,67 @@
+{
+  "wallet_commit": "672df8f4512f6adf16a3c99146baa6be9b93d86f",
+  "collection_utc": "2026-10-28T23:44:42.402325+00:00",
+  "files": [
+    {
+      "path": "electrumsv/network.py",
+      "sha256": "b612ee10dacdfd364eea798b6b3f568c5c2d504ad4f61f44324719da1794628f",
+      "bytes": 83416,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py"
+    },
+    {
+      "path": "electrumsv/verification_utils.py",
+      "sha256": "5a1a2fd93a4e3c971f0cc034d0f1c19ac547cd897c6babfe4ec1c63e9fd59440",
+      "bytes": 146040,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/verification_utils.py"
+    },
+    {
+      "path": "electrumsv/headers_storage.py",
+      "sha256": "6893688e615965617ca1c9b28006eb1580bd7f87477dfe370a8fe2eeaa047d1f",
+      "bytes": 11343,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/headers_storage.py"
+    },
+    {
+      "path": "electrumsv/exchange_rate.py",
+      "sha256": "56a1fa4241b44aab99061609b460c9064e2de6e818f9cc26f6c00a2946b2c533",
+      "bytes": 15435,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/exchange_rate.py"
+    },
+    {
+      "path": "electrumsv/gui/qt/app.py",
+      "sha256": "e2aeb4631180cff9d2b301fb5dc68db628b836fff51b3ab9b0300694712654c3",
+      "bytes": 18338,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/app.py"
+    },
+    {
+      "path": "electrumsv/daemon.py",
+      "sha256": "897c1ec29c0299985ffc8315f08a8efd377ad5f8b8c398ca92cceb90742b128b",
+      "bytes": 15162,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/daemon.py"
+    },
+    {
+      "path": "electrumsv/extensions.py",
+      "sha256": "fa294c2460597b6c718fbcc70ddde45165fd59e03fa537d35eeb6296eada620f",
+      "bytes": 2852,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/extensions.py"
+    },
+    {
+      "path": "electrumsv/wallet.py",
+      "sha256": "b7e2bd359fd60e5c65b9f7963446c54ccfa796cbd2b4d264f80da1b4cbd678c4",
+      "bytes": 148951,
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/wallet.py"
+    }
+  ],
+  "checked": [
+    "literal core/helper pools match pinned source AST",
+    "auto_connect=True, use_exchange_rate=True, BananaBlocks default, check_updates=True",
+    "all receipt bytes match pinned Git blobs and unchanged local files"
+  ],
+  "manually_reviewed_flow_locations": {
+    "startup_header_helper": "electrumsv/headers_storage.py:99-134,213-216",
+    "automatic_proof_BEEF": "electrumsv/wallet.py:3043-3060",
+    "missing_transaction_helper": "electrumsv/verification_utils.py:865-905",
+    "proof_helper": "electrumsv/verification_utils.py:565-603,975-1027",
+    "default_FX_launch": "electrumsv/daemon.py:153-160",
+    "default_GUI_update_launch": "electrumsv/gui/qt/app.py:370-388,417-423"
+  }
+}

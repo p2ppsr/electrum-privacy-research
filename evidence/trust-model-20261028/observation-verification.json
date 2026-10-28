@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "core_rpc_response_hosts": 7,
+  "helper_tls_send_hosts": 7,
+  "observed_electrum_hostname_union": 8,
+  "attribution_buckets_represented": 4,
+  "consumer_correlation_domains_represented": 4,
+  "origin_organizations_represented": 3,
+  "full_script_collection_recipients": [
+    "sv2.electrumr.sv"
+  ],
+  "script_hashes": 40,
+  "financial_helper_rpc_observed": false,
+  "helper_scope": "block height only; successful client TLS send does not prove server retention",
+  "gui_http_observed": false,
+  "independent_legal_operator_count": null
+}

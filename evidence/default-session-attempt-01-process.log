@@ -1,0 +1,165 @@
+WARNING:network:Failed to read headers file, replacing with preloaded one.
+2026-10-28 16:40:51,791:WARNING:network:Failed to read headers file, replacing with preloaded one.
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:
+===== THROTTLE =====
+session : 4776863264
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : False
+2026-10-28 16:40:55,839:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:
+===== THROTTLE =====
+session : 4776863264
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : False
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:CREATED throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:55,840:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:CREATED throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+WARNING:[sv.electrumr.sv:50002 SSL #2]:
+===== THROTTLE =====
+session : 4865560624
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+2026-10-28 16:40:56,151:WARNING:[sv.electrumr.sv:50002 SSL #2]:
+===== THROTTLE =====
+session : 4865560624
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+WARNING:[sv.electrumr.sv:50002 SSL #2]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:56,151:WARNING:[sv.electrumr.sv:50002 SSL #2]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+WARNING:[sv2.electrumr.sv:50002 SSL #0]:
+===== THROTTLE =====
+session : 4865561776
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+2026-10-28 16:40:56,194:WARNING:[sv2.electrumr.sv:50002 SSL #0]:
+===== THROTTLE =====
+session : 4865561776
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+WARNING:[sv2.electrumr.sv:50002 SSL #0]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:56,194:WARNING:[sv2.electrumr.sv:50002 SSL #0]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+WARNING:[sv.satoshi.io:50002 SSL #1]:
+===== THROTTLE =====
+session : 4865564176
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+2026-10-28 16:40:56,194:WARNING:[sv.satoshi.io:50002 SSL #1]:
+===== THROTTLE =====
+session : 4865564176
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+WARNING:[sv.satoshi.io:50002 SSL #1]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:56,194:WARNING:[sv.satoshi.io:50002 SSL #1]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+WARNING:[sv2.satoshi.io:50002 SSL #7]:
+===== THROTTLE =====
+session : 4865563024
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+2026-10-28 16:40:56,200:WARNING:[sv2.satoshi.io:50002 SSL #7]:
+===== THROTTLE =====
+session : 4865563024
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+WARNING:[sv2.satoshi.io:50002 SSL #7]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:56,200:WARNING:[sv2.satoshi.io:50002 SSL #7]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+WARNING:[bsv.aftrek.org:50002 SSL #4]:
+===== THROTTLE =====
+session : 4865565328
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+2026-10-28 16:40:56,345:WARNING:[bsv.aftrek.org:50002 SSL #4]:
+===== THROTTLE =====
+session : 4865565328
+key     : 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+waiting : True
+WARNING:[bsv.aftrek.org:50002 SSL #4]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:56,345:WARNING:[bsv.aftrek.org:50002 SSL #4]:WAITING on existing throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 966553
+2026-10-28 16:40:56,367:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 966553
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 968568
+2026-10-28 16:40:56,609:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 968568
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 968569
+2026-10-28 16:40:56,935:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 968569
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 970584
+2026-10-28 16:40:57,170:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 970584
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 970585
+2026-10-28 16:40:57,567:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 970585
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 972600
+2026-10-28 16:40:57,802:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 972600
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 972601
+2026-10-28 16:40:57,999:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:Downloading chunk starting at height 972601
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 973094
+2026-10-28 16:40:58,056:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:headers_obj.tip.height now = 973094
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:========== CATCH UP END ==========
+final local tip : 973094
+2026-10-28 16:40:58,056:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:========== CATCH UP END ==========
+final local tip : 973094
+WARNING:[electrumx.gorillapool.io:50002 SSL #5]:RELEASED throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+2026-10-28 16:40:58,056:WARNING:[electrumx.gorillapool.io:50002 SSL #5]:RELEASED throttle entry for 00c0b133676db422b645b8dd6fe97ada149d1787569d2b86c647e9160000000000000000ad49c40aa2705c79fc0c95342e26cbcf9164fe31ccceb8d0b6f8540cefde934fc586e26ae61a241830e5a3b5
+[ELECTRUMX] FAIL blockchain.block.header -> electrum.server.sv:50002 (S) after 5.010s: TimeoutError('timed out')
+{
+  "status": "PASS",
+  "no_real_funds": true,
+  "gui_observed": false,
+  "financial_helper_fanout_observed": false,
+  "observer": "client-side RPC completions and successful TLS send calls; not server logs",
+  "controls": [
+    "headless app callbacks",
+    "isolated application data",
+    "fresh unfunded BIP39 wallet",
+    "client observation wrappers"
+  ],
+  "network_settings_supplied": [],
+  "observation_seconds": 35,
+  "wallet_response_count": 40,
+  "observed_balance_sats": 0,
+  "main_server_at_end": "sv2.electrumr.sv",
+  "connected_servers_at_end": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "network_target_connections": 10,
+  "auto_connect": true,
+  "proxy": "None",
+  "core_completed_hosts": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "core_connect_attempt_hosts": [
+    "bsv.aftrek.org",
+    "electrum.server.sv",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "helper_sent_hosts": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io",
+    "sv3.satoshi.io"
+  ],
+  "helper_methods": {
+    "blockchain.block.header": 7
+  },
+  "financial_query_hosts": [
+    "sv2.electrumr.sv"
+  ],
+  "subscribed_script_counts": {
+    "sv2.electrumr.sv": 40
+  },
+  "disposable_state_removed": true
+}

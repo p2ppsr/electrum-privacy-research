@@ -9,3 +9,4 @@ research_python="${RESEARCH_PYTHON:-.venv/bin/python}"
   --fanout evidence/fanout-attempt-01/fanout.json \
   --output evidence/verification.json
 "$research_python" -m privacy_lab.verify_followup
+"$research_python" -m privacy_lab.trust_model --verify

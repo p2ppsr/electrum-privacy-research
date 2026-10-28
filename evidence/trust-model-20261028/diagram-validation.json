@@ -1,0 +1,26 @@
+[
+  {
+    "diagram": 0,
+    "parse_and_render": "PASS",
+    "rendered_size": {
+      "x": 24,
+      "y": 24,
+      "width": 1052,
+      "height": 350.15625
+    },
+    "source": "TRUST-MODEL.md",
+    "mermaid_version": "11.12.0"
+  },
+  {
+    "diagram": 1,
+    "parse_and_render": "PASS",
+    "rendered_size": {
+      "x": 24,
+      "y": 24,
+      "width": 1052,
+      "height": 1108.671875
+    },
+    "source": "TRUST-MODEL.md",
+    "mermaid_version": "11.12.0"
+  }
+]
