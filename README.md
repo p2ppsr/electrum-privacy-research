@@ -42,6 +42,7 @@ A [modeled later transaction](evidence/fixture-attempt-04/future-watch.json) als
 - [Detailed findings, trust model and provenance gap](REPORT.md)
 - [Reproduction instructions](REPRODUCE.md)
 - [Machine-readable verification results](evidence/verification.json)
+- [Offline replay from a clean Git export without wallet files or site packages](evidence/clean-replay.json)
 - [Raw live unfunded-wallet capture](evidence/live-attempt-02/capture.jsonl)
 - [Raw controlled financial capture](evidence/fixture-attempt-04/capture.jsonl)
 - [Eight-peer verification-helper capture](evidence/fanout-attempt-01/fanout.json)

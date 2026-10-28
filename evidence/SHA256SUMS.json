@@ -4,8 +4,8 @@
     "bytes": 46
   },
   "README.md": {
-    "sha256": "155e403706972700efd32eb5cd6009bd547af1ed72ec856095e60205b4abcb0a",
-    "bytes": 5160
+    "sha256": "00d650f5ee18c06b5762a948cd8dafbc218e4938b881f3b5498f33ec1d59fac8",
+    "bytes": 5269
   },
   "REPORT.md": {
     "sha256": "06cf772437374db5433da26a1a6eb5ffd4e65ef7a6748909d05ff6aa120840d4",
@@ -194,5 +194,9 @@
   "tests/test_dossier.py": {
     "sha256": "78cbd389d990da2251150cc806a17983c0365f20eaa09adb0ae9ff64c24894a0",
     "bytes": 4815
+  },
+  "evidence/clean-replay.json": {
+    "sha256": "8c32376af917e881b3169ebd53af0e0e810d0f28cbd520237bc6dca4ebf731b6",
+    "bytes": 1387
   }
 }

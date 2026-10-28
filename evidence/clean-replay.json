@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "recorded_at": "2026-10-28T22:51:39.053332+00:00",
+  "research_snapshot_commit": "07cf9d1ba642ff6be4909da06e6ff547d0d19abd",
+  "snapshot_archive_sha256": "bc49ed2779e387b3597502ecdd81ac94b6aceb52f8f550c828bb92629e6011ee",
+  "python": "3.14.7",
+  "site_packages_disabled": true,
+  "wallet_source_in_export": false,
+  "wallet_seed_or_database_in_export": false,
+  "command": [
+    "python3",
+    "-S",
+    "-m",
+    "privacy_lab.verify_evidence",
+    "--live",
+    "evidence/live-attempt-02",
+    "--fixture",
+    "evidence/fixture-attempt-04",
+    "--fanout",
+    "evidence/fanout-attempt-01/fanout.json",
+    "--output",
+    "verification-replayed.json"
+  ],
+  "exit_code": 0,
+  "stdout": {
+    "status": "PASS",
+    "live_scripts": 40,
+    "fixture_scripts": 47,
+    "fixture_transactions": 4,
+    "fixture_incoming_sats": 13500000,
+    "fixture_external_payment_sats": 5000000,
+    "fixture_fee_sats": 1000,
+    "fixture_remaining_sats": 8499000,
+    "future_watch_sats": 1700000,
+    "fanout_recipients": 8,
+    "analyzer_inputs": "retained server-side capture only; future check adds a modeled later ledger transaction",
+    "limitations": [
+      "No self-hosted ElectrumR source or binary was available",
+      "Funded case is a manufactured unconfirmed ledger, not real BSV",
+      "Endpoint identity strings are self-reported"
+    ]
+  },
+  "stderr": ""
+}
