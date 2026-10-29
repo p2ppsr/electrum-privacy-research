@@ -60,8 +60,8 @@
     "bytes": 12271
   },
   "PUBLICATION-READINESS.md": {
-    "sha256": "2018f62242aaafaaa2d831a91f3010674f62804a44396f4c71622de011b7bbc4",
-    "bytes": 4338
+    "sha256": "ba43db3d0cb99944b7bc4765c18fe7788b3fdb2676fa09c7419a7ff29c6532c8",
+    "bytes": 4925
   },
   "READER-STUDY.md": {
     "sha256": "50442417c1e180e6e8a1e6e4650fd0cad842e031383fe373fefc3908db8d9117",
@@ -731,6 +731,10 @@
     "sha256": "9066ab6576ff71438b8633b566ae5461574b1cba277d1a07935b7a596cf92b56",
     "bytes": 1955
   },
+  "evidence/publication-20261029/ci-private-candidate.json": {
+    "sha256": "8a3835c8ffdf56a71b852fe83fa0f28b67897fd9bf791ee850efbec523718dd6",
+    "bytes": 1955
+  },
   "evidence/publication-20261029/clean-offline-replay.json": {
     "sha256": "fbb79390291b304951f9baf59e22db96bd988447726721cf79aa39a2f8559e6a",
     "bytes": 362
@@ -755,9 +759,21 @@
     "sha256": "ae66cf3a37317ca977410f192c6a9598fd414cc6c1d6b5537c807074db91b0ff",
     "bytes": 444
   },
+  "evidence/publication-20261029/final-candidate-checks.json": {
+    "sha256": "a4f9898eb6aca2c82d6c39175cd1ec12e410be8fff4d6591d2b4894eb2636464",
+    "bytes": 487
+  },
+  "evidence/publication-20261029/final-export-validation.log": {
+    "sha256": "cdee4719da6d3daed42c858a0a46a9794eeb857327b4cb74aca716132aa77f5f",
+    "bytes": 4164
+  },
   "evidence/publication-20261029/github-refresh.json": {
     "sha256": "53ff80831c1056a3fd6550cb5817cb4ee53db3a7edad8c1dde353ac9baeb3376",
     "bytes": 1997
+  },
+  "evidence/publication-20261029/gitleaks-export.log": {
+    "sha256": "5ba54c150a6dcc768ba728b24d99daf64e1872a30d48dd41222f418220eca3d5",
+    "bytes": 146
   },
   "evidence/publication-20261029/gitleaks-history-candidate.log": {
     "sha256": "9fada8fa330ab8a1bff43a74983e41063d1c06ea1e336d2c42337eb832bda980",
@@ -770,6 +786,10 @@
   "evidence/publication-20261029/gitleaks-staged.log": {
     "sha256": "f783ba695acdc5223505ccdd9db83f96744d4a94bd4b2b9844b38f9168dc5716",
     "bytes": 174
+  },
+  "evidence/publication-20261029/gitleaks-tag-history.log": {
+    "sha256": "746c4339d0d3747c87780f3b3cbbcdae65c9cea96090a3514cf548b0bebc50c7",
+    "bytes": 176
   },
   "evidence/publication-20261029/local-validation-attempt-01.log": {
     "sha256": "bf83ee61f898d7588a9b41bd9456d52a1eafee1fcaae116ce003b3162c0d9408",
@@ -794,6 +814,10 @@
   "evidence/publication-20261029/package-gatekeeper-assessment.txt": {
     "sha256": "194ebcd716cf47525cce048132060abe773969beb462858fe2469108ba54d659",
     "bytes": 94
+  },
+  "evidence/publication-20261029/release-candidate.json": {
+    "sha256": "48083d13923e00058625af09d27dd027db9ffbb6c29f944a51a47a3f20679f8d",
+    "bytes": 980
   },
   "evidence/publication-20261029/rosetta-install.log": {
     "sha256": "d170486025c8597ffb1983f54b4c8143e36618c18976bf975e6b735f71365366",

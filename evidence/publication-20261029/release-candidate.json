@@ -1,0 +1,20 @@
+{
+  "status": "PRIVATE_PREPUBLICATION_CANDIDATE",
+  "tag": "private-prepublication-20261029-rc1",
+  "created_at": "2026-10-29T20:36:32.072806+00:00",
+  "commit": "61b79369f9a7303f80ec54e9681d7c3d926423eb",
+  "archive": ".runtime/releases/private-prepublication-20261029-rc1.tar.gz",
+  "sha256": "d855ee38f575c23086946a4095de5b2d9cc1f7537fc8df791090093206ce91cc",
+  "bytes": 5488479,
+  "entries": 430,
+  "includes_runtime_or_distributions": false,
+  "repeated_export_hash_matches": true,
+  "ci_url": "https://github.com/p2ppsr/electrum-privacy-research/actions/runs/40950365178",
+  "candidate_check_receipt": "final-candidate-checks.json",
+  "scope": "Archive of the pinned candidate commit. Later receipt/documentation commit is separate; no public GitHub release or visibility change.",
+  "human_review_outstanding": [
+    "independent human method/factual review",
+    "approved right-of-reply outreach and fair response window",
+    "actual reader comprehension testing"
+  ]
+}
