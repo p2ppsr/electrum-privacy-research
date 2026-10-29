@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-29T20:27:37.547Z",
+  "source": "https://api.github.com/repos/actions/checkout/commits/v4",
+  "sha": "11d5960a326750d5838078e36cf38b85af677262",
+  "title": "backport fixes to releases-v4 (#2524)",
+  "signature_verified": true
+}

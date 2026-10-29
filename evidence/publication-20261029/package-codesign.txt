@@ -1,0 +1,2 @@
+exit_code=1
+.runtime/package-mount/ElectrumSVP-0.2.0.app: code object is not signed at all

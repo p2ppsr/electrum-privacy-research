@@ -1,0 +1,657 @@
+2026-10-29 20:15:51 [main] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-10-29 20:15:51 [main] Bitcoin SV version v1.2.3
+2026-10-29 20:15:51 [main] InitParameterInteraction: parameter interaction: -listen=0 -> setting -upnp=0
+2026-10-29 20:15:51 [main] InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2026-10-29 20:15:51 [main] Using -maxcoinsdbfiles=8192 (default: 8192)
+2026-10-29 20:15:51 [main] Validating signatures for all blocks.
+2026-10-29 20:15:51 [main] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-29 20:15:51 [main] Using the 'sse4' SHA256 implementation
+2026-10-29 20:15:51 [main] Using RdRand as an additional entropy source
+2026-10-29 20:15:51 [main] Default data directory /root/.bitcoin
+2026-10-29 20:15:51 [main] Using data directory /data/regtest
+2026-10-29 20:15:51 [main] Using config file /data/bitcoin.conf
+2026-10-29 20:15:51 [main] Using at most 125 automatic connections (1048576 file descriptors available, 8192 reserved for coins database files)
+2026-10-29 20:15:51 [main] Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2026-10-29 20:15:51 [main] Using 32 MiB out of 32 requested for invalid signature cache, able to store 1048576 elements
+2026-10-29 20:15:51 [main] Using 64 MiB out of 64 requested for script execution cache, able to store 2097152 elements
+2026-10-29 20:15:51 [main] Using 16 threads for block transaction verification
+2026-10-29 20:15:51 [main] Using 8 threads for script verification
+2026-10-29 20:15:51 [bitcoin-scriptch_2_4] bitcoin-scriptch_2_4 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_2] bitcoin-scriptch_0_2 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_6] bitcoin-scriptch_0_6 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_5] bitcoin-scriptch_2_5 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_7] bitcoin-scriptch_0_7 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_7] bitcoin-scriptch_2_7 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_6] bitcoin-scriptch_2_6 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_0] bitcoin-scriptch_3_0 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_0] bitcoin-scriptch_1_0 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_1] bitcoin-scriptch_3_1 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_1] bitcoin-scriptch_1_1 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_2] bitcoin-scriptch_3_2 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_0] bitcoin-scriptch_0_0 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_3] bitcoin-scriptch_3_3 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_4] bitcoin-scriptch_3_4 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_3] bitcoin-scriptch_1_3 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_5] bitcoin-scriptch_3_5 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_2] bitcoin-scriptch_1_2 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_6] bitcoin-scriptch_3_6 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_3_7] bitcoin-scriptch_3_7 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_4] bitcoin-scriptch_1_4 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_5] bitcoin-scriptch_1_5 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_3] bitcoin-scriptch_0_3 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_6] bitcoin-scriptch_1_6 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_1_7] bitcoin-scriptch_1_7 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_4] bitcoin-scriptch_0_4 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_0] bitcoin-scriptch_2_0 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_1] bitcoin-scriptch_0_1 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_1] bitcoin-scriptch_2_1 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_2] bitcoin-scriptch_2_2 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_2_3] bitcoin-scriptch_2_3 thread start
+2026-10-29 20:15:51 [bitcoin-scriptch_0_5] bitcoin-scriptch_0_5 thread start
+2026-10-29 20:15:51 [main] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:15:51 [main] Opened LevelDB successfully
+2026-10-29 20:15:51 [main] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:15:51 [main] Cross-check of mempool file and transaction database failed: Failed to open mempool file from disk. Continuing with empty mempool and transaction database.
+2026-10-29 20:15:51 [mempooldb-555557072820] Wiping LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:15:51 [mempooldb-555557072820] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:15:51 [mempooldb-555557072820] Opened LevelDB successfully
+2026-10-29 20:15:51 [mempooldb-555557072820] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:15:51 [scheduler] scheduler thread start
+2026-10-29 20:15:51 [main] libevent: getaddrinfo: address family for nodename not supported
+2026-10-29 20:15:51 [main] Binding RPC on address ::1 port 18332 failed.
+2026-10-29 20:15:51 [main] HTTP: creating work queue with 4 threads
+2026-10-29 20:15:51 [worker1-N-HTTPServer] HTTPServer ThreadPool thread 1 starting
+2026-10-29 20:15:51 [worker0-N-HTTPServer] HTTPServer ThreadPool thread 0 starting
+2026-10-29 20:15:51 [worker2-N-HTTPServer] HTTPServer ThreadPool thread 2 starting
+2026-10-29 20:15:51 [worker3-N-HTTPServer] HTTPServer ThreadPool thread 3 starting
+2026-10-29 20:15:51 [main] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2026-10-29 20:15:51 [main] init message: Verifying wallet(s)...
+2026-10-29 20:15:51 [main] Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-29 20:15:51 [main] Using wallet wallet.dat
+2026-10-29 20:15:51 [main] CDBEnv::Open: LogDir=/data/regtest/database ErrorFile=/data/regtest/db.log
+2026-10-29 20:15:51 [main] Created P2P message temporary storage: /data/regtest/p2p_recv_tmp
+2026-10-29 20:15:51 [worker0-N-ConnmanPool] ConnmanPool ThreadPool thread 0 starting
+2026-10-29 20:15:51 [worker2-N-ConnmanPool] ConnmanPool ThreadPool thread 2 starting
+2026-10-29 20:15:51 [worker1-N-ConnmanPool] ConnmanPool ThreadPool thread 1 starting
+2026-10-29 20:15:51 [worker3-N-ConnmanPool] ConnmanPool ThreadPool thread 3 starting
+2026-10-29 20:15:51 [worker4-N-ConnmanPool] ConnmanPool ThreadPool thread 4 starting
+2026-10-29 20:15:51 [worker5-N-ConnmanPool] ConnmanPool ThreadPool thread 5 starting
+2026-10-29 20:15:51 [worker7-N-ConnmanPool] ConnmanPool ThreadPool thread 7 starting
+2026-10-29 20:15:51 [worker6-N-ConnmanPool] ConnmanPool ThreadPool thread 6 starting
+2026-10-29 20:15:51 [worker9-N-ConnmanPool] ConnmanPool ThreadPool thread 9 starting
+2026-10-29 20:15:51 [worker10-N-ConnmanPool] ConnmanPool ThreadPool thread 10 starting
+2026-10-29 20:15:51 [worker8-N-ConnmanPool] ConnmanPool ThreadPool thread 8 starting
+2026-10-29 20:15:51 [worker11-N-ConnmanPool] ConnmanPool ThreadPool thread 11 starting
+2026-10-29 20:15:51 [worker12-N-ConnmanPool] ConnmanPool ThreadPool thread 12 starting
+2026-10-29 20:15:51 [worker13-N-ConnmanPool] ConnmanPool ThreadPool thread 13 starting
+2026-10-29 20:15:51 [worker14-N-ConnmanPool] ConnmanPool ThreadPool thread 14 starting
+2026-10-29 20:15:51 [worker15-N-ConnmanPool] ConnmanPool ThreadPool thread 15 starting
+2026-10-29 20:15:51 [worker0-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 0 starting
+2026-10-29 20:15:51 [worker8-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 8 starting
+2026-10-29 20:15:51 [worker9-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 9 starting
+2026-10-29 20:15:51 [worker10-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 10 starting
+2026-10-29 20:15:51 [worker11-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 11 starting
+2026-10-29 20:15:51 [worker12-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 12 starting
+2026-10-29 20:15:51 [worker13-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 13 starting
+2026-10-29 20:15:51 [worker14-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 14 starting
+2026-10-29 20:15:51 [worker1-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 1 starting
+2026-10-29 20:15:51 [worker15-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 15 starting
+2026-10-29 20:15:51 [worker2-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 2 starting
+2026-10-29 20:15:51 [worker3-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 3 starting
+2026-10-29 20:15:51 [worker4-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 4 starting
+2026-10-29 20:15:51 [worker5-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 5 starting
+2026-10-29 20:15:51 [worker6-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 6 starting
+2026-10-29 20:15:51 [worker7-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 7 starting
+2026-10-29 20:15:51 [worker0-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 0 starting
+2026-10-29 20:15:51 [worker1-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 1 starting
+2026-10-29 20:15:51 [worker2-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 2 starting
+2026-10-29 20:15:51 [worker3-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 3 starting
+2026-10-29 20:15:51 [worker4-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 4 starting
+2026-10-29 20:15:51 [rawtransactionvalidator] rawtransactionvalidator thread start
+2026-10-29 20:15:51 [main] Cache configuration:
+2026-10-29 20:15:51 [main] * Using 2.0MiB for block index database
+2026-10-29 20:15:51 [main] * Using 0.5MiB for Merkle Tree index database
+2026-10-29 20:15:51 [main] * Using 1024.0MiB for chain state database (LevelDB cache)
+2026-10-29 20:15:51 [main] * Using 7168.0MiB for in-memory UTXO set (plus 0.0MiB of disk space)
+2026-10-29 20:15:51 [main] * CoinsDB total budget 8192.0MiB (LevelDB 1024.0MiB + in-memory 7168.0MiB)
+2026-10-29 20:15:51 [main] Opening LevelDB in /data/regtest/frozentxos
+2026-10-29 20:15:51 [main] Opened LevelDB successfully
+2026-10-29 20:15:51 [main] Using obfuscation key for /data/regtest/frozentxos: 0000000000000000
+2026-10-29 20:15:51 [main] init message: Loading block index...
+2026-10-29 20:15:51 [main] Opening LevelDB in /data/regtest/blocks/index
+2026-10-29 20:15:51 [main] Opened LevelDB successfully
+2026-10-29 20:15:51 [main] Using obfuscation key for /data/regtest/blocks/index: 0000000000000000
+2026-10-29 20:15:51 [main] Opening LevelDB in /data/regtest/merkle/index
+2026-10-29 20:15:51 [main] Opened LevelDB successfully
+2026-10-29 20:15:51 [main] Using obfuscation key for /data/regtest/merkle/index: 0000000000000000
+2026-10-29 20:15:51 [worker0-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 0 starting
+2026-10-29 20:15:51 [worker1-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 1 starting
+2026-10-29 20:15:51 [worker2-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 2 starting
+2026-10-29 20:15:51 [main] Using up to 3 additional threads for Merkle tree computation
+2026-10-29 20:15:51 [worker3-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 3 starting
+2026-10-29 20:15:51 [main] LoadMerkleTreeIndexDB() : Index in the database is out of sync, rebuilding index from current data files
+2026-10-29 20:15:51 [main] Wiping LevelDB in /data/regtest/merkle/index
+2026-10-29 20:15:51 [main] Opening LevelDB in /data/regtest/merkle/index
+2026-10-29 20:15:51 [main] Opened LevelDB successfully
+2026-10-29 20:15:51 [main] Using obfuscation key for /data/regtest/merkle/index: 0000000000000000
+2026-10-29 20:15:51 [main] ReindexMerkleTreeStoreNL() : Merkle Trees index creation took 4ms
+2026-10-29 20:15:51 [main] Opening LevelDB in /data/regtest/chainstate
+2026-10-29 20:15:51 [main] Opened LevelDB successfully
+2026-10-29 20:15:51 [main] Wrote new obfuscate key for /data/regtest/chainstate: dcf1f99300c0f173
+2026-10-29 20:15:51 [main] Using obfuscation key for /data/regtest/chainstate: dcf1f99300c0f173
+2026-10-29 20:15:51 [main] LoadBlockFileInfo: last block file = 0
+2026-10-29 20:15:51 [main] LoadBlockFileInfo: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-29 20:15:51 [main] Checking all blk files are present...
+2026-10-29 20:15:51 [main] LoadBlockIndexDB: transaction index disabled
+2026-10-29 20:15:51 [main] Initializing databases...
+2026-10-29 20:15:51 [main] Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-29 20:15:51 [main] init message: Verifying blocks...
+2026-10-29 20:15:51 [main] CheckSafeModeParametersForAllForksOnStartup: global safe mode state restored to level 0 in 0ms
+2026-10-29 20:15:51 [main]  block index              36ms
+2026-10-29 20:15:51 [main] init message: Loading wallet...
+2026-10-29 20:15:51 [main] nFileVersion = 101020300
+2026-10-29 20:15:51 [main] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2026-10-29 20:15:51 [main] Performing wallet upgrade to 60000
+2026-10-29 20:15:52 [main] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2026-10-29 20:15:52 [main]  wallet                  794ms
+2026-10-29 20:15:52 [main] setKeyPool.size() = 2000
+2026-10-29 20:15:52 [main] mapWallet.size() = 0
+2026-10-29 20:15:52 [main] mapAddressBook.size() = 0
+2026-10-29 20:15:52 [main] connect=0
+2026-10-29 20:15:52 [main] datadir=/data
+2026-10-29 20:15:52 [main] discover=0
+2026-10-29 20:15:52 [main] dnsseed=0
+2026-10-29 20:15:52 [main] excessiveblocksize=100000000
+2026-10-29 20:15:52 [main] listen=0
+2026-10-29 20:15:52 [main] maxstackmemoryusageconsensus=10000000
+2026-10-29 20:15:52 [main] maxstackmemoryusagepolicy=10000000
+2026-10-29 20:15:52 [main] minminingtxfee=0.000005
+2026-10-29 20:15:52 [main] printtoconsole=1
+2026-10-29 20:15:52 [main] regtest=1
+2026-10-29 20:15:52 [main] server=1
+2026-10-29 20:15:52 [main] upnp=0
+2026-10-29 20:15:52 [main] wallet=wallet.dat
+2026-10-29 20:15:52 [main] whitelistrelay=1
+2026-10-29 20:15:52 [import_files] import_files thread start
+2026-10-29 20:15:52 [loadblk] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-29 20:15:52 [main] Chainstate will NOT be preloaded
+2026-10-29 20:15:52 [main] mapBlockIndex.size() = 1
+2026-10-29 20:15:52 [main] nBestHeight = 0
+2026-10-29 20:15:52 [main] init message: Loading addresses...
+2026-10-29 20:15:52 [loadblk] Failed to deserialize mempool data on disk: Failed to open mempool file from disk. Continuing anyway with empty mempool.
+2026-10-29 20:15:52 [main] ERROR: Read: Failed to open file /data/regtest/peers.dat
+2026-10-29 20:15:52 [main] Invalid or missing peers.dat; recreating
+2026-10-29 20:15:52 [mempooldb-555557072820] Wiping LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:15:52 [main] init message: Loading banlist...
+2026-10-29 20:15:52 [main] ERROR: Read: Failed to open file /data/regtest/banlist.dat
+2026-10-29 20:15:52 [main] Invalid or missing banlist.dat; recreating
+2026-10-29 20:15:52 [mempooldb-555557072820] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:15:52 [main] init message: Starting network threads...
+2026-10-29 20:15:52 [main] DNS seeding disabled
+2026-10-29 20:15:52 [net] net thread start
+2026-10-29 20:15:52 [addcon] addcon thread start
+2026-10-29 20:15:52 [net] P2P socket handler waiting with poll()
+2026-10-29 20:15:52 [openstream] openstream thread start
+2026-10-29 20:15:52 [msghand] msghand thread start
+2026-10-29 20:15:52 [mempooldb-555557072820] Opened LevelDB successfully
+2026-10-29 20:15:52 [mempooldb-555557072820] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:15:52 [loadblk] Failed to deserialize non-final mempool data on disk: Failed to open non-final mempool file from disk. Continuing anyway.
+2026-10-29 20:15:52 [loadblk] import_files thread exit
+2026-10-29 20:15:52 [worker0-N-WebhookClient] WebhookClient ThreadPool thread 0 starting
+2026-10-29 20:15:52 [worker1-N-WebhookClient] WebhookClient ThreadPool thread 1 starting
+2026-10-29 20:15:52 [worker2-N-WebhookClient] WebhookClient ThreadPool thread 2 starting
+2026-10-29 20:15:52 [main] init message: Done loading
+2026-10-29 20:15:52 [worker3-N-WebhookClient] WebhookClient ThreadPool thread 3 starting
+2026-10-29 20:15:52 [main] Preload wait for shutdown
+2026-10-29 20:15:52 [worker1-N-HTTPServer] Pre-allocating up to position 0x100000 in rev00000.dat
+2026-10-29 20:15:52 [worker1-N-HTTPServer] UpdateTip: new best=10bf1836747a4d01277bf4b81d9b49f63867c4c37de62002efdc9c8d9fecdbf5 height=1 version=0x20000000 log2_work=2 tx=2 date='2026-10-29 19:58:00' progress=1.000000 cache=0.0MiB(1txo)
+2026-10-29 20:15:52 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:52 [worker1-N-HTTPServer] Leaving InitialBlockDownload (latching to false)
+2026-10-29 20:15:52 [worker0-N-HTTPServer] UpdateTip: new best=5d6ed5361616fae9b82cbd07c448bf06297636db695ce3017011ed82cadc766e height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2026-10-29 19:58:01' progress=1.000000 cache=0.0MiB(2txo)
+2026-10-29 20:15:52 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:52 [worker2-N-HTTPServer] UpdateTip: new best=14f0ceb8781293f05684a11fc21672a06ed415be4e8e4f4b18325cca5b270358 height=3 version=0x20000000 log2_work=3 tx=4 date='2026-10-29 19:58:01' progress=1.000000 cache=0.0MiB(3txo)
+2026-10-29 20:15:52 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker3-N-HTTPServer] UpdateTip: new best=00d2d66a7c9e4e6acda70692307f0f7484407adafed4f4052a737238327e9655 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2026-10-29 19:58:02' progress=1.000000 cache=0.0MiB(4txo)
+2026-10-29 20:15:53 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker1-N-HTTPServer] UpdateTip: new best=4abfb1b91ecd5d6d5e4b9d4c7f111ef345608ed44590f384c3fbc257b0cab68b height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2026-10-29 19:58:02' progress=1.000000 cache=0.0MiB(5txo)
+2026-10-29 20:15:53 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker0-N-HTTPServer] UpdateTip: new best=658c0b192c1c32573820954043a98974c1be4700be89de807e965e6b1e6cb7ba height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2026-10-29 19:58:02' progress=1.000000 cache=0.0MiB(6txo)
+2026-10-29 20:15:53 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker2-N-HTTPServer] UpdateTip: new best=3ccc16809f59d7a43e270a0f841517a8e3d338c3485f5d27ac73c63d463f5728 height=7 version=0x20000000 log2_work=4 tx=8 date='2026-10-29 19:58:02' progress=1.000000 cache=0.0MiB(7txo)
+2026-10-29 20:15:53 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker3-N-HTTPServer] UpdateTip: new best=356e5d97921b31443333f8ffa8211d7fbe742db887b362560e09f350e056111b height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2026-10-29 19:58:03' progress=1.000000 cache=0.0MiB(8txo)
+2026-10-29 20:15:53 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker1-N-HTTPServer] UpdateTip: new best=0bfabf0dc01c775420888b1cfe094cd216ff7a230032b1dd46847c7a97d5cae7 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2026-10-29 19:58:03' progress=1.000000 cache=0.0MiB(9txo)
+2026-10-29 20:15:53 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker0-N-HTTPServer] UpdateTip: new best=07c6b988f97714fdc26f3ba3b0c7c6bc4641dc880b6a430a4d2215cf2ba9f53f height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2026-10-29 19:58:03' progress=1.000000 cache=0.0MiB(10txo)
+2026-10-29 20:15:53 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker2-N-HTTPServer] UpdateTip: new best=3c64982c829d3e5857c61c16ddc65e87c308eb5460575c7845336414684633c3 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2026-10-29 19:58:03' progress=1.000000 cache=0.0MiB(11txo)
+2026-10-29 20:15:53 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:53 [worker3-N-HTTPServer] UpdateTip: new best=17167aea38d7940223bb87dbeacb03873ae0dbb6b256edcf616351366180b801 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2026-10-29 19:58:03' progress=1.000000 cache=0.0MiB(12txo)
+2026-10-29 20:15:53 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker1-N-HTTPServer] UpdateTip: new best=21aea830950dc657d201e81305388be8cce93bb15dea334a3c6a99672c14d3d5 height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2026-10-29 19:58:03' progress=1.000000 cache=0.0MiB(13txo)
+2026-10-29 20:15:54 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker0-N-HTTPServer] UpdateTip: new best=42b2af7eae02d53362554b21fb032c94722cba36fcb38308004b0458551b1973 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2026-10-29 19:58:04' progress=1.000000 cache=0.0MiB(14txo)
+2026-10-29 20:15:54 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker2-N-HTTPServer] UpdateTip: new best=6efdc9a64203432a68450da6489170cbb4249cd1c4cfebccc75f8c6f01efe620 height=15 version=0x20000000 log2_work=5 tx=16 date='2026-10-29 19:58:04' progress=1.000000 cache=0.0MiB(15txo)
+2026-10-29 20:15:54 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker3-N-HTTPServer] UpdateTip: new best=56b99a668c3779d1c6e97c71c733a29710f7c04c1043ef9bafb80809c05ce69c height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2026-10-29 19:58:04' progress=1.000000 cache=0.0MiB(16txo)
+2026-10-29 20:15:54 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker1-N-HTTPServer] UpdateTip: new best=52b7e9a15bbd6f01bacaeb87bfc7b92043248aa06d6200763760be6c0d117b47 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2026-10-29 19:58:04' progress=1.000000 cache=0.0MiB(17txo)
+2026-10-29 20:15:54 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker0-N-HTTPServer] UpdateTip: new best=022009dbc336e227106f72c4306d59e2fd280199b2ae80327aba93ae3e662f1f height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2026-10-29 19:58:04' progress=1.000000 cache=0.0MiB(18txo)
+2026-10-29 20:15:54 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker2-N-HTTPServer] UpdateTip: new best=609dd3e33277460be199b4135fc2ed409ea4b92bd258b9e01aee0e3587ec65e4 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2026-10-29 19:58:04' progress=1.000000 cache=0.0MiB(19txo)
+2026-10-29 20:15:54 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker3-N-HTTPServer] UpdateTip: new best=78929d0aa8472a5fc2c9b3403fe80ad93bad98ea58c8d6339eea18fe2108d011 height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2026-10-29 19:58:05' progress=1.000000 cache=0.0MiB(20txo)
+2026-10-29 20:15:54 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker1-N-HTTPServer] UpdateTip: new best=5c531d264b40611eecb9b5363e0489a1725230a36f0cdd4c17071ee15b842087 height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2026-10-29 19:58:05' progress=1.000000 cache=0.0MiB(21txo)
+2026-10-29 20:15:54 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:54 [worker0-N-HTTPServer] UpdateTip: new best=5edebde08ecb87314c803189c3ac8c4ced75913c432664bbde3e454f5faf3b52 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2026-10-29 19:58:05' progress=1.000000 cache=0.0MiB(22txo)
+2026-10-29 20:15:54 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker2-N-HTTPServer] UpdateTip: new best=1781ad0e6cb0360aaf9a00b7570eeb52ba58a7cde095dc61f1d606dad4fe2baf height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2026-10-29 19:58:05' progress=1.000000 cache=0.0MiB(23txo)
+2026-10-29 20:15:55 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker3-N-HTTPServer] UpdateTip: new best=023e744bc9bc4403398d113aff9fd236b89b6467e647468f36d0e6b107d51a60 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2026-10-29 19:58:05' progress=1.000000 cache=0.0MiB(24txo)
+2026-10-29 20:15:55 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker1-N-HTTPServer] UpdateTip: new best=003f1c0c996b61e404f7639a2f25efec415288e331ef4833a3d7b8a61a4039db height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2026-10-29 19:58:05' progress=1.000000 cache=0.0MiB(25txo)
+2026-10-29 20:15:55 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker0-N-HTTPServer] UpdateTip: new best=59a114a0d2a0e94838ca5ceddb525ff17861f9ffd486e0d22b0670d86a98d8d6 height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2026-10-29 19:58:06' progress=1.000000 cache=0.0MiB(26txo)
+2026-10-29 20:15:55 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker2-N-HTTPServer] UpdateTip: new best=580aa028539af3f793d314ca31bd37bd06e8f9e779b0a409d74f0674f4dc1fc8 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2026-10-29 19:58:06' progress=1.000000 cache=0.0MiB(27txo)
+2026-10-29 20:15:55 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker3-N-HTTPServer] UpdateTip: new best=44beb2cfd0fa23bac269bd091498d52805a6e9a29108c0b34c424c5e9654054f height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2026-10-29 19:58:06' progress=1.000000 cache=0.0MiB(28txo)
+2026-10-29 20:15:55 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker1-N-HTTPServer] UpdateTip: new best=039b204820979dbd4da6f1a08d39b7d8da06231131392b1fc02307fcc6cfcb45 height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2026-10-29 19:58:06' progress=1.000000 cache=0.0MiB(29txo)
+2026-10-29 20:15:55 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker0-N-HTTPServer] UpdateTip: new best=60d5a03cf3ed968c65bd237d0f93168d26fc343c49e9c281469ff89a2a89c1e1 height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2026-10-29 19:58:06' progress=1.000000 cache=0.0MiB(30txo)
+2026-10-29 20:15:55 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker2-N-HTTPServer] UpdateTip: new best=515153b0d86775d909d03857d0c3d4d7d683041e57c65883c08b17ca1926edc1 height=31 version=0x20000000 log2_work=6 tx=32 date='2026-10-29 19:58:06' progress=1.000000 cache=0.0MiB(31txo)
+2026-10-29 20:15:55 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:55 [worker3-N-HTTPServer] UpdateTip: new best=124a8c47a594996fc8a194b72f1e558e2ffd6cb83f1c0383649eac89a370e177 height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2026-10-29 19:58:07' progress=1.000000 cache=0.0MiB(32txo)
+2026-10-29 20:15:55 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker1-N-HTTPServer] UpdateTip: new best=78ba4c8331233405d8f4c84ab5a2c89f5a3f7e9889cf968ed91e924046d3723b height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2026-10-29 19:58:07' progress=1.000000 cache=0.0MiB(33txo)
+2026-10-29 20:15:56 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker0-N-HTTPServer] UpdateTip: new best=4fb60ff9b46235e72bfeaf03ecc94261bdd0f70df73a2a95d1f10ce87ba45ee3 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2026-10-29 19:58:07' progress=1.000000 cache=0.0MiB(34txo)
+2026-10-29 20:15:56 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker2-N-HTTPServer] UpdateTip: new best=1ae853138d5399b3bb4929a79bc4390ca00323d36b1ecdb9e8f0e681a58d7b63 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2026-10-29 19:58:07' progress=1.000000 cache=0.0MiB(35txo)
+2026-10-29 20:15:56 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker3-N-HTTPServer] UpdateTip: new best=19126d4a0c9824e315b78be4d02cd1a3a7d45b873b6013ca5b8d14e11e0f3eb7 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2026-10-29 19:58:07' progress=1.000000 cache=0.0MiB(36txo)
+2026-10-29 20:15:56 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker1-N-HTTPServer] UpdateTip: new best=4d68a48ed993461c57bf08f530b2ed3a00900b283371df51ab75976746c59a37 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2026-10-29 19:58:07' progress=1.000000 cache=0.0MiB(37txo)
+2026-10-29 20:15:56 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker0-N-HTTPServer] UpdateTip: new best=3c1dc55017ecc69fa0db0d6ebeaf1ea481f004a0d993d34397da7e789aba5168 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2026-10-29 19:58:08' progress=1.000000 cache=0.0MiB(38txo)
+2026-10-29 20:15:56 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker2-N-HTTPServer] UpdateTip: new best=3794df8b6eaa6c65c40743bf5a879da6207c45b45ab02b4db1225a4e7c186740 height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2026-10-29 19:58:08' progress=1.000000 cache=0.0MiB(39txo)
+2026-10-29 20:15:56 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker3-N-HTTPServer] UpdateTip: new best=537153022a433100d69b811012feb035b1d3acd62148fc687285bc46b00eb5cf height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2026-10-29 19:58:08' progress=1.000000 cache=0.0MiB(40txo)
+2026-10-29 20:15:56 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:56 [worker1-N-HTTPServer] UpdateTip: new best=1dc08f34c63bacf2ff2149e575ed720753d4d2998c0a8b8d99f9cf7964d2ba9b height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2026-10-29 19:58:08' progress=1.000000 cache=0.0MiB(41txo)
+2026-10-29 20:15:56 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker0-N-HTTPServer] UpdateTip: new best=0513bd0af34809e4b5ae10b9961bba3e968be8c9f93fe5902d1a76ef0fc803ef height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2026-10-29 19:58:08' progress=1.000000 cache=0.0MiB(42txo)
+2026-10-29 20:15:57 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker2-N-HTTPServer] UpdateTip: new best=273c602df3447457eb197aa7578175394a36fd4fc68555ed1665d9887a227365 height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2026-10-29 19:58:08' progress=1.000000 cache=0.0MiB(43txo)
+2026-10-29 20:15:57 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker3-N-HTTPServer] UpdateTip: new best=1a03ce42790492e2f3a699bd4bf159ced7a75367eda2629d72cf2eb7a903f1d8 height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2026-10-29 19:58:09' progress=1.000000 cache=0.0MiB(44txo)
+2026-10-29 20:15:57 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker1-N-HTTPServer] UpdateTip: new best=5dfb082915fced7a41f97dac5a9c216bc7c905f4f3642298fb1bad355faee326 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2026-10-29 19:58:09' progress=1.000000 cache=0.0MiB(45txo)
+2026-10-29 20:15:57 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker0-N-HTTPServer] UpdateTip: new best=6eb57bf58528b6232a705511a514e413a039b8ccfd179b0999330b2da6dd6a3d height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2026-10-29 19:58:09' progress=1.000000 cache=0.0MiB(46txo)
+2026-10-29 20:15:57 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker2-N-HTTPServer] UpdateTip: new best=0714be08dab947cfdcf3161470ed3838add2fd465ed76417b364a4e45561b8a1 height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2026-10-29 19:58:09' progress=1.000000 cache=0.0MiB(47txo)
+2026-10-29 20:15:57 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker3-N-HTTPServer] UpdateTip: new best=62595364d6adb559e390186a7b4af315e96baa2b423c2a575dca10cd3822e464 height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2026-10-29 19:58:09' progress=1.000000 cache=0.0MiB(48txo)
+2026-10-29 20:15:57 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker1-N-HTTPServer] UpdateTip: new best=4b4b6247fb11a0e281b425069f748bc23f950cb17639495a40c8aced9606a884 height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2026-10-29 19:58:09' progress=1.000000 cache=0.0MiB(49txo)
+2026-10-29 20:15:57 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker0-N-HTTPServer] UpdateTip: new best=731e97494431be86e8bf75dfa57ffe9d158212dd64ce351dc9224ad45b4b7c9f height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2026-10-29 19:58:10' progress=1.000000 cache=0.0MiB(50txo)
+2026-10-29 20:15:57 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:57 [worker2-N-HTTPServer] UpdateTip: new best=23d0e8c5529671073d5a619fecaefe5446db402cbc45b199fcfdd982d8d22693 height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2026-10-29 19:58:10' progress=1.000000 cache=0.0MiB(51txo)
+2026-10-29 20:15:57 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker3-N-HTTPServer] UpdateTip: new best=6e5265c3bcaf390c55b63964de85745a6efa4165a8e9ba9700dae248494e6d7e height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2026-10-29 19:58:10' progress=1.000000 cache=0.0MiB(52txo)
+2026-10-29 20:15:58 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker1-N-HTTPServer] UpdateTip: new best=40fe12a097f29c1da5c5b6dd0323c46a54f101f3b88aa003b9b2cab57a48893f height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2026-10-29 19:58:10' progress=1.000000 cache=0.0MiB(53txo)
+2026-10-29 20:15:58 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker0-N-HTTPServer] UpdateTip: new best=4156a8c37724137797ba2abca683fcd515bfcad70f2d2d825e06591ae9986d6b height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2026-10-29 19:58:10' progress=1.000000 cache=0.0MiB(54txo)
+2026-10-29 20:15:58 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker2-N-HTTPServer] UpdateTip: new best=4f19e5a1f4a10c511ff0be10eae8dda70b04cc1f27384a92a4029f9a5c9696fc height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2026-10-29 19:58:10' progress=1.000000 cache=0.0MiB(55txo)
+2026-10-29 20:15:58 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker3-N-HTTPServer] UpdateTip: new best=231a25602b3eff6b979e483f76896b2155f2c90dcd6c3dbcc1f8e6726cbc1b21 height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2026-10-29 19:58:11' progress=1.000000 cache=0.0MiB(56txo)
+2026-10-29 20:15:58 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker1-N-HTTPServer] UpdateTip: new best=349d3030819bca1554a1d0dd26bb5bb2f296d0324ab6ad666abe164892a06a85 height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2026-10-29 19:58:11' progress=1.000000 cache=0.0MiB(57txo)
+2026-10-29 20:15:58 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker0-N-HTTPServer] UpdateTip: new best=55331bfdefb418cbd421091ee322f0261ba275f61a4a11a20f20c6468525fd6a height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2026-10-29 19:58:11' progress=1.000000 cache=0.0MiB(58txo)
+2026-10-29 20:15:58 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker2-N-HTTPServer] UpdateTip: new best=19f2081a6e7456b0e19b3988df75d5d4fd909756dcd961e0bffd52dd52420938 height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2026-10-29 19:58:11' progress=1.000000 cache=0.0MiB(59txo)
+2026-10-29 20:15:58 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:58 [worker3-N-HTTPServer] UpdateTip: new best=43d6310ff13462e942d6554d0684e6773880be8914f2db2e142add3237387b5a height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2026-10-29 19:58:11' progress=1.000000 cache=0.0MiB(60txo)
+2026-10-29 20:15:58 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker1-N-HTTPServer] UpdateTip: new best=42ad14f5d8556a191b8cf2ab8f8397ce0c9908ab73e9143b1296223634d99bbb height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2026-10-29 19:58:11' progress=1.000000 cache=0.0MiB(61txo)
+2026-10-29 20:15:59 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker0-N-HTTPServer] UpdateTip: new best=160c751ac1f29d797353bf75ebd59ed35b722a46878c4e417fa2c57eb2b1e216 height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2026-10-29 19:58:12' progress=1.000000 cache=0.0MiB(62txo)
+2026-10-29 20:15:59 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker2-N-HTTPServer] UpdateTip: new best=4644c2394c8f8967c3abd13b23e90d34e4018be46a6479214fa6876937efab94 height=63 version=0x20000000 log2_work=7 tx=64 date='2026-10-29 19:58:12' progress=1.000000 cache=0.0MiB(63txo)
+2026-10-29 20:15:59 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker3-N-HTTPServer] UpdateTip: new best=29f0954ae956ec5a0ac1ac4f970bc1f174b0eb30e3210599f733f7c75a2a09d8 height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2026-10-29 19:58:12' progress=1.000000 cache=0.0MiB(64txo)
+2026-10-29 20:15:59 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker1-N-HTTPServer] UpdateTip: new best=540ca77fdfa5a356a68d621853193c9d05db6a0843f0c6b88dea412e7a49eb10 height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2026-10-29 19:58:12' progress=1.000000 cache=0.0MiB(65txo)
+2026-10-29 20:15:59 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker0-N-HTTPServer] UpdateTip: new best=6139894a9f70f8bed8ffa2a391bce2549077f16d50ab4027b8e808fc677e411c height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2026-10-29 19:58:12' progress=1.000000 cache=0.0MiB(66txo)
+2026-10-29 20:15:59 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker2-N-HTTPServer] UpdateTip: new best=5b72b28beb93daecbcc85c630b0a5c757fbf5e36d916097967381afe13b33908 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2026-10-29 19:58:12' progress=1.000000 cache=0.0MiB(67txo)
+2026-10-29 20:15:59 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker3-N-HTTPServer] UpdateTip: new best=3f1d31be6aa0c894a0413a78774de04d3bd6f34f1f0a2d2d6ab8432796312fd1 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2026-10-29 19:58:13' progress=1.000000 cache=0.0MiB(68txo)
+2026-10-29 20:15:59 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker1-N-HTTPServer] UpdateTip: new best=68bb6cf37839e433c4542e480caf0596e76e9b7ceaaffa28f9f20ece3bf00903 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2026-10-29 19:58:13' progress=1.000000 cache=0.0MiB(69txo)
+2026-10-29 20:15:59 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:15:59 [worker0-N-HTTPServer] UpdateTip: new best=4afa396e5a35be26687f0f5ed0b492576db0b2655b1e9f5d3cae9068821c323f height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2026-10-29 19:58:13' progress=1.000000 cache=0.0MiB(70txo)
+2026-10-29 20:15:59 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker2-N-HTTPServer] UpdateTip: new best=64fee6e0c591517e56a0eff1186a3c0d3d99fa33aae27322ab486b521ab7f2ab height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2026-10-29 19:58:13' progress=1.000000 cache=0.0MiB(71txo)
+2026-10-29 20:16:00 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker3-N-HTTPServer] UpdateTip: new best=7bcf6430f6591e9d26413722f487ce76cfb1ac2cf45cdcf19d1f7f826f70f4d0 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2026-10-29 19:58:13' progress=1.000000 cache=0.0MiB(72txo)
+2026-10-29 20:16:00 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker1-N-HTTPServer] UpdateTip: new best=674d6a02b7111e41492bc576ca22168fe1a00e32aa1d3a4fd3d15385d16a6ef5 height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2026-10-29 19:58:13' progress=1.000000 cache=0.0MiB(73txo)
+2026-10-29 20:16:00 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker0-N-HTTPServer] UpdateTip: new best=67076455cdb5f962a494d784355867e422cfc4bb06eb3d50c1fd272b6cd28781 height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2026-10-29 19:58:14' progress=1.000000 cache=0.0MiB(74txo)
+2026-10-29 20:16:00 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker2-N-HTTPServer] UpdateTip: new best=1a31f9807bf87b139bd184510a23d10bbacb75bbe9ac5ce3f5374bbb1f885c55 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2026-10-29 19:58:14' progress=1.000000 cache=0.0MiB(75txo)
+2026-10-29 20:16:00 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker3-N-HTTPServer] UpdateTip: new best=690ba533ed422fbd368fe54a9dce6b66c14086467d02c038dd558321b13d21a0 height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2026-10-29 19:58:14' progress=1.000000 cache=0.0MiB(76txo)
+2026-10-29 20:16:00 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker1-N-HTTPServer] UpdateTip: new best=425cced48e19cbcd9d0092565f72465ff6e020798677b3dc39891e5fe7e7b603 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2026-10-29 19:58:14' progress=1.000000 cache=0.0MiB(77txo)
+2026-10-29 20:16:00 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker0-N-HTTPServer] UpdateTip: new best=1470af8230a92d2505a1b6318f904c305a2b695e1426cdfea0cc4ba9dfaec478 height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2026-10-29 19:58:14' progress=1.000000 cache=0.0MiB(78txo)
+2026-10-29 20:16:00 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker2-N-HTTPServer] UpdateTip: new best=42561db866f865847cdac7440d57d79e10500b6e71f48b5224e8f9c10fba608e height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2026-10-29 19:58:14' progress=1.000000 cache=0.0MiB(79txo)
+2026-10-29 20:16:00 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker3-N-HTTPServer] UpdateTip: new best=3615e6ec5dc5a2778c10549a24d1b7394faa4de6f525c53a726379773ae3d698 height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2026-10-29 19:58:15' progress=1.000000 cache=0.0MiB(80txo)
+2026-10-29 20:16:00 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:00 [worker1-N-HTTPServer] UpdateTip: new best=18a5ee97a5fe74e284fa71289a2b8e22359b31007a45de9ef66ddc0deba5f9d3 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2026-10-29 19:58:15' progress=1.000000 cache=0.0MiB(81txo)
+2026-10-29 20:16:00 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker0-N-HTTPServer] UpdateTip: new best=4bac309d59021bf743a0889ecf7bc0ecca4c5f109162601a09a1dceb57f8ded4 height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2026-10-29 19:58:15' progress=1.000000 cache=0.0MiB(82txo)
+2026-10-29 20:16:01 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker2-N-HTTPServer] UpdateTip: new best=541f5d144e473ac7dea4109fddd77d6f6137485cbc8f6d7b7a2716c98c498bdc height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2026-10-29 19:58:15' progress=1.000000 cache=0.0MiB(83txo)
+2026-10-29 20:16:01 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker3-N-HTTPServer] UpdateTip: new best=3bd3204381140e3d205177fb7b41f2d2e8c48af8229923e1a226afbb4d51224f height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2026-10-29 19:58:15' progress=1.000000 cache=0.0MiB(84txo)
+2026-10-29 20:16:01 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker1-N-HTTPServer] UpdateTip: new best=43c2ca4bfebeed97f1ae78f66d0da3b699689bbca72e0e82e9f0c49a30d3895b height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2026-10-29 19:58:15' progress=1.000000 cache=0.0MiB(85txo)
+2026-10-29 20:16:01 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker0-N-HTTPServer] UpdateTip: new best=11aa0510215192d5e0db194ad527c54b6119a8cc8a934c455268152b66aff047 height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2026-10-29 19:58:16' progress=1.000000 cache=0.0MiB(86txo)
+2026-10-29 20:16:01 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker2-N-HTTPServer] UpdateTip: new best=7346b2339d19ee56760a0e01cee88f288f75d26a5e092ec2f667a4f7fed1d6a0 height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2026-10-29 19:58:16' progress=1.000000 cache=0.0MiB(87txo)
+2026-10-29 20:16:01 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker3-N-HTTPServer] UpdateTip: new best=3520acd69c26485b441480d201342030f30711ae4a46db61c3e147d2f12582bb height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2026-10-29 19:58:16' progress=1.000000 cache=0.0MiB(88txo)
+2026-10-29 20:16:01 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker1-N-HTTPServer] UpdateTip: new best=7af5a17c0da051d6967c4404e35092d387268c9e160335f42bcbe920039c0b7f height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2026-10-29 19:58:16' progress=1.000000 cache=0.0MiB(89txo)
+2026-10-29 20:16:01 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:01 [worker0-N-HTTPServer] UpdateTip: new best=0397668f1a577e0aa4563dd2f1dbed4d55747b092a6abcfcaab9d4671df380ed height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2026-10-29 19:58:16' progress=1.000000 cache=0.0MiB(90txo)
+2026-10-29 20:16:01 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker2-N-HTTPServer] UpdateTip: new best=2f9255a2a2b62e6f7eab90c323183d766f5ca611912e18dd49d37f7f153de2d4 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2026-10-29 19:58:16' progress=1.000000 cache=0.0MiB(91txo)
+2026-10-29 20:16:02 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker3-N-HTTPServer] UpdateTip: new best=51f391a0f8218a8b294dfb667336ca55c98bbcfd772deb38f14cba9cbfb038d4 height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2026-10-29 19:58:17' progress=1.000000 cache=0.0MiB(92txo)
+2026-10-29 20:16:02 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker1-N-HTTPServer] UpdateTip: new best=2e548dc96abeafa1bb730c0da736d1493f3be3bf15c650819d61eb203570b054 height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2026-10-29 19:58:17' progress=1.000000 cache=0.0MiB(93txo)
+2026-10-29 20:16:02 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker0-N-HTTPServer] UpdateTip: new best=4adb37c12d77790f3802671c5dc0b2178b985d0fc3caf597104bfd3f10a26429 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2026-10-29 19:58:17' progress=1.000000 cache=0.0MiB(94txo)
+2026-10-29 20:16:02 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker2-N-HTTPServer] UpdateTip: new best=38faf13a669b6f6ee05e8ebdab38e3d959e4f1882a0b0f6d78ac9517ca6b9ef1 height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2026-10-29 19:58:17' progress=1.000000 cache=0.0MiB(95txo)
+2026-10-29 20:16:02 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker3-N-HTTPServer] UpdateTip: new best=0243b62350bf3ac4c194d69f2025e2eb9a2bbd878e5711d239e7ec43528e17ed height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2026-10-29 19:58:17' progress=1.000000 cache=0.0MiB(96txo)
+2026-10-29 20:16:02 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker1-N-HTTPServer] UpdateTip: new best=7abfb3786f358653656cc11ee009a358c93db074170fc194d391108b66acad55 height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2026-10-29 19:58:17' progress=1.000000 cache=0.0MiB(97txo)
+2026-10-29 20:16:02 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker0-N-HTTPServer] UpdateTip: new best=51d796b4d42c76130beeda592b524c5e4c739bbdd27dea5d2c83d6e2bdee3033 height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2026-10-29 19:58:18' progress=1.000000 cache=0.0MiB(98txo)
+2026-10-29 20:16:02 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker2-N-HTTPServer] UpdateTip: new best=04c3841fd39bd03a517d83d519f8933b267f609d71ec9f28af7eb22f983c021f height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2026-10-29 19:58:18' progress=1.000000 cache=0.0MiB(99txo)
+2026-10-29 20:16:02 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:02 [worker3-N-HTTPServer] UpdateTip: new best=355f1b0910e6e6d7f7919ef1effb7823d859e57ea94e37e2b0c16b477322dab6 height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2026-10-29 19:58:18' progress=1.000000 cache=0.0MiB(100txo)
+2026-10-29 20:16:02 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker1-N-HTTPServer] UpdateTip: new best=55e8568ece1e51c039bc7fc508612a7e7aa5e970dde5084a8a4becf5da51f066 height=101 version=0x20000000 log2_work=7.6724253 tx=102 date='2026-10-29 19:58:18' progress=1.000000 cache=0.0MiB(101txo)
+2026-10-29 20:16:03 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker0-N-HTTPServer] UpdateTip: new best=1fe36ec98d02115d82ad19efee6c3448b594db31861edad8c6f136b164e24ced height=102 version=0x20000000 log2_work=7.6865005 tx=103 date='2026-10-29 19:58:18' progress=1.000000 cache=0.0MiB(102txo)
+2026-10-29 20:16:03 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker2-N-HTTPServer] UpdateTip: new best=4156b6c3eabcb26935b5655bec7d6a02750f558179c5810fcece96e94d95812c height=103 version=0x20000000 log2_work=7.7004397 tx=104 date='2026-10-29 19:58:18' progress=1.000000 cache=0.0MiB(103txo)
+2026-10-29 20:16:03 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker3-N-HTTPServer] UpdateTip: new best=58685fe71efaf004266dda3e7fa93c0676907bc58e9a152bc38ffb97287dc681 height=104 version=0x20000000 log2_work=7.7142455 tx=105 date='2026-10-29 19:58:19' progress=1.000000 cache=0.0MiB(104txo)
+2026-10-29 20:16:03 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker1-N-HTTPServer] UpdateTip: new best=600fbd69e8b05d8cb1bf99f9f9f56c307ec7d53c8770b6acaba6360b8e0bdb4b height=105 version=0x20000000 log2_work=7.7279205 tx=106 date='2026-10-29 19:58:19' progress=1.000000 cache=0.0MiB(105txo)
+2026-10-29 20:16:03 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker0-N-HTTPServer] UpdateTip: new best=4caaffc7ef644b58744df412d0e65fb59ef282ffa99d1a912f132cc3d4396fad height=106 version=0x20000000 log2_work=7.741467 tx=107 date='2026-10-29 19:58:19' progress=1.000000 cache=0.0MiB(106txo)
+2026-10-29 20:16:03 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker2-N-HTTPServer] UpdateTip: new best=221628f3044051fdffe087dfec37294c952cf0c13a41866427ca755e0ca7eebf height=107 version=0x20000000 log2_work=7.7548875 tx=108 date='2026-10-29 19:58:19' progress=1.000000 cache=0.0MiB(107txo)
+2026-10-29 20:16:03 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker3-N-HTTPServer] UpdateTip: new best=20da5329eb7aa419975958d87986a1b610c4fd49e32b5457ce1855598ff16c0f height=108 version=0x20000000 log2_work=7.7681843 tx=109 date='2026-10-29 19:58:19' progress=1.000000 cache=0.0MiB(108txo)
+2026-10-29 20:16:03 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker1-N-HTTPServer] UpdateTip: new best=3b06ddad9a4a223620dd6bbbf5c24a2020c9545f5327348e1f700b47472234f0 height=109 version=0x20000000 log2_work=7.7813597 tx=110 date='2026-10-29 19:58:19' progress=1.000000 cache=0.0MiB(109txo)
+2026-10-29 20:16:03 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:03 [worker0-N-HTTPServer] UpdateTip: new best=1c267dc0fa9d3e0f6a100a68bf8b3547248d12989616715cdf1482c96db9aee2 height=110 version=0x20000000 log2_work=7.7944159 tx=111 date='2026-10-29 19:58:20' progress=1.000000 cache=0.0MiB(110txo)
+2026-10-29 20:16:03 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker2-N-HTTPServer] UpdateTip: new best=4afad8e2f82c5b165abbfe97afdda8175c87452b98a77c07ce61e6d7331b4f7c height=111 version=0x20000000 log2_work=7.8073549 tx=112 date='2026-10-29 19:58:20' progress=1.000000 cache=0.0MiB(111txo)
+2026-10-29 20:16:04 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker3-N-HTTPServer] UpdateTip: new best=570bd32a2a2ac97a7008545b18ca7e2122d93e2d4c9b383c42a4cfbf8361dd28 height=112 version=0x20000000 log2_work=7.820179 tx=113 date='2026-10-29 19:58:20' progress=1.000000 cache=0.0MiB(112txo)
+2026-10-29 20:16:04 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker1-N-HTTPServer] UpdateTip: new best=5314f54225932defe267c91edad4d087ff5498e605fbea8fc442510bc7c6f003 height=113 version=0x20000000 log2_work=7.83289 tx=114 date='2026-10-29 19:58:20' progress=1.000000 cache=0.0MiB(113txo)
+2026-10-29 20:16:04 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker0-N-HTTPServer] UpdateTip: new best=6f924e275a61b76eb7bd7b6725e7aecb754e753accbf85702f8b31aac4a2d53d height=114 version=0x20000000 log2_work=7.8454901 tx=115 date='2026-10-29 19:58:20' progress=1.000000 cache=0.0MiB(114txo)
+2026-10-29 20:16:04 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker2-N-HTTPServer] UpdateTip: new best=34b39cab5bf959d8b18de69f0c245881f848ab10847b5fc3ac19077911b1b93b height=115 version=0x20000000 log2_work=7.857981 tx=116 date='2026-10-29 19:58:20' progress=1.000000 cache=0.0MiB(115txo)
+2026-10-29 20:16:04 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker3-N-HTTPServer] UpdateTip: new best=31bd2dc6a0f80f2e81ac6be9a18eab6d96553c42ba0efe31f8c173fa0ee58786 height=116 version=0x20000000 log2_work=7.8703647 tx=117 date='2026-10-29 19:58:21' progress=1.000000 cache=0.0MiB(116txo)
+2026-10-29 20:16:04 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker1-N-HTTPServer] UpdateTip: new best=0cd74c383a3459662d504662a9604b769a8bc0a04ff4f474f43fdcec1f74eb82 height=117 version=0x20000000 log2_work=7.882643 tx=118 date='2026-10-29 19:58:21' progress=1.000000 cache=0.0MiB(117txo)
+2026-10-29 20:16:04 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker0-N-HTTPServer] UpdateTip: new best=059a600c6a243e6e2192dc667357f9fead085238d7c38f2242714588d366c56d height=118 version=0x20000000 log2_work=7.8948178 tx=119 date='2026-10-29 19:58:21' progress=1.000000 cache=0.0MiB(118txo)
+2026-10-29 20:16:04 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker2-N-HTTPServer] UpdateTip: new best=42a992171de4a780bb8081ecc8e66c9ec51f06d0d2ef5707088e9d80804f0a85 height=119 version=0x20000000 log2_work=7.9068906 tx=120 date='2026-10-29 19:58:21' progress=1.000000 cache=0.0MiB(119txo)
+2026-10-29 20:16:04 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:04 [worker3-N-HTTPServer] UpdateTip: new best=06664c93154eb82299a969081c20be916cddaff2e917d55a21bc8a0a730e6c2d height=120 version=0x20000000 log2_work=7.9188632 tx=121 date='2026-10-29 19:58:21' progress=1.000000 cache=0.0MiB(120txo)
+2026-10-29 20:16:04 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker1-N-HTTPServer] UpdateTip: new best=6d5b14ba5fd962f20686bfeab5916fd01651c94398c37e7a0acf6d125ff9b436 height=121 version=0x20000000 log2_work=7.9307373 tx=122 date='2026-10-29 19:58:21' progress=1.000000 cache=0.0MiB(121txo)
+2026-10-29 20:16:05 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker0-N-HTTPServer] UpdateTip: new best=6453afe20bbb2f3fbd76e5e277a65419dd9783d2270e59b885dbc8be3c179394 height=122 version=0x20000000 log2_work=7.9425145 tx=123 date='2026-10-29 19:58:22' progress=1.000000 cache=0.0MiB(122txo)
+2026-10-29 20:16:05 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker2-N-HTTPServer] UpdateTip: new best=47c87e22a58c276a5fb13f09d3bc74241e7ef5e06a4c58b2260e36e2960408bb height=123 version=0x20000000 log2_work=7.9541963 tx=124 date='2026-10-29 19:58:22' progress=1.000000 cache=0.0MiB(123txo)
+2026-10-29 20:16:05 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker3-N-HTTPServer] UpdateTip: new best=2a3f62a7024a0b33b75418484fd4e0a7f530290ee422a5890aa536469b890a09 height=124 version=0x20000000 log2_work=7.9657843 tx=125 date='2026-10-29 19:58:22' progress=1.000000 cache=0.0MiB(124txo)
+2026-10-29 20:16:05 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker1-N-HTTPServer] UpdateTip: new best=57245028c59b04bd6a348ee8ecd1f7b0a2e6143d580ab137b6b04431dc66d319 height=125 version=0x20000000 log2_work=7.9772799 tx=126 date='2026-10-29 19:58:22' progress=1.000000 cache=0.0MiB(125txo)
+2026-10-29 20:16:05 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker0-N-HTTPServer] UpdateTip: new best=4a2545fcf8658956fc36fc436b30441717ffb5daca92be24c06901e9e038da2c height=126 version=0x20000000 log2_work=7.9886847 tx=127 date='2026-10-29 19:58:22' progress=1.000000 cache=0.0MiB(126txo)
+2026-10-29 20:16:05 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker2-N-HTTPServer] UpdateTip: new best=4638d83e2c4b5b020cbb9b3e8a306ce2978e5db36fe66c2e0718448e9ad419b5 height=127 version=0x20000000 log2_work=8 tx=128 date='2026-10-29 19:58:22' progress=1.000000 cache=0.0MiB(127txo)
+2026-10-29 20:16:05 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker3-N-HTTPServer] UpdateTip: new best=3f99ed216a87663b9ab9d540c2c26ae2440cdbd22d481647f5a7ed39c7c74150 height=128 version=0x20000000 log2_work=8.0112273 tx=129 date='2026-10-29 19:58:23' progress=1.000000 cache=0.0MiB(128txo)
+2026-10-29 20:16:05 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:05 [worker1-N-HTTPServer] UpdateTip: new best=380a2d1c042a9dc1a9ecb717992dcfa6b8eb2cb2b1b9c1b1f6fdaeec66924240 height=129 version=0x20000000 log2_work=8.0223678 tx=130 date='2026-10-29 19:58:23' progress=1.000000 cache=0.0MiB(129txo)
+2026-10-29 20:16:05 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker0-N-HTTPServer] UpdateTip: new best=434132116bd73a8a2e3a3a5fe5cab85900e30ad75a81884799912cd061948fd8 height=130 version=0x20000000 log2_work=8.033423 tx=131 date='2026-10-29 19:58:23' progress=1.000000 cache=0.0MiB(130txo)
+2026-10-29 20:16:06 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker2-N-HTTPServer] UpdateTip: new best=72535b211993e7c1b7f68c1eadb8736ab559813a5a196470f766e7692f397e91 height=131 version=0x20000000 log2_work=8.0443941 tx=132 date='2026-10-29 19:58:23' progress=1.000000 cache=0.0MiB(131txo)
+2026-10-29 20:16:06 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker3-N-HTTPServer] UpdateTip: new best=6cd94e9c40ef83a486fb26b5cbe00e2d801ca9ee2a6593dadf7a8172c228bc1b height=132 version=0x20000000 log2_work=8.0552824 tx=133 date='2026-10-29 19:58:23' progress=1.000000 cache=0.0MiB(132txo)
+2026-10-29 20:16:06 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker1-N-HTTPServer] UpdateTip: new best=611089bc62d597354f324bc30c327b830c41ff0f854ec19e9a39cbc2c7bed17b height=133 version=0x20000000 log2_work=8.0660892 tx=134 date='2026-10-29 19:58:23' progress=1.000000 cache=0.0MiB(133txo)
+2026-10-29 20:16:06 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker0-N-HTTPServer] UpdateTip: new best=296acfa8769dae862f728506dff94097bc848ba0a590a66c4db105012c454c74 height=134 version=0x20000000 log2_work=8.0768156 tx=135 date='2026-10-29 19:58:24' progress=1.000000 cache=0.0MiB(134txo)
+2026-10-29 20:16:06 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker2-N-HTTPServer] UpdateTip: new best=54c211164d29f1c2eb935705523f585c75771bde60990907c889dd08d7c82eec height=135 version=0x20000000 log2_work=8.0874628 tx=136 date='2026-10-29 19:58:24' progress=1.000000 cache=0.0MiB(135txo)
+2026-10-29 20:16:06 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker3-N-HTTPServer] UpdateTip: new best=159a3352853e870b18c67e6cfe7a81adff87bbe87949ded0ca1f18e7326a3216 height=136 version=0x20000000 log2_work=8.0980321 tx=137 date='2026-10-29 19:58:24' progress=1.000000 cache=0.0MiB(136txo)
+2026-10-29 20:16:06 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker1-N-HTTPServer] UpdateTip: new best=073940ea34cf5fe153094155071ad53e0b7c5ff46fa9cb26765a4e4579b7d83b height=137 version=0x20000000 log2_work=8.1085245 tx=138 date='2026-10-29 19:58:24' progress=1.000000 cache=0.0MiB(137txo)
+2026-10-29 20:16:06 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker0-N-HTTPServer] UpdateTip: new best=14b88eb962de00ada2f11b9bda56bea14ad6d8b2a5e1af6a39308ccc47c45624 height=138 version=0x20000000 log2_work=8.1189411 tx=139 date='2026-10-29 19:58:24' progress=1.000000 cache=0.0MiB(138txo)
+2026-10-29 20:16:06 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:06 [worker2-N-HTTPServer] UpdateTip: new best=3e3a7416692eaa873143ee9099c013529286f29fdbf60026602a85a2aa475e7e height=139 version=0x20000000 log2_work=8.129283 tx=140 date='2026-10-29 19:58:24' progress=1.000000 cache=0.0MiB(139txo)
+2026-10-29 20:16:06 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker3-N-HTTPServer] UpdateTip: new best=01f53f29afe0fbc813a5a3106c0035b18f3f9f245c12d3f60b13c74d0d78235a height=140 version=0x20000000 log2_work=8.1395514 tx=141 date='2026-10-29 19:58:25' progress=1.000000 cache=0.0MiB(140txo)
+2026-10-29 20:16:07 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker1-N-HTTPServer] UpdateTip: new best=55efd6b7d40e0f46888724fffa48ecd794b09649865d72147b5835899c95effb height=141 version=0x20000000 log2_work=8.1497471 tx=142 date='2026-10-29 19:58:25' progress=1.000000 cache=0.0MiB(141txo)
+2026-10-29 20:16:07 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker0-N-HTTPServer] UpdateTip: new best=69344b42e477d52fe36887ef588e257c83ea8375cd5aedd369571c8f1d517854 height=142 version=0x20000000 log2_work=8.1598713 tx=143 date='2026-10-29 19:58:25' progress=1.000000 cache=0.0MiB(142txo)
+2026-10-29 20:16:07 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker2-N-HTTPServer] UpdateTip: new best=52695248062857f54bae10a41682f00ad0b9dfd6fd5afedbdb27007da4331fc0 height=143 version=0x20000000 log2_work=8.169925 tx=144 date='2026-10-29 19:58:25' progress=1.000000 cache=0.0MiB(143txo)
+2026-10-29 20:16:07 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker3-N-HTTPServer] UpdateTip: new best=72d5a18f068c12108c00ea2ae12b715f155a023e54db4891e5f1cb8b36f150f9 height=144 version=0x20000000 log2_work=8.1799091 tx=145 date='2026-10-29 19:58:25' progress=1.000000 cache=0.0MiB(144txo)
+2026-10-29 20:16:07 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker1-N-HTTPServer] UpdateTip: new best=4a8e2d46ae99cadaa5302609259478039ab857469fbe679d91daeafae65a6754 height=145 version=0x20000000 log2_work=8.1898246 tx=146 date='2026-10-29 19:58:25' progress=1.000000 cache=0.0MiB(145txo)
+2026-10-29 20:16:07 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker0-N-HTTPServer] UpdateTip: new best=5066466535232389282603949b5414fe6a209436ac5cb02605b793d1bcfa9687 height=146 version=0x20000000 log2_work=8.1996723 tx=147 date='2026-10-29 19:58:26' progress=1.000000 cache=0.0MiB(146txo)
+2026-10-29 20:16:07 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker2-N-HTTPServer] UpdateTip: new best=35613bd06d8a677ccf7d27d85e0b8d36e66ee8b1a794b7642ffc74254a68afa3 height=147 version=0x20000000 log2_work=8.2094534 tx=148 date='2026-10-29 19:58:26' progress=1.000000 cache=0.0MiB(147txo)
+2026-10-29 20:16:07 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker3-N-HTTPServer] UpdateTip: new best=34f4b7bdd9055df1a3ab4a3694e4037e7825b1dcb2e176d041daaf8570c89059 height=148 version=0x20000000 log2_work=8.2191685 tx=149 date='2026-10-29 19:58:26' progress=1.000000 cache=0.0MiB(148txo)
+2026-10-29 20:16:07 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:07 [worker1-N-HTTPServer] UpdateTip: new best=6d95e1f97ddcda0dc61427c1b7b6751fab87b7db34a69072c76d3014810bb447 height=149 version=0x20000000 log2_work=8.2288187 tx=150 date='2026-10-29 19:58:26' progress=1.000000 cache=0.0MiB(149txo)
+2026-10-29 20:16:07 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker0-N-HTTPServer] UpdateTip: new best=298aec76039230bc5b1d181457415085546e1ecc4060b62de747488668380495 height=150 version=0x20000000 log2_work=8.2384047 tx=151 date='2026-10-29 19:58:26' progress=1.000000 cache=0.0MiB(150txo)
+2026-10-29 20:16:08 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker2-N-HTTPServer] UpdateTip: new best=7663f6aad3d8cc80b6b48e2371303e152fd036f953b1dd519c1dcabcb6c4dae0 height=151 version=0x20000000 log2_work=8.2479275 tx=152 date='2026-10-29 19:58:26' progress=1.000000 cache=0.0MiB(151txo)
+2026-10-29 20:16:08 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker3-N-HTTPServer] UpdateTip: new best=53bec386e57171c2108e0d5b3eead458693578535d7e595de7f39ea53c258036 height=152 version=0x20000000 log2_work=8.2573878 tx=153 date='2026-10-29 19:58:27' progress=1.000000 cache=0.0MiB(152txo)
+2026-10-29 20:16:08 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker1-N-HTTPServer] UpdateTip: new best=39b3f9e909761d9308bf8b8b0f40b67c06c1f1d7bc23ec5be1008feeb8a3b52d height=153 version=0x20000000 log2_work=8.2667865 tx=154 date='2026-10-29 19:58:27' progress=1.000000 cache=0.0MiB(153txo)
+2026-10-29 20:16:08 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker0-N-HTTPServer] UpdateTip: new best=622c0c93070cb369c265098a43d1dca328896e1118ce7f8c3a3680e4609d1dbc height=154 version=0x20000000 log2_work=8.2761244 tx=155 date='2026-10-29 19:58:27' progress=1.000000 cache=0.0MiB(154txo)
+2026-10-29 20:16:08 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker2-N-HTTPServer] UpdateTip: new best=6846ec6e18161285c00adbf1decbdff8f105eb3dc3e78f8ed6edfa426492c8a9 height=155 version=0x20000000 log2_work=8.2854022 tx=156 date='2026-10-29 19:58:27' progress=1.000000 cache=0.0MiB(155txo)
+2026-10-29 20:16:08 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker3-N-HTTPServer] UpdateTip: new best=6ede8cd4d552ca6611c87b57abfedb07f6d7aa49ff3415269ddc97c073ebfe34 height=156 version=0x20000000 log2_work=8.2946207 tx=157 date='2026-10-29 19:58:27' progress=1.000000 cache=0.0MiB(156txo)
+2026-10-29 20:16:08 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker1-N-HTTPServer] UpdateTip: new best=77aa87d39ab34707c794d4ad0bc5a1c464dac57790c5b29416916f145b41e1be height=157 version=0x20000000 log2_work=8.3037807 tx=158 date='2026-10-29 19:58:27' progress=1.000000 cache=0.0MiB(157txo)
+2026-10-29 20:16:08 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker0-N-HTTPServer] UpdateTip: new best=58d6f1981c36bb778ae0c63c59b2b6591c9b6e703110f3750b241310aef866d6 height=158 version=0x20000000 log2_work=8.312883 tx=159 date='2026-10-29 19:58:28' progress=1.000000 cache=0.0MiB(158txo)
+2026-10-29 20:16:08 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:08 [worker2-N-HTTPServer] UpdateTip: new best=33a1855b29fcf0e2d8ae1c1d8a67438084a65f7ac83bc8ced0ea11ffd3b6a7a5 height=159 version=0x20000000 log2_work=8.3219281 tx=160 date='2026-10-29 19:58:28' progress=1.000000 cache=0.0MiB(159txo)
+2026-10-29 20:16:08 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker3-N-HTTPServer] UpdateTip: new best=288588005fc82a64edc17e2f08ec047e4660b6341e61487ea5072b128fb1ccfa height=160 version=0x20000000 log2_work=8.3309169 tx=161 date='2026-10-29 19:58:28' progress=1.000000 cache=0.0MiB(160txo)
+2026-10-29 20:16:09 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker1-N-HTTPServer] UpdateTip: new best=1f594dbb3402a9fb4e1adc809ab541723f1449d801a688111ddf8332d83219d2 height=161 version=0x20000000 log2_work=8.33985 tx=162 date='2026-10-29 19:58:28' progress=1.000000 cache=0.0MiB(161txo)
+2026-10-29 20:16:09 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker0-N-HTTPServer] UpdateTip: new best=2137647053b17dbf1f6a728430f01ecba5f33dfd38d3193e64bec5925d811ab4 height=162 version=0x20000000 log2_work=8.3487282 tx=163 date='2026-10-29 19:58:28' progress=1.000000 cache=0.0MiB(162txo)
+2026-10-29 20:16:09 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker2-N-HTTPServer] UpdateTip: new best=48166d5578c9ed99b896c43f8b89895148fd3edfbb8f7a88f07a237c68ba78d9 height=163 version=0x20000000 log2_work=8.357552 tx=164 date='2026-10-29 19:58:28' progress=1.000000 cache=0.0MiB(163txo)
+2026-10-29 20:16:09 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker3-N-HTTPServer] UpdateTip: new best=2e369a08b502cac24fb94a51e00d2b3e38fe4c96d3899a8e0e913bad71a89a68 height=164 version=0x20000000 log2_work=8.3663222 tx=165 date='2026-10-29 19:58:29' progress=1.000000 cache=0.0MiB(164txo)
+2026-10-29 20:16:09 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker1-N-HTTPServer] UpdateTip: new best=1b8cffb59ac78a4fd909d563a32df4fac7cc67a979f916c767b47c2396099bf2 height=165 version=0x20000000 log2_work=8.3750394 tx=166 date='2026-10-29 19:58:29' progress=1.000000 cache=0.0MiB(165txo)
+2026-10-29 20:16:09 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker0-N-HTTPServer] UpdateTip: new best=0644705a4f2a40f1217c15b504222d26d10f16f50b6fd4e0c173afb44dc158f6 height=166 version=0x20000000 log2_work=8.3837043 tx=167 date='2026-10-29 19:58:29' progress=1.000000 cache=0.0MiB(166txo)
+2026-10-29 20:16:09 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker2-N-HTTPServer] UpdateTip: new best=7e4af4903498d06424731761faa295620f53237221a92beec47dc846ab5bde52 height=167 version=0x20000000 log2_work=8.3923174 tx=168 date='2026-10-29 19:58:29' progress=1.000000 cache=0.0MiB(167txo)
+2026-10-29 20:16:09 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker3-N-HTTPServer] UpdateTip: new best=60fe19a208e337cd9015f901ca35197246fe6dc8604fbe98b66e1ac2af4dd69d height=168 version=0x20000000 log2_work=8.4008794 tx=169 date='2026-10-29 19:58:29' progress=1.000000 cache=0.0MiB(168txo)
+2026-10-29 20:16:09 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:09 [worker1-N-HTTPServer] UpdateTip: new best=6f11fb7a4e81ae24b49c7527107e060da269ec8e3a19c7351aa2e7e61626c75b height=169 version=0x20000000 log2_work=8.4093909 tx=170 date='2026-10-29 19:58:29' progress=1.000000 cache=0.0MiB(169txo)
+2026-10-29 20:16:09 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker0-N-HTTPServer] UpdateTip: new best=72dd03c1b02c3b4dd19e81049fbcc717e6a5aab3a719d277a5087852ec2993bb height=170 version=0x20000000 log2_work=8.4178525 tx=171 date='2026-10-29 19:58:30' progress=1.000000 cache=0.0MiB(170txo)
+2026-10-29 20:16:10 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker2-N-HTTPServer] UpdateTip: new best=15b2011d9b4b6b3ca6ee8f366ed7c5274650a2600481130aca727c1e7afcd0f0 height=171 version=0x20000000 log2_work=8.4262648 tx=172 date='2026-10-29 19:58:30' progress=1.000000 cache=0.0MiB(171txo)
+2026-10-29 20:16:10 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker3-N-HTTPServer] UpdateTip: new best=0f9937bb74871b01d383c5a5f978522ec2dd44bf5bc121ac401044df692d1844 height=172 version=0x20000000 log2_work=8.4346282 tx=173 date='2026-10-29 19:58:30' progress=1.000000 cache=0.0MiB(172txo)
+2026-10-29 20:16:10 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker1-N-HTTPServer] UpdateTip: new best=2e9ace57165cf952cb7652d25d0e53216aaf5b8b4047cf37b41c3e00257aa86f height=173 version=0x20000000 log2_work=8.4429435 tx=174 date='2026-10-29 19:58:30' progress=1.000000 cache=0.0MiB(173txo)
+2026-10-29 20:16:10 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker0-N-HTTPServer] UpdateTip: new best=48d3683198d3f0bf8e7ea7ee8440850f2e5d03f730a988f350680a9c396b72b4 height=174 version=0x20000000 log2_work=8.4512111 tx=175 date='2026-10-29 19:58:30' progress=1.000000 cache=0.0MiB(174txo)
+2026-10-29 20:16:10 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker2-N-HTTPServer] UpdateTip: new best=4da4d610c370600e5b48d3b9fa08b2f660e215fb4f872a9701e43a8d4045ff2b height=175 version=0x20000000 log2_work=8.4594316 tx=176 date='2026-10-29 19:58:30' progress=1.000000 cache=0.0MiB(175txo)
+2026-10-29 20:16:10 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker3-N-HTTPServer] UpdateTip: new best=022464316fbbf0d8536167d0100780f92156f8a8e11a3a60e5daef82ccec5766 height=176 version=0x20000000 log2_work=8.4676056 tx=177 date='2026-10-29 19:58:31' progress=1.000000 cache=0.0MiB(176txo)
+2026-10-29 20:16:10 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker1-N-HTTPServer] UpdateTip: new best=0f528ec6499ad174fadc7865b61e05ea4c87cc8bab09cf78daaf976065425dc1 height=177 version=0x20000000 log2_work=8.4757334 tx=178 date='2026-10-29 19:58:31' progress=1.000000 cache=0.0MiB(177txo)
+2026-10-29 20:16:10 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:10 [worker0-N-HTTPServer] UpdateTip: new best=0606c3c20d8b3923362dca8fd99d2786e29bd1bddad4e34ac85cc780dcbcfabc height=178 version=0x20000000 log2_work=8.4838158 tx=179 date='2026-10-29 19:58:31' progress=1.000000 cache=0.0MiB(178txo)
+2026-10-29 20:16:10 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker2-N-HTTPServer] UpdateTip: new best=6afc596390705feb07cb8e21fea27b34f1ab59a46e0301ebe4cc6ebfedb3f622 height=179 version=0x20000000 log2_work=8.4918531 tx=180 date='2026-10-29 19:58:31' progress=1.000000 cache=0.0MiB(179txo)
+2026-10-29 20:16:11 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker3-N-HTTPServer] UpdateTip: new best=41d26b6f14a961a88fc8a226bff1e728308704e9c6bbfbb539c3dd3704b13b0f height=180 version=0x20000000 log2_work=8.4998459 tx=181 date='2026-10-29 19:58:31' progress=1.000000 cache=0.0MiB(180txo)
+2026-10-29 20:16:11 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker1-N-HTTPServer] UpdateTip: new best=386e753ca7a31c57be65177409c09dc4ea89fa510f394a2dba8c82aaf6a5f847 height=181 version=0x20000000 log2_work=8.5077946 tx=182 date='2026-10-29 19:58:31' progress=1.000000 cache=0.0MiB(181txo)
+2026-10-29 20:16:11 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker0-N-HTTPServer] UpdateTip: new best=591a00dfb21a4c9fc4d6a08c1ed02dca77ec9c786e56ac7efbe3892de2bf5ba1 height=182 version=0x20000000 log2_work=8.5156998 tx=183 date='2026-10-29 19:58:32' progress=1.000000 cache=0.0MiB(182txo)
+2026-10-29 20:16:11 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker2-N-HTTPServer] UpdateTip: new best=76efefd9c295d4971211698b6be5f4b6c4e154522ac36ef7244fd336bf988e05 height=183 version=0x20000000 log2_work=8.523562 tx=184 date='2026-10-29 19:58:32' progress=1.000000 cache=0.0MiB(183txo)
+2026-10-29 20:16:11 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker3-N-HTTPServer] UpdateTip: new best=3c405d6157e357228ae2102c584314a626142cc7240cb49e0393f341cbf8c841 height=184 version=0x20000000 log2_work=8.5313815 tx=185 date='2026-10-29 19:58:32' progress=1.000000 cache=0.0MiB(184txo)
+2026-10-29 20:16:11 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker1-N-HTTPServer] UpdateTip: new best=43de8a40f2eff0eb61e2b86232709382a73b21a6b65da13b8af34f1d896b478c height=185 version=0x20000000 log2_work=8.5391588 tx=186 date='2026-10-29 19:58:32' progress=1.000000 cache=0.0MiB(185txo)
+2026-10-29 20:16:11 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker0-N-HTTPServer] UpdateTip: new best=75307eb8ff01e9a7f79f8a7c2292269b64f6fa2c25b3e130be2c5878c86bf9a8 height=186 version=0x20000000 log2_work=8.5468945 tx=187 date='2026-10-29 19:58:32' progress=1.000000 cache=0.0MiB(186txo)
+2026-10-29 20:16:11 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker2-N-HTTPServer] UpdateTip: new best=57251bb67a8b4538155d1a39fdc3ed2c5c8f014eb9dd2a22fc2fb2c29d073c2e height=187 version=0x20000000 log2_work=8.5545889 tx=188 date='2026-10-29 19:58:32' progress=1.000000 cache=0.0MiB(187txo)
+2026-10-29 20:16:11 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:11 [worker3-N-HTTPServer] UpdateTip: new best=1d13fa8b3e98b9235eae2411da2d1163a5a66b67e6e3b77cfc18ef94edbfd76d height=188 version=0x20000000 log2_work=8.5622424 tx=189 date='2026-10-29 19:58:33' progress=1.000000 cache=0.0MiB(188txo)
+2026-10-29 20:16:11 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker1-N-HTTPServer] UpdateTip: new best=63e1d95c8df350c672c9af67633ee38e1c0173726c373f169dad9ff598bdca30 height=189 version=0x20000000 log2_work=8.5698556 tx=190 date='2026-10-29 19:58:33' progress=1.000000 cache=0.0MiB(189txo)
+2026-10-29 20:16:12 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker0-N-HTTPServer] UpdateTip: new best=24f76a74e101a2e8247574162ec4e3b92dbfdf828cbcc99b00c1b16e157b5c49 height=190 version=0x20000000 log2_work=8.5774288 tx=191 date='2026-10-29 19:58:33' progress=1.000000 cache=0.0MiB(190txo)
+2026-10-29 20:16:12 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker2-N-HTTPServer] UpdateTip: new best=1b569132972ab88bb89e1bab16f88fe417e5a61f074723c5be755e4d90b9eb2d height=191 version=0x20000000 log2_work=8.5849625 tx=192 date='2026-10-29 19:58:33' progress=1.000000 cache=0.0MiB(191txo)
+2026-10-29 20:16:12 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker3-N-HTTPServer] UpdateTip: new best=58cf077fb11f6a315a28548b9ca1ebee4c5afe8198d7da1a787cf84fbf089029 height=192 version=0x20000000 log2_work=8.592457 tx=193 date='2026-10-29 19:58:33' progress=1.000000 cache=0.0MiB(192txo)
+2026-10-29 20:16:12 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker1-N-HTTPServer] UpdateTip: new best=40c7c993627a499e792b1c359931673ff3920c1a18d738f07d0b803e8424f7fa height=193 version=0x20000000 log2_work=8.5999128 tx=194 date='2026-10-29 19:58:33' progress=1.000000 cache=0.0MiB(193txo)
+2026-10-29 20:16:12 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker0-N-HTTPServer] UpdateTip: new best=18d76dc4e9d8c3be18a52a7a3e0f5f25c183eaa3ce73765e1ca0eb65ed38486d height=194 version=0x20000000 log2_work=8.6073303 tx=195 date='2026-10-29 19:58:34' progress=1.000000 cache=0.0MiB(194txo)
+2026-10-29 20:16:12 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker2-N-HTTPServer] UpdateTip: new best=44fbf48fc79c5d07fd4f2296f4b18bdaaef650d235ad1c1e200147923eaf9972 height=195 version=0x20000000 log2_work=8.6147098 tx=196 date='2026-10-29 19:58:34' progress=1.000000 cache=0.0MiB(195txo)
+2026-10-29 20:16:12 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker3-N-HTTPServer] UpdateTip: new best=309829a7264cda072ece1383a51d37b57be8ad15f51127c8536ca7bf1b4e8bb6 height=196 version=0x20000000 log2_work=8.6220518 tx=197 date='2026-10-29 19:58:34' progress=1.000000 cache=0.0MiB(196txo)
+2026-10-29 20:16:12 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker1-N-HTTPServer] UpdateTip: new best=791873fc965efc6ed309daca1566b001fc6ac9d6c4e36b3627fd2d8d7ed2f537 height=197 version=0x20000000 log2_work=8.6293566 tx=198 date='2026-10-29 19:58:34' progress=1.000000 cache=0.0MiB(197txo)
+2026-10-29 20:16:12 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:12 [worker0-N-HTTPServer] UpdateTip: new best=719d3a6c4367b0f5c38d626a458cae77d1d0b7dc29331b885ac5a07be3a8f898 height=198 version=0x20000000 log2_work=8.6366246 tx=199 date='2026-10-29 19:58:34' progress=1.000000 cache=0.0MiB(198txo)
+2026-10-29 20:16:12 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker2-N-HTTPServer] UpdateTip: new best=60591b16e35ad4d22591c0f59693d29fbf52be6144a0af0eef27b870ccffa6b1 height=199 version=0x20000000 log2_work=8.6438562 tx=200 date='2026-10-29 19:58:34' progress=1.000000 cache=0.0MiB(199txo)
+2026-10-29 20:16:13 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker3-N-HTTPServer] UpdateTip: new best=670ecc7da6a11fd23cf071407130e344cac3e660bb52bcfa702c503a11e1a9b4 height=200 version=0x20000000 log2_work=8.6510517 tx=201 date='2026-10-29 19:58:35' progress=1.000000 cache=0.0MiB(200txo)
+2026-10-29 20:16:13 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker1-N-HTTPServer] UpdateTip: new best=53c12eee609eadb9cd764fbdfba13ecba7485d83a86743af694666a8400652aa height=201 version=0x20000000 log2_work=8.6582115 tx=202 date='2026-10-29 19:58:35' progress=1.000000 cache=0.0MiB(201txo)
+2026-10-29 20:16:13 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker0-N-HTTPServer] UpdateTip: new best=057f13fe619ac734dcff58512f9c1cc96218587467da3d70deb6ea15c28f833e height=202 version=0x20000000 log2_work=8.6653359 tx=205 date='2026-10-29 20:03:57' progress=1.000000 cache=0.0MiB(206txo)
+2026-10-29 20:16:13 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker2-N-HTTPServer] UpdateTip: new best=5a4b005c4e97cb91ad76aa9488c93669dd6bd721b603904452b09e6f8206fe16 height=203 version=0x20000000 log2_work=8.6724253 tx=208 date='2026-10-29 20:06:30' progress=1.000000 cache=0.0MiB(209txo)
+2026-10-29 20:16:13 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker3-N-HTTPServer] UpdateTip: new best=2fe02e8d3eab776b6525965d4fdd94d8ae1ddab9c8e0bd45c5b0473592e0907b height=204 version=0x20000000 log2_work=8.6794801 tx=211 date='2026-10-29 20:07:51' progress=1.000000 cache=0.0MiB(212txo)
+2026-10-29 20:16:13 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker1-N-HTTPServer] UpdateTip: new best=77d18e60e2f22754175f1ca7813f5b7d0b82ada92fc9c6db0fec3e334bf4b53e height=205 version=0x20000000 log2_work=8.6865005 tx=215 date='2026-10-29 20:07:54' progress=1.000000 cache=0.0MiB(217txo)
+2026-10-29 20:16:13 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker0-N-HTTPServer] UpdateTip: new best=6c3870ed808a5eed61a4d0a8b20a29576a160c08666caea92b2f6a17662fedc7 height=206 version=0x20000000 log2_work=8.693487 tx=218 date='2026-10-29 20:09:26' progress=1.000000 cache=0.0MiB(220txo)
+2026-10-29 20:16:13 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:13 [worker2-N-HTTPServer] UpdateTip: new best=1187f9ac9ff59068f62ff7e7b998fdaea5db9fbb44cf72d89c6c2b1b52dd31df height=207 version=0x20000000 log2_work=8.7004397 tx=222 date='2026-10-29 20:09:29' progress=1.000000 cache=0.0MiB(225txo)
+2026-10-29 20:16:13 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:14 [worker3-N-HTTPServer] UpdateTip: new best=451f069d46f9cb7aa87bc81c34b48e307b93ff8d0bd46f75febba78126f90b15 height=208 version=0x20000000 log2_work=8.7073591 tx=225 date='2026-10-29 20:10:45' progress=1.000000 cache=0.0MiB(228txo)
+2026-10-29 20:16:14 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:14 [worker1-N-HTTPServer] UpdateTip: new best=5104d11485e9b132348bf8540163bdae5d0186f08cbe66025143ef6cb3a1a58b height=209 version=0x20000000 log2_work=8.7142455 tx=229 date='2026-10-29 20:10:48' progress=1.000000 cache=0.0MiB(233txo)
+2026-10-29 20:16:14 [worker1-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:14 [worker0-N-HTTPServer] ERROR: ProcessNewBlockWithAsyncBestChainActivation: AcceptBlock FAILED
+2026-10-29 20:16:14 [worker2-N-HTTPServer] InvalidChainFound: invalid block=25e4af6616cc028aab57297ea2109f4fae170badd96903d003c3f7d0152c51f9  height=210  log2_work=8.7210992  date=2026-10-29 20:10:54
+2026-10-29 20:16:14 [worker2-N-HTTPServer] InvalidChainFound:  current best=5104d11485e9b132348bf8540163bdae5d0186f08cbe66025143ef6cb3a1a58b  height=209  log2_work=8.7142455  date=2026-10-29 20:10:48
+2026-10-29 20:16:14 [worker2-N-HTTPServer] ERROR: ConnectTip(): ConnectBlock 25e4af6616cc028aab57297ea2109f4fae170badd96903d003c3f7d0152c51f9 failed (blk-bad-inputs, parallel script check failed (code 16))
+2026-10-29 20:16:14 [worker2-N-HTTPServer] Disconnected 0 consensus frozen blocks back to tip 5104d11485e9b132348bf8540163bdae5d0186f08cbe66025143ef6cb3a1a58b.
+2026-10-29 20:16:14 [worker2-N-HTTPServer] InvalidChainFound: invalid block=25e4af6616cc028aab57297ea2109f4fae170badd96903d003c3f7d0152c51f9  height=210  log2_work=8.7210992  date=2026-10-29 20:10:54
+2026-10-29 20:16:14 [worker2-N-HTTPServer] InvalidChainFound:  current best=5104d11485e9b132348bf8540163bdae5d0186f08cbe66025143ef6cb3a1a58b  height=209  log2_work=8.7142455  date=2026-10-29 20:10:48
+2026-10-29 20:16:14 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:14 [worker3-N-HTTPServer] UpdateTip: new best=3e4fee0065d26966df19f5d64fc5b4c9365f8cc3189039516c66727d2834596d height=210 version=0x20000000 log2_work=8.7210992 tx=232 date='2026-10-29 20:10:53' progress=1.000000 cache=0.0MiB(236txo)
+2026-10-29 20:16:14 [worker3-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:16:14 [worker2-N-HTTPServer] Verifying last 210 blocks at level 4
+2026-10-29 20:16:14 [worker2-N-HTTPServer] [0%]...[10%]...[20%]...[30%]...[40%]...[DONE].
+2026-10-29 20:16:14 [worker2-N-HTTPServer] No coin database inconsistencies in last 210 blocks (231 transactions)

@@ -1,0 +1,37 @@
+WARNING:config:not changing config key 'auto_connect' set on the command line
+2026-10-29 13:10:51,358:WARNING:config:not changing config key 'auto_connect' set on the command line
+WARNING:network:no good servers available
+2026-10-29 13:10:51,360:WARNING:network:no good servers available
+BEEF TEST: proof stored, building BEEF for a205c62155604378d14b07ef0333f7b405e16ea6866aee3349ad79adb550f4da
+LOCAL HEADER ERROR: 209 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 209
+LOCAL HEADER ERROR: 209 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: a205c62155604378d14b07ef0333f7b405e16ea6866aee3349ad79adb550f4da height= 209
+BEEF TEST: built successfully: a205c62155604378d14b07ef0333f7b405e16ea6866aee3349ad79adb550f4da
+BEEF TEST: proof stored, building BEEF for 94ebdc6a6188f3e89a0fe0b3c1961f79c7f6023bec70fca2c87b0d9d552b1027
+LOCAL HEADER ERROR: 209 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 209
+LOCAL HEADER ERROR: 209 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 94ebdc6a6188f3e89a0fe0b3c1961f79c7f6023bec70fca2c87b0d9d552b1027 height= 209
+BEEF TEST: built successfully: 94ebdc6a6188f3e89a0fe0b3c1961f79c7f6023bec70fca2c87b0d9d552b1027
+BEEF TEST: proof stored, building BEEF for 3aea5471703a17945e496aa3dda14f1ead7bcc20bde0ae273e81b36080284d40
+LOCAL HEADER ERROR: 209 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 209
+LOCAL HEADER ERROR: 209 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 3aea5471703a17945e496aa3dda14f1ead7bcc20bde0ae273e81b36080284d40 height= 209
+BEEF TEST: built successfully: 3aea5471703a17945e496aa3dda14f1ead7bcc20bde0ae273e81b36080284d40
+broadcast_transaction_and_wait called with type: <class 'electrumsv.transaction.Transaction'>
+Serialized transaction type: <class 'str'>
+Prepared tx_hex: 0100000001daf450b5ad...
+BEEF TEST: proof stored, building BEEF for 4ffa5f4e2c67310dad3c5775ed8e42d5a109ffa3ad460a7883a066a8e958ac4d
+LOCAL HEADER ERROR: 210 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 210
+LOCAL HEADER ERROR: 210 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 4ffa5f4e2c67310dad3c5775ed8e42d5a109ffa3ad460a7883a066a8e958ac4d height= 210
+BEEF TEST: built successfully: 4ffa5f4e2c67310dad3c5775ed8e42d5a109ffa3ad460a7883a066a8e958ac4d
+BEEF TEST: proof stored, building BEEF for 954c8b2600c5599fbe4615f22b31909dfdd0d68db327b4e674f2b9efc9354aa0
+LOCAL HEADER ERROR: 210 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 210
+LOCAL HEADER ERROR: 210 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers, .runtime/valid-chain-attempt-05/wallet-2/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 954c8b2600c5599fbe4615f22b31909dfdd0d68db327b4e674f2b9efc9354aa0 height= 210
+BEEF TEST: built successfully: 954c8b2600c5599fbe4615f22b31909dfdd0d68db327b4e674f2b9efc9354aa0

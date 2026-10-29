@@ -1,0 +1,319 @@
+{
+  "python": "3.10.20 (main, Jul 23 2026, 14:34:21) [Clang 22.1.3 ]",
+  "openssl": "OpenSSL 3.5.7 9 Jun 2026",
+  "source": "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages",
+  "bundled_app": "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app",
+  "core_context": {
+    "verify_mode": 0,
+    "check_hostname": false
+  },
+  "rows": [
+    {
+      "case": "trusted-matching",
+      "client": "wallet-core",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 1,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "trusted-matching",
+      "client": "wallet-helper",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 0,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "trusted-matching",
+      "client": "verified-control",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 1,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "trusted-wrong-host",
+      "client": "wallet-core",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 1,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "trusted-wrong-host",
+      "client": "wallet-helper",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 0,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "trusted-wrong-host",
+      "client": "verified-control",
+      "client_runtime": {
+        "accepted": false,
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'localhost'. (_ssl.c:1129)",
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": false,
+      "operator_received": [],
+      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'localhost'. (_ssl.c:1129)",
+      "server_errors": [
+        "SSLError: [SSL: SSLV3_ALERT_BAD_CERTIFICATE] ssl/tls alert bad certificate (_ssl.c:1017)"
+      ]
+    },
+    {
+      "case": "untrusted-matching",
+      "client": "wallet-core",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 1,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "untrusted-matching",
+      "client": "wallet-helper",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 0,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "untrusted-matching",
+      "client": "verified-control",
+      "client_runtime": {
+        "accepted": false,
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1129)",
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": false,
+      "operator_received": [],
+      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1129)",
+      "server_errors": [
+        "SSLError: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:1017)"
+      ]
+    },
+    {
+      "case": "untrusted-wrong-host",
+      "client": "wallet-core",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 1,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "untrusted-wrong-host",
+      "client": "wallet-helper",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 0,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "untrusted-wrong-host",
+      "client": "verified-control",
+      "client_runtime": {
+        "accepted": false,
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1129)",
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": false,
+      "operator_received": [],
+      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1129)",
+      "server_errors": [
+        "SSLError: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:1017)"
+      ]
+    },
+    {
+      "case": "expired-trusted-matching",
+      "client": "wallet-core",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 1,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "expired-trusted-matching",
+      "client": "wallet-helper",
+      "client_runtime": {
+        "accepted": true,
+        "error": null,
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": true,
+      "operator_received": [
+        {
+          "id": 0,
+          "method": "blockchain.scripthash.get_history",
+          "params": [
+            "4242424242424242424242424242424242424242424242424242424242424242"
+          ]
+        }
+      ],
+      "error": null,
+      "server_errors": []
+    },
+    {
+      "case": "expired-trusted-matching",
+      "client": "verified-control",
+      "client_runtime": {
+        "accepted": false,
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)",
+        "python": "3.9.13 (main, Oct 21 2025, 14:36:32) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+        "openssl": "OpenSSL 3.6.0 1 Oct 2025"
+      },
+      "accepted": false,
+      "operator_received": [],
+      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)",
+      "server_errors": [
+        "SSLError: [SSL: SSLV3_ALERT_CERTIFICATE_EXPIRED] ssl/tls alert certificate expired (_ssl.c:1017)"
+      ]
+    }
+  ],
+  "scope": "Loopback certificate authentication and operator-visible request test; actual wallet core context and helper function, not full GUI for this matrix"
+}

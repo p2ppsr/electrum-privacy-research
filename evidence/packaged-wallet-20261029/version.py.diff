@@ -1,0 +1,8 @@
+--- tag/version.py
++++ package/version.py
+@@ -10,4 +10,4 @@
+ 
+ def seed_prefix(seed_type):
+     assert seed_type == 'standard'
+-    return SEED_PREFIX
++    return SEED_PREFIX

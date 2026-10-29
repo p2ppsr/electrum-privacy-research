@@ -1,5 +1,7 @@
 # What the project tells users about financial observation
 
+October 29 update: [official desktop capture](PACKAGED-WALLET.md), [valid-chain shop/departure proof](VALID-CHAIN.md), [certificate tests](CERTIFICATES.md) and [claim ledger](CLAIMS.md) now supplement the earlier evidence below. Earlier synthetic cases remain explicitly separate.
+
 **There is some network disclosure, but the reviewed material does not explain the full surveillance capability.** The strongest positive example is optional in-wallet Network help: it explains that payment-script metadata goes to a server to retrieve transaction history. The reviewed material does not explain durable post-disconnection watching, cross-user payment graphs or identifying a merchant's wider disclosed collection through one checkout address. A specific universal-proxy assurance also conflicts with the independently routed helper.
 
 This is a bounded evidence review, **not a measurement of what users believe**. We did not interview users, run comprehension tests or measure whether people read a help screen. The evidence supports a disclosure gap and a plausible mismatch between expectations and capabilities; it does not establish that every user is unaware, that developers intended deception, or that public servers actually run covert surveillance.

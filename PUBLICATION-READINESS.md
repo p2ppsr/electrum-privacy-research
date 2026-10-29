@@ -1,19 +1,22 @@
 # Publication preparation
 
-Status: **private prepublication research**. The user requested completion of the locally executable work on October 29, 2026. This document records work to perform and actual completion evidence; a planned experiment is never a passing result.
+Status: **private prepublication research; local experiments completed; human review outstanding**. No public release or visibility change is authorized by this document. Original research uses Apache-2.0, © Peer-to-peer Privacy Systems Research, LLC.; third-party materials retain their rights.
 
-| Work | Status / completion criterion |
+| Work | Status and evidence |
 | --- | --- |
-| Claim-to-evidence ledger | Initial [machine-readable ledger](claims.json) and [reader table](CLAIMS.md) added first; update classifications after experiments. |
-| Apache 2.0 and copyright | Original research grant authorized; LICENSE/NOTICE, attribution boundaries and CITATION.cff included. |
-| Packaged-wallet capture | Pending: verify official macOS distribution; isolate application state; record onboarding, defaults and network roles. |
-| Valid-chain shop demonstration | Pending: locally validate signatures/blocks; identify a shop using one checkout address; change service; demonstrate continued old-observer matching. No real-chain funds required. |
-| Certificate validation impacts | Pending: trusted/mismatched/self-signed/expired acceptance matrix and controlled impersonation, with valid-chain integrity/privacy boundaries. |
-| Related work and contribution | Pending: primary-source context distinguishing known protocol exposure from measured implementation/defaults findings. |
-| Mitigation and boundary tests | Pending: test routes/settings and record measured protection separately from proposals. |
-| Independent replication | Prepare portable replay/CI and a clean-room local replay. Independent human replication is a separate unfulfilled condition until obtained. |
-| Reader comprehension | Prepare questions and a study protocol. Do not fabricate participants or comprehension results. |
-| Factual review/right of reply | Prepare review packets and questions; external contact and responses must be recorded separately. |
-| Refresh and release package | Append date-sensitive observations, scan complete history, make a private immutable candidate, verify manifests and portable reproduction. Keep repository private. |
+| Claim-to-evidence ledger first | Completed and initially committed before experiments: [18 claims](CLAIMS.md), [machine ledger](claims.json), checked generation and local evidence links. |
+| Official packaged-wallet capture | Completed: verified DMG/PGP, 145-module AST comparison, actual GUI, default network routes, onboarding/proxy screenshots and separate server-side bundled-core relay. [Controls](PACKAGED-WALLET.md). |
+| Valid-chain shop and departure | Completed: actual signing/confirmations, one checkout anchor, three fresh receipt addresses, two known payer flows, complete main/helper move, later old-observer receipt/spend recognition. [Evidence](VALID-CHAIN.md). |
+| Certificate authentication and integrity boundaries | Completed: 18 cases per source/bundled runtime, plaintext rejection, selected untrusted recording frontend, node rejection of bad Merkle root and invalid signature. [Interpretation](CERTIFICATES.md). Full hostile-response audit is not claimed. |
+| Mitigation tests | Completed bounded core SOCKS/helper-direct test and full departure control. [Measured versus proposed protections](MITIGATIONS.md). Full GUI Tor/VPN/platform egress qualification remains outside measured coverage. |
+| Related work | Completed primary-source comparison and bounded contribution statement. [RELATED-WORK](RELATED-WORK.md). |
+| Source and liveness refresh | Completed October 29: two appended rounds; eight responsive/current endpoints, one nonresponsive from this vantage; ElectrumR source URL again 404. Earlier failures retained. |
+| Local replay and CI | Standard-library offline verifiers and read-only GitHub workflow prepared; the current candidate's clean replay and workflow receipts are recorded in the publication evidence as they complete. Fresh consensus-node replay already passed in a second empty data directory. |
+| Licensing/citation/export | LICENSE, NOTICE, CITATION.cff and third-party scope/notices completed. Deterministic committed-payload exporter excludes runtime, distributions, wallet files and private keys. Private candidate commit/tag/archive hashes are recorded at closeout. |
+| Secret review / cleanup | Full-history and staged/export scans recorded before closeout. Generated wallet/private-key state, lab app and owned node/network removed; downloaded public artifacts stay ignored. [Cleanup receipt](evidence/publication-20261029/cleanup.json). Scanner success is not a mathematical guarantee of no sensitive data. |
+| Independent replication | **Not obtained.** Portable methods, raw blocks/captures, manifests and offline CI support replication. Another stateful run by this agent is not independent human review. |
+| Reader comprehension | **Not measured.** [Recruitment, questions and scoring protocol](READER-STUDY.md) prepared. No fabricated participants or implied population result. |
+| Factual review / right of reply | **Not sent or completed.** [Concrete draft packet and questions](REVIEW-PACKET.md) prepared. Recipient, channel, exact message and fair response window need approval before outreach. No private research was posted publicly. |
+| Final public release | **Not performed.** Obtain independent factual/method review and actual reader feedback; resolve material corrections; offer affected parties a fair reply; refresh time-sensitive evidence again near the chosen date; approve the final scope and visibility change separately. |
 
-No public release, change of visibility or unperformed external review is implied by this preparation.
+The unavailable ElectrumR implementation prevents the originally requested self-hosted, source-pinned ElectrumR run. A research adapter is explicitly identified in its place for the valid-chain mechanism experiment. A public source, immutable build and deployment provenance would be needed to close that specific accountability gap. It is not silently treated as completed.

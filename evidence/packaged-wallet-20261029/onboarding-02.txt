@@ -1,0 +1,16 @@
+Window: "ElectrumSV", App: Electrum Privacy Research Lab.
+0 dialog ElectrumSV, Secondary Actions: Raise
+	1 button < Back, Secondary Actions: Raise
+	2 button (disabled)   Open Selected Wallet  
+	3 table
+		4 column Recently Opened Wallets
+	5 button   Open Other Wallet  , Secondary Actions: Raise
+	6 button Cancel, Secondary Actions: Raise
+	7 button Help, Secondary Actions: Raise
+	8 button   Create New Wallet  , Secondary Actions: Raise
+	9 text Select an existing wallet
+	10 close button
+	11 zoom button
+	12 text ElectrumSV
+13 menu bar
+	14 Electrum Privacy Lab

@@ -1,0 +1,7 @@
+--- tag/gui/qt/wallet_wizard.py
++++ package/gui/qt/wallet_wizard.py
+@@ -936,4 +936,3 @@
+             if db_path != original_filepath:
+                 logger.debug("Removing failed db '%s'", db_path)
+                 os.remove(db_path)
+-

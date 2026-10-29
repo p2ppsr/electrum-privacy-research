@@ -1,0 +1,13 @@
+/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-run/launch-isolated.sh: line 6: /Users/tyeverett/Applications/Electrum: No such file or directory
+/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-run/launch-isolated.sh: line 6: exec: /Users/tyeverett/Applications/Electrum: cannot execute: No such file or directory
+2026-10-29 13:11:22,126:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:
+===== THROTTLE =====
+session : 4548837872
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : False
+2026-10-29 13:11:22,126:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:CREATED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:11:22,219:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:Downloading chunk starting at height 973225
+2026-10-29 13:11:22,220:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:headers_obj.tip.height now = 973225
+2026-10-29 13:11:22,220:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:========== CATCH UP END ==========
+final local tip : 973225
+2026-10-29 13:11:22,220:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:RELEASED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249

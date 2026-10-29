@@ -1,0 +1,26 @@
+{
+  "image": "bitcoinsv/bitcoin-sv@sha256:d96fe4786a00e5fc10bc9e0e76a6006376f9472d4eb74d07e4c1e0d019493d33",
+  "clean_empty_datadir": true,
+  "implementation_independent": false,
+  "external_peers_allowed": false,
+  "negative_controls": [
+    {
+      "case": "mutated-transaction-with-invalid-merkle-root",
+      "rejection": "bad-txnmrklroot"
+    },
+    {
+      "case": "invalid-signature-with-correct-merkle-root-and-regtest-proof-of-work",
+      "rejection": "blk-bad-inputs"
+    }
+  ],
+  "status": "PASS",
+  "accepted_blocks": 210,
+  "height": 210,
+  "bestblockhash": "3e4fee0065d26966df19f5d64fc5b4c9365f8cc3189039516c66727d2834596d",
+  "verifychain": true,
+  "peers": 0,
+  "cleanup": {
+    "container_removed": true,
+    "private_datadir_removed": true
+  }
+}

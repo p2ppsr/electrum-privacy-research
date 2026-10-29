@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/run_valid_chain.py", line 138, in <module>
+    if __name__=='__main__':main()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/run_valid_chain.py", line 135, in main
+    asyncio.run(run(p.parse_args()))
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/run_valid_chain.py", line 83, in run
+    await wait_balance(0,8_000_000,[fund_a]);await wait_balance(1,7_000_000,[fund_b])
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/run_valid_chain.py", line 49, in wait_balance
+    result=await command(index,'status',txids=list(txids))
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/run_valid_chain.py", line 44, in command
+    assert result['status']=='PASS',result
+AssertionError: {'status': 'ERROR', 'error': "AssertionError('tx e12734065b6fa6236758af0ae85fb18279f4265c3f977e3cfe96e2752505df93 is unknown')"}

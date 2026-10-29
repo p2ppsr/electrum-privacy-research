@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "removed_owned_paths": [
+    ".runtime/valid-chain",
+    ".runtime/package-run",
+    ".runtime/package-gui-observed",
+    ".runtime/packaged-disposable-wallet",
+    ".runtime/gnupg",
+    ".runtime/tls-r13vpm8q",
+    "/Users/tyeverett/Applications/Electrum Privacy Research Lab.app"
+  ],
+  "owned_node_and_network_removed": true,
+  "original_dmg_unmounted": true,
+  "no_unrelated_container_stopped": true,
+  "docker_desktop_left_running": true,
+  "public_downloads_remain_ignored": true,
+  "original_wallet_directories_not_opened": true
+}

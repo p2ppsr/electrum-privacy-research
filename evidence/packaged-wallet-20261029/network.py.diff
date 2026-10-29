@@ -1,0 +1,8 @@
+--- tag/network.py
++++ package/network.py
+@@ -2148,4 +2148,4 @@
+         )
+ 
+ 
+-JSON.register(SVServerState, SVServer, SVProxy)
++JSON.register(SVServerState, SVServer, SVProxy)

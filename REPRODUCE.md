@@ -132,3 +132,23 @@ To collect the same bounded messaging audit into a fresh directory:
 Both pinned Git objects must be available locally: release `672df8f4` and the observed public-master snapshot `35b92ec9`. Fetching master supplied the latter without changing the detached release checkout. The collector reviews English source/UI/docs and six first-party public pages. Negative findings are bounded manual-review conclusions, not an automated score or a user-awareness survey. The canonical release-body summary was separately obtained through the GitHub connector. Newer master pools differ from the tested release; do not silently substitute them into the earlier counts or tests.
 
 The public-discussion follow-up used the GitHub connector separately. Its retained search URLs include explicit issue/PR type filters; direct issue/comment GET URLs and narrow review summaries are preserved under `evidence/disclosure-audit-20261028/`. The first four rejected queries are retained alongside eight corrected queries. Search indexes are not an exhaustive awareness survey, and no public message was posted.
+
+## October 29 package, certificate and valid-chain experiments
+
+The full [package method](PACKAGED-WALLET.md) specifies the official DMG hash, PGP receipts, bundled runtime and isolation/GUI observation controls. Download and verify the artifact separately; it is not redistributed here. The operator authorized Rosetta installation on this Mac. Do not open an existing personal wallet or disable OS trust protections to reproduce a test. `create_packaged_wallet.py` creates only new ignored state; `packaged_bootstrap.py` launches the unchanged bundled entrypoint with isolated paths and optional client RPC observations. Its lab bundle wrapper/identity is an explicit control, not a vendor artifact. The source checkout passed to the other tools must remain pinned at `672df8f4512f6adf16a3c99146baa6be9b93d86f`.
+
+With Docker already running, the pinned vendor image available and a clean disposable `.runtime/valid-chain` path, the node setup refuses to overwrite existing state:
+
+```sh
+.venv/bin/python -m privacy_lab.setup_node --output evidence/my-node-setup
+.venv/bin/python -m privacy_lab.run_valid_chain --source /absolute/path/to/ElectrumSVP --output evidence/my-valid-chain
+.venv/bin/python -m privacy_lab.replay_chain --evidence evidence/my-valid-chain --output evidence/my-clean-node-replay
+.venv/bin/python -m privacy_lab.tls_matrix --source /absolute/path/to/ElectrumSVP --output evidence/my-tls-source
+.venv/bin/python -m privacy_lab.proxy_boundary --source /absolute/path/to/ElectrumSVP --output evidence/my-proxy-boundary
+```
+
+For the bundled matrix, add `--bundled-app /absolute/path/to/ElectrumSVP-0.2.0.app` and set `--source` to its `Contents/usr/lib/python3.9/site-packages`. The controller uses the research virtual environment only to generate test certificates; every matrix client then uses the vendor interpreter and modules. All endpoints are loopback. No CA is installed system-wide. Ports are ephemeral; only the named Docker network/node and ignored private state belong to this experiment. Stop/remove only these owned resources after exporting evidence. Do not stop unrelated Docker workloads. The exact retained chain has 210 non-genesis blocks because failed experiment histories are preserved; a fresh successful run may need fewer blocks while producing the same controlled financial outcome.
+
+Offline checks need only Python's standard library and no live server, wallet, Docker or network access. They include capture hash chains, controlled financial reconstruction, role accounting, the 18-claim ledger, all retained block hashes/linkage/PoW/Merkle roots, 36 TLS results, package/module observations and local evidence links. The consensus-node replay is separately retained; the offline verifier is not a new consensus implementation. Run `RESEARCH_PYTHON=python3 bash scripts/validate.sh`. The GitHub workflow runs the same command with read-only repository permissions and no stored checkout credentials. It does not recreate the live wallet experiments.
+
+`scripts/export-release.py --ref COMMIT_OR_TAG --output .runtime/releases/candidate.tar.gz` creates a deterministic compressed Git archive with a reported SHA-256. It contains committed evidence and source only. Independent human replication and reader testing remain unperformed until separately obtained.

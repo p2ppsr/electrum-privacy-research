@@ -1,72 +1,26 @@
-# Electrum wallet privacy research
+# Electrum privacy research
 
-**Start here: [One checkout address can expose far more than one sale](EXPLAINER.md).** A plain-English explainer opens with a shopkeeper who gives every customer a fresh address, then shows how default wallet use can expose a lasting financial profile. It includes three diagrams and links to the evidence.
+**Private prepublication research — October 28–29, 2026.** What can a serving operator retain and correlate when people use ElectrumSVP 0.2.0? This studies technical capability, independently of logging defaults or retention promises. It does not establish actual surveillance by a named service.
 
-One normal ElectrumSVP account discloses a collection of wallet interests to its main serving operator. That operator can retain the queried script hashes together with the connecting IP/session, reconstruct the associated ledger, identify wallet-associated outputs, and keep watching unused hashes after the wallet disconnects.
+Start with **[the plain-English shopkeeper story](EXPLAINER.md)**: one checkout address can name a wider wallet-associated profile; changing servers cannot revoke identifiers already disclosed.
 
-**Research date: October 28, 2026. Private repository.** This evaluates what a covert operator can collect, without relying on promises about logging defaults, deletion, or acceptable use.
+| Completed experiment | Result and scope |
+| --- | --- |
+| [Official macOS package](PACKAGED-WALLET.md) | PGP/checksum verified. Desktop session with network settings unset completed 40 subscriptions to its main service, with seven core and seven helper hosts observed. 145 shared Python modules have identical parsed code to the release tag. |
+| [Valid-chain shop](VALID-CHAIN.md) | Actual wallets signed, node-confirmed payments on isolated BSV regtest. One checkout anchor plus observer A's saved requests reconstructed 9,450,000 sats gross and 8,349,000 remaining, including activity after all shop routes moved to B. |
+| [Fresh-state replay](evidence/chain-clean-replay-attempt-03/result.json) | Another empty node accepted all 210 blocks, reproduced the tip, and rejected bad Merkle-root and invalid-signature controls. Same implementation; no independent human replication claim. |
+| [Certificate matrix](CERTIFICATES.md) | Source and bundled core/helper accepted wrong-host, self-signed and expired certificates; verified controls rejected them. Plaintext endpoints were rejected. No system trust store change. |
+| [Proxy boundary](MITIGATIONS.md) | Core used the supplied SOCKS connector; the separately invoked helper succeeded directly. The captured GUI assurance says proxy settings apply to all connections. |
+| [Earlier fixtures and fanout](REPORT.md) | Retained synthetic-ledger reconstruction and exact helper delivering one lookup to eight controlled TLS peers. They remain labeled separately from the later valid-chain experiment. |
 
-Start with [Who can see my wallet?](PRIVACY-STORIES.md) for everyday examples, or [the counted trust model and data-visibility diagram](TRUST-MODEL.md). The consumer model treats the six shared-segment endpoints as related and able to pool observations, and considers sharing across all providers. This is a threat assumption, distinct from verified ownership.
+The receiving main service can retain the active identifier collection, connection metadata and financial RPCs. Auxiliary core peers ordinarily see generic protocol/header traffic. Helpers see the particular lookups invoked; not every helper automatically gets the entire wallet. [Trust-party counts, infrastructure and who sees what](TRUST-MODEL.md).
 
-The expanded [persistent-correlation study](PERSISTENT-CORRELATION.md) covers surveillance after departure, cross-user value flows and identifying a non-reusing shop from one checkout address. The [disclosure audit](DISCLOSURE-AUDIT.md) distinguishes partial Network help, missing reviewed risk explanations, a concrete proxy-scope mismatch and unmeasured user awareness. Nine-host counts refer to tested release 0.2.0; the audit separately records newer master's changed pools.
+The tested release has eight core and eight helper names, a nine-name union, with six names in `198.154.93.0/24`. The conservative consumer model assumes shared-segment correlation and considers all-provider pooling. This is an explicit threat assumption; common legal ownership and actual sharing are unproved. The newer master has different pools and remains separately versioned.
 
-[Claim-to-evidence ledger](CLAIMS.md) · [Publication readiness](PUBLICATION-READINESS.md) · [Apache-2.0 licensing and attribution](LICENSING.md)
+**Matching ElectrumR source/build remains unavailable.** Its documented repository again returned 404 on October 29. We did not self-host or attest an ElectrumR binary. The valid-chain serving component is an explicitly named research adapter over a consensus-validating BSV node. No real-chain funds, real merchant or production user were involved. A finite observed collection does not expose an unlimited HD tree or prove a legal person's ownership of everything queried.
 
-## What was actually demonstrated
+Read [the technical report](REPORT.md), [claim-to-evidence ledger](CLAIMS.md), [persistent correlation](PERSISTENT-CORRELATION.md), [disclosure audit](DISCLOSURE-AUDIT.md), [related work](RELATED-WORK.md), and [reproduction instructions](REPRODUCE.md). The [October 29 liveness table](evidence/liveness-20261029/liveness-table.md) appends bounded observations without overwriting October 28 samples.
 
-| Experiment | Actual components | Result |
-| --- | --- | --- |
-| Live endpoint observation | Unchanged ElectrumSVP 0.2.0 `Wallet`/`Network`, fresh BIP39 account, recording TLS relay, bundled `sv.electrumr.sv` endpoint | One session disclosed 40 distinct script hashes. The unfunded account had zero transaction history. |
-| Controlled financial dossier | Unchanged ElectrumSVP wallet/network/signing code, recording TLS endpoint, explicitly manufactured Electrum protocol ledger | One wallet session disclosed 47 scripts and four transactions. Capture-only reconstruction recovered the payment, fee, change and remaining balance. |
-| Parallel verification disclosure | Exact upstream `electrum_request` function, eight controlled local TLS peers | All eight peers received the same transaction lookup before a winning response was returned. |
-| Default core routing observation | Unchanged wallet/core, fresh unfunded account, isolated paths, routing settings unset; client observation wrappers | Eight unique Electrum hosts had completed RPCs or helper TLS sends; one main received 40 script subscriptions. Helper sends carried only a block height. |
-| Persistent cross-user correlation | Three real empty-wallet captures, a simulated single-address shop anchor and a manufactured unsigned ledger constructed after all clients exited | One checkout address anchored 40 shop identifiers; two observed payer collections and one unattributed payer paid three fresh shop addresses. No wallet returned. |
-| Source provenance | Both bundled ElectrumR endpoints, documented source link, GitHub repository/releases lookup, publisher public-repository enumeration and repository/code search | Both endpoints advertised `ElectrumR 0.2.0`; no matching accessible public source or release artifact was found. |
+[Publication readiness](PUBLICATION-READINESS.md) tracks remaining human review, [right-of-reply drafts](REVIEW-PACKET.md) and [reader-study preparation](READER-STUDY.md). No outreach, user-comprehension result or public release is claimed.
 
-**We did not self-host or modify an ElectrumR binary.** Its documented repository returned HTTP 404 publicly and through the operator's authenticated GitHub account. Consequently, the financial experiment uses an explicitly labeled local protocol fixture, **not ElectrumR**. It contains manufactured, unconfirmed funding transactions with fictional parents, not consensus-valid real-chain deposits. The outgoing transaction is signed by the real wallet and its BSV signatures are independently checked against the fixture prevouts. No real BSV was funded or spent.
-
-The wallet runs headlessly using its actual account, SQLite storage, synchronization, RPC transport, coin selection, signing and broadcast code. This is a core-wallet network experiment, not a packaged-GUI qualification. Endpoint pinning, one-server mode and isolated application data are experimental controls; the entire configuration is not claimed to be stock. Default address discovery and transaction synchronization logic remain unchanged. See [the report](REPORT.md) for every material control and limitation.
-
-## Financial dossier from the controlled session
-
-These are **fixture satoshis with no monetary value**. The analyzer receives only `capture.jsonl`, not the seed, wallet database, derivation paths, expected amounts, or fixture server internals.
-
-| Reconstructed observation | Amount/count |
-| --- | ---: |
-| Scripts associated with the wallet connection | 47 |
-| Scripts resolved to concrete addresses from returned transactions | 4 |
-| Retained unresolved script hashes | 43 |
-| Transaction history | 4 transactions |
-| Three incoming payments | 13,500,000 sats |
-| Outgoing external payment | 5,000,000 sats |
-| Transaction fee | 1,000 sats |
-| Wallet-associated change | 2,999,000 sats |
-| Remaining observed UTXOs | 8,499,000 sats |
-
-The payment destination is `1QELJr58J6jUtMuqtjLMvePoRXmmdDZsJh`. The full addresses, outpoints, TXIDs, raw requests/responses, session identifiers and timestamps are in [the reconstructed dossier](evidence/fixture-attempt-04/dossier.json). The wallet independently reported the same final 8,499,000-sat balance in [its process log](evidence/fixture-attempt-04/wallet-process.log).
-
-A [modeled later transaction](evidence/fixture-attempt-04/future-watch.json) also matches a previously unresolved subscribed hash after the wallet process exits. That illustrates persistent future monitoring without reversing SHA-256 or keeping the client online. It is explicitly a synthetic later ledger event, not a real blockchain confirmation.
-
-## Read and reproduce
-
-- [Persistent monitoring, cross-user payments and checkout anchoring](PERSISTENT-CORRELATION.md)
-- [Disclosure, messaging and user-awareness evidence](DISCLOSURE-AUDIT.md)
-- [Plain-language privacy stories](PRIVACY-STORIES.md)
-- [Counted trust relationships, centralization risk and visibility diagram](TRUST-MODEL.md)
-- [Detailed findings, trust model and provenance gap](REPORT.md)
-- [All literal destinations, current IPs and hardcoded defaults](REPORT.md#hardcoded-destinations-and-current-network-observations)
-- [Operator attribution and verified infrastructure](REPORT.md#operator-attribution-and-verified-infrastructure-relationships)
-- [Public liveness snapshot](REPORT.md#public-liveness-and-apparent-chain-currency)
-- [Public server-side source inventory](REPORT.md#server-side-source-discovery-found-code-and-remaining-gaps)
-- [Reproduction instructions](REPRODUCE.md)
-- [Machine-readable verification results](evidence/verification.json)
-- [Offline replay from a clean Git export without wallet files or site packages](evidence/clean-replay.json)
-- [Raw live unfunded-wallet capture](evidence/live-attempt-02/capture.jsonl)
-- [Raw controlled financial capture](evidence/fixture-attempt-04/capture.jsonl)
-- [Eight-peer verification-helper capture](evidence/fanout-attempt-01/fanout.json)
-- [Source discovery and live server identification](evidence/provenance-20261028/)
-- [Attempt ledger, including failures](evidence/ATTEMPTS.md)
-
-The unresolved work is a self-hosted, source-pinned ElectrumR run with consensus-valid local-chain funding and confirmed history. The absence of accessible server source is recorded as an audit/reproducibility limitation, not concealed by substituting another server implementation.
-
-The ownership/liveness follow-up identifies B2 Net Solutions / ServerMania AS55286 behind the shared prefix, with application-operator attribution limits preserved. At **16:13 PDT on 2026-10-28**, eight of nine endpoints responded in both bounded samples; seven supplied a matching current tip in both, Bitails did so in one, and `electrum.server.sv` timed out at TCP in both. Public Bitails adapter and Python ElectrumX source were located; matching deployed-build attestations and ElectrumR implementation source remain unavailable. See the linked report and retained public-source receipts.
+Original research is Apache-2.0, **© Peer-to-peer Privacy Systems Research, LLC.** See [LICENSE](LICENSE), [NOTICE](NOTICE), [third-party boundaries](LICENSING.md) and [citation metadata](CITATION.cff).

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/tls_matrix.py", line 87, in <module>
+    if __name__=='__main__':main()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/tls_matrix.py", line 25, in main
+    from electrumsv.network import SVServer
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages/electrumsv/network.py", line 48, in <module>
+    from bitcoinx import (
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages/bitcoinx/__init__.py", line 1, in <module>
+    from .address import *
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages/bitcoinx/address.py", line 19, in <module>
+    from .hashes import hash160 as calc_hash160
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages/bitcoinx/hashes.py", line 21, in <module>
+    from .misc import chunks
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages/bitcoinx/misc.py", line 19, in <module>
+    from electrumsv_secp256k1 import create_context
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/site-packages/electrumsv_secp256k1/__init__.py", line 4, in <module>
+    from ._libsecp256k1 import ffi, lib
+ModuleNotFoundError: No module named 'electrumsv_secp256k1._libsecp256k1'

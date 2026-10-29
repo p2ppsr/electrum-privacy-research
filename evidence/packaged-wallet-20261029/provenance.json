@@ -1,0 +1,12 @@
+{
+  "dmg_sha256": "657a1eaaafb40ea5f3db7b3c21ecd93e7c1c8b03d6de570e8f10bbb187a05f47",
+  "publisher_readme_fingerprint": "E9BAFA19B15E6C2C158CDD400DB16C74A9CA7CF6",
+  "bundled_python_arch": "x86_64",
+  "bundled_python_version": "3.9",
+  "launcher_script_sha256": "54682b7ea52edb1977fa05bbda033a1002834976ef738f2e6142114575fd08a1",
+  "executable_sha256": "3a9e127941d9e8a7b196fb87929e4acf766b588a2d699c88050e36965233fb56",
+  "entrypoint_control": "Invoke bundled interpreter and bundled entrypoint with -D; CFBundle wrapper discards all supplied arguments",
+  "filesystem_control": "sandbox denies reads/writes to existing user wallet/node directories; private application and temporary paths",
+  "network_settings_supplied": [],
+  "pid": 98793
+}

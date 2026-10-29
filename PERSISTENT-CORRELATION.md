@@ -1,5 +1,7 @@
 # A session can become a lasting financial profile
 
+October 29 update: [official desktop capture](PACKAGED-WALLET.md), [valid-chain shop/departure proof](VALID-CHAIN.md), [certificate tests](CERTIFICATES.md) and [claim ledger](CLAIMS.md) now supplement the earlier evidence below. Earlier synthetic cases remain explicitly separate.
+
 For ordinary readers, [the shopkeeper explainer](EXPLAINER.md) walks through this mechanism with simple diagrams.
 
 **The original report contemplated continued watching, but did not fully develop cross-user correlation or the one-address shop scenario. This extension does.** The default online subscription behavior supplies the raw material without a separate privacy opt-in. Under this report's covert-operator model, the serving party acts as a **financial surveillance infrastructure operator**: it can build durable financial profiles and a payment graph between observed collections. This names the modeled function and capability, not an allegation that a particular public operator has been observed performing it.

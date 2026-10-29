@@ -1,0 +1,18 @@
+[
+  {
+    "utc": "2026-10-29T20:03:55.007786+00:00",
+    "phase": "node-and-observers-ready",
+    "node_version": "/Bitcoin SV:1.2.3/",
+    "node_height": 201,
+    "observer_ports": [
+      58908,
+      58909
+    ]
+  },
+  {
+    "utc": "2026-10-29T20:03:56.707552+00:00",
+    "phase": "three-wallets-disclosed-before-payments",
+    "initial_identifiers_per_wallet": 40,
+    "checkout_address_count": 1
+  }
+]

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/proxy_boundary.py", line 52, in <module>
+    if __name__=='__main__':main()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/proxy_boundary.py", line 51, in main
+    p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--output',type=Path,required=True);asyncio.run(run(p.parse_args()))
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/proxy_boundary.py", line 42, in run
+    await session.send_request('blockchain.scripthash.get_history',['ab'*32])
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 537, in send_request
+    return await self._send_concurrent(message, future, 1)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/session.py", line 507, in _send_concurrent
+    return await future
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 721, in receive_message
+    item, request_id = self._protocol.message_to_item(message)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 273, in message_to_item
+    return cls._process_response(payload)
+  File "/Users/tyeverett/projects/electrum-privacy-research/.venv/lib/python3.10/site-packages/aiorpcx/jsonrpc.py", line 220, in _process_response
+    raise cls._error(code, message, False, request_id)
+aiorpcx.jsonrpc.ProtocolError: (-32600, '"jsonrpc" is not "2.0"')

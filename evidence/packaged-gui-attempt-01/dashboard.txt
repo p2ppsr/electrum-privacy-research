@@ -1,0 +1,53 @@
+Window: "ElectrumSVP v0.2.0 (mainnet) - test-wallet", App: Electrum Privacy Research Lab.
+0 standard window ElectrumSVP v0.2.0 (mainnet) - test-wallet, Secondary Actions: Raise
+	1 text
+		2 button Secondary Actions: Raise
+		3 image
+		4 text 1 Bitcoin
+		5 image
+		6 text 17.59 USD
+		7 image
+		8 text Connected
+		9 button Description: There are 1 unread notifications, Secondary Actions: Raise
+	10 split group
+		11 container
+			12 button Description: Refresh the list., Secondary Actions: Raise
+			13 button Description: Toggle list searching/filtering (Control+F)., Secondary Actions: Raise
+			14 button Description: Export history as.., Secondary Actions: Raise
+			15 column Date
+			16 column Description
+			17 column Amount
+			18 column Balance
+			19 column USD Amount
+			20 column USD Balance
+		21 container History, Secondary Actions: Raise
+			22 radio button History, Description: Published transactions
+			23 radio button Transactions, Description: Unpublished transactions
+			24 radio button Send, Description: Create a transaction
+			25 radio button Receive, Description: Receive a transaction
+			26 radio button Destinations
+			27 radio button Coins (UTXOs)
+		28 list
+			29 text Standard account
+	30 list
+		31 text
+	32 button (disabled) Sort
+	33 button Add Account, Description: Experimental multiple account creation enabled.
+	34 button Log Viewer
+	35 button Network
+	36 button Preferences
+	37 button Updates, Description: Check for Updates
+	38 close button
+	39 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	40 minimize button
+	41 text ElectrumSVP v0.2.0 (mainnet) - test-wallet
+42 menu bar
+	43 Electrum Privacy Lab
+	44 File
+	45 Wallet
+	46 Account
+	47 View
+	48 Tools
+	49 Help
+
+The focused UI element is 29 text Standard account

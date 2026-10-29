@@ -1,0 +1,2 @@
+[ELECTRUMX] FAIL blockchain.scripthash.get_history -> 127.0.0.1:59987 (S) after 0.000s: SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1017)')
+{"status": "PASS", "cases": 18, "core_context": {"verify_mode": 0, "check_hostname": false}}

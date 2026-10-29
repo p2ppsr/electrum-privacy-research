@@ -1,0 +1,14 @@
+Window: "", App: Electrum Privacy Research Lab.
+0 dialog Secondary Actions: Raise
+	1 image
+	2 text Value: Welcome to ElectrumSVP v0.2.0, Secondary Actions: Raise
+	3 button OK, Secondary Actions: Raise
+	4 text Secondary Actions: Raise, Value: ElectrumSVP is just a Bitcoin SV wallet, it cannot stop you from making bad decisions. Read this article for an overview of the various risks, and the mistakes others have made resulting in the loss of coins. Your coins are your responsibility, take care with them. 
+You can read about the changes included in this release, in the release guide we have written.
+	5 checkbox Do not show me again, Value: 0, Secondary Actions: Raise
+	6 close button
+	7 zoom button (disabled)
+8 menu bar
+	9 Electrum Privacy Lab
+
+The focused UI element is 0 dialog Secondary Actions: Raise

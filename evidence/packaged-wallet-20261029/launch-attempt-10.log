@@ -1,0 +1,61 @@
+2026-10-29 13:15:02,540:WARNING:[electrum.server.sv:50002 SSL #3]:Connection attempt 1 failed: [Errno 60] Connect call failed ('198.154.93.210', 50002)
+2026-10-29 13:16:27,546:WARNING:[electrum.server.sv:50002 SSL #3]:Connection attempt 2 failed: [Errno 60] Connect call failed ('198.154.93.210', 50002)
+[ELECTRUMX] FAIL blockchain.block.header -> electrum.server.sv:50002 (S) after 5.010s: timeout('timed out')
+2026-10-29 13:17:45,484:WARNING:network:Failed to read headers file, replacing with preloaded one.
+2026-10-29 13:17:54,137:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:
+===== THROTTLE =====
+session : 4574408656
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : False
+2026-10-29 13:17:54,137:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:CREATED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:54,406:WARNING:[sv2.electrumr.sv:50002 SSL #0]:
+===== THROTTLE =====
+session : 4574333248
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : True
+2026-10-29 13:17:54,406:WARNING:[sv2.electrumr.sv:50002 SSL #0]:WAITING on existing throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:54,407:WARNING:[sv.satoshi.io:50002 SSL #2]:
+===== THROTTLE =====
+session : 4562824640
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : True
+2026-10-29 13:17:54,407:WARNING:[sv.satoshi.io:50002 SSL #2]:WAITING on existing throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:54,408:WARNING:[sv.electrumr.sv:50002 SSL #3]:
+===== THROTTLE =====
+session : 4574407600
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : True
+2026-10-29 13:17:54,408:WARNING:[sv.electrumr.sv:50002 SSL #3]:WAITING on existing throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:54,408:WARNING:[sv2.satoshi.io:50002 SSL #5]:
+===== THROTTLE =====
+session : 4561991664
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : True
+2026-10-29 13:17:54,408:WARNING:[sv2.satoshi.io:50002 SSL #5]:WAITING on existing throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:54,630:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:Downloading chunk starting at height 966553
+2026-10-29 13:17:55,096:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:headers_obj.tip.height now = 968568
+2026-10-29 13:17:55,097:WARNING:[bsv.aftrek.org:50002 SSL #7]:
+===== THROTTLE =====
+session : 4574332480
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : True
+2026-10-29 13:17:55,097:WARNING:[bsv.aftrek.org:50002 SSL #7]:WAITING on existing throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:55,097:WARNING:[esv.bitails.io:50002 SSL #4]:
+===== THROTTLE =====
+session : 5011707408
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : True
+2026-10-29 13:17:55,097:WARNING:[esv.bitails.io:50002 SSL #4]:WAITING on existing throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:17:55,575:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:Downloading chunk starting at height 968569
+2026-10-29 13:17:56,039:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:headers_obj.tip.height now = 970584
+2026-10-29 13:17:56,355:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:Downloading chunk starting at height 970585
+2026-10-29 13:17:56,824:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:headers_obj.tip.height now = 972600
+2026-10-29 13:17:57,092:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:Downloading chunk starting at height 972601
+2026-10-29 13:17:57,242:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:headers_obj.tip.height now = 973225
+2026-10-29 13:17:57,242:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:========== CATCH UP END ==========
+final local tip : 973225
+2026-10-29 13:17:57,242:WARNING:[electrumx.gorillapool.io:50002 SSL #1]:RELEASED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:18:33.697 PythonLab[9074:31225806] Warning: Window move completed without beginning
+2026-10-29 13:19:08,753:WARNING:[electrum.server.sv:50002 SSL #6]:Connection attempt 1 failed: [Errno 60] Connect call failed ('198.154.93.210', 50002)
+[preloaded headers] Copied to /Users/tyeverett/projects/electrum-privacy-research/.runtime/package-gui-observed/private-home/.electrum-sv/headers
+[ELECTRUMX] FAIL blockchain.block.header -> electrum.server.sv:50002 (S) after 5.011s: timeout('timed out')

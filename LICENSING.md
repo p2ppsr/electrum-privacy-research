@@ -16,3 +16,5 @@ Third-party material is not relicensed by that grant:
 | Mermaid, Playwright and other rendering/runtime tools | External dependencies retain upstream licenses. Generated original diagram content is included in the research grant. |
 
 The public-release exporter must exclude downloaded application/node distributions and runtime dependencies unless their redistribution requirements have separately been satisfied. Record references, hashes and verification receipts instead. Historical raw evidence remains unchanged; copyright headers are not injected into hash-chained captures.
+
+The upstream [ElectrumSVP license and notices](third-party/ElectrumSVP-LICENCE.txt) accompany the retained narrow source diffs. No application binary, node image, runtime dependency tree, private key or wallet database is part of the committed release payload.

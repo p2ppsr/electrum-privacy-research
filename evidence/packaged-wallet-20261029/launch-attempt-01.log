@@ -1,0 +1,1 @@
+sandbox-exec: execvp() of '/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/bin/python3.9' failed: Bad CPU type in executable

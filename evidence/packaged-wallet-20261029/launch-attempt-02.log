@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/MacOS/ElectrumSV.py", line 11, in <module>
+    from electrumsv.main_entrypoint import main
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/MacOS/../usr/lib/python3.9/site-packages/electrumsv/main_entrypoint.py", line 3, in <module>
+    from electrumsv.platform import platform
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/MacOS/../usr/lib/python3.9/site-packages/electrumsv/platform.py", line 30, in <module>
+    from electrumsv.i18n import _
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/MacOS/../usr/lib/python3.9/site-packages/electrumsv/i18n.py", line 27, in <module>
+    from .util import resource_path
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/MacOS/../usr/lib/python3.9/site-packages/electrumsv/util/__init__.py", line 32, in <module>
+    import ssl
+  File "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/ssl.py", line 99, in <module>
+    import _ssl             # if we can't import it, let the error propagate
+ImportError: dlopen(/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/lib-dynload/_ssl.cpython-39-darwin.so, 0x0002): Library not loaded: @executable_path/../Frameworks/libssl.3.dylib
+  Referenced from: <003F1249-331D-31B9-80A3-682168BFBD37> /Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/lib/python3.9/lib-dynload/_ssl.cpython-39-darwin.so
+  Reason: tried: '/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app/Contents/usr/Frameworks/libssl.3.dylib' (no such file), '/usr/local/lib/libssl.3.dylib' (no such file), '/usr/lib/libssl.3.dylib' (no such file, not in dyld cache)

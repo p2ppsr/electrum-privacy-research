@@ -1,0 +1,2 @@
+There has been no change in the accessibility tree for Window: "Network".
+The focused UI element is 52 checkbox Use proxy, Value: 0, Secondary Actions: Raise

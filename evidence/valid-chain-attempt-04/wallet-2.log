@@ -1,0 +1,14 @@
+WARNING:config:not changing config key 'auto_connect' set on the command line
+2026-10-29 13:09:32,100:WARNING:config:not changing config key 'auto_connect' set on the command line
+WARNING:network:no good servers available
+2026-10-29 13:09:32,101:WARNING:network:no good servers available
+WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 1 failed: valid-chain wallet blocks non-loopback socket connections
+2026-10-29 13:09:32,104:WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 1 failed: valid-chain wallet blocks non-loopback socket connections
+WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 2 failed: valid-chain wallet blocks non-loopback socket connections
+2026-10-29 13:09:42,107:WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 2 failed: valid-chain wallet blocks non-loopback socket connections
+WARNING:network:no good servers available
+2026-10-29 13:09:52,102:WARNING:network:no good servers available
+WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 3 failed: valid-chain wallet blocks non-loopback socket connections
+2026-10-29 13:09:52,111:WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 3 failed: valid-chain wallet blocks non-loopback socket connections
+WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 4 failed: valid-chain wallet blocks non-loopback socket connections
+2026-10-29 13:10:02,122:WARNING:[electrumx.gorillapool.io:50002 SSL #0]:Connection attempt 4 failed: valid-chain wallet blocks non-loopback socket connections

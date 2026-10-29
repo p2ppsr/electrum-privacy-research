@@ -10,7 +10,7 @@ Payments to other addresses in that collection can now be associated with Mei's 
 
 **Normal online use supplies the information for this kind of lasting financial surveillance. No separate privacy opt-in is needed for the default payment checks examined here.**
 
-Mei is fictional. This explainer describes what a covert operator could collect, not evidence that a particular public service has done so. The research examined ElectrumSVP 0.2.0 and controlled wallet sessions on October 28, 2026. [What was tested](#what-we-demonstrated).
+Mei is fictional. This explainer describes what a covert operator could collect, not evidence that a particular public service has done so. The research examined ElectrumSVP 0.2.0 and controlled wallet sessions on October 28–29, 2026. [What was tested](#what-we-demonstrated).
 
 ## How one address opens a wider view
 
@@ -22,7 +22,7 @@ The service does not need to recover every unused address from its fingerprint. 
 
 This is why fresh addresses alone do not hide the collection from the service checking them. A regular customer may know one address; the serving operator has the additional record of which fingerprints the wallet checked together.
 
-**Evidence:** [the shop scenario and its conditions](PERSISTENT-CORRELATION.md#one-checkout-address-can-identify-much-more-than-one-sale), [the single simulated checkout address](evidence/correlation-attempt-01/checkout.json), and [the reconstructed shop profile](evidence/correlation-attempt-01/correlation.json).
+**Evidence:** [the shop scenario and its conditions](PERSISTENT-CORRELATION.md#one-checkout-address-can-identify-much-more-than-one-sale), [the single simulated checkout address](evidence/correlation-attempt-01/checkout.json), and [the valid-chain shop profile](evidence/valid-chain-attempt-05/result.json).
 
 ## Leaving does not take back the record
 
@@ -34,7 +34,7 @@ Suppose Mei stops using that service. The operator can keep its saved list and c
 
 There is a boundary: the disclosed collection is finite. Completely undisclosed addresses or a separate wallet need another link. A spend of known coins is visible, but an unfamiliar destination is not automatically proven to be Mei's new change address. That boundary does not expire the identifiers already disclosed.
 
-**Evidence:** [continued monitoring and its limits](PERSISTENT-CORRELATION.md#leaving-a-server-does-not-revoke-the-disclosed-collection), [a modeled later match after the wallet exited](evidence/fixture-attempt-04/future-watch.json), and [the later-ledger experiment](evidence/correlation-attempt-01/run.json).
+**Evidence:** [continued monitoring and its limits](PERSISTENT-CORRELATION.md#leaving-a-server-does-not-revoke-the-disclosed-collection), [a modeled later match after the wallet exited](evidence/fixture-attempt-04/future-watch.json), and [the later valid-chain departure experiment](VALID-CHAIN.md).
 
 ## The operator can connect customers to the shop
 
@@ -73,13 +73,13 @@ The reviewed project does offer some technical Network help about sending paymen
 
 ## What we demonstrated
 
-We recorded three real, empty wallet sessions using the wallet's normal discovery behavior. Each disclosed **40 identifiers: 20 receiving and 20 change**. “Change” is the part of a payment returned to the wallet. All three wallet processes then exited.
+The official macOS wallet opened a fresh, empty standard account with network settings left unset. It completed **40 identifier subscriptions** to its main service. Seven core services and seven helper destinations were observed, with different roles: only the main received the full collection; helper sends in that empty session carried a block height. Screenshots show automatic selection on and proxy use off. [Desktop capture and controls](PACKAGED-WALLET.md).
 
-We supplied one simulated checkout address and constructed a fictional later transaction history. Using only the saved traffic, that later history and the checkout address, the analyzer associated **40 shop identifiers** and reconstructed the payments shown above. It did not receive recovery words, wallet files or a list explaining which addresses belonged to whom. It could associate the shop's collection before any payment was present, and it refused to assign mixed-profile payments to a single identified payer.
+We then reproduced the shop story on a **valid, isolated Bitcoin SV test chain**, using three actual wallet cores and a documented research serving adapter. Two buyers signed payments to different fresh shop addresses; an unknown payer paid a third. One checkout address identified the saved shop collection. After the shop moved both its main and helper routes to a new observer, the old observer received **no new client request**. It still recognized a later receipt and spend from its saved list and public test-chain records. It reconstructed **9,450,000 test satoshis received and 8,349,000 remaining**, agreeing with the wallet. [Experiment, raw evidence and limits](VALID-CHAIN.md).
 
-The sessions ran the wallet's actual account and networking code without the desktop interface. Local test settings preserved normal address discovery. The later payment records were invented for the test: no real money was spent and no real blockchain confirmed them. No actual shop or customer was investigated. The advertised ElectrumR server's documented source was unavailable, which prevented an independent run of that software. [Full method, controls and limitations](PERSISTENT-CORRELATION.md#controlled-demonstration-after-all-clients-exit).
+A second node started from an empty data directory and accepted all retained blocks. The amounts had no monetary value, no real shop/customer was investigated, and no production server was attacked. ElectrumR's documented source remained unavailable; the research adapter is clearly distinguished from it. Earlier synthetic examples, including the illustrative amounts in the payment diagram above, remain available as separate exercises. The collection is finite, and queried interests do not prove legal ownership.
 
-A separate [unfunded run using default network settings](evidence/default-session-attempt-01/run.json) reached eight different Electrum server names through successful responses or helper sends. Only its selected main service received the full 40-identifier collection. That distinction matters: several recipients does not mean each automatically receives the whole wallet.
+The [certificate experiment](CERTIFICATES.md) also showed both source and packaged runtimes accepting wrong-host, self-signed and expired certificates. The verified control rejected them. That matters for an attacker able to redirect a connection; passive observation alone does not decrypt TLS. The desktop [proxy help](evidence/packaged-gui-attempt-01/proxy-assurance.png) claims every connection is covered, while the [controlled routing test](MITIGATIONS.md) demonstrates the helper's separate route. No participant study of reader understanding has been conducted.
 
 ## The trust you are placing in the service
 

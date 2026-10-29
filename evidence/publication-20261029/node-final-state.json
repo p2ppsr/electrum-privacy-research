@@ -1,0 +1,62 @@
+{
+  "observed_at": "2026-10-29T20:26:41.438076+00:00",
+  "node": {
+    "chain": "regtest",
+    "blocks": 210,
+    "headers": 210,
+    "bestblockhash": "3e4fee0065d26966df19f5d64fc5b4c9365f8cc3189039516c66727d2834596d",
+    "difficulty": 4.656542373906925e-10,
+    "mediantime": 1793304474,
+    "verificationprogress": 1,
+    "chainwork": "00000000000000000000000000000000000000000000000000000000000001a6",
+    "pruned": false,
+    "softforks": [
+      {
+        "id": "bip34",
+        "version": 2,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "bip66",
+        "version": 3,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "bip65",
+        "version": 4,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "csv",
+        "version": 5,
+        "reject": {
+          "status": false
+        }
+      }
+    ]
+  },
+  "peers": 0,
+  "verifychain": true,
+  "isolation": {
+    "network_internal": true,
+    "published_ports": {},
+    "cpus": 2000000000,
+    "memory_bytes": 2147483648,
+    "cap_drop": [
+      "ALL"
+    ],
+    "security_options": [
+      "no-new-privileges"
+    ]
+  },
+  "host_changes": [
+    "Rosetta 2 installed with explicit license authorization",
+    "Existing Docker Desktop started; unrelated pre-existing containers auto-started; none modified or stopped"
+  ]
+}

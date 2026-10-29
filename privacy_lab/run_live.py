@@ -6,6 +6,8 @@ not claim we possess, instrumented, or attested that endpoint's server binary.
 import argparse
 import asyncio
 import json
+import os
+import shutil
 from pathlib import Path
 import ssl
 import subprocess
@@ -39,11 +41,16 @@ async def run(args):
     port = await tap.start()
     command = [sys.executable, "-m", "privacy_lab.wallet_session", "--source", str(args.source),
                "--state", str(private / "wallet-state"), "--port", str(port)]
+    env=None
+    if args.bundled_app:
+        command[0]=str(args.bundled_app/'Contents/usr/bin/python3.9')
+        env=os.environ.copy();env['PYTHONHOME']=str(args.bundled_app/'Contents/usr')
+        env['DYLD_LIBRARY_PATH']=str(args.bundled_app/'Contents/Frameworks')+':'+str(args.bundled_app/'Contents/usr/lib')
     if args.fixture:
         command.append("--fixture")
     try:
         with (args.output / "wallet-process.log").open("w") as log:
-            process = await asyncio.create_subprocess_exec(*command, stdout=log, stderr=log)
+            process = await asyncio.create_subprocess_exec(*command, env=env, stdout=log, stderr=log)
             try:
                 code = await asyncio.wait_for(process.wait(), timeout=240)
             except asyncio.TimeoutError:
@@ -56,6 +63,10 @@ async def run(args):
             controls=["loopback TLS endpoint", "oneserver=True", "auto_connect=False",
                       "headless application callbacks", "isolated application data"],
             defaults_preserved=["20 receiving + 20 change lookahead", "P2PKH scripts", "history/transaction RPC logic"])
+        if args.bundled_app:
+            result['client']='Official macOS DMG bundled Python 3.9.13 and unchanged bundled Wallet/Network modules; headless harness'
+            result['bundled_app']=str(args.bundled_app)
+            result['packaged_GUI_session']=False
         if args.fixture:
             result.update(upstream="manufactured protocol fixture, NOT ElectrumR",
                 mode="real upstream Wallet/Network against manufactured unconfirmed ledger",
@@ -80,6 +91,9 @@ async def run(args):
             raw_transaction=raw,txid=observed["txid"],matching_outputs=matches,
             analyzer_inputs=["capture.jsonl","this later raw transaction"],
             requires_wallet_online=False),indent=2)+"\n")
+    if args.bundled_app:
+        shutil.rmtree(private)
+        (args.output/'cleanup.json').write_text(json.dumps(dict(disposable_state_removed=not private.exists()))+'\n')
     print(json.dumps(result, indent=2))
     if code:
         raise SystemExit(code)
@@ -91,6 +105,7 @@ def main():
     p.add_argument("--upstream", default="sv.electrumr.sv", choices=["sv.electrumr.sv", "sv2.electrumr.sv"])
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--fixture", action="store_true")
+    p.add_argument("--bundled-app", type=Path)
     asyncio.run(run(p.parse_args()))
 
 

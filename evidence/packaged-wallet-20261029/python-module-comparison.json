@@ -1,0 +1,872 @@
+[
+  {
+    "file": "__init__.py",
+    "package_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tag_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ast_identical": true
+  },
+  {
+    "file": "app_state.py",
+    "package_sha256": "e359fbeeeb095da043842e81429f393c2bf4821dac29da09d00a99f7923e9774",
+    "tag_sha256": "e359fbeeeb095da043842e81429f393c2bf4821dac29da09d00a99f7923e9774",
+    "ast_identical": true
+  },
+  {
+    "file": "async_.py",
+    "package_sha256": "0275f34382e3449f9646d5fc7ea19eee4ff01b176696f0c974f6c687936bf948",
+    "tag_sha256": "c8e9d429da3220072152de41638df3387c98e5066c4f47e7c76f57e24d7aa0c3",
+    "ast_identical": true
+  },
+  {
+    "file": "bip276.py",
+    "package_sha256": "650ba95c33175f1053f9ba8b872a9d52ca47f694bde1776c35ec17c81ff45bfb",
+    "tag_sha256": "650ba95c33175f1053f9ba8b872a9d52ca47f694bde1776c35ec17c81ff45bfb",
+    "ast_identical": true
+  },
+  {
+    "file": "bitcoin.py",
+    "package_sha256": "3000ae9a03755e3bdc41226116775e1783319762a2082a8c04bde7d16f911c3d",
+    "tag_sha256": "3000ae9a03755e3bdc41226116775e1783319762a2082a8c04bde7d16f911c3d",
+    "ast_identical": true
+  },
+  {
+    "file": "coinchooser.py",
+    "package_sha256": "ca35b28a37c7faef6f109c4e94f1539ba2b4aaa9da7501b7a700bb954e20740e",
+    "tag_sha256": "ca35b28a37c7faef6f109c4e94f1539ba2b4aaa9da7501b7a700bb954e20740e",
+    "ast_identical": true
+  },
+  {
+    "file": "commands.py",
+    "package_sha256": "fa9368bee9a42b837a1ea6e411653446cb13089efb5f4b202474489b6612b685",
+    "tag_sha256": "fa9368bee9a42b837a1ea6e411653446cb13089efb5f4b202474489b6612b685",
+    "ast_identical": true
+  },
+  {
+    "file": "compat_aiorpcx.py",
+    "package_sha256": "aadd0351a17155f491f361a00bab94ba77ab9463ef4042f175a089c12a3610bc",
+    "tag_sha256": "aadd0351a17155f491f361a00bab94ba77ab9463ef4042f175a089c12a3610bc",
+    "ast_identical": true
+  },
+  {
+    "file": "constants.py",
+    "package_sha256": "74bc17a5419bf01aa5e6ed65ff4721354bb3359013640b3e15a170d19fe03d2d",
+    "tag_sha256": "74bc17a5419bf01aa5e6ed65ff4721354bb3359013640b3e15a170d19fe03d2d",
+    "ast_identical": true
+  },
+  {
+    "file": "contacts.py",
+    "package_sha256": "6dfc4e326a8900614999d5a3c472b9b1208c5eea163dd7cff5a2e0e20e0abe6e",
+    "tag_sha256": "6dfc4e326a8900614999d5a3c472b9b1208c5eea163dd7cff5a2e0e20e0abe6e",
+    "ast_identical": true
+  },
+  {
+    "file": "crypto.py",
+    "package_sha256": "f6561f82281d0c9701b6b567d6e1c0b7035caffd8cec12e04775206b7ff240fd",
+    "tag_sha256": "f6561f82281d0c9701b6b567d6e1c0b7035caffd8cec12e04775206b7ff240fd",
+    "ast_identical": true
+  },
+  {
+    "file": "daemon.py",
+    "package_sha256": "981aa65a8e7f1a4b19ebd8f024da367cb70af5d50ed3a6f8919076b11ea5b576",
+    "tag_sha256": "897c1ec29c0299985ffc8315f08a8efd377ad5f8b8c398ca92cceb90742b128b",
+    "ast_identical": true
+  },
+  {
+    "file": "device.py",
+    "package_sha256": "2405b6fccefaf239af1465f2cc1bf2a3853a93a06da2185a580a5777d416128f",
+    "tag_sha256": "2405b6fccefaf239af1465f2cc1bf2a3853a93a06da2185a580a5777d416128f",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/__init__.py",
+    "package_sha256": "d05bf2c5e001e8642ac43a0399f4681c48e94a1feb2d37ee073e243d7547735e",
+    "tag_sha256": "d05bf2c5e001e8642ac43a0399f4681c48e94a1feb2d37ee073e243d7547735e",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/digitalbitbox/__init__.py",
+    "package_sha256": "4bb007acd04557848809c8cdb6f9d5c6622a1049c5c05416b0408095e552b7f7",
+    "tag_sha256": "4bb007acd04557848809c8cdb6f9d5c6622a1049c5c05416b0408095e552b7f7",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/digitalbitbox/digitalbitbox.py",
+    "package_sha256": "b7537c163622a1a21a95eef6c53e38307c024b1db61cc50b41b582862996ca54",
+    "tag_sha256": "b7537c163622a1a21a95eef6c53e38307c024b1db61cc50b41b582862996ca54",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/digitalbitbox/qt.py",
+    "package_sha256": "b1504c5f614aa46fda13422d77bf295170a23d2b9b9ebf139e2cfa38331d0738",
+    "tag_sha256": "b1504c5f614aa46fda13422d77bf295170a23d2b9b9ebf139e2cfa38331d0738",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/hw_wallet/__init__.py",
+    "package_sha256": "22372dbab597c5667e547d313793a704a85737cb50590d966f5749b0240e034c",
+    "tag_sha256": "22372dbab597c5667e547d313793a704a85737cb50590d966f5749b0240e034c",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/hw_wallet/cmdline.py",
+    "package_sha256": "79d09b9449b4bef8cea432bc5d22940a08a83e36c88a9331c293847ae7861a7f",
+    "tag_sha256": "79d09b9449b4bef8cea432bc5d22940a08a83e36c88a9331c293847ae7861a7f",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/hw_wallet/plugin.py",
+    "package_sha256": "9f452adf3b69a8825bf7ca68431e3359dd47480b38d32d7f1c0fedf0037e0377",
+    "tag_sha256": "9f452adf3b69a8825bf7ca68431e3359dd47480b38d32d7f1c0fedf0037e0377",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/hw_wallet/qt.py",
+    "package_sha256": "8d9280fc45f2786ae2d45d3ad5eae554060da640cbebc08127a86eb1e55c0632",
+    "tag_sha256": "8d9280fc45f2786ae2d45d3ad5eae554060da640cbebc08127a86eb1e55c0632",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/keepkey/__init__.py",
+    "package_sha256": "a70cf91fd1ddf5199348a1daa135e4d1d95e12b1d2eab65f24cf5bb19041f271",
+    "tag_sha256": "a70cf91fd1ddf5199348a1daa135e4d1d95e12b1d2eab65f24cf5bb19041f271",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/keepkey/client.py",
+    "package_sha256": "1d931910144f95a6a612cb7f6feb94c9b8bc2a6dcc47eca56e38384a3aa821d1",
+    "tag_sha256": "1d931910144f95a6a612cb7f6feb94c9b8bc2a6dcc47eca56e38384a3aa821d1",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/keepkey/keepkey.py",
+    "package_sha256": "75dd87dd340a05d9e09c7786f068431839d5ad67fdcf50019e583090c588c1cc",
+    "tag_sha256": "75dd87dd340a05d9e09c7786f068431839d5ad67fdcf50019e583090c588c1cc",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/keepkey/qt.py",
+    "package_sha256": "a63dfeb128157fc0fb12073fab7ae3bdaead39979b0325a5f5e409414b486f33",
+    "tag_sha256": "a63dfeb128157fc0fb12073fab7ae3bdaead39979b0325a5f5e409414b486f33",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/ledger/__init__.py",
+    "package_sha256": "a70cf91fd1ddf5199348a1daa135e4d1d95e12b1d2eab65f24cf5bb19041f271",
+    "tag_sha256": "a70cf91fd1ddf5199348a1daa135e4d1d95e12b1d2eab65f24cf5bb19041f271",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/ledger/auth2fa.py",
+    "package_sha256": "e88ac1b3609c9622fd5a42a779f08cfc0f3362115ba6d321228df9d1a7cbd0fe",
+    "tag_sha256": "e88ac1b3609c9622fd5a42a779f08cfc0f3362115ba6d321228df9d1a7cbd0fe",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/ledger/ledger.py",
+    "package_sha256": "89d2030922f707295992cb1c9e94cfe7b8e6e94c8f99f020a07572586338ca8c",
+    "tag_sha256": "89d2030922f707295992cb1c9e94cfe7b8e6e94c8f99f020a07572586338ca8c",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/ledger/qt.py",
+    "package_sha256": "56979779bc2b5799a26c5bed46400e3974fe7b04413d150c36743996c4817368",
+    "tag_sha256": "56979779bc2b5799a26c5bed46400e3974fe7b04413d150c36743996c4817368",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/trezor/__init__.py",
+    "package_sha256": "a70cf91fd1ddf5199348a1daa135e4d1d95e12b1d2eab65f24cf5bb19041f271",
+    "tag_sha256": "a70cf91fd1ddf5199348a1daa135e4d1d95e12b1d2eab65f24cf5bb19041f271",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/trezor/client.py",
+    "package_sha256": "650ccb3c212d384223338a4da74888f9b8bfed90dceab0ea9db9050e7f5d41dc",
+    "tag_sha256": "650ccb3c212d384223338a4da74888f9b8bfed90dceab0ea9db9050e7f5d41dc",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/trezor/qt.py",
+    "package_sha256": "825d2ee319354b03621c29dc3f448c551a53723e907b86e8f12b81d8219dc47a",
+    "tag_sha256": "825d2ee319354b03621c29dc3f448c551a53723e907b86e8f12b81d8219dc47a",
+    "ast_identical": true
+  },
+  {
+    "file": "devices/trezor/trezor.py",
+    "package_sha256": "313823ae6f5d20f1042ab0ac3dd350df4f472c8c3b083dffbb74a9ccda31a6bd",
+    "tag_sha256": "313823ae6f5d20f1042ab0ac3dd350df4f472c8c3b083dffbb74a9ccda31a6bd",
+    "ast_identical": true
+  },
+  {
+    "file": "dnssec.py",
+    "package_sha256": "6591334b00c7d8de3b785b88772d019eec95895635181417888e793e55437bc7",
+    "tag_sha256": "6591334b00c7d8de3b785b88772d019eec95895635181417888e793e55437bc7",
+    "ast_identical": true
+  },
+  {
+    "file": "exceptions.py",
+    "package_sha256": "379cc2e203dd400ea2153a4aa80189ece6c9d24a2b9aacce3f5aa05dd93630fa",
+    "tag_sha256": "379cc2e203dd400ea2153a4aa80189ece6c9d24a2b9aacce3f5aa05dd93630fa",
+    "ast_identical": true
+  },
+  {
+    "file": "exchange_rate.py",
+    "package_sha256": "bd2d2c4b0c10c3a7375eadd15b627567875621c1ee7e6cc2b3924262bb625ee9",
+    "tag_sha256": "56a1fa4241b44aab99061609b460c9064e2de6e818f9cc26f6c00a2946b2c533",
+    "ast_identical": true
+  },
+  {
+    "file": "extensions.py",
+    "package_sha256": "fa294c2460597b6c718fbcc70ddde45165fd59e03fa537d35eeb6296eada620f",
+    "tag_sha256": "fa294c2460597b6c718fbcc70ddde45165fd59e03fa537d35eeb6296eada620f",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/__init__.py",
+    "package_sha256": "fd6f39a5b7c00c78de76f737d7bcf9fbd761ee5f61d17ec38cf6f634bf811003",
+    "tag_sha256": "fd6f39a5b7c00c78de76f737d7bcf9fbd761ee5f61d17ec38cf6f634bf811003",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/__init__.py",
+    "package_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tag_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/account_dialog.py",
+    "package_sha256": "52f7aae2f3e128a3ec85cc55368bda355a25ac60a6bd9a473ddfa12e7f56575e",
+    "tag_sha256": "52f7aae2f3e128a3ec85cc55368bda355a25ac60a6bd9a473ddfa12e7f56575e",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/account_wizard.py",
+    "package_sha256": "0f78bc3e4a8eb4e58bbe0de585da5cfb95dc6059ad05e1dfd533e95ed248ee8a",
+    "tag_sha256": "73ba5f327e0a1cb064f9f81e9a81d3035f523798a7f9fbe3fd5a2d7d2c61489b",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/accounts_view.py",
+    "package_sha256": "bf2e58b46719836e065b8efb2b43a47743b97d63b761e1b7218192fdd1843c5b",
+    "tag_sha256": "bf2e58b46719836e065b8efb2b43a47743b97d63b761e1b7218192fdd1843c5b",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/address_dialog.py",
+    "package_sha256": "7b6f05bd37c3b351f004515c84b1ff156394f53d899b9b09e8d04568b4d48f6e",
+    "tag_sha256": "7b6f05bd37c3b351f004515c84b1ff156394f53d899b9b09e8d04568b4d48f6e",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/amountedit.py",
+    "package_sha256": "ca4bb1f3a6edb247bb8743731c13cafa7e226915cf86c4256775426736f3e2ff",
+    "tag_sha256": "006c2e79ae81231846458721f01e442b4f83da3122e6c23da705e03875d88679",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/app.py",
+    "package_sha256": "7ce7bb6904d200894de850fbb2ffc5b794e5c703a83ec787efd8243f2bcc8642",
+    "tag_sha256": "e2aeb4631180cff9d2b301fb5dc68db628b836fff51b3ab9b0300694712654c3",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/app_state.py",
+    "package_sha256": "c17d0330f6edf094d81593f7d2bb71f9e767f9d986eb9bec376ddf82a2a9fc56",
+    "tag_sha256": "c17d0330f6edf094d81593f7d2bb71f9e767f9d986eb9bec376ddf82a2a9fc56",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/coinsplitting_tab.py",
+    "package_sha256": "55b41b1716909b0ba4fd59da4d4ca290211435eb993dd9a8af646cb9d63fac59",
+    "tag_sha256": "55b41b1716909b0ba4fd59da4d4ca290211435eb993dd9a8af646cb9d63fac59",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/console.py",
+    "package_sha256": "1debb31182f92a31e016cf6f84688bca5ca8e7ea7b50b3aa5f316f8a9dc8c08f",
+    "tag_sha256": "1debb31182f92a31e016cf6f84688bca5ca8e7ea7b50b3aa5f316f8a9dc8c08f",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/constants.py",
+    "package_sha256": "59ac3d7b9f12a6c0daba5840eb5db1f725652fd26319c0a48dc56674845f3ec5",
+    "tag_sha256": "59ac3d7b9f12a6c0daba5840eb5db1f725652fd26319c0a48dc56674845f3ec5",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/contact_list.py",
+    "package_sha256": "1ca009ada8d2ea7b669989b7d77a70f4c7cebc2dc71e1b690994cfc7083bd077",
+    "tag_sha256": "1ca009ada8d2ea7b669989b7d77a70f4c7cebc2dc71e1b690994cfc7083bd077",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/cosigner_pool.py",
+    "package_sha256": "61aea54eed724a3ebcc40429df025087422b92252b6e15e51eea16dc2e514457",
+    "tag_sha256": "61aea54eed724a3ebcc40429df025087422b92252b6e15e51eea16dc2e514457",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/cosigners_view.py",
+    "package_sha256": "13c8a637a2afae031c8d66750dbfe41b9add4864328590c798b64c0bf542fbac",
+    "tag_sha256": "eb34c7e738fc1e22c1d2cc96819486a1caced29434a9fd0f59651fa4a22d47e7",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/dialogs.py",
+    "package_sha256": "77fa8622de2abfca88f2c410f42b1a078386438616008f46862fdc9466f946b7",
+    "tag_sha256": "3242f0f3a01f5b41c517162711f3000fba59d7546c766016adff8d2f7f6662ee",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/exception_window.py",
+    "package_sha256": "e762eaf59afe16bbe6bc7b35f47965a3c8c301a235ff05ac9001c8136a9a68d2",
+    "tag_sha256": "e762eaf59afe16bbe6bc7b35f47965a3c8c301a235ff05ac9001c8136a9a68d2",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/help_dialog.py",
+    "package_sha256": "4be0d26683f0d8b289e6b23a271e733be3021050d59fbcea760b11dfb8d14638",
+    "tag_sha256": "4be0d26683f0d8b289e6b23a271e733be3021050d59fbcea760b11dfb8d14638",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/history_list.py",
+    "package_sha256": "01f6f8b1a3b5214c7a024a2d38b919ac5e351e02ba5015db8d6fb5015ea16943",
+    "tag_sha256": "01f6f8b1a3b5214c7a024a2d38b919ac5e351e02ba5015db8d6fb5015ea16943",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/import_export.py",
+    "package_sha256": "a100763f8b2d807f10c47985ea108dd1d3142bb8b434205d10b9708c65acb77f",
+    "tag_sha256": "a100763f8b2d807f10c47985ea108dd1d3142bb8b434205d10b9708c65acb77f",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/invoice_dialog.py",
+    "package_sha256": "2e28a15ec3a90cb7e3ddaa043fe3b9040a242b793688f068de8627c50dc4f8a0",
+    "tag_sha256": "2e28a15ec3a90cb7e3ddaa043fe3b9040a242b793688f068de8627c50dc4f8a0",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/invoice_list.py",
+    "package_sha256": "d56af90b53460dad68281d30cac8a66e641caefc5789ca7449979646cd8513b2",
+    "tag_sha256": "d56af90b53460dad68281d30cac8a66e641caefc5789ca7449979646cd8513b2",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/keys_view.py",
+    "package_sha256": "dd144463410149ba6e635b2a40cb754ad57e03fa151feeafe9cf8cdf2f41e991",
+    "tag_sha256": "0cca5c990df1a7933ff78507600450dac3d9bb790140f87e180c3f9350d300ef",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/label_sync.py",
+    "package_sha256": "43a98bdd37ba29d86f04ea1dfa0b2d4f1c9bc08705fdeec64ab7dbed5ad58477",
+    "tag_sha256": "43a98bdd37ba29d86f04ea1dfa0b2d4f1c9bc08705fdeec64ab7dbed5ad58477",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/log_window.py",
+    "package_sha256": "be69ed289416cdac8af98721886e8ea124054bcea07c8e539b3baa4bf4a91051",
+    "tag_sha256": "be69ed289416cdac8af98721886e8ea124054bcea07c8e539b3baa4bf4a91051",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/main_window.py",
+    "package_sha256": "ca4b8ed3304326b58d3bd6ae1cb7a047dc0aa91d5127417cb95d05cd70774e32",
+    "tag_sha256": "65734dbb9a8fdb298d4b5c96398f03cf6bc4cfda11211ef47e5c9203c428c409",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/network_dialog.py",
+    "package_sha256": "4afe93b12a0375becd5510474ca3436b6d21368e213afdaecb32d0328d542a78",
+    "tag_sha256": "4afe93b12a0375becd5510474ca3436b6d21368e213afdaecb32d0328d542a78",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/notifications_view.py",
+    "package_sha256": "0a2717f431dd7c7c737356e31ff85a7ed25a0acb14fdfddeca07e961c3e6b2e5",
+    "tag_sha256": "0a2717f431dd7c7c737356e31ff85a7ed25a0acb14fdfddeca07e961c3e6b2e5",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/password_dialog.py",
+    "package_sha256": "ae95651243f03b3f7f285b957ed4bed1c024083c2e405e405bc68edb779403b5",
+    "tag_sha256": "ae95651243f03b3f7f285b957ed4bed1c024083c2e405e405bc68edb779403b5",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/payment.py",
+    "package_sha256": "93ab7c16178a6460b196cc1ce74e6da8b8b79256000ec5cbdad60672ea16f221",
+    "tag_sha256": "93ab7c16178a6460b196cc1ce74e6da8b8b79256000ec5cbdad60672ea16f221",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/payment_destinations_dialog.py",
+    "package_sha256": "07fd045509aea958f80518eb7c72937ce263909618c9b1de0d3a7bea945563b5",
+    "tag_sha256": "73c3e36f9c249d34c7bada023f58b0b975586a4bb0f2886733cffc7066c3aafb",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/paytoedit.py",
+    "package_sha256": "29f68f1f44d9b6c2ddc91e8ff829223ac4313ec8682ff99ec7fa461fd48c153a",
+    "tag_sha256": "f04e807eb6f9561655c75a8cff0846ca41743524cc68cb2f0c05290038a90707",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/preferences.py",
+    "package_sha256": "196d9673b7c8cfedaccfd8e316f8c3fdbc1cd8626744ea8c2d5ecf6f947a792f",
+    "tag_sha256": "15b37072517f8f1f1e86f99df61933f1c4264be4f9fc639c8993a6487cd2cd3d",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/qrcodewidget.py",
+    "package_sha256": "db4e3e810592eecc894776f0ba4c305a7da341609281a1262f687803a5380b04",
+    "tag_sha256": "e88f448a028a9249e1e402671d0c0c9c6ac79230b2eac51e197804ba0d528cd8",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/qrtextedit.py",
+    "package_sha256": "ff3d9408ebeac05346ac7e1b59269a95c901fa916eb0d50323b5f0c9e0006ced",
+    "tag_sha256": "ff3d9408ebeac05346ac7e1b59269a95c901fa916eb0d50323b5f0c9e0006ced",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/qrwindow.py",
+    "package_sha256": "5af4b698de63c83a0b122d70cc60c75a68af8e285219b96ce24ef98e89b1a24d",
+    "tag_sha256": "5af4b698de63c83a0b122d70cc60c75a68af8e285219b96ce24ef98e89b1a24d",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/receive_view.py",
+    "package_sha256": "daa1b84e4a6e615c40775f0640c8f8233e14f29be549d42ccede0e44b5d3ce20",
+    "tag_sha256": "a7c536819c5e9343dcd78a46365c73dfb931ce0c5006ce9144be9cbf492ac158",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/request_list.py",
+    "package_sha256": "4b7471934a7761e774700159e4085b353c070f0eb6f54bdcdab8e00d1826baa9",
+    "tag_sha256": "4b7471934a7761e774700159e4085b353c070f0eb6f54bdcdab8e00d1826baa9",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/secured_data_dialog.py",
+    "package_sha256": "217ab308bac0dd63df21efe759f824c7936716e5ce03b534030c0f1c54013b61",
+    "tag_sha256": "217ab308bac0dd63df21efe759f824c7936716e5ce03b534030c0f1c54013b61",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/seed_dialog.py",
+    "package_sha256": "3918503df32991fb69899b35e98bb96de4fd13669a6d890fbe10c1eba57d3d69",
+    "tag_sha256": "3918503df32991fb69899b35e98bb96de4fd13669a6d890fbe10c1eba57d3d69",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/send_view.py",
+    "package_sha256": "4cafa37de53e99a306489407fd81d9599bd0f316a44e3817ca6481b377bc5251",
+    "tag_sha256": "e3c79902c250b5a6be4a7a3fafe9ab144542ac001fe7516dca06db498a7ea643",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/status_bar.py",
+    "package_sha256": "2f6b94d2efe1991b3f10d107af553c4397e99b87768a1ca262efbc92b3c013a8",
+    "tag_sha256": "2f6b94d2efe1991b3f10d107af553c4397e99b87768a1ca262efbc92b3c013a8",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/sweep_helper.py",
+    "package_sha256": "0eacb55e3c2d25c13ce5f89f5de35660b59145e93cb2037ecc5fea4ee488ad94",
+    "tag_sha256": "8ff4f0c4907a88b37ba7aa28de6729261d49b895054af6001ecedeeb74f98ab0",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/sweep_private_key_dialog.py",
+    "package_sha256": "a428fda0ff7f64f3ee305879b60bd3c009e34071549f36f444884e6cf95e59fc",
+    "tag_sha256": "a428fda0ff7f64f3ee305879b60bd3c009e34071549f36f444884e6cf95e59fc",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/table_widgets.py",
+    "package_sha256": "f162a7974f88958e32c1efb40df137b66c5e97f4c21adc055edb3b9b35cae856",
+    "tag_sha256": "f162a7974f88958e32c1efb40df137b66c5e97f4c21adc055edb3b9b35cae856",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/theme.py",
+    "package_sha256": "eb597e34df781f92ea6cce7a4f29f0b6494d851059a355f83bbd12d82f1d976d",
+    "tag_sha256": "d65c83963e9c7503c300bde69ec0abf8a5ed462218e9d6ca6b1302ef0b9c9365",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/transaction_dialog.py",
+    "package_sha256": "3f1d38f47c508509d7bbe7e3cf46b4b860e5e876bb9736b181d452a3fac8e76f",
+    "tag_sha256": "3f1d38f47c508509d7bbe7e3cf46b4b860e5e876bb9736b181d452a3fac8e76f",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/transaction_list.py",
+    "package_sha256": "69c6127e82d9e8738f378f24cb3480f6840f8e640f759c65c9cb772c31cd8dc0",
+    "tag_sha256": "69c6127e82d9e8738f378f24cb3480f6840f8e640f759c65c9cb772c31cd8dc0",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/uidebug.py",
+    "package_sha256": "1cabad9b0b280089d1d3388bc523fb57449d1908a7499a3b5c4388b1e444aed8",
+    "tag_sha256": "1cabad9b0b280089d1d3388bc523fb57449d1908a7499a3b5c4388b1e444aed8",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/update_check.py",
+    "package_sha256": "7182fa5701d4243514991d37ec1197c13b5ce564074dd73629d41e0314b2a1ed",
+    "tag_sha256": "2d0309762c6052d6b2ccc4c95976778178f4f8a30c106fcc29431bae73156fb0",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/util.py",
+    "package_sha256": "6237a4b978f5f6ce3163bdd46d4936c69193ff694344de9712db6f344591e84b",
+    "tag_sha256": "7a267c35b493327b2a0cca2d44ce00ca1ff68d72ccdfb7ac4276ef94108530be",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/utxo_list.py",
+    "package_sha256": "257c19d2d21494a39233b82f3dfb4c7475688e03ae4d263eaa61eced3755bf19",
+    "tag_sha256": "ef6d6bab5fe720932de2d8ef1fa08e63710d33d794005e9a65024af456794f6d",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/virtual_keyboard.py",
+    "package_sha256": "6603e22149e2273e0831950e9028e0f8f8c7607294f5bfe07a0a853f8017ccf0",
+    "tag_sha256": "f0d3ec68f4d73244c6b42cc9a4bca2bf249d4140b6a8de987c1b7e49464c2305",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/wallet_api.py",
+    "package_sha256": "21a45c8323d6be70c3323d7314da819e0ac6a84a15c53e431040baa493ce74e6",
+    "tag_sha256": "21a45c8323d6be70c3323d7314da819e0ac6a84a15c53e431040baa493ce74e6",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/wallet_wizard.py",
+    "package_sha256": "49bbbcc03b97bfcdb90430dfefddf266eb973e31b9744b0f9657f8a0aaf52b4b",
+    "tag_sha256": "36c5ebe29ec4a2b0c4e19ce15bb8bfc809376a8647bbada03eb8e7e0f7bc4ff3",
+    "ast_identical": true
+  },
+  {
+    "file": "gui/qt/wizard_common.py",
+    "package_sha256": "83a5e5492571c499962917876abf901971314c9cba639045bc53d7c930a47633",
+    "tag_sha256": "70c2a5ce6bb472a02cb00d5bdb6e84d8c9414da2e88f6ee335a7592411108442",
+    "ast_identical": true
+  },
+  {
+    "file": "headers_storage.py",
+    "package_sha256": "130c8f8f3ba001fefce74efd47712c34e672df80de47bc0b14e922939eab52de",
+    "tag_sha256": "6893688e615965617ca1c9b28006eb1580bd7f87477dfe370a8fe2eeaa047d1f",
+    "ast_identical": true
+  },
+  {
+    "file": "i18n.py",
+    "package_sha256": "f3d3c31ebdd9bd45385e82180ad6b54096904b4b7841e0781e3f114721698e9f",
+    "tag_sha256": "f3d3c31ebdd9bd45385e82180ad6b54096904b4b7841e0781e3f114721698e9f",
+    "ast_identical": true
+  },
+  {
+    "file": "jsonrpc.py",
+    "package_sha256": "57e05393a2c0a98d56fed873d01abaffe339f9dd06d57b4d6f5b27e1a9c95e38",
+    "tag_sha256": "57e05393a2c0a98d56fed873d01abaffe339f9dd06d57b4d6f5b27e1a9c95e38",
+    "ast_identical": true
+  },
+  {
+    "file": "keystore.py",
+    "package_sha256": "8eab6aa00468f1c00e5e362aa3a0097f38655f9723f1ee42bbd261cef5d69f14",
+    "tag_sha256": "79384cdc6195f21a5259669d8d124e5d16c588048303be2d3bb81a87ead2c954",
+    "ast_identical": true
+  },
+  {
+    "file": "logs.py",
+    "package_sha256": "5eb0423f7f43cb6e183953c7900b44af796a2557f9deeb3f6cde6c5fd1e8479b",
+    "tag_sha256": "5eb0423f7f43cb6e183953c7900b44af796a2557f9deeb3f6cde6c5fd1e8479b",
+    "ast_identical": true
+  },
+  {
+    "file": "main.py",
+    "package_sha256": "3c5ff04f3a5be34b0df7dd8d1542a1f3ad75b3f74aba51fc5d1f9ecfaae612f8",
+    "tag_sha256": "3c5ff04f3a5be34b0df7dd8d1542a1f3ad75b3f74aba51fc5d1f9ecfaae612f8",
+    "ast_identical": true
+  },
+  {
+    "file": "main_entrypoint.py",
+    "package_sha256": "a5600e8c1171a2850c619ca41f4992793ced49048c991c5c44d28fab4a6ef7b4",
+    "tag_sha256": "a5600e8c1171a2850c619ca41f4992793ced49048c991c5c44d28fab4a6ef7b4",
+    "ast_identical": true
+  },
+  {
+    "file": "mnemonic.py",
+    "package_sha256": "f34eed2134f1f7889ca997d96323b3c467cc97ac59481b1ad7cb6014a7ecacdb",
+    "tag_sha256": "f34eed2134f1f7889ca997d96323b3c467cc97ac59481b1ad7cb6014a7ecacdb",
+    "ast_identical": true
+  },
+  {
+    "file": "network.py",
+    "package_sha256": "a44273182030ef989d0a5d174dc5f2d80e89e20abd329e3089a5a34febab8cb2",
+    "tag_sha256": "b612ee10dacdfd364eea798b6b3f568c5c2d504ad4f61f44324719da1794628f",
+    "ast_identical": true
+  },
+  {
+    "file": "networks.py",
+    "package_sha256": "554cd3be92cf6abad5ee76d6534d1f0c40ba050ef0e9cdf55fbdc9c800318fd8",
+    "tag_sha256": "554cd3be92cf6abad5ee76d6534d1f0c40ba050ef0e9cdf55fbdc9c800318fd8",
+    "ast_identical": true
+  },
+  {
+    "file": "networks_mainnet.py",
+    "package_sha256": "2cd3d5d10a3a9a99aed954726b5fa4cd8e8b61ab711815ed3718c2c70ca9742a",
+    "tag_sha256": "2cd3d5d10a3a9a99aed954726b5fa4cd8e8b61ab711815ed3718c2c70ca9742a",
+    "ast_identical": true
+  },
+  {
+    "file": "old_mnemonic.py",
+    "package_sha256": "0540ffb9bf8c8fefedb8fdb9db70f1b6a18114e7eff4fd40b99f29df9ee36828",
+    "tag_sha256": "0540ffb9bf8c8fefedb8fdb9db70f1b6a18114e7eff4fd40b99f29df9ee36828",
+    "ast_identical": true
+  },
+  {
+    "file": "paymentrequest.py",
+    "package_sha256": "64d7afbcf715c6f6adb887db1f1bf6000945df260f532e68159bb0df84273640",
+    "tag_sha256": "64d7afbcf715c6f6adb887db1f1bf6000945df260f532e68159bb0df84273640",
+    "ast_identical": true
+  },
+  {
+    "file": "platform.py",
+    "package_sha256": "6359f3b17f918de8881869adb8f1653ea90ad5e3ec2e2cb83fe6d245e2919481",
+    "tag_sha256": "6359f3b17f918de8881869adb8f1653ea90ad5e3ec2e2cb83fe6d245e2919481",
+    "ast_identical": true
+  },
+  {
+    "file": "qrscanner.py",
+    "package_sha256": "a24feb2bfec60d0976f7d10e6af21aea6bb018d69fdcd87e83ee7eae99ad5d1a",
+    "tag_sha256": "a24feb2bfec60d0976f7d10e6af21aea6bb018d69fdcd87e83ee7eae99ad5d1a",
+    "ast_identical": true
+  },
+  {
+    "file": "regtest_support.py",
+    "package_sha256": "99752e0f0e7de6304c42c954c483233e7ee0082242d8040c664e61e497598f17",
+    "tag_sha256": "99752e0f0e7de6304c42c954c483233e7ee0082242d8040c664e61e497598f17",
+    "ast_identical": true
+  },
+  {
+    "file": "restapi.py",
+    "package_sha256": "23bf20917dd64fab8c2cd2a732fbe9a73f66753ce4dd8df0a8a258aa81f2acfc",
+    "tag_sha256": "23bf20917dd64fab8c2cd2a732fbe9a73f66753ce4dd8df0a8a258aa81f2acfc",
+    "ast_identical": true
+  },
+  {
+    "file": "restapi_endpoints.py",
+    "package_sha256": "1c700f80330d9a59f6269b34c5a8e04adc3a6114477ce340a3a5c83dc77d7453",
+    "tag_sha256": "1c700f80330d9a59f6269b34c5a8e04adc3a6114477ce340a3a5c83dc77d7453",
+    "ast_identical": true
+  },
+  {
+    "file": "ripemd.py",
+    "package_sha256": "1709b0010fd7c25fdf0c32c732de9e7cd048c06e6692ee850569fa7f54ee0711",
+    "tag_sha256": "1709b0010fd7c25fdf0c32c732de9e7cd048c06e6692ee850569fa7f54ee0711",
+    "ast_identical": true
+  },
+  {
+    "file": "rsakey.py",
+    "package_sha256": "1649509ac39b9ae0a323f104f279810177227fe1250316295a4962f824fe5141",
+    "tag_sha256": "1649509ac39b9ae0a323f104f279810177227fe1250316295a4962f824fe5141",
+    "ast_identical": true
+  },
+  {
+    "file": "script.py",
+    "package_sha256": "62c5137d648efcfe788b58fc8702d00000e125750d171168b0d4f5c61a51b732",
+    "tag_sha256": "62c5137d648efcfe788b58fc8702d00000e125750d171168b0d4f5c61a51b732",
+    "ast_identical": true
+  },
+  {
+    "file": "services/__init__.py",
+    "package_sha256": "aee30a0893f839bb3ed05aa1a744a4ca4ef5a7bca6306311b9afe23603077247",
+    "tag_sha256": "aee30a0893f839bb3ed05aa1a744a4ca4ef5a7bca6306311b9afe23603077247",
+    "ast_identical": true
+  },
+  {
+    "file": "services/coins.py",
+    "package_sha256": "2a4b00fb854362cde54c354c8e80edb97d7950e4b6ca48ee7fc3a6eb28f5b025",
+    "tag_sha256": "2a4b00fb854362cde54c354c8e80edb97d7950e4b6ca48ee7fc3a6eb28f5b025",
+    "ast_identical": true
+  },
+  {
+    "file": "services/invoices.py",
+    "package_sha256": "18caf6a3bb95744f08cbc3b634023724c2352cc178cc929dbf376ff5a7e8622f",
+    "tag_sha256": "18caf6a3bb95744f08cbc3b634023724c2352cc178cc929dbf376ff5a7e8622f",
+    "ast_identical": true
+  },
+  {
+    "file": "services/keys.py",
+    "package_sha256": "13cdec7485dc245076d2c093d5d2521e008cc087d881e921ea4ffa0621fae28a",
+    "tag_sha256": "13cdec7485dc245076d2c093d5d2521e008cc087d881e921ea4ffa0621fae28a",
+    "ast_identical": true
+  },
+  {
+    "file": "services/requests.py",
+    "package_sha256": "cde5bd79b09e5ee3d780bcb695dceea26c86ecad121ed1600618fa87184bd151",
+    "tag_sha256": "cde5bd79b09e5ee3d780bcb695dceea26c86ecad121ed1600618fa87184bd151",
+    "ast_identical": true
+  },
+  {
+    "file": "simple_config.py",
+    "package_sha256": "74c85caf673babfaab848338afe5821a55641120bc6d0510de7a03b92c60de38",
+    "tag_sha256": "74c85caf673babfaab848338afe5821a55641120bc6d0510de7a03b92c60de38",
+    "ast_identical": true
+  },
+  {
+    "file": "startup.py",
+    "package_sha256": "dd617eda88c525de1e6e9c5a0016ba35f819651b6657244ef77e19d384e83253",
+    "tag_sha256": "dd617eda88c525de1e6e9c5a0016ba35f819651b6657244ef77e19d384e83253",
+    "ast_identical": true
+  },
+  {
+    "file": "storage.py",
+    "package_sha256": "00b857fe790addbbeca25c821b9ba1243a0de5636a4ed2a948126323587808f6",
+    "tag_sha256": "00b857fe790addbbeca25c821b9ba1243a0de5636a4ed2a948126323587808f6",
+    "ast_identical": true
+  },
+  {
+    "file": "transaction.py",
+    "package_sha256": "0154391e55f23e501bda2268faaadf298e0239d9e0f919182911978fca24c35d",
+    "tag_sha256": "0154391e55f23e501bda2268faaadf298e0239d9e0f919182911978fca24c35d",
+    "ast_identical": true
+  },
+  {
+    "file": "types.py",
+    "package_sha256": "5131c9b60ba33094de651f7caef9fac7b7fc683e6ccfa8b10abc42f07c2d34fa",
+    "tag_sha256": "5131c9b60ba33094de651f7caef9fac7b7fc683e6ccfa8b10abc42f07c2d34fa",
+    "ast_identical": true
+  },
+  {
+    "file": "util/__init__.py",
+    "package_sha256": "faf297a715ebedf6ad7e50b722c45678c29d59689080a8fa471cc65b6a1deabe",
+    "tag_sha256": "faf297a715ebedf6ad7e50b722c45678c29d59689080a8fa471cc65b6a1deabe",
+    "ast_identical": true
+  },
+  {
+    "file": "util/cache.py",
+    "package_sha256": "3747a2e3feea9518e3607c5f31cbc40585c7d5fe8013badc395b2fd42c4f20e5",
+    "tag_sha256": "3747a2e3feea9518e3607c5f31cbc40585c7d5fe8013badc395b2fd42c4f20e5",
+    "ast_identical": true
+  },
+  {
+    "file": "util/importers.py",
+    "package_sha256": "c15be5e230e1111b9dfed65f0992b8d5637f80f78e38280525f586f6471c4b43",
+    "tag_sha256": "c15be5e230e1111b9dfed65f0992b8d5637f80f78e38280525f586f6471c4b43",
+    "ast_identical": true
+  },
+  {
+    "file": "util/json.py",
+    "package_sha256": "514d86d934c5b97259da85113f0d4f72ac7bfbf9677b0ebf8ddb6979d6d4d6e0",
+    "tag_sha256": "514d86d934c5b97259da85113f0d4f72ac7bfbf9677b0ebf8ddb6979d6d4d6e0",
+    "ast_identical": true
+  },
+  {
+    "file": "util/misc.py",
+    "package_sha256": "ac4ef79772096915e44ce5d426fcc6aea4dae557ba9885fccc823f9fd2415520",
+    "tag_sha256": "ac4ef79772096915e44ce5d426fcc6aea4dae557ba9885fccc823f9fd2415520",
+    "ast_identical": true
+  },
+  {
+    "file": "verification_utils.py",
+    "package_sha256": "1a449a4713c4f68a2d6e4265670d6d9f06166e0a06aa5da61435a90de55ac3bf",
+    "tag_sha256": "5a1a2fd93a4e3c971f0cc034d0f1c19ac547cd897c6babfe4ec1c63e9fd59440",
+    "ast_identical": true
+  },
+  {
+    "file": "version.py",
+    "package_sha256": "70cd91d39ee3eb3ab9ca0a2dac0ec02eeaf4130180bd060a08990b95e02f9b9e",
+    "tag_sha256": "7193d1569fe771b028a37b6048a730ae016e0c7cb91874be3ad0f964705a9de0",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet.py",
+    "package_sha256": "3cc02d8de612b76728ca498d15b595ae4a711dd8d3b9699738629ce33a92bedc",
+    "tag_sha256": "b7e2bd359fd60e5c65b9f7963446c54ccfa796cbd2b4d264f80da1b4cbd678c4",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/__init__.py",
+    "package_sha256": "338433f6c0bf0cd42d9989ef650199fb8425a5ca60959438adf3795f4b17c4e9",
+    "tag_sha256": "338433f6c0bf0cd42d9989ef650199fb8425a5ca60959438adf3795f4b17c4e9",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/cache.py",
+    "package_sha256": "b4d2447b4e6f07776b0457314fa52c1b47abc66feb7f099acdfc5290dd95cbaa",
+    "tag_sha256": "b4d2447b4e6f07776b0457314fa52c1b47abc66feb7f099acdfc5290dd95cbaa",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migration.py",
+    "package_sha256": "b10a2d59cf0db570cb3efde799cfe486606e189f800aa5e317689b2785293ca7",
+    "tag_sha256": "b10a2d59cf0db570cb3efde799cfe486606e189f800aa5e317689b2785293ca7",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migrations/__init__.py",
+    "package_sha256": "3a62a648034b7d39de88af4412b573ca49ac2ee8f1d66b8cc66c3faa29a93898",
+    "tag_sha256": "3a62a648034b7d39de88af4412b573ca49ac2ee8f1d66b8cc66c3faa29a93898",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migrations/migration_0022_create_database.py",
+    "package_sha256": "0a5b5f4f593f1d77745c2b779ac664a1bdfbf21098e7d6913a84506d182f528e",
+    "tag_sha256": "0a5b5f4f593f1d77745c2b779ac664a1bdfbf21098e7d6913a84506d182f528e",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migrations/migration_0023_add_wallet_events.py",
+    "package_sha256": "dc8cb98b4dde0db5894b48146f86f1e7fcac0a5f7253373b2accb5626f0bdc7d",
+    "tag_sha256": "dc8cb98b4dde0db5894b48146f86f1e7fcac0a5f7253373b2accb5626f0bdc7d",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migrations/migration_0024_account_transactions.py",
+    "package_sha256": "4affb59927bd62a29c362018529dce79d7e9157f7e23cbdbd0adbd210e76c42f",
+    "tag_sha256": "4affb59927bd62a29c362018529dce79d7e9157f7e23cbdbd0adbd210e76c42f",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migrations/migration_0025_invoices.py",
+    "package_sha256": "c04943b6fae9c4d47bdccb6f0037feaf9d71fee3d9d8d701c6b817a6952d8e3c",
+    "tag_sha256": "c04943b6fae9c4d47bdccb6f0037feaf9d71fee3d9d8d701c6b817a6952d8e3c",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/migrations/migration_0026_txo_coinbase_flag.py",
+    "package_sha256": "939867a2671af382dc1d91b3616b4e1057c3f2398b53ae5369008a492697a459",
+    "tag_sha256": "939867a2671af382dc1d91b3616b4e1057c3f2398b53ae5369008a492697a459",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/sqlite_support.py",
+    "package_sha256": "af1f4251b38fd351808c454f3c68c5f037a63158b2866987858d0fbbf3b39520",
+    "tag_sha256": "af1f4251b38fd351808c454f3c68c5f037a63158b2866987858d0fbbf3b39520",
+    "ast_identical": true
+  },
+  {
+    "file": "wallet_database/tables.py",
+    "package_sha256": "f89ee9d2355552d0de8625e037202f3b7a8e170b1e326e2bb160277606838c83",
+    "tag_sha256": "f89ee9d2355552d0de8625e037202f3b7a8e170b1e326e2bb160277606838c83",
+    "ast_identical": true
+  },
+  {
+    "file": "web.py",
+    "package_sha256": "fbb9a55e2c39262bdbca140d9e4f3b0fb0357d37aceab47dbec55a332e629356",
+    "tag_sha256": "fbb9a55e2c39262bdbca140d9e4f3b0fb0357d37aceab47dbec55a332e629356",
+    "ast_identical": true
+  },
+  {
+    "file": "winconsole.py",
+    "package_sha256": "3e89a93b6866d8d56e79d14ba3fc5ae8cb36fc836545da496acbd5663c0f5512",
+    "tag_sha256": "3e89a93b6866d8d56e79d14ba3fc5ae8cb36fc836545da496acbd5663c0f5512",
+    "ast_identical": true
+  }
+]

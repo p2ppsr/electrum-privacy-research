@@ -1,0 +1,3 @@
+exit_code=3
+.runtime/package-mount/ElectrumSVP-0.2.0.app: rejected
+source=no usable signature

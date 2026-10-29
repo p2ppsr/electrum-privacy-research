@@ -1,0 +1,12 @@
+[GNUPG:] NEWSIG
+gpg: Signature made Wed Sep 16 17:45:26 2026 PDT
+gpg:                using RSA key E9BAFA19B15E6C2C158CDD400DB16C74A9CA7CF6
+[GNUPG:] KEY_CONSIDERED E9BAFA19B15E6C2C158CDD400DB16C74A9CA7CF6 0
+[GNUPG:] SIG_ID Hm++VigphfoQCAw6ub6SyemJ7hs 2026-09-17 1789605926
+[GNUPG:] GOODSIG 0DB16C74A9CA7CF6 CryptoRebel <CryptoRebel@notavailable.com>
+gpg: Good signature from "CryptoRebel <CryptoRebel@notavailable.com>" [unknown]
+[GNUPG:] VALIDSIG E9BAFA19B15E6C2C158CDD400DB16C74A9CA7CF6 2026-09-17 1789605926 0 4 0 1 10 00 E9BAFA19B15E6C2C158CDD400DB16C74A9CA7CF6
+[GNUPG:] TRUST_UNDEFINED 0 pgp
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+      E9BAFA19B15E6C2C158CDD400DB16C74A9CA7CF6

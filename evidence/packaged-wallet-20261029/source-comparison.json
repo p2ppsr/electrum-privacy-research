@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "file": "network.py",
+      "package_sha256": "a44273182030ef989d0a5d174dc5f2d80e89e20abd329e3089a5a34febab8cb2",
+      "tag_sha256": "b612ee10dacdfd364eea798b6b3f568c5c2d504ad4f61f44324719da1794628f",
+      "identical": false,
+      "normalized_text_identical": false,
+      "python_ast_identical": true
+    },
+    {
+      "file": "verification_utils.py",
+      "package_sha256": "1a449a4713c4f68a2d6e4265670d6d9f06166e0a06aa5da61435a90de55ac3bf",
+      "tag_sha256": "5a1a2fd93a4e3c971f0cc034d0f1c19ac547cd897c6babfe4ec1c63e9fd59440",
+      "identical": false,
+      "normalized_text_identical": false,
+      "python_ast_identical": true
+    },
+    {
+      "file": "version.py",
+      "package_sha256": "70cd91d39ee3eb3ab9ca0a2dac0ec02eeaf4130180bd060a08990b95e02f9b9e",
+      "tag_sha256": "7193d1569fe771b028a37b6048a730ae016e0c7cb91874be3ad0f964705a9de0",
+      "identical": false,
+      "normalized_text_identical": false,
+      "python_ast_identical": true
+    },
+    {
+      "file": "main.py",
+      "package_sha256": "3c5ff04f3a5be34b0df7dd8d1542a1f3ad75b3f74aba51fc5d1f9ecfaae612f8",
+      "tag_sha256": "3c5ff04f3a5be34b0df7dd8d1542a1f3ad75b3f74aba51fc5d1f9ecfaae612f8",
+      "identical": true,
+      "normalized_text_identical": true,
+      "python_ast_identical": true
+    },
+    {
+      "file": "gui/qt/app.py",
+      "package_sha256": "7ce7bb6904d200894de850fbb2ffc5b794e5c703a83ec787efd8243f2bcc8642",
+      "tag_sha256": "e2aeb4631180cff9d2b301fb5dc68db628b836fff51b3ab9b0300694712654c3",
+      "identical": false,
+      "normalized_text_identical": false,
+      "python_ast_identical": true
+    },
+    {
+      "file": "gui/qt/wallet_wizard.py",
+      "package_sha256": "49bbbcc03b97bfcdb90430dfefddf266eb973e31b9744b0f9657f8a0aaf52b4b",
+      "tag_sha256": "36c5ebe29ec4a2b0c4e19ce15bb8bfc809376a8647bbada03eb8e7e0f7bc4ff3",
+      "identical": false,
+      "normalized_text_identical": false,
+      "python_ast_identical": true
+    }
+  ],
+  "priority_pool": {
+    "line": 1704,
+    "entries": [
+      [
+        "electrumx.gorillapool.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv.electrumr.sv",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv2.electrumr.sv",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv.satoshi.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "sv2.satoshi.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "esv.bitails.io",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "electrum.server.sv",
+        {
+          "s": "50002"
+        }
+      ],
+      [
+        "bsv.aftrek.org",
+        {
+          "s": "50002"
+        }
+      ]
+    ]
+  },
+  "helper_pool": {
+    "line": 30,
+    "entries": {
+      "sv.electrumr.sv": {
+        "s": 50002
+      },
+      "electrumx.gorillapool.io": {
+        "s": 50002
+      },
+      "sv2.electrumr.sv": {
+        "s": 50002
+      },
+      "sv2.satoshi.io": {
+        "s": 50002
+      },
+      "sv.satoshi.io": {
+        "s": 50002
+      },
+      "sv3.satoshi.io": {
+        "s": 50002
+      },
+      "electrum.server.sv": {
+        "s": 50002
+      },
+      "bsv.aftrek.org": {
+        "s": 50002
+      }
+    }
+  }
+}

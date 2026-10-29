@@ -1,0 +1,2 @@
+/entrypoint.sh: line 40: exec: -d: invalid option
+exec: usage: exec [-cl] [-a name] [command [argument ...]] [redirection ...]

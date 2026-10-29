@@ -1,0 +1,334 @@
+{"time_ns": 1793304383325992000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304383326369000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304383326834000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304383326996000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304383327140000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304383327258000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304383327436000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304383327588000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304383327756000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304383327865000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304383417412000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304383427654000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304383435251000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304383438685000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304383459881000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304383471143000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304383488279000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304383608308000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304387543895000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304387544314000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304387544828000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304387545276000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304387545817000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304387546514000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304387547180000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304387547501000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304387547742000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304387551955000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304387552142000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304387552285000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304387552364000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304387552450000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304387553034000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304387612010000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304387612552000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304387635252000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304387654151000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304387686811000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304387968869000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304387969801000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304442644877000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 8888, 0, 1, 0]}
+{"time_ns": 1793304442644993000, "event": "socket.connect", "values": [["127.0.0.1", 8888]]}
+{"time_ns": 1793304446635695000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304446635820000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304446636186000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304446636317000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304446636488000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304446636612000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304446636741000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304446636843000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304446636965000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304446637089000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304446644553000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304446645015000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304446645274000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304446645321000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304446645355000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304446645409000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304446645390000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304446645425000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304450924953000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304450925571000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304450926028000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304450926369000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304450926727000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304450927067000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304450927367000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304450927646000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304450928403000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304450928448000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304450931553000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304450931593000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304450931737000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304450931845000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304450931995000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304450932083000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304450932242000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304450932407000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304450932498000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304450932552000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304451273966000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304451275247000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304474673556000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304474673725000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304474674059000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674211000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674333000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674424000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674523000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674616000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674794000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304474674936000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304474680565000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304474681065000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304474681545000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304474682114000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304474682174000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304474682691000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304474682717000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304474747047000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304478849773000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304478850587000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304478850911000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304478851308000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304478851638000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304478851957000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304478852244000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304478852522000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304478853165000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304478853634000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304478854553000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304478856411000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304478856637000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304478857139000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304478857254000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304478858008000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304478858049000, "event": "socket.connect", "values": [["172.67.158.96", 443]]}
+{"time_ns": 1793304478858174000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304478858279000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304478900703000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304479179334000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304479180367000, "event": "socket.connect", "values": [["172.67.158.96", 443]]}
+{"time_ns": 1793304535582666000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304535582838000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304535583218000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304535583359000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304535583514000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304535583620000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304535583782000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304535583883000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304535584024000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304535584136000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304535592984000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304535593312000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304535593341000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304535593382000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304535593433000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304535593452000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304535593362000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304535593420000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304539868991000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304539869542000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304539870032000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304539870433000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304539870741000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304539871045000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304539871559000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304539872299000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304539872424000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304539872575000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304539874068000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304539874586000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304539874733000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304539876066000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304539876774000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304539876804000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304539876876000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304539877057000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304539877232000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304539877363000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304540155194000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304540155950000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304559772879000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304559773076000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304559773450000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304559773589000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304559773792000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304559773957000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304559774088000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304559774223000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304559774346000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304559774580000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304559781055000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304559782472000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304559782549000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304559782606000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304559782634000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304559782777000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304559782692000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304559883315000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304564100302000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304564101258000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304564101650000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304564102017000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304564102390000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304564102799000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304564103277000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304564103733000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304564107786000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304564108228000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304564109274000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304564109896000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304564109934000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304564110117000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304564110215000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304564110386000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304564111064000, "event": "socket.connect", "values": [["172.67.158.96", 443]]}
+{"time_ns": 1793304564111202000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304564111266000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304564251734000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304564425329000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304564426563000, "event": "socket.connect", "values": [["172.67.158.96", 443]]}
+{"time_ns": 1793304677608073000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304677608254000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304677608595000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304677608730000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304677608874000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304677609017000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304677609149000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304677609292000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304677609470000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304677609652000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304677616399000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304677616465000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304677616492000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304677616930000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304677616972000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304677617976000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304677618117000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304677687309000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304681717060000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304681717749000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304681718112000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304681718473000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304681718761000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304681719112000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304681719442000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304681719736000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304681722459000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304681722843000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304681724022000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304681724138000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304681724229000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304681725274000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304681725590000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304681725720000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304681725855000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304681726818000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304681726893000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304681770329000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304682057200000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304682058018000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304759490582000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304759490753000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304759491103000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304759491259000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304759491371000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304759491513000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304759491625000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304759491804000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304759491961000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304759492119000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304759502270000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304759502332000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304759502355000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304759503687000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304759503717000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304759504308000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304759504565000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304759597103000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304763656182000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304763657093000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304763657551000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304763657911000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304763658213000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304763658502000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304763658787000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304763659176000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304763663215000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304763663473000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304763665786000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304763666449000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304763666741000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304763666787000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304763666966000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304763667088000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304763667172000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304763668289000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304763668324000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304763739770000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304763986770000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304763987920000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304823538341000, "event": "socket.getaddrinfo", "values": ["127.0.0.1", 9050, 0, 1, 0]}
+{"time_ns": 1793304823538503000, "event": "socket.connect", "values": [["127.0.0.1", 9050]]}
+{"time_ns": 1793304823538828000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304823538940000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304823539040000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304823539245000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304823539438000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304823539644000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304823539770000, "event": "socket.getaddrinfo", "values": ["sv3.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304823539924000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304823546897000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304823547127000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304823547191000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304823547231000, "event": "socket.connect", "values": [["198.154.93.200", 50002]]}
+{"time_ns": 1793304823547265000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304823547309000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304823547215000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304823547246000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304827530663000, "event": "socket.getaddrinfo", "values": ["electrumx.gorillapool.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304827531561000, "event": "socket.getaddrinfo", "values": ["sv.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304827531918000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304827532283000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304827532575000, "event": "socket.getaddrinfo", "values": ["sv.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304827532904000, "event": "socket.getaddrinfo", "values": ["sv2.electrumr.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304827533166000, "event": "socket.getaddrinfo", "values": ["bsv.aftrek.org", 50002, 0, 1, 0]}
+{"time_ns": 1793304827533477000, "event": "socket.getaddrinfo", "values": ["sv2.satoshi.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304827533545000, "event": "socket.connect", "values": [["99.127.49.102", 50002]]}
+{"time_ns": 1793304827535187000, "event": "socket.connect", "values": [["198.154.93.197", 50002]]}
+{"time_ns": 1793304827536666000, "event": "socket.connect", "values": [["128.140.53.204", 50002]]}
+{"time_ns": 1793304827537002000, "event": "socket.getaddrinfo", "values": ["electrumsv.io", 443, 0, 1, 0]}
+{"time_ns": 1793304827537137000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304827537209000, "event": "socket.connect", "values": [["198.154.93.195", 50002]]}
+{"time_ns": 1793304827537676000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304827537915000, "event": "socket.connect", "values": [["198.154.93.212", 50002]]}
+{"time_ns": 1793304827538085000, "event": "socket.connect", "values": [["198.154.93.202", 50002]]}
+{"time_ns": 1793304827538507000, "event": "socket.connect", "values": [["185.199.108.153", 443]]}
+{"time_ns": 1793304827538710000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304827609134000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304827905384000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304827906344000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304837535796000, "event": "socket.getaddrinfo", "values": ["electrum.api.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304837536319000, "event": "socket.getaddrinfo", "values": ["neptune.api.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304837996795000, "event": "socket.connect", "values": [["195.144.22.198", 50002]]}
+{"time_ns": 1793304838000123000, "event": "socket.connect", "values": [["78.110.160.26", 50002]]}
+{"time_ns": 1793304912542884000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304912545350000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}
+{"time_ns": 1793304978297686000, "event": "socket.getaddrinfo", "values": ["bananablocks.com", 443, 0, 1, 0]}
+{"time_ns": 1793304978298848000, "event": "socket.connect", "values": [["104.21.74.126", 443]]}
+{"time_ns": 1793304978509324000, "event": "socket.getaddrinfo", "values": ["esv.bitails.io", 50002, 0, 1, 0]}
+{"time_ns": 1793304978553693000, "event": "socket.connect", "values": [["49.13.228.56", 50002]]}
+{"time_ns": 1793304997549477000, "event": "socket.getaddrinfo", "values": ["electrum.server.sv", 50002, 0, 1, 0]}
+{"time_ns": 1793304997551898000, "event": "socket.connect", "values": [["198.154.93.210", 50002]]}

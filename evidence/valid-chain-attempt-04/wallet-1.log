@@ -1,0 +1,15 @@
+BEEF TEST: proof stored, building BEEF for 3f90696888cf9b5f930bd399b28a449a336b8a627c9a9db5cd394ec1d4173dd8
+LOCAL HEADER ERROR: 206 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 206
+LOCAL HEADER ERROR: 206 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 3f90696888cf9b5f930bd399b28a449a336b8a627c9a9db5cd394ec1d4173dd8 height= 206
+BEEF TEST: built successfully: 3f90696888cf9b5f930bd399b28a449a336b8a627c9a9db5cd394ec1d4173dd8
+broadcast_transaction_and_wait called with type: <class 'electrumsv.transaction.Transaction'>
+Serialized transaction type: <class 'str'>
+Prepared tx_hex: 0100000001d83d17d4c1...
+BEEF TEST: proof stored, building BEEF for 60e03c495ffb00c2e6b5365370a91aa5b0123614fb560f9d3800eb054da7e54f
+LOCAL HEADER ERROR: 207 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 207
+LOCAL HEADER ERROR: 207 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers, .runtime/valid-chain-attempt-04/wallet-1/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 60e03c495ffb00c2e6b5365370a91aa5b0123614fb560f9d3800eb054da7e54f height= 207
+BEEF TEST: built successfully: 60e03c495ffb00c2e6b5365370a91aa5b0123614fb560f9d3800eb054da7e54f

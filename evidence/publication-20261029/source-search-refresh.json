@@ -1,0 +1,282 @@
+{
+  "observed_at": "2026-10-29T20:28:24.302Z",
+  "query": "ElectrumR",
+  "search_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "archive_filter_applied": null,
+      "repositories": [
+        {
+          "id": "220547664",
+          "name": "electrumrpc",
+          "owner": {
+            "login": "MarinX",
+            "id": 3714132,
+            "type": "User",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3714132?v=4",
+            "url": "https://api.github.com/users/MarinX"
+          },
+          "repository_full_name": "MarinX/electrumrpc",
+          "permissions": {
+            "admin": false,
+            "maintain": false,
+            "pull": true,
+            "push": false,
+            "triage": false
+          },
+          "allow_auto_merge": null,
+          "allow_merge_commit": null,
+          "allow_rebase_merge": null,
+          "allow_squash_merge": null,
+          "allow_update_branch": null,
+          "clone_url": "https://github.com/MarinX/electrumrpc.git",
+          "size": 18,
+          "default_branch": "master",
+          "git_commits_url": "https://api.github.com/repos/MarinX/electrumrpc/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/MarinX/electrumrpc/git/refs{/sha}",
+          "git_url": "git://github.com/MarinX/electrumrpc.git",
+          "master_branch": null,
+          "visibility": "public",
+          "archived": false,
+          "is_code_search_indexed": null,
+          "display_title": "MarinX/electrumrpc",
+          "display_url": "https://github.com/MarinX/electrumrpc"
+        },
+        {
+          "id": "699654465",
+          "name": "electrumrx",
+          "owner": {
+            "login": "repnettools",
+            "id": 146800813,
+            "type": "Organization",
+            "avatar_url": "https://avatars.githubusercontent.com/u/146800813?v=4",
+            "url": "https://api.github.com/users/repnettools"
+          },
+          "repository_full_name": "repnettools/electrumrx",
+          "permissions": {
+            "admin": false,
+            "maintain": false,
+            "pull": true,
+            "push": false,
+            "triage": false
+          },
+          "allow_auto_merge": null,
+          "allow_merge_commit": null,
+          "allow_rebase_merge": null,
+          "allow_squash_merge": null,
+          "allow_update_branch": null,
+          "clone_url": "https://github.com/repnettools/electrumrx.git",
+          "size": 3944,
+          "default_branch": "master",
+          "git_commits_url": "https://api.github.com/repos/repnettools/electrumrx/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/repnettools/electrumrx/git/refs{/sha}",
+          "git_url": "git://github.com/repnettools/electrumrx.git",
+          "master_branch": null,
+          "visibility": "public",
+          "archived": false,
+          "is_code_search_indexed": null,
+          "display_title": "repnettools/electrumrx",
+          "display_url": "https://github.com/repnettools/electrumrx"
+        },
+        {
+          "id": "226487122",
+          "name": "electrumrpc",
+          "owner": {
+            "login": "Aifolin",
+            "id": 11209833,
+            "type": "User",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11209833?v=4",
+            "url": "https://api.github.com/users/Aifolin"
+          },
+          "repository_full_name": "Aifolin/electrumrpc",
+          "permissions": {
+            "admin": false,
+            "maintain": false,
+            "pull": true,
+            "push": false,
+            "triage": false
+          },
+          "allow_auto_merge": null,
+          "allow_merge_commit": null,
+          "allow_rebase_merge": null,
+          "allow_squash_merge": null,
+          "allow_update_branch": null,
+          "clone_url": "https://github.com/Aifolin/electrumrpc.git",
+          "size": 32,
+          "default_branch": "master",
+          "git_commits_url": "https://api.github.com/repos/Aifolin/electrumrpc/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Aifolin/electrumrpc/git/refs{/sha}",
+          "git_url": "git://github.com/Aifolin/electrumrpc.git",
+          "master_branch": null,
+          "visibility": "public",
+          "archived": false,
+          "is_code_search_indexed": null,
+          "display_title": "Aifolin/electrumrpc",
+          "display_url": "https://github.com/Aifolin/electrumrpc"
+        },
+        {
+          "id": "235393430",
+          "name": "electrumrpc",
+          "owner": {
+            "login": "joshmh",
+            "id": 4651,
+            "type": "User",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4651?v=4",
+            "url": "https://api.github.com/users/joshmh"
+          },
+          "repository_full_name": "joshmh/electrumrpc",
+          "permissions": {
+            "admin": false,
+            "maintain": false,
+            "pull": true,
+            "push": false,
+            "triage": false
+          },
+          "allow_auto_merge": null,
+          "allow_merge_commit": null,
+          "allow_rebase_merge": null,
+          "allow_squash_merge": null,
+          "allow_update_branch": null,
+          "clone_url": "https://github.com/joshmh/electrumrpc.git",
+          "size": 32,
+          "default_branch": "master",
+          "git_commits_url": "https://api.github.com/repos/joshmh/electrumrpc/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/joshmh/electrumrpc/git/refs{/sha}",
+          "git_url": "git://github.com/joshmh/electrumrpc.git",
+          "master_branch": null,
+          "visibility": "public",
+          "archived": false,
+          "is_code_search_indexed": null,
+          "display_title": "joshmh/electrumrpc",
+          "display_url": "https://github.com/joshmh/electrumrpc"
+        },
+        {
+          "id": "428761611",
+          "name": "electrumrpc",
+          "owner": {
+            "login": "bitbandi",
+            "id": 7190678,
+            "type": "User",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7190678?v=4",
+            "url": "https://api.github.com/users/bitbandi"
+          },
+          "repository_full_name": "bitbandi/electrumrpc",
+          "permissions": {
+            "admin": false,
+            "maintain": false,
+            "pull": true,
+            "push": false,
+            "triage": false
+          },
+          "allow_auto_merge": null,
+          "allow_merge_commit": null,
+          "allow_rebase_merge": null,
+          "allow_squash_merge": null,
+          "allow_update_branch": null,
+          "clone_url": "https://github.com/bitbandi/electrumrpc.git",
+          "size": 18,
+          "default_branch": "master",
+          "git_commits_url": "https://api.github.com/repos/bitbandi/electrumrpc/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/bitbandi/electrumrpc/git/refs{/sha}",
+          "git_url": "git://github.com/bitbandi/electrumrpc.git",
+          "master_branch": null,
+          "visibility": "public",
+          "archived": false,
+          "is_code_search_indexed": null,
+          "display_title": "bitbandi/electrumrpc",
+          "display_url": "https://github.com/bitbandi/electrumrpc"
+        },
+        {
+          "id": "1437703503",
+          "name": "electrum-privacy-research",
+          "owner": {
+            "login": "p2ppsr",
+            "id": 65189042,
+            "type": "Organization",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65189042?v=4",
+            "url": "https://api.github.com/users/p2ppsr"
+          },
+          "repository_full_name": "p2ppsr/electrum-privacy-research",
+          "permissions": {
+            "admin": true,
+            "maintain": true,
+            "pull": true,
+            "push": true,
+            "triage": true
+          },
+          "allow_auto_merge": null,
+          "allow_merge_commit": null,
+          "allow_rebase_merge": null,
+          "allow_squash_merge": null,
+          "allow_update_branch": null,
+          "clone_url": "https://github.com/p2ppsr/electrum-privacy-research.git",
+          "size": 1631,
+          "default_branch": "main",
+          "git_commits_url": "https://api.github.com/repos/p2ppsr/electrum-privacy-research/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/p2ppsr/electrum-privacy-research/git/refs{/sha}",
+          "git_url": "git://github.com/p2ppsr/electrum-privacy-research.git",
+          "master_branch": null,
+          "visibility": "private",
+          "archived": false,
+          "is_code_search_indexed": null,
+          "display_title": "p2ppsr/electrum-privacy-research",
+          "display_url": "https://github.com/p2ppsr/electrum-privacy-research"
+        }
+      ]
+    },
+    "isError": false
+  },
+  "candidate_receipts": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "{\"id\":699654465,\"node_id\":\"R_kgDOKbPhQQ\",\"name\":\"electrumrx\",\"full_name\":\"repnettools/electrumrx\",\"private\":false,\"owner\":{\"login\":\"repnettools\",\"id\":146800813,\"node_id\":\"O_kgDOCMAArQ\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/146800813?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/repnettools\",\"html_url\":\"https://github.com/repnettools\",\"followers_url\":\"https://api.github.com/users/repnettools/followers\",\"following_url\":\"https://api.github.com/users/repnettools/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/repnettools/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/repnettools/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/repnettools/subscriptions\",\"organizations_url\":\"https://api.github.com/users/repnettools/orgs\",\"repos_url\":\"https://api.github.com/users/repnettools/repos\",\"events_url\":\"https://api.github.com/users/repnettools/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/repnettools/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"html_url\":\"https://github.com/repnettools/electrumrx\",\"description\":\"RandomX support for spesmilo/electrum-server\",\"fork\":true,\"url\":\"https://api.github.com/repos/repnettools/electrumrx\",\"forks_url\":\"https://api.github.com/repos/repnettools/electrumrx/forks\",\"keys_url\":\"https://api.github.com/repos/repnettools/electrumrx/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/repnettools/electrumrx/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/repnettools/electrumrx/teams\",\"hooks_url\":\"https://api.github.com/repos/repnettools/electrumrx/hooks\",\"issue_events_url\":\"https://api.github.com/repos/repnettools/electrumrx/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/repnettools/electrumrx/events\",\"assignees_url\":\"https://api.github.com/repos/repnettools/electrumrx/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/repnettools/electrumrx/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/repnettools/electrumrx/tags\",\"blobs_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/repnettools/electrumrx/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/repnettools/electrumrx/languages\",\"stargazers_url\":\"https://api.github.com/repos/repnettools/electrumrx/stargazers\",\"contributors_url\":\"https://api.github.com/repos/repnettools/electrumrx/contributors\",\"subscribers_url\":\"https://api.github.com/repos/repnettools/electrumrx/subscribers\",\"subscription_url\":\"https://api.github.com/repos/repnettools/electrumrx/subscription\",\"commits_url\":\"https://api.github.com/repos/repnettools/electrumrx/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/repnettools/electrumrx/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/repnettools/electrumrx/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/repnettools/electrumrx/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/repnettools/electrumrx/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/repnettools/electrumrx/merges\",\"archive_url\":\"https://api.github.com/repos/repnettools/electrumrx/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/repnettools/electrumrx/downloads\",\"issues_url\":\"https://api.github.com/repos/repnettools/electrumrx/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/repnettools/electrumrx/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/repnettools/electrumrx/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/repnettools/electrumrx/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/repnettools/electrumrx/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/repnettools/electrumrx/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/repnettools/electrumrx/deployments\",\"created_at\":\"2023-10-03T04:20:08Z\",\"updated_at\":\"2024-05-21T12:26:03Z\",\"pushed_at\":\"2024-05-21T12:25:45Z\",\"git_url\":\"git://github.com/repnettools/electrumrx.git\",\"ssh_url\":\"git@github.com:repnettools/electrumrx.git\",\"clone_url\":\"https://github.com/repnettools/electrumrx.git\",\"svn_url\":\"https://github.com/repnettools/electrumrx\",\"homepage\":null,\"size\":3944,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Python\",\"has_issues\":false,\"has_projects\":true,\"has_downloads\":false,\"has_wiki\":false,\"has_pages\":false,\"has_discussions\":false,\"forks_count\":0,\"mirror_url\":null,\"archived\":false,\"disabled\":false,\"open_issues_count\":0,\"license\":{\"key\":\"mit\",\"name\":\"MIT License\",\"spdx_id\":\"MIT\",\"url\":\"https://api.github.com/licenses/mit\",\"node_id\":\"MDc6TGljZW5zZTEz\"},\"allow_forking\":true,\"is_template\":false,\"web_commit_signoff_required\":false,\"has_pull_requests\":true,\"pull_request_creation_policy\":\"all\",\"topics\":[],\"visibility\":\"public\",\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"permissions\":{\"admin\":false,\"maintain\":false,\"push\":false,\"triage\":false,\"pull\":true},\"custom_properties\":{},\"organization\":{\"login\":\"repnettools\",\"id\":146800813,\"node_id\":\"O_kgDOCMAArQ\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/146800813?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/repnettools\",\"html_url\":\"https://github.com/repnettools\",\"followers_url\":\"https://api.github.com/users/repnettools/followers\",\"following_url\":\"https://api.github.com/users/repnettools/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/repnettools/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/repnettools/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/repnettools/subscriptions\",\"organizations_url\":\"https://api.github.com/users/repnettools/orgs\",\"repos_url\":\"https://api.github.com/users/repnettools/repos\",\"events_url\":\"https://api.github.com/users/repnettools/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/repnettools/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"parent\":{\"id\":114231174,\"node_id\":\"MDEwOlJlcG9zaXRvcnkxMTQyMzExNzQ=\",\"name\":\"electrumx\",\"full_name\":\"spesmilo/electrumx\",\"private\":false,\"owner\":{\"login\":\"spesmilo\",\"id\":2084673,\"node_id\":\"MDEyOk9yZ2FuaXphdGlvbjIwODQ2NzM=\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/2084673?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/spesmilo\",\"html_url\":\"https://github.com/spesmilo\",\"followers_url\":\"https://api.github.com/users/spesmilo/followers\",\"following_url\":\"https://api.github.com/users/spesmilo/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/spesmilo/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/spesmilo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/spesmilo/subscriptions\",\"organizations_url\":\"https://api.github.com/users/spesmilo/orgs\",\"repos_url\":\"https://api.github.com/users/spesmilo/repos\",\"events_url\":\"https://api.github.com/users/spesmilo/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/spesmilo/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"html_url\":\"https://github.com/spesmilo/electrumx\",\"description\":\"Server impl for Electrum Protocol, for public-facing or personal usage\",\"fork\":false,\"url\":\"https://api.github.com/repos/spesmilo/electrumx\",\"forks_url\":\"https://api.github.com/repos/spesmilo/electrumx/forks\",\"keys_url\":\"https://api.github.com/repos/spesmilo/electrumx/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/spesmilo/electrumx/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/spesmilo/electrumx/teams\",\"hooks_url\":\"https://api.github.com/repos/spesmilo/electrumx/hooks\",\"issue_events_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/spesmilo/electrumx/events\",\"assignees_url\":\"https://api.github.com/repos/spesmilo/electrumx/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/spesmilo/electrumx/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/tags\",\"blobs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/spesmilo/electrumx/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/spesmilo/electrumx/languages\",\"stargazers_url\":\"https://api.github.com/repos/spesmilo/electrumx/stargazers\",\"contributors_url\":\"https://api.github.com/repos/spesmilo/electrumx/contributors\",\"subscribers_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscribers\",\"subscription_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscription\",\"commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/spesmilo/electrumx/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/spesmilo/electrumx/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/spesmilo/electrumx/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/spesmilo/electrumx/merges\",\"archive_url\":\"https://api.github.com/repos/spesmilo/electrumx/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/spesmilo/electrumx/downloads\",\"issues_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/spesmilo/electrumx/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/spesmilo/electrumx/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/spesmilo/electrumx/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/spesmilo/electrumx/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/spesmilo/electrumx/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/spesmilo/electrumx/deployments\",\"created_at\":\"2017-12-14T09:38:17Z\",\"updated_at\":\"2026-10-29T18:26:02Z\",\"pushed_at\":\"2026-10-29T18:25:54Z\",\"git_url\":\"git://github.com/spesmilo/electrumx.git\",\"ssh_url\":\"git@github.com:spesmilo/electrumx.git\",\"clone_url\":\"https://github.com/spesmilo/electrumx.git\",\"svn_url\":\"https://github.com/spesmilo/electrumx\",\"homepage\":\"\",\"size\":4682,\"stargazers_count\":572,\"watchers_count\":572,\"language\":\"Python\",\"has_issues\":true,\"has_projects\":false,\"has_downloads\":false,\"has_wiki\":false,\"has_pages\":false,\"has_discussions\":false,\"forks_count\":451,\"mirror_url\":null,\"archived\":false,\"disabled\":false,\"open_issues_count\":66,\"license\":{\"key\":\"mit\",\"name\":\"MIT License\",\"spdx_id\":\"MIT\",\"url\":\"https://api.github.com/licenses/mit\",\"node_id\":\"MDc6TGljZW5zZTEz\"},\"allow_forking\":true,\"is_template\":false,\"web_commit_signoff_required\":false,\"has_pull_requests\":true,\"pull_request_creation_policy\":\"all\",\"topics\":[\"bitcoin\",\"electrum\",\"electrum-server\",\"python\"],\"visibility\":\"public\",\"forks\":451,\"open_issues\":66,\"watchers\":572,\"default_branch\":\"master\"},\"source\":{\"id\":114231174,\"node_id\":\"MDEwOlJlcG9zaXRvcnkxMTQyMzExNzQ=\",\"name\":\"electrumx\",\"full_name\":\"spesmilo/electrumx\",\"private\":false,\"owner\":{\"login\":\"spesmilo\",\"id\":2084673,\"node_id\":\"MDEyOk9yZ2FuaXphdGlvbjIwODQ2NzM=\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/2084673?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/spesmilo\",\"html_url\":\"https://github.com/spesmilo\",\"followers_url\":\"https://api.github.com/users/spesmilo/followers\",\"following_url\":\"https://api.github.com/users/spesmilo/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/spesmilo/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/spesmilo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/spesmilo/subscriptions\",\"organizations_url\":\"https://api.github.com/users/spesmilo/orgs\",\"repos_url\":\"https://api.github.com/users/spesmilo/repos\",\"events_url\":\"https://api.github.com/users/spesmilo/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/spesmilo/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"html_url\":\"https://github.com/spesmilo/electrumx\",\"description\":\"Server impl for Electrum Protocol, for public-facing or personal usage\",\"fork\":false,\"url\":\"https://api.github.com/repos/spesmilo/electrumx\",\"forks_url\":\"https://api.github.com/repos/spesmilo/electrumx/forks\",\"keys_url\":\"https://api.github.com/repos/spesmilo/electrumx/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/spesmilo/electrumx/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/spesmilo/electrumx/teams\",\"hooks_url\":\"https://api.github.com/repos/spesmilo/electrumx/hooks\",\"issue_events_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/spesmilo/electrumx/events\",\"assignees_url\":\"https://api.github.com/repos/spesmilo/electrumx/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/spesmilo/electrumx/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/tags\",\"blobs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/spesmilo/electrumx/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/spesmilo/electrumx/languages\",\"stargazers_url\":\"https://api.github.com/repos/spesmilo/electrumx/stargazers\",\"contributors_url\":\"https://api.github.com/repos/spesmilo/electrumx/contributors\",\"subscribers_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscribers\",\"subscription_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscription\",\"commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/spesmilo/electrumx/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/spesmilo/electrumx/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/spesmilo/electrumx/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/spesmilo/electrumx/merges\",\"archive_url\":\"https://api.github.com/repos/spesmilo/electrumx/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/spesmilo/electrumx/downloads\",\"issues_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/spesmilo/electrumx/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/spesmilo/electrumx/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/spesmilo/electrumx/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/spesmilo/electrumx/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/spesmilo/electrumx/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/spesmilo/electrumx/deployments\",\"created_at\":\"2017-12-14T09:38:17Z\",\"updated_at\":\"2026-10-29T18:26:02Z\",\"pushed_at\":\"2026-10-29T18:25:54Z\",\"git_url\":\"git://github.com/spesmilo/electrumx.git\",\"ssh_url\":\"git@github.com:spesmilo/electrumx.git\",\"clone_url\":\"https://github.com/spesmilo/electrumx.git\",\"svn_url\":\"https://github.com/spesmilo/electrumx\",\"homepage\":\"\",\"size\":4682,\"stargazers_count\":572,\"watchers_count\":572,\"language\":\"Python\",\"has_issues\":true,\"has_projects\":false,\"has_downloads\":false,\"has_wiki\":false,\"has_pages\":false,\"has_discussions\":false,\"forks_count\":451,\"mirror_url\":null,\"archived\":false,\"disabled\":false,\"open_issues_count\":66,\"license\":{\"key\":\"mit\",\"name\":\"MIT License\",\"spdx_id\":\"MIT\",\"url\":\"https://api.github.com/licenses/mit\",\"node_id\":\"MDc6TGljZW5zZTEz\"},\"allow_forking\":true,\"is_template\":false,\"web_commit_signoff_required\":false,\"has_pull_requests\":true,\"pull_request_creation_policy\":\"all\",\"topics\":[\"bitcoin\",\"electrum\",\"electrum-server\",\"python\"],\"visibility\":\"public\",\"forks\":451,\"open_issues\":66,\"watchers\":572,\"default_branch\":\"master\"},\"network_count\":451,\"subscribers_count\":0}",
+          "title": "electrumrx",
+          "modified_date": null,
+          "url": "https://api.github.com/repos/repnettools/electrumrx",
+          "display_url": "https://api.github.com/repos/repnettools/electrumrx",
+          "display_title": "electrumrx",
+          "structuredContent": {
+            "title": "electrumrx",
+            "content": "{\"id\":699654465,\"node_id\":\"R_kgDOKbPhQQ\",\"name\":\"electrumrx\",\"full_name\":\"repnettools/electrumrx\",\"private\":false,\"owner\":{\"login\":\"repnettools\",\"id\":146800813,\"node_id\":\"O_kgDOCMAArQ\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/146800813?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/repnettools\",\"html_url\":\"https://github.com/repnettools\",\"followers_url\":\"https://api.github.com/users/repnettools/followers\",\"following_url\":\"https://api.github.com/users/repnettools/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/repnettools/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/repnettools/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/repnettools/subscriptions\",\"organizations_url\":\"https://api.github.com/users/repnettools/orgs\",\"repos_url\":\"https://api.github.com/users/repnettools/repos\",\"events_url\":\"https://api.github.com/users/repnettools/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/repnettools/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"html_url\":\"https://github.com/repnettools/electrumrx\",\"description\":\"RandomX support for spesmilo/electrum-server\",\"fork\":true,\"url\":\"https://api.github.com/repos/repnettools/electrumrx\",\"forks_url\":\"https://api.github.com/repos/repnettools/electrumrx/forks\",\"keys_url\":\"https://api.github.com/repos/repnettools/electrumrx/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/repnettools/electrumrx/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/repnettools/electrumrx/teams\",\"hooks_url\":\"https://api.github.com/repos/repnettools/electrumrx/hooks\",\"issue_events_url\":\"https://api.github.com/repos/repnettools/electrumrx/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/repnettools/electrumrx/events\",\"assignees_url\":\"https://api.github.com/repos/repnettools/electrumrx/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/repnettools/electrumrx/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/repnettools/electrumrx/tags\",\"blobs_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/repnettools/electrumrx/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/repnettools/electrumrx/languages\",\"stargazers_url\":\"https://api.github.com/repos/repnettools/electrumrx/stargazers\",\"contributors_url\":\"https://api.github.com/repos/repnettools/electrumrx/contributors\",\"subscribers_url\":\"https://api.github.com/repos/repnettools/electrumrx/subscribers\",\"subscription_url\":\"https://api.github.com/repos/repnettools/electrumrx/subscription\",\"commits_url\":\"https://api.github.com/repos/repnettools/electrumrx/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/repnettools/electrumrx/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/repnettools/electrumrx/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/repnettools/electrumrx/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/repnettools/electrumrx/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/repnettools/electrumrx/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/repnettools/electrumrx/merges\",\"archive_url\":\"https://api.github.com/repos/repnettools/electrumrx/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/repnettools/electrumrx/downloads\",\"issues_url\":\"https://api.github.com/repos/repnettools/electrumrx/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/repnettools/electrumrx/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/repnettools/electrumrx/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/repnettools/electrumrx/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/repnettools/electrumrx/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/repnettools/electrumrx/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/repnettools/electrumrx/deployments\",\"created_at\":\"2023-10-03T04:20:08Z\",\"updated_at\":\"2024-05-21T12:26:03Z\",\"pushed_at\":\"2024-05-21T12:25:45Z\",\"git_url\":\"git://github.com/repnettools/electrumrx.git\",\"ssh_url\":\"git@github.com:repnettools/electrumrx.git\",\"clone_url\":\"https://github.com/repnettools/electrumrx.git\",\"svn_url\":\"https://github.com/repnettools/electrumrx\",\"homepage\":null,\"size\":3944,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"Python\",\"has_issues\":false,\"has_projects\":true,\"has_downloads\":false,\"has_wiki\":false,\"has_pages\":false,\"has_discussions\":false,\"forks_count\":0,\"mirror_url\":null,\"archived\":false,\"disabled\":false,\"open_issues_count\":0,\"license\":{\"key\":\"mit\",\"name\":\"MIT License\",\"spdx_id\":\"MIT\",\"url\":\"https://api.github.com/licenses/mit\",\"node_id\":\"MDc6TGljZW5zZTEz\"},\"allow_forking\":true,\"is_template\":false,\"web_commit_signoff_required\":false,\"has_pull_requests\":true,\"pull_request_creation_policy\":\"all\",\"topics\":[],\"visibility\":\"public\",\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"permissions\":{\"admin\":false,\"maintain\":false,\"push\":false,\"triage\":false,\"pull\":true},\"custom_properties\":{},\"organization\":{\"login\":\"repnettools\",\"id\":146800813,\"node_id\":\"O_kgDOCMAArQ\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/146800813?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/repnettools\",\"html_url\":\"https://github.com/repnettools\",\"followers_url\":\"https://api.github.com/users/repnettools/followers\",\"following_url\":\"https://api.github.com/users/repnettools/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/repnettools/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/repnettools/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/repnettools/subscriptions\",\"organizations_url\":\"https://api.github.com/users/repnettools/orgs\",\"repos_url\":\"https://api.github.com/users/repnettools/repos\",\"events_url\":\"https://api.github.com/users/repnettools/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/repnettools/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"parent\":{\"id\":114231174,\"node_id\":\"MDEwOlJlcG9zaXRvcnkxMTQyMzExNzQ=\",\"name\":\"electrumx\",\"full_name\":\"spesmilo/electrumx\",\"private\":false,\"owner\":{\"login\":\"spesmilo\",\"id\":2084673,\"node_id\":\"MDEyOk9yZ2FuaXphdGlvbjIwODQ2NzM=\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/2084673?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/spesmilo\",\"html_url\":\"https://github.com/spesmilo\",\"followers_url\":\"https://api.github.com/users/spesmilo/followers\",\"following_url\":\"https://api.github.com/users/spesmilo/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/spesmilo/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/spesmilo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/spesmilo/subscriptions\",\"organizations_url\":\"https://api.github.com/users/spesmilo/orgs\",\"repos_url\":\"https://api.github.com/users/spesmilo/repos\",\"events_url\":\"https://api.github.com/users/spesmilo/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/spesmilo/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"html_url\":\"https://github.com/spesmilo/electrumx\",\"description\":\"Server impl for Electrum Protocol, for public-facing or personal usage\",\"fork\":false,\"url\":\"https://api.github.com/repos/spesmilo/electrumx\",\"forks_url\":\"https://api.github.com/repos/spesmilo/electrumx/forks\",\"keys_url\":\"https://api.github.com/repos/spesmilo/electrumx/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/spesmilo/electrumx/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/spesmilo/electrumx/teams\",\"hooks_url\":\"https://api.github.com/repos/spesmilo/electrumx/hooks\",\"issue_events_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/spesmilo/electrumx/events\",\"assignees_url\":\"https://api.github.com/repos/spesmilo/electrumx/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/spesmilo/electrumx/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/tags\",\"blobs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/spesmilo/electrumx/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/spesmilo/electrumx/languages\",\"stargazers_url\":\"https://api.github.com/repos/spesmilo/electrumx/stargazers\",\"contributors_url\":\"https://api.github.com/repos/spesmilo/electrumx/contributors\",\"subscribers_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscribers\",\"subscription_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscription\",\"commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/spesmilo/electrumx/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/spesmilo/electrumx/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/spesmilo/electrumx/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/spesmilo/electrumx/merges\",\"archive_url\":\"https://api.github.com/repos/spesmilo/electrumx/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/spesmilo/electrumx/downloads\",\"issues_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/spesmilo/electrumx/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/spesmilo/electrumx/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/spesmilo/electrumx/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/spesmilo/electrumx/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/spesmilo/electrumx/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/spesmilo/electrumx/deployments\",\"created_at\":\"2017-12-14T09:38:17Z\",\"updated_at\":\"2026-10-29T18:26:02Z\",\"pushed_at\":\"2026-10-29T18:25:54Z\",\"git_url\":\"git://github.com/spesmilo/electrumx.git\",\"ssh_url\":\"git@github.com:spesmilo/electrumx.git\",\"clone_url\":\"https://github.com/spesmilo/electrumx.git\",\"svn_url\":\"https://github.com/spesmilo/electrumx\",\"homepage\":\"\",\"size\":4682,\"stargazers_count\":572,\"watchers_count\":572,\"language\":\"Python\",\"has_issues\":true,\"has_projects\":false,\"has_downloads\":false,\"has_wiki\":false,\"has_pages\":false,\"has_discussions\":false,\"forks_count\":451,\"mirror_url\":null,\"archived\":false,\"disabled\":false,\"open_issues_count\":66,\"license\":{\"key\":\"mit\",\"name\":\"MIT License\",\"spdx_id\":\"MIT\",\"url\":\"https://api.github.com/licenses/mit\",\"node_id\":\"MDc6TGljZW5zZTEz\"},\"allow_forking\":true,\"is_template\":false,\"web_commit_signoff_required\":false,\"has_pull_requests\":true,\"pull_request_creation_policy\":\"all\",\"topics\":[\"bitcoin\",\"electrum\",\"electrum-server\",\"python\"],\"visibility\":\"public\",\"forks\":451,\"open_issues\":66,\"watchers\":572,\"default_branch\":\"master\"},\"source\":{\"id\":114231174,\"node_id\":\"MDEwOlJlcG9zaXRvcnkxMTQyMzExNzQ=\",\"name\":\"electrumx\",\"full_name\":\"spesmilo/electrumx\",\"private\":false,\"owner\":{\"login\":\"spesmilo\",\"id\":2084673,\"node_id\":\"MDEyOk9yZ2FuaXphdGlvbjIwODQ2NzM=\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/2084673?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/spesmilo\",\"html_url\":\"https://github.com/spesmilo\",\"followers_url\":\"https://api.github.com/users/spesmilo/followers\",\"following_url\":\"https://api.github.com/users/spesmilo/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/spesmilo/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/spesmilo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/spesmilo/subscriptions\",\"organizations_url\":\"https://api.github.com/users/spesmilo/orgs\",\"repos_url\":\"https://api.github.com/users/spesmilo/repos\",\"events_url\":\"https://api.github.com/users/spesmilo/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/spesmilo/received_events\",\"type\":\"Organization\",\"user_view_type\":\"public\",\"site_admin\":false},\"html_url\":\"https://github.com/spesmilo/electrumx\",\"description\":\"Server impl for Electrum Protocol, for public-facing or personal usage\",\"fork\":false,\"url\":\"https://api.github.com/repos/spesmilo/electrumx\",\"forks_url\":\"https://api.github.com/repos/spesmilo/electrumx/forks\",\"keys_url\":\"https://api.github.com/repos/spesmilo/electrumx/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/spesmilo/electrumx/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/spesmilo/electrumx/teams\",\"hooks_url\":\"https://api.github.com/repos/spesmilo/electrumx/hooks\",\"issue_events_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/spesmilo/electrumx/events\",\"assignees_url\":\"https://api.github.com/repos/spesmilo/electrumx/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/spesmilo/electrumx/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/tags\",\"blobs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/spesmilo/electrumx/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/spesmilo/electrumx/languages\",\"stargazers_url\":\"https://api.github.com/repos/spesmilo/electrumx/stargazers\",\"contributors_url\":\"https://api.github.com/repos/spesmilo/electrumx/contributors\",\"subscribers_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscribers\",\"subscription_url\":\"https://api.github.com/repos/spesmilo/electrumx/subscription\",\"commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/spesmilo/electrumx/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/spesmilo/electrumx/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/spesmilo/electrumx/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/spesmilo/electrumx/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/spesmilo/electrumx/merges\",\"archive_url\":\"https://api.github.com/repos/spesmilo/electrumx/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/spesmilo/electrumx/downloads\",\"issues_url\":\"https://api.github.com/repos/spesmilo/electrumx/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/spesmilo/electrumx/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/spesmilo/electrumx/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/spesmilo/electrumx/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/spesmilo/electrumx/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/spesmilo/electrumx/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/spesmilo/electrumx/deployments\",\"created_at\":\"2017-12-14T09:38:17Z\",\"updated_at\":\"2026-10-29T18:26:02Z\",\"pushed_at\":\"2026-10-29T18:25:54Z\",\"git_url\":\"git://github.com/spesmilo/electrumx.git\",\"ssh_url\":\"git@github.com:spesmilo/electrumx.git\",\"clone_url\":\"https://github.com/spesmilo/electrumx.git\",\"svn_url\":\"https://github.com/spesmilo/electrumx\",\"homepage\":\"\",\"size\":4682,\"stargazers_count\":572,\"watchers_count\":572,\"language\":\"Python\",\"has_issues\":true,\"has_projects\":false,\"has_downloads\":false,\"has_wiki\":false,\"has_pages\":false,\"has_discussions\":false,\"forks_count\":451,\"mirror_url\":null,\"archived\":false,\"disabled\":false,\"open_issues_count\":66,\"license\":{\"key\":\"mit\",\"name\":\"MIT License\",\"spdx_id\":\"MIT\",\"url\":\"https://api.github.com/licenses/mit\",\"node_id\":\"MDc6TGljZW5zZTEz\"},\"allow_forking\":true,\"is_template\":false,\"web_commit_signoff_required\":false,\"has_pull_requests\":true,\"pull_request_creation_policy\":\"all\",\"topics\":[\"bitcoin\",\"electrum\",\"electrum-server\",\"python\"],\"visibility\":\"public\",\"forks\":451,\"open_issues\":66,\"watchers\":572,\"default_branch\":\"master\"},\"network_count\":451,\"subscribers_count\":0}",
+            "display_url": "https://api.github.com/repos/repnettools/electrumrx"
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    }
+  ]
+}

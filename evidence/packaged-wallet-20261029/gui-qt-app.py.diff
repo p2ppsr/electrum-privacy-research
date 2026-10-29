@@ -1,0 +1,7 @@
+--- tag/gui/qt/app.py
++++ package/gui/qt/app.py
+@@ -451,4 +451,3 @@
+         thread.
+         '''
+         return self.run_coro(run_in_thread, func, *args, on_done=on_done)
+-

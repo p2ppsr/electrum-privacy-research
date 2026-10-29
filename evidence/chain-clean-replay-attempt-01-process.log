@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/replay_chain.py", line 49, in <module>
+    if __name__=='__main__':main()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/replay_chain.py", line 33, in main
+    for block in blocks[1:-1]:assert rpc('submitblock',block['raw']) is None
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/node_indexer.py", line 25, in __call__
+    raise RuntimeError(f"node {method}: {r.stderr.strip()}")
+RuntimeError: node submitblock: Error response from daemon: container 4be304e91d5a8d6266074b14471ff8869aa5c4ce1e8a59c35dcd8ec878cec551 is not running

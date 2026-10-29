@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "observed_at": "2026-10-29T20:19:54.153742+00:00",
+  "artifact_sha256": "657a1eaaafb40ea5f3db7b3c21ecd93e7c1c8b03d6de570e8f10bbb187a05f47",
+  "python": "vendor bundled Intel Python 3.9.13 under Rosetta 2",
+  "wallet": "fresh standard unfunded test account",
+  "gui_observed": true,
+  "network_settings_supplied": [],
+  "completed_subscriptions": 40,
+  "unique_scripts": 40,
+  "main_hosts": [
+    "sv2.electrumr.sv"
+  ],
+  "core_hosts": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io"
+  ],
+  "helper_hosts": [
+    "bsv.aftrek.org",
+    "electrumx.gorillapool.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io",
+    "sv3.satoshi.io"
+  ],
+  "helper_methods": {
+    "blockchain.block.header": 7
+  },
+  "dns_names": [
+    "127.0.0.1",
+    "bananablocks.com",
+    "bsv.aftrek.org",
+    "electrum.server.sv",
+    "electrumsv.io",
+    "electrumx.gorillapool.io",
+    "esv.bitails.io",
+    "sv.electrumr.sv",
+    "sv.satoshi.io",
+    "sv2.electrumr.sv",
+    "sv2.satoshi.io",
+    "sv3.satoshi.io"
+  ],
+  "controls": [
+    "Launch wrapper and lab bundle identity changed for isolation/control; original artifact mounted read-only",
+    "Identical bundled interpreter copied into lab wrapper; wallet/network/GUI modules loaded unedited from original bundle",
+    "Path.home and legacy wallet home expansion redirected; -D private directory; existing user wallet directories blocked by audit guard",
+    "Disposable wallet created using bundled wallet APIs, then opened in GUI with its existing test password",
+    "Client-side RPC completion and helper TLS-send observation wrappers; DNS/socket audit metadata",
+    "Screenshots and accessibility snapshots through computer-control tool"
+  ],
+  "observation_boundary": "GUI core records are client-side completion evidence; server-retention equivalence is separately demonstrated by packaged-core recording TLS relay",
+  "financial_helper_requests_observed": false,
+  "default_auto_select_visible": true,
+  "default_proxy_enabled_visible": false,
+  "real_chain_funds": false
+}

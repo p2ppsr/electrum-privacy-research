@@ -1,5 +1,7 @@
 # Who can see my wallet?
 
+October 29 update: [official desktop capture](PACKAGED-WALLET.md), [valid-chain shop/departure proof](VALID-CHAIN.md), [certificate tests](CERTIFICATES.md) and [claim ledger](CLAIMS.md) now supplement the earlier evidence below. Earlier synthetic cases remain explicitly separate.
+
 For a connected story that starts with the shopkeeper, read [the plain-English explainer](EXPLAINER.md). The examples below explore individual situations.
 
 Opening this wallet asks a remote service which payments belong to the payment identifiers it supplies. The service can remember those questions and join the answers together. That can expose a financial picture associated with a connection, even while the recovery words stay safely on the user's device.

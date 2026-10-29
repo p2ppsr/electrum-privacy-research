@@ -1,0 +1,21 @@
+{
+  "client": "Official macOS DMG bundled Python 3.9.13 and unchanged bundled Wallet/Network modules; headless harness",
+  "upstream": "sv.electrumr.sv",
+  "mode": "public upstream behind local operator-equivalent recording relay; unfunded wallet",
+  "self_hosted_electrumr": false,
+  "exit_code": 0,
+  "controls": [
+    "loopback TLS endpoint",
+    "oneserver=True",
+    "auto_connect=False",
+    "headless application callbacks",
+    "isolated application data"
+  ],
+  "defaults_preserved": [
+    "20 receiving + 20 change lookahead",
+    "P2PKH scripts",
+    "history/transaction RPC logic"
+  ],
+  "bundled_app": "/Users/tyeverett/projects/electrum-privacy-research/.runtime/package-mount/ElectrumSVP-0.2.0.app",
+  "packaged_GUI_session": false
+}

@@ -1,0 +1,17 @@
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-29 13:07:50,254:WARNING:config:not changing config key 'server' set on the command line
+BEEF TEST: proof stored, building BEEF for 837eec4ac2c51eeea017eb8b237bc06c333e409790abf64d361c4f0a22e71eda
+LOCAL HEADER ERROR: 204 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 204
+LOCAL HEADER ERROR: 204 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: 837eec4ac2c51eeea017eb8b237bc06c333e409790abf64d361c4f0a22e71eda height= 204
+BEEF TEST: built successfully: 837eec4ac2c51eeea017eb8b237bc06c333e409790abf64d361c4f0a22e71eda
+broadcast_transaction_and_wait called with type: <class 'electrumsv.transaction.Transaction'>
+Serialized transaction type: <class 'str'>
+Prepared tx_hex: 0100000001da1ee7220a...
+BEEF TEST: proof stored, building BEEF for fd3dad030c0b6822773b7161e765eae8355e2f8647b404f3b4ebbd1630de911f
+LOCAL HEADER ERROR: 205 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+SUBJECT LOCAL HEADER UNAVAILABLE: 205
+LOCAL HEADER ERROR: 205 FileNotFoundError('No local headers file found. Expected one of: .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers, .runtime/valid-chain-attempt-03/wallet-0/legacy-home/headers-electrumsv, /Users/tyeverett/.electrumsv/headers')
+DEPENDENCY LOCAL HEADER UNAVAILABLE: fd3dad030c0b6822773b7161e765eae8355e2f8647b404f3b4ebbd1630de911f height= 205
+BEEF TEST: built successfully: fd3dad030c0b6822773b7161e765eae8355e2f8647b404f3b4ebbd1630de911f

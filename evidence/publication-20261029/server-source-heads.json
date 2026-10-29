@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-29T20:28:47.851Z",
+  "rows": [
+    {
+      "status": "rejected",
+      "reason": {}
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "bitails-head",
+        "url": "https://api.github.com/repos/bitails/electrumx-adaptor/commits/main",
+        "sha": "f184a1ad862ea37e93eec339de0c6cafa4e2cd36",
+        "date": "2026-09-27T15:03:35Z",
+        "title": "Fix scripthash.subscribe to return Electrum 1.4 status hash"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "electrumx-head",
+        "url": "https://api.github.com/repos/kyuupichan/electrumx/commits/master",
+        "sha": "76280a15b48ea3ff0ee6ae47d21833cbaad8522f",
+        "date": "2022-12-30T00:52:11Z",
+        "title": "Update for state"
+      }
+    }
+  ],
+  "interpretation": "Public source availability/head observations only; no correspondence to a deployed server binary is established. repnettools/electrumrx describes itself as RandomX support for spesmilo/electrum-server, forks spesmilo/electrumx and has no demonstrated association with the advertised ElectrumR implementation. README.md lookup failed; actual README.rst lookup succeeded."
+}

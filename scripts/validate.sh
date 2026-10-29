@@ -11,3 +11,6 @@ research_python="${RESEARCH_PYTHON:-.venv/bin/python}"
 "$research_python" -m privacy_lab.verify_followup
 "$research_python" -m privacy_lab.trust_model --verify
 "$research_python" -m privacy_lab.verify_correlation
+"$research_python" -m privacy_lab.claims --check
+"$research_python" -m privacy_lab.verify_publication
+"$research_python" -m privacy_lab.manifest --check

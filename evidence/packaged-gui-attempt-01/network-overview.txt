@@ -1,0 +1,37 @@
+Window: "Network", App: Electrum Privacy Research Lab.
+0 dialog Network, Secondary Actions: Raise
+	1 container
+		2 text Status: Connected to 7 servers. Server: sv2.electrumr.sv Blockchain: 973225 blocks
+		3 column Connected node
+		4 column Height
+		5 container electrumx.gorillapool.io
+		6 container 973225
+		7 container sv2.electrumr.sv (main server)
+		8 container 973225
+		9 container sv.satoshi.io
+		10 container 973225
+		11 container sv.electrumr.sv
+		12 container 973225
+		13 container sv2.satoshi.io
+		14 container 973225
+		15 container bsv.aftrek.org
+		16 container 973225
+		17 container esv.bitails.io
+		18 container 973225
+	19 container Overview, Secondary Actions: Raise
+		20 radio button Overview
+		21 radio button Server
+		22 radio button Proxy
+	23 button Help, Secondary Actions: Raise
+	24 button Close, Secondary Actions: Raise
+	25 close button
+	26 zoom button (disabled)
+	27 text Network
+28 menu bar
+	29 Electrum Privacy Lab
+	30 File
+	31 Wallet
+	32 Account
+	33 View
+	34 Tools
+	35 Help

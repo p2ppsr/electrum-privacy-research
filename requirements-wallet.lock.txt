@@ -37,3 +37,4 @@ tzdata==2026.6
 urllib3==2.8.0
 websocket-client==1.9.2
 yarl==1.25.1
+cryptography==50.0.2

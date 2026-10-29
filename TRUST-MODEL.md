@@ -1,5 +1,7 @@
 # How many parties does a default session trust?
 
+October 29 update: [official desktop capture](PACKAGED-WALLET.md), [valid-chain shop/departure proof](VALID-CHAIN.md), [certificate tests](CERTIFICATES.md) and [claim ledger](CLAIMS.md) now supplement the earlier evidence below. Earlier synthetic cases remain explicitly separate.
+
 Research date: October 28, 2026. Client: ElectrumSVP 0.2.0, pinned commit `672df8f4512f6adf16a3c99146baa6be9b93d86f`. Start with [the plain-language stories](PRIVACY-STORIES.md) for everyday examples. [The main report](REPORT.md) contains the financial experiments and underlying attribution sources.
 
 **Consumer threat model: assume correlation and sharing.** For this report, a privacy-conscious consumer should treat all six endpoints in **198.154.93.0/24** as related and able to combine everything they receive. The consumer cannot verify their separation. Also evaluate the case where every service provider shares its observations: separation of brands does not provide an enforceable privacy boundary. These are deliberately conservative risk assumptions, requested for this assessment. Public registration proves the shared network relationship; common application administration and actual sharing remain unverified. An absence of contrary evidence is not proof of common ownership.
@@ -123,3 +125,9 @@ The researcher's Bitails/WhatsOnChain reference probes, GitHub source access and
 [Machine-readable counts and distributions](evidence/trust-model-20261028/model.json) are recomputable offline. [Pinned source receipts](evidence/trust-model-20261028/source-receipts.json) check the literal pools and relevant defaults against unchanged Git blobs. No source availability or deployment-attestation gap was resolved by counting endpoints.
 
 The [disclosure audit](DISCLOSURE-AUDIT.md) records partial optional Network help, missing explanations of the correlation consequences in reviewed consumer surfaces, a universal-proxy message that conflicts with the helper path, and the absence of measured user-awareness evidence.
+
+## Official desktop session measured October 29
+
+The [packaged GUI capture](PACKAGED-WALLET.md) confirms the role distinction with network settings unset: seven core hosts completed requests, seven helper hosts received header lookups, and the union was **eight Electrum hostnames**. Its main, `sv2.electrumr.sv`, completed all 40 financial identifier subscriptions. Five responding names in the union were on the shared-prefix assumption; the sixth literal shared-prefix name, `electrum.server.sv`, remained unresponsive in bounded samples. DNS/socket audit also observed update/rate-service names `electrumsv.io` and `bananablocks.com`; these are separate generic-service roles. There were 11 external DNS names including the unresponsive literal server, not 11 verified independent financial-data operators.
+
+Do not add hostname counts, association buckets, infrastructure organizations and DNS-provider brands as though each were an independent legal trust party. The exact independent legal operator count remains unknown. In the conservative shared-prefix model, five observed names in this desktop session can combine what their respective roles disclosed; in the all-provider pooling model all financial observations may join. Neither assumption grants a generic HTTP/DNS service financial RPC contents it was not shown to receive. Active impersonation enabled by weak certificate checks is a separate conditional threat, described in [CERTIFICATES](CERTIFICATES.md).

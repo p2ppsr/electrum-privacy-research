@@ -1,0 +1,56 @@
+{
+  "observed_at": "2026-10-29T20:18:08.121Z",
+  "source_url": "https://github.com/KeyvanJS/ElectrumR",
+  "source_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}"
+      }
+    ],
+    "structuredContent": {
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}",
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+        "status": "404"
+      }
+    },
+    "isError": true
+  },
+  "private_repository": {
+    "id": "1437703503",
+    "name": "electrum-privacy-research",
+    "owner": {
+      "login": "p2ppsr",
+      "id": 65189042,
+      "type": "Organization",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65189042?v=4",
+      "url": "https://api.github.com/users/p2ppsr"
+    },
+    "repository_full_name": "p2ppsr/electrum-privacy-research",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    },
+    "allow_auto_merge": false,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_update_branch": false,
+    "clone_url": "https://github.com/p2ppsr/electrum-privacy-research.git",
+    "size": 1631,
+    "default_branch": "main",
+    "git_commits_url": "https://api.github.com/repos/p2ppsr/electrum-privacy-research/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/p2ppsr/electrum-privacy-research/git/refs{/sha}",
+    "git_url": "git://github.com/p2ppsr/electrum-privacy-research.git",
+    "master_branch": null,
+    "visibility": "private",
+    "archived": false,
+    "is_code_search_indexed": null
+  }
+}

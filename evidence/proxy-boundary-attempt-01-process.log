@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/proxy_boundary.py", line 52, in <module>
+    if __name__=='__main__':main()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/proxy_boundary.py", line 51, in main
+    p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--output',type=Path,required=True);asyncio.run(run(p.parse_args()))
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/tyeverett/.local/share/uv/python/cpython-3.10-macos-aarch64-none/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/Users/tyeverett/projects/electrum-privacy-research/privacy_lab/proxy_boundary.py", line 41, in run
+    async with SVServer.unique('localhost',target,'s')._connector(RPCSession,SVProxy(('127.0.0.1',port),'SOCKS5')) as session:
+TypeError: SVProxy.__init__() missing 1 required positional argument: 'auth'

@@ -1,0 +1,11 @@
+{
+  "image": "bitcoinsv/bitcoin-sv@sha256:d96fe4786a00e5fc10bc9e0e76a6006376f9472d4eb74d07e4c1e0d019493d33",
+  "clean_empty_datadir": true,
+  "implementation_independent": false,
+  "external_peers_allowed": false,
+  "negative_controls": [],
+  "cleanup": {
+    "container_removed": true,
+    "private_datadir_removed": true
+  }
+}

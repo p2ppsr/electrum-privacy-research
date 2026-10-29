@@ -1,0 +1,2 @@
+# Retained upstream output and UI text preserve original whitespace.
+evidence/** -whitespace

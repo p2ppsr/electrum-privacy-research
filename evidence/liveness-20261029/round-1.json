@@ -1,0 +1,858 @@
+{
+  "round": 1,
+  "references_before": [
+    {
+      "url": "https://api.bitails.io/network/info",
+      "observed_at": "2026-10-29T20:12:55.967423+00:00",
+      "status": 200,
+      "final_url": "https://api.bitails.io/network/info",
+      "bytes": 443,
+      "sha256": "535b2343d96006bbc217bec82b19de0a93bc86122872b4987a32f6dd453440c9",
+      "reported": {
+        "blocks": 973225,
+        "bestBlockhash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "chainwork": "0000000000000000000000000000000000000000016f1bfb6c01de156839caa2",
+        "difficulty": 29423520249.27506,
+        "mediantime": 1793302104,
+        "hashRate": 232506081414168400,
+        "prunedBeforeBlockHeight": 875000,
+        "__meta": {
+          "notice": "Bitails is running in pruned mode. Some requested data may have been pruned. More info: https://bitails.io/blog/pruned-mode"
+        }
+      },
+      "height": 973225,
+      "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd"
+    },
+    {
+      "url": "https://api.whatsonchain.com/v1/bsv/main/chain/info",
+      "observed_at": "2026-10-29T20:12:55.967899+00:00",
+      "status": 200,
+      "final_url": "https://api.whatsonchain.com/v1/bsv/main/chain/info",
+      "bytes": 324,
+      "sha256": "2001b182c4ba53272d4ed9e91088790aafd2ac2878ad6efa8e905672d68d5947",
+      "reported": {
+        "chain": "main",
+        "blocks": 973225,
+        "headers": 973225,
+        "bestblockhash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "difficulty": 29423520249.27506,
+        "mediantime": 1793302104,
+        "verificationprogress": 0.9999998466739426,
+        "pruned": false,
+        "chainwork": "0000000000000000000000000000000000000000016f1bfb6c01de156839caa2"
+      },
+      "height": 973225,
+      "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd"
+    }
+  ],
+  "servers": [
+    {
+      "host": "bsv.aftrek.org",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.716945+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.157241+00:00",
+          "received_at": "2026-10-29T20:12:57.582059+00:00",
+          "elapsed_ms": 424.82,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": [
+              "ElectrumX 1.19.0",
+              "1.4.2"
+            ],
+            "id": 1
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.582073+00:00",
+          "received_at": "2026-10-29T20:12:57.777679+00:00",
+          "elapsed_ms": 195.62,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": {
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249",
+              "height": 973225
+            },
+            "id": 2
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.777732+00:00",
+          "received_at": "2026-10-29T20:12:57.977721+00:00",
+          "elapsed_ms": 200.0,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": null,
+            "id": 3
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "128.140.53.204",
+        "2a01:4f8:c17:3e4c::1"
+      ],
+      "connected_peer": [
+        "128.140.53.204",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "40a874e43574e77c41a3d120925d51d704dc6ac33dfbe5ac7d786fb9b7f2a0ef",
+      "advertised_software": "ElectrumX 1.19.0",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.977755+00:00",
+      "elapsed_ms": 1260.79
+    },
+    {
+      "host": "electrum.server.sv",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.716991+00:00",
+      "calls": [],
+      "tcp_connected": false,
+      "tls_connected": false,
+      "electrum_response": false,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "198.154.93.210"
+      ],
+      "failed_phase": "TCP",
+      "error": "TimeoutError('timed out')",
+      "finished_at": "2026-10-29T20:13:01.727292+00:00",
+      "elapsed_ms": 5010.27
+    },
+    {
+      "host": "electrumx.gorillapool.io",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.717119+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:56.886940+00:00",
+          "received_at": "2026-10-29T20:12:57.120605+00:00",
+          "elapsed_ms": 233.65,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": [
+              "ElectrumX 1.20.2",
+              "1.4.2"
+            ],
+            "id": 1
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.120620+00:00",
+          "received_at": "2026-10-29T20:12:57.236764+00:00",
+          "elapsed_ms": 116.15,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": {
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249",
+              "height": 973225
+            },
+            "id": 2
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.236802+00:00",
+          "received_at": "2026-10-29T20:12:57.315859+00:00",
+          "elapsed_ms": 79.06,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": null,
+            "id": 3
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "99.127.49.102"
+      ],
+      "connected_peer": [
+        "99.127.49.102",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "3122f02d2eea35060038fd9ec7044cd3ca1234f1aabc43c98c61001eb97202f2",
+      "advertised_software": "ElectrumX 1.20.2",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.315879+00:00",
+      "elapsed_ms": 598.75
+    },
+    {
+      "host": "esv.bitails.io",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.717145+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.157339+00:00",
+          "received_at": "2026-10-29T20:12:57.581944+00:00",
+          "elapsed_ms": 424.62,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "result": [
+              "ElectrumX 1.20.2",
+              "1.4"
+            ]
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.581975+00:00",
+          "received_at": "2026-10-29T20:12:57.910226+00:00",
+          "elapsed_ms": 328.26,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "result": {
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249",
+              "height": 973225
+            }
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.910255+00:00",
+          "received_at": "2026-10-29T20:12:58.171555+00:00",
+          "elapsed_ms": 261.3,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "result": null
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "49.13.228.56"
+      ],
+      "connected_peer": [
+        "49.13.228.56",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "66d0c972af89f447b0036b0bcc13ff30897b0904224f897310b7aed65b19b333",
+      "advertised_software": "ElectrumX 1.20.2",
+      "negotiated_protocol": "1.4",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:58.171578+00:00",
+      "elapsed_ms": 1454.42
+    },
+    {
+      "host": "sv.electrumr.sv",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.717430+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.121725+00:00",
+          "received_at": "2026-10-29T20:12:57.480982+00:00",
+          "elapsed_ms": 359.26,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "result": [
+              "ElectrumR 0.2.0",
+              "1.4.2"
+            ]
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.480989+00:00",
+          "received_at": "2026-10-29T20:12:57.654632+00:00",
+          "elapsed_ms": 173.65,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "result": {
+              "height": 973225,
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249"
+            }
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.654663+00:00",
+          "received_at": "2026-10-29T20:12:57.830073+00:00",
+          "elapsed_ms": 175.43,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "result": null
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "198.154.93.197"
+      ],
+      "connected_peer": [
+        "198.154.93.197",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "cfe9dc308a9024583aee3faeb8b2f69cef660b970f79aa117d06605e9c8bea27",
+      "advertised_software": "ElectrumR 0.2.0",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.830108+00:00",
+      "elapsed_ms": 1112.67
+    },
+    {
+      "host": "sv.satoshi.io",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.717642+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.121674+00:00",
+          "received_at": "2026-10-29T20:12:57.481021+00:00",
+          "elapsed_ms": 359.34,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": [
+              "ElectrumX 1.20.2",
+              "1.4.2"
+            ],
+            "id": 1
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.481028+00:00",
+          "received_at": "2026-10-29T20:12:57.654752+00:00",
+          "elapsed_ms": 173.72,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": {
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249",
+              "height": 973225
+            },
+            "id": 2
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.654764+00:00",
+          "received_at": "2026-10-29T20:12:57.843911+00:00",
+          "elapsed_ms": 189.15,
+          "response": {
+            "jsonrpc": "2.0",
+            "result": null,
+            "id": 3
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "198.154.93.195"
+      ],
+      "connected_peer": [
+        "198.154.93.195",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "f43a3b0fe7be10206074a8cf565671a4960f616d2b56ce4b66a6e100383b2b8a",
+      "advertised_software": "ElectrumX 1.20.2",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.843920+00:00",
+      "elapsed_ms": 1126.27
+    },
+    {
+      "host": "sv2.electrumr.sv",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.717753+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.121776+00:00",
+          "received_at": "2026-10-29T20:12:57.489841+00:00",
+          "elapsed_ms": 368.06,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "result": [
+              "ElectrumR 0.2.0",
+              "1.4.2"
+            ]
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.489848+00:00",
+          "received_at": "2026-10-29T20:12:57.654787+00:00",
+          "elapsed_ms": 164.94,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "result": {
+              "height": 973225,
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249"
+            }
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.654799+00:00",
+          "received_at": "2026-10-29T20:12:57.843506+00:00",
+          "elapsed_ms": 188.71,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "result": null
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "198.154.93.212"
+      ],
+      "connected_peer": [
+        "198.154.93.212",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "92dfa3f03c2d6fdb01ab16e8f8eeb5fcd71153f9013795a80c261125ae1d9dc8",
+      "advertised_software": "ElectrumR 0.2.0",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.843537+00:00",
+      "elapsed_ms": 1125.77
+    },
+    {
+      "host": "sv2.satoshi.io",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.717966+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.121613+00:00",
+          "received_at": "2026-10-29T20:12:57.461668+00:00",
+          "elapsed_ms": 340.06,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "result": [
+              "ElectrumR 0.2.0",
+              "1.4.2"
+            ]
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.461682+00:00",
+          "received_at": "2026-10-29T20:12:57.654706+00:00",
+          "elapsed_ms": 193.02,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "result": {
+              "height": 973225,
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249"
+            }
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.654716+00:00",
+          "received_at": "2026-10-29T20:12:57.843659+00:00",
+          "elapsed_ms": 188.95,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "result": null
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "198.154.93.202"
+      ],
+      "connected_peer": [
+        "198.154.93.202",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "fcb4dc7bd7b2becf5f2cb19994c7021aa6695325a04d0be479db33ed472476ea",
+      "advertised_software": "ElectrumR 0.2.0",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.843674+00:00",
+      "elapsed_ms": 1125.7
+    },
+    {
+      "host": "sv3.satoshi.io",
+      "port": 50002,
+      "started_at": "2026-10-29T20:12:56.718647+00:00",
+      "calls": [
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "server.version",
+            "params": [
+              "controlled-privacy-research-liveness",
+              [
+                "1.4",
+                "1.4.2"
+              ]
+            ]
+          },
+          "sent_at": "2026-10-29T20:12:57.121751+00:00",
+          "received_at": "2026-10-29T20:12:57.489874+00:00",
+          "elapsed_ms": 368.12,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "result": [
+              "ElectrumR 0.2.0",
+              "1.4.2"
+            ]
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "method": "blockchain.headers.subscribe",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.489878+00:00",
+          "received_at": "2026-10-29T20:12:57.654856+00:00",
+          "elapsed_ms": 164.98,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 2,
+            "result": {
+              "height": 973225,
+              "hex": "00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249"
+            }
+          }
+        },
+        {
+          "request": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "method": "server.ping",
+            "params": []
+          },
+          "sent_at": "2026-10-29T20:12:57.654864+00:00",
+          "received_at": "2026-10-29T20:12:57.843742+00:00",
+          "elapsed_ms": 188.88,
+          "response": {
+            "jsonrpc": "2.0",
+            "id": 3,
+            "result": null
+          }
+        }
+      ],
+      "tcp_connected": true,
+      "tls_connected": true,
+      "electrum_response": true,
+      "wallet_queries_sent": false,
+      "certificate_identity_authenticated": false,
+      "dns_addresses": [
+        "198.154.93.200"
+      ],
+      "connected_peer": [
+        "198.154.93.200",
+        50002
+      ],
+      "tls": "TLSv1.3",
+      "certificate_sha256": "3e6c19324a0903e0de6a13b3946420569dd2ad8808f3aedd35b34fea71c2cfd0",
+      "advertised_software": "ElectrumR 0.2.0",
+      "negotiated_protocol": "1.4.2",
+      "tip": {
+        "height": 973225,
+        "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "header_timestamp": 1793304618,
+        "header_time_utc": "2026-10-29T20:10:18+00:00",
+        "locally_computed_hash": true,
+        "proof_of_work_validated": false
+      },
+      "finished_at": "2026-10-29T20:12:57.843754+00:00",
+      "elapsed_ms": 1125.09
+    }
+  ],
+  "references_after": [
+    {
+      "url": "https://api.bitails.io/network/info",
+      "observed_at": "2026-10-29T20:13:01.727392+00:00",
+      "status": 200,
+      "final_url": "https://api.bitails.io/network/info",
+      "bytes": 443,
+      "sha256": "535b2343d96006bbc217bec82b19de0a93bc86122872b4987a32f6dd453440c9",
+      "reported": {
+        "blocks": 973225,
+        "bestBlockhash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "chainwork": "0000000000000000000000000000000000000000016f1bfb6c01de156839caa2",
+        "difficulty": 29423520249.27506,
+        "mediantime": 1793302104,
+        "hashRate": 232506081414168400,
+        "prunedBeforeBlockHeight": 875000,
+        "__meta": {
+          "notice": "Bitails is running in pruned mode. Some requested data may have been pruned. More info: https://bitails.io/blog/pruned-mode"
+        }
+      },
+      "height": 973225,
+      "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd"
+    },
+    {
+      "url": "https://api.whatsonchain.com/v1/bsv/main/chain/info",
+      "observed_at": "2026-10-29T20:13:01.727446+00:00",
+      "status": 200,
+      "final_url": "https://api.whatsonchain.com/v1/bsv/main/chain/info",
+      "bytes": 324,
+      "sha256": "15cdffc046bb8cda35a06299c7a73c5d982296c800d16bad37695dcd3059e422",
+      "reported": {
+        "chain": "main",
+        "blocks": 973225,
+        "headers": 973225,
+        "bestblockhash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd",
+        "difficulty": 29423520249.27506,
+        "mediantime": 1793302104,
+        "verificationprogress": 0.9999998366526333,
+        "pruned": false,
+        "chainwork": "0000000000000000000000000000000000000000016f1bfb6c01de156839caa2"
+      },
+      "height": 973225,
+      "block_hash": "000000000000000001745011fbec819eb6e5c414419fc966be8bd408454defdd"
+    }
+  ]
+}

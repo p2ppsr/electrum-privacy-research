@@ -1,0 +1,39 @@
+{"progress": true, "connected": false, "responses": 0, "balance": 0, "sent": false}
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-29 13:13:24,226:WARNING:config:not changing config key 'server' set on the command line
+WARNING:[127.0.0.1:59493 SSL #0]:
+===== THROTTLE =====
+session : 4478444592
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : False
+2026-10-29 13:13:24,915:WARNING:[127.0.0.1:59493 SSL #0]:
+===== THROTTLE =====
+session : 4478444592
+key     : 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+waiting : False
+WARNING:[127.0.0.1:59493 SSL #0]:CREATED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:13:24,915:WARNING:[127.0.0.1:59493 SSL #0]:CREATED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 966553
+2026-10-29 13:13:25,977:WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 966553
+WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 968568
+2026-10-29 13:13:26,452:WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 968568
+WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 968569
+2026-10-29 13:13:26,962:WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 968569
+WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 970584
+2026-10-29 13:13:27,443:WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 970584
+WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 970585
+2026-10-29 13:13:28,072:WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 970585
+WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 972600
+2026-10-29 13:13:28,555:WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 972600
+WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 972601
+2026-10-29 13:13:28,886:WARNING:[127.0.0.1:59493 SSL #0]:Downloading chunk starting at height 972601
+WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 973225
+2026-10-29 13:13:29,037:WARNING:[127.0.0.1:59493 SSL #0]:headers_obj.tip.height now = 973225
+WARNING:[127.0.0.1:59493 SSL #0]:========== CATCH UP END ==========
+final local tip : 973225
+2026-10-29 13:13:29,037:WARNING:[127.0.0.1:59493 SSL #0]:========== CATCH UP END ==========
+final local tip : 973225
+WARNING:[127.0.0.1:59493 SSL #0]:RELEASED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+2026-10-29 13:13:29,037:WARNING:[127.0.0.1:59493 SSL #0]:RELEASED throttle entry for 00c00c20dd0c3e9ddbc6cef87b2744164c12406a7951ed48ab37da20000000000000000078e6eb40279f60f6b63b58e2b855005a82ba3a208f8125c7afe5f70efb4874922aa8e36a2e5e251881f25249
+[ELECTRUMX] FAIL blockchain.block.header -> electrum.server.sv:50002 (S) after 5.012s: timeout('timed out')
+{"status": "PASS", "connected": true, "initial_scripts": 40, "response_count": 40, "wallet_source_unchanged": true}
