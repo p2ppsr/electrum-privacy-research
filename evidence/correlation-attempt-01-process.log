@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "mode": "actual empty-wallet captures plus manufactured later unsigned ledger; NOT real-chain funding or ElectrumR",
+  "observed_collections": [
+    {
+      "session": 2,
+      "script_count": 40
+    },
+    {
+      "session": 4,
+      "script_count": 40
+    },
+    {
+      "session": 6,
+      "script_count": 40
+    }
+  ],
+  "checkout_matches_session": 6,
+  "checkout_hash": "00fe94d77ec189b9aac1b6a49b332de51bcc0d066608e4be9729ad647df953ad",
+  "anchored_collection_script_count": 40,
+  "unique_shop_receiving_scripts_used": 3,
+  "shop_gross_receipts_sats": 7750000,
+  "shop_receipts_from_observed_payer_collections_sats": 6500000,
+  "shop_receipts_from_unattributed_payers_sats": 1250000,
+  "shop_external_outflow_sats": 1100000,
+  "shop_remaining_observed_sats": 6649000,
+  "transactions_unlinked_to_any_collection": [
+    "933dc51a05653ac23efc7345818e8f8b9d129354cfb04de24d3295863e9e3164",
+    "af2840a49d8752b50f9f09c076926024919bbe864d74eb6aeaeed169de10edaa"
+  ],
+  "ledger_generated_after_wallet_exit": true,
+  "inputs": [
+    "evidence/correlation-attempt-01/capture.jsonl",
+    "evidence/correlation-attempt-01/later-ledger.json",
+    "evidence/correlation-attempt-01/checkout.json"
+  ],
+  "wallet_or_ground_truth_input": false
+}

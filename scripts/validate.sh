@@ -10,3 +10,4 @@ research_python="${RESEARCH_PYTHON:-.venv/bin/python}"
   --output evidence/verification.json
 "$research_python" -m privacy_lab.verify_followup
 "$research_python" -m privacy_lab.trust_model --verify
+"$research_python" -m privacy_lab.verify_correlation

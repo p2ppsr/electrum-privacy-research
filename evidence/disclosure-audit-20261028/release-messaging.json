@@ -1,0 +1,20 @@
+{
+  "url": "https://github.com/TruthMachine/ElectrumSVP/releases/tag/v0.2.0",
+  "tag": "v0.2.0",
+  "published_at": "2026-09-17T01:33:59Z",
+  "name": "ElectrumSVP 0.2.0",
+  "body_sha256": "fc49d19285d8b2ea071f556e3ce94852bc729dc3308f3136c00d3009f17f6d1e",
+  "body_bytes": 2708,
+  "headings": [
+    "# ElectrumSVP 0.2.0",
+    "## Security",
+    "## Transaction Verification & BREAD",
+    "## Transactions, Fees & UTXOs",
+    "## Wallets & Accounts",
+    "## Platform & Compatibility",
+    "## User Interface",
+    "## Downloads"
+  ],
+  "privacy_surveillance_server_mentions": [],
+  "retrieval": "GitHub connector, public v0.2.0 release response"
+}

@@ -103,3 +103,32 @@ python3 -S -m privacy_lab.trust_model --verify
 ```
 
 The verifier checks the canonical October 28 run, not an arbitrary future run. The model calculates literal pool intersections, attribution and conservative correlation groups separately, and checks network/DNS annotations against retained receipts. `source-receipts.json` records hashes of pinned wallet files reviewed for startup helper, automatic proof/BEEF, price, update and extension paths. The collector requires unchanged pinned source; evidence directories are retained rather than overwritten. Common ownership and actual data sharing remain unverified; the consumer sharing assumptions are explicit.
+
+
+To repeat the strictly local three-wallet subscription/correlation scenario, use a new output directory:
+
+```bash
+.venv/bin/python -m privacy_lab.run_correlation \
+  --source /Users/tyeverett/projects/ElectrumSVP \
+  --output evidence/my-correlation-run
+```
+
+The actual wallets synchronize empty histories against loopback TLS with non-loopback sockets blocked. They exit before the harness manufactures the later ledger. The analyzer takes only the capture, raw ledger and one checkout address. The later unsigned transactions have fictional funding parents and no monetary value; no signing, confirmation, real-chain funding or ElectrumR claim is made. Runtime wallet/TLS state is removed on closeout.
+
+Replay the canonical result and disclosure/source receipt checks without wallet files, site packages or network access:
+
+```bash
+python3 -S -m privacy_lab.verify_correlation
+```
+
+To collect the same bounded messaging audit into a fresh directory:
+
+```bash
+.venv/bin/python -m privacy_lab.disclosure_audit \
+  --source /Users/tyeverett/projects/ElectrumSVP \
+  --output evidence/my-disclosure-audit
+```
+
+Both pinned Git objects must be available locally: release `672df8f4` and the observed public-master snapshot `35b92ec9`. Fetching master supplied the latter without changing the detached release checkout. The collector reviews English source/UI/docs and six first-party public pages. Negative findings are bounded manual-review conclusions, not an automated score or a user-awareness survey. The canonical release-body summary was separately obtained through the GitHub connector. Newer master pools differ from the tested release; do not silently substitute them into the earlier counts or tests.
+
+The public-discussion follow-up used the GitHub connector separately. Its retained search URLs include explicit issue/PR type filters; direct issue/comment GET URLs and narrow review summaries are preserved under `evidence/disclosure-audit-20261028/`. The first four rejected queries are retained alongside eight corrected queries. Search indexes are not an exhaustive awareness survey, and no public message was posted.

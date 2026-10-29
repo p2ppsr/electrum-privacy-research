@@ -1,0 +1,25 @@
+{
+  "wallet_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "disposable_state_removed": true,
+  "no_public_destinations": true,
+  "no_real_funds": true,
+  "self_hosted_electrumr": false,
+  "controls": [
+    "loopback TLS",
+    "oneserver=True",
+    "auto_connect=False",
+    "headless callbacks",
+    "isolated paths",
+    "non-loopback socket connections blocked in wallet processes"
+  ],
+  "defaults_preserved": [
+    "actual upstream Wallet, StandardAccount and Network",
+    "20 receiving and 20 change lookahead",
+    "automatic script subscriptions without a privacy opt-in"
+  ],
+  "financial_ledger": "manufactured unsigned transactions constructed after all three wallet processes exited; not wallet signing or consensus validation"
+}

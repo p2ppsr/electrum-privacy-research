@@ -1,0 +1,551 @@
+{
+  "collected_at": "2026-10-29T00:00:53.016903+00:00",
+  "release_commit": "672df8f4512f6adf16a3c99146baa6be9b93d86f",
+  "latest_public_master_observed": "35b92ec9ddb7575d453e35ed018fe106d9169b54",
+  "scope": "English consumer docs, UI strings and relevant source; no packaged GUI usability study, interviews or awareness survey",
+  "searched_source_file_count": 92,
+  "searched_paths": [
+    "README.rst",
+    "RELEASE-NOTES",
+    "docs/standalone/building-on-electrumsv/customised-wallet-servers.rst",
+    "docs/standalone/building-on-electrumsv/local-or-offline-development.rst",
+    "docs/standalone/building-on-electrumsv/rest-api.rst",
+    "docs/standalone/conf.py",
+    "docs/standalone/getting-started/creating-a-wallet.rst",
+    "docs/standalone/getting-started/creating-an-account.rst",
+    "docs/standalone/getting-started/making-a-payment.rst",
+    "docs/standalone/getting-started/receiving-a-payment.rst",
+    "docs/standalone/getting-started/verifying-downloads.rst",
+    "docs/standalone/index.rst",
+    "docs/standalone/problem-solving/coin-splitting.rst",
+    "docs/standalone/problem-solving/hardware-wallets.rst",
+    "docs/standalone/the-electrumsv-project/continuous-integration.rst",
+    "docs/standalone/the-electrumsv-project/how-you-can-contribute.rst",
+    "docs/standalone/the-electrumsv-project/release-process.rst",
+    "docs/website/content/articles/electrumsv-1.3.13.rst",
+    "docs/website/content/articles/electrumsv-1.3.14.rst",
+    "docs/website/content/articles/electrumsv-1.3.15.rst",
+    "docs/website/content/articles/electrumsv-1.3.16.rst",
+    "docs/website/content/articles/electrumsv-1.3.7.rst",
+    "docs/website/content/articles/scaling-testnet.rst",
+    "docs/website/content/articles/stolen-coins.rst",
+    "docs/website/content/pages/1.3-migration-guide.rst",
+    "docs/website/content/pages/index.rst",
+    "electrumsv/data/text/misc/coinsplitting-tab.html",
+    "electrumsv/data/text/misc/index.html",
+    "electrumsv/data/text/misc/network-dialog.html",
+    "electrumsv/data/text/misc/payment-destinations-dialog.html",
+    "electrumsv/data/text/misc/secured-data.html",
+    "electrumsv/data/text/misc/send-tab.html",
+    "electrumsv/data/text/misc/wallet-backups.html",
+    "electrumsv/data/text/wallet-wizard/choose-wallet.html",
+    "electrumsv/data/text/wallet-wizard/migrate-wallet.html",
+    "electrumsv/data/text/wallet-wizard/release-notes (backup).html",
+    "electrumsv/data/text/wallet-wizard/release-notes.html",
+    "electrumsv/gui/qt/__init__.py",
+    "electrumsv/gui/qt/account_dialog.py",
+    "electrumsv/gui/qt/account_wizard.py",
+    "electrumsv/gui/qt/accounts_view.py",
+    "electrumsv/gui/qt/address_dialog.py",
+    "electrumsv/gui/qt/amountedit.py",
+    "electrumsv/gui/qt/app.py",
+    "electrumsv/gui/qt/app_state.py",
+    "electrumsv/gui/qt/coinsplitting_tab.py",
+    "electrumsv/gui/qt/console.py",
+    "electrumsv/gui/qt/constants.py",
+    "electrumsv/gui/qt/contact_list.py",
+    "electrumsv/gui/qt/cosigner_pool.py",
+    "electrumsv/gui/qt/cosigners_view.py",
+    "electrumsv/gui/qt/dialogs.py",
+    "electrumsv/gui/qt/exception_window.py",
+    "electrumsv/gui/qt/help_dialog.py",
+    "electrumsv/gui/qt/history_list.py",
+    "electrumsv/gui/qt/import_export.py",
+    "electrumsv/gui/qt/invoice_dialog.py",
+    "electrumsv/gui/qt/invoice_list.py",
+    "electrumsv/gui/qt/keys_view.py",
+    "electrumsv/gui/qt/label_sync.py",
+    "electrumsv/gui/qt/log_window.py",
+    "electrumsv/gui/qt/main_window.py",
+    "electrumsv/gui/qt/network_dialog.py",
+    "electrumsv/gui/qt/notifications_view.py",
+    "electrumsv/gui/qt/password_dialog.py",
+    "electrumsv/gui/qt/payment.py",
+    "electrumsv/gui/qt/payment_destinations_dialog.py",
+    "electrumsv/gui/qt/paytoedit.py",
+    "electrumsv/gui/qt/preferences.py",
+    "electrumsv/gui/qt/qrcodewidget.py",
+    "electrumsv/gui/qt/qrtextedit.py",
+    "electrumsv/gui/qt/qrwindow.py",
+    "electrumsv/gui/qt/receive_view.py",
+    "electrumsv/gui/qt/request_list.py",
+    "electrumsv/gui/qt/secured_data_dialog.py",
+    "electrumsv/gui/qt/seed_dialog.py",
+    "electrumsv/gui/qt/send_view.py",
+    "electrumsv/gui/qt/status_bar.py",
+    "electrumsv/gui/qt/sweep_helper.py",
+    "electrumsv/gui/qt/sweep_private_key_dialog.py",
+    "electrumsv/gui/qt/table_widgets.py",
+    "electrumsv/gui/qt/theme.py",
+    "electrumsv/gui/qt/transaction_dialog.py",
+    "electrumsv/gui/qt/transaction_list.py",
+    "electrumsv/gui/qt/uidebug.py",
+    "electrumsv/gui/qt/update_check.py",
+    "electrumsv/gui/qt/util.py",
+    "electrumsv/gui/qt/utxo_list.py",
+    "electrumsv/gui/qt/virtual_keyboard.py",
+    "electrumsv/gui/qt/wallet_api.py",
+    "electrumsv/gui/qt/wallet_wizard.py",
+    "electrumsv/gui/qt/wizard_common.py"
+  ],
+  "term_pattern": "privacy|surveillance|anonym|consent|disclos|retention|third.party",
+  "term_hits": [
+    {
+      "path": "RELEASE-NOTES",
+      "line": 386,
+      "text": "  * Coin selection and privacy: A bug was introduced in 1.3.0b1 in the coin selection and"
+    },
+    {
+      "path": "docs/standalone/getting-started/verifying-downloads.rst",
+      "line": 230,
+      "text": "GNU Privacy Guard"
+    },
+    {
+      "path": "docs/standalone/getting-started/verifying-downloads.rst",
+      "line": 233,
+      "text": "By installing GNU Privacy Guard (GPG) you have a way to verify that the signatures provided by"
+    },
+    {
+      "path": "docs/standalone/problem-solving/hardware-wallets.rst",
+      "line": 39,
+      "text": "   :alt: Or third party software"
+    },
+    {
+      "path": "electrumsv/data/text/misc/send-tab.html",
+      "line": 69,
+      "text": "is that it has no privacy, and links all the coins in your wallet to some degree. A wallet owner"
+    },
+    {
+      "path": "electrumsv/data/text/misc/send-tab.html",
+      "line": 70,
+      "text": "who is paranoid about their privacy, can individually split their coins."
+    },
+    {
+      "path": "electrumsv/data/text/wallet-wizard/choose-wallet.html",
+      "line": 86,
+      "text": "    We did prototype full privacy, but it complicated things to the point where it was unlikely"
+    },
+    {
+      "path": "electrumsv/data/text/wallet-wizard/choose-wallet.html",
+      "line": 89,
+      "text": "<h4>Privacy</h4>"
+    },
+    {
+      "path": "electrumsv/data/text/wallet-wizard/choose-wallet.html",
+      "line": 98,
+      "text": "    If a user really wants full privacy, and full on-disk encryption of their wallet they have"
+    },
+    {
+      "path": "electrumsv/gui/qt/network_dialog.py",
+      "line": 365,
+      "text": "                  'ElectrumSV servers and third-party services.')"
+    },
+    {
+      "path": "electrumsv/gui/qt/network_dialog.py",
+      "line": 588,
+      "text": "                      \"Make sure you have Tor installed and running if you want privacy.\")"
+    },
+    {
+      "path": "electrumsv/gui/qt/preferences.py",
+      "line": 446,
+      "text": "            _('Using a different change key each time improves your privacy by '"
+    },
+    {
+      "path": "electrumsv/gui/qt/seed_dialog.py",
+      "line": 59,
+      "text": "        \"<li>\" + _(\"Never disclose your seed.\") + \"</li>\","
+    },
+    {
+      "path": "electrumsv/gui/qt/wallet_wizard.py",
+      "line": 69,
+      "text": "    \"only your choice of location secures the privacy of the rest of your wallet data.\")"
+    }
+  ],
+  "source_receipts": [
+    {
+      "path": "README.rst",
+      "release_sha256": "c57e577d6b7f63a0639cf4fa34fdfd10f156ebe8d52c3034a27841a952780c61",
+      "latest_sha256": "c57e577d6b7f63a0639cf4fa34fdfd10f156ebe8d52c3034a27841a952780c61",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/README.rst",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/README.rst",
+      "excerpts": [
+        {
+          "start": 1,
+          "end": 25,
+          "text": "ElectrumSVP\n===========\n\nElectrumSVP is a lightweight Bitcoin SV (BSV) desktop wallet based on the ElectrumSV codebase.\n\nElectrumSVP is developed and maintained independently as a continuation of the ElectrumSV desktop wallet project, with a focus on reliable SPV verification, wallet security, fee handling, and practical BSV wallet functionality.\n\nCurrent Release\n---------------\n\n**ElectrumSVP 0.2.0**\n\nThis is the current official release of ElectrumSVP. Users should report bugs, unexpected behavior, and compatibility issues encountered while using the software.\n\nDownload the latest release from the official GitHub releases page:\n\nhttps://github.com/TruthMachine/ElectrumSVP/releases\n\nProject website:\n\nhttps://electrumsv.io/\n\nRelease Verification\n--------------------\n"
+        },
+        {
+          "start": 40,
+          "end": 65,
+          "text": "Features\n--------\n\nElectrumSVP currently includes:\n\n* BIP39 seed support\n* Electrum seed restoration\n* Private-key sweeping\n* Pay-to-many transactions\n* Coin freezing and coin control\n* Multiple wallet accounts\n* Multisignature wallet support\n* SPV transaction and UTXO verification\n* BREAD verification and export\n* Blockchain header verification and recovery\n* Local proof-data handling\n* Fee estimation and fee controls\n* USD/fiat conversion\n* Address and destination management\n* Light, Dark, Pink, and Orange themes\n* Windows, macOS, and Linux builds\n\nSupported Platforms\n-------------------\n\nOfficial release builds are provided for:"
+        },
+        {
+          "start": 90,
+          "end": 110,
+          "text": "--------------\n\nBug reports, compatibility problems, and other technical issues are welcome.\n\nPlease report issues through the project's GitHub issue tracker:\n\nhttps://github.com/TruthMachine/ElectrumSVP/issues\n\nWhen reporting a problem, include:\n\n* ElectrumSVP version\n* Operating system and version\n* Relevant error messages or logs\n* Steps needed to reproduce the problem\n* Any other information that may help diagnose the issue\n\nPlease do not include seed phrases, private keys, passwords, or other sensitive wallet information in an issue.\n\nDevelopment\n-----------\n"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/network_dialog.py",
+      "release_sha256": "4afe93b12a0375becd5510474ca3436b6d21368e213afdaecb32d0328d542a78",
+      "latest_sha256": "4afe93b12a0375becd5510474ca3436b6d21368e213afdaecb32d0328d542a78",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/network_dialog.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/network_dialog.py",
+      "excerpts": [
+        {
+          "start": 65,
+          "end": 85,
+          "text": "        vbox.addLayout(buttons_layout)\n\n        self.network_updated_signal.connect(self.on_update)\n        network.register_callback(self.on_network, ['updated', 'sessions'])\n\n    def on_network(self, event, *args):\n        ''' This may run in network thread '''\n        self.network_updated_signal.emit()\n\n    def on_update(self):\n        ''' This always runs in main GUI thread '''\n        self._nlayout.update()\n\n    def update_theme(self, theme: Theme) -> None:\n        self._nlayout.update_theme(theme)\n\n\nclass NodesListWidget(QTreeWidget):\n\n    def __init__(self, parent):\n        super().__init__()"
+        },
+        {
+          "start": 270,
+          "end": 307,
+          "text": "\n        self.server_port = QLineEdit()\n        self.server_port.setFixedWidth(60)\n\n        self.autoconnect_cb = QCheckBox(_('Select server automatically'))\n        self.autoconnect_cb.setEnabled(\n            self.config.is_modifiable('auto_connect')\n        )\n\n        self.server_host.editingFinished.connect(self.set_server)\n        self.server_port.editingFinished.connect(self.set_server)\n        self.autoconnect_cb.clicked.connect(self._on_autoconnect_toggled)\n        self.autoconnect_cb.clicked.connect(self.update)\n\n        msg = ' '.join([\n            _(\"If auto-connect is enabled, ElectrumSV will always use a server that \"\n              \"is on the longest blockchain.\"),\n            _(\"If it is disabled, you have to choose a server you want to use. \"\n              \"ElectrumSV will warn you if your server is lagging.\")\n        ])\n\n        grid.addWidget(self.autoconnect_cb, 0, 0, 1, 3)\n        grid.addWidget(HelpButton(msg), 0, 4)\n\n        grid.addWidget(QLabel(_('Server') + ':'), 1, 0)\n        grid.addWidget(self.server_host, 1, 1, 1, 2)\n        grid.addWidget(self.server_port, 1, 3)\n\n        label = (\n            _('Server peers')\n            if network.is_connected()\n            else _('Default Servers')\n        )\n        grid.addWidget(QLabel(label), 2, 0, 1, 5)\n\n        self.servers_list = ServerListWidget(self)\n        grid.addWidget(self.servers_list, 3, 0, 1, 5)\n"
+        },
+        {
+          "start": 360,
+          "end": 366,
+          "text": "        grid.addWidget(self.proxy_cb, 2, 0, 1, 3)\n\n        grid.addWidget(\n            HelpButton(\n                _('Proxy settings apply to all connections: both '\n                  'ElectrumSV servers and third-party services.')\n            ),"
+        },
+        {
+          "start": 581,
+          "end": 589,
+          "text": "\n            self.update()\n\n        def warn_if_not_tails(checked):\n            if checked and not on_tails:\n                MessageBox.show_warning(\n                    _(\"You are enabling a proxy, but Tor is not running. \"\n                      \"Make sure you have Tor installed and running if you want privacy.\")\n                )"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/data/text/misc/network-dialog.html",
+      "release_sha256": "359a563740c2cfea88a66ca4195dbdda0c7fecaeeb53215bbcaffcc3ac7c1683",
+      "latest_sha256": "359a563740c2cfea88a66ca4195dbdda0c7fecaeeb53215bbcaffcc3ac7c1683",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/data/text/misc/network-dialog.html",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/data/text/misc/network-dialog.html",
+      "excerpts": [
+        {
+          "start": 1,
+          "end": 18,
+          "text": "<h2>Network</h2>\n<p style=\"text-align: center\"><i>Provisional in-wallet help</i></p>\n<h3>Status</h3>\n<p>\nElectrumSV connects to several servers in order to download block headers\nand find out the longest blockchain. This blockchain is used to verify the\ntransactions sent by your transaction server.\n</p>\n<h3>Server</h3>\n<p>\nElectrumSV sends your wallet payment script metadata to a single server,\nin order to receive any transaction history relating to them.\n</p>\n<h3>Blockchain</h3>\n<p>\nThis is the height of your local copy of the blockchain.\n</p>"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/dialogs.py",
+      "release_sha256": "3242f0f3a01f5b41c517162711f3000fba59d7546c766016adff8d2f7f6662ee",
+      "latest_sha256": "3242f0f3a01f5b41c517162711f3000fba59d7546c766016adff8d2f7f6662ee",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/dialogs.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/dialogs.py",
+      "excerpts": [
+        {
+          "start": 131,
+          "end": 157,
+          "text": "    box = all_boxes_by_name.get(name)\n    if not box:\n        raise ValueError(f'no box with name {name} found')\n    return box.result(parent, wallet, **kwargs)\n\narticle_uri = \"https://electrumsv.io/articles/2026/electrumsvp-0_2_0.html\"\n\ntake_care_notice = \"\"\"\n<span>ElectrumSVP is just a Bitcoin SV wallet, it cannot stop you from making bad decisions. Read\n<a href=\"https://medium.com/@roger.taylor/avoiding-coin-loss-b8bd66855369\">this article</a> for\nan overview of the various risks, and the mistakes others have made resulting in the\n<font color=red><b>loss of coins</b></font>.\nYour coins are your responsibility, take care with them.</span>\n\"\"\"\n\nall_boxes = [\n    InfoBox('welcome-ESV-1.3.16',  # keep original key\n            'Welcome to ElectrumSVP v0.2.0',  # remove _()\n\n            '<p>'+ take_care_notice +'</p>'+\n            '<p>You can read about the changes included in this release, in the '+\n            f'<a href=\"{article_uri}\">release guide</a> we have written.</p>'\n    ),\n    YesNoBox('delete-obsolete-headers', '', '', _(\"Delete\"), _(\"Cancel\"), False),\n    WarningBox(\"think-before-sending\",\n            _(\"Avoid Coin Loss\"),\n            take_care_notice,"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/wallet_wizard.py",
+      "release_sha256": "36c5ebe29ec4a2b0c4e19ce15bb8bfc809376a8647bbada03eb8e7e0f7bc4ff3",
+      "latest_sha256": "36c5ebe29ec4a2b0c4e19ce15bb8bfc809376a8647bbada03eb8e7e0f7bc4ff3",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/wallet_wizard.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/wallet_wizard.py",
+      "excerpts": [
+        {
+          "start": 64,
+          "end": 76,
+          "text": "\nPASSWORD_MISSING_TEXT = _(\"This wallet is an older format that does not have a password. To \"\n    \"be able to import it, you need to provide a password so that key data can be \"\n    \"secured.\")\nPASSWORD_NEW_TEXT = _(\"Your password only encrypts your private keys and other essential data, \"\n    \"only your choice of location secures the privacy of the rest of your wallet data.\")\nPASSWORD_EXISTING_TEXT = _(\"Your wallet has a password, you will need to provide that password \"\n    \"in order to access it. You will also be asked to provide it later, when your permission \"\n    \"is needed for secure operations.\")\n\nPASSWORD_REQUEST_TEXT = _(\"Your wallet has a password, you will need to provide that password \"\n    \"in order to access it.\")\n"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/preferences.py",
+      "release_sha256": "15b37072517f8f1f1e86f99df61933f1c4264be4f9fc639c8993a6487cd2cd3d",
+      "latest_sha256": "15b37072517f8f1f1e86f99df61933f1c4264be4f9fc639c8993a6487cd2cd3d",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/preferences.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/preferences.py",
+      "excerpts": [
+        {
+          "start": 438,
+          "end": 465,
+          "text": "        gap_limit.valueChanged.connect(on_gap_limit)\n\n        use_change_addresses_cb = QCheckBox(_('Use change addresses'))\n        use_change_addresses_cb.setChecked(\n            wallet.get_boolean_setting(WalletSettings.USE_CHANGE, True))\n        use_change_addresses_cb.setEnabled(\n            app_state.config.is_modifiable(WalletSettings.USE_CHANGE))\n        use_change_addresses_cb.setToolTip(\n            _('Using a different change key each time improves your privacy by '\n              'making it more difficult for others to analyze your transactions.')\n        )\n\n        def on_usechange(state: int):\n            should_enable = state == Qt.Checked\n            if wallet.get_boolean_setting(WalletSettings.USE_CHANGE, True) != should_enable:\n                wallet.set_boolean_setting(WalletSettings.USE_CHANGE, should_enable)\n                multiple_change_cb.setEnabled(should_enable)\n        use_change_addresses_cb.stateChanged.connect(on_usechange)\n\n        multiple_change_cb = QCheckBox(_('Use multiple change addresses'))\n        multiple_change_cb.setChecked(\n            wallet.get_boolean_setting(WalletSettings.MULTIPLE_CHANGE, True))\n        multiple_change_cb.setEnabled(wallet.get_boolean_setting(WalletSettings.USE_CHANGE, True))\n        multiple_change_cb.setToolTip('\\n'.join([\n            _('In some cases, use up to 3 change keys in order to break '\n              'up large coin amounts and obfuscate the recipient key.'),\n            _('This may result in higher transactions fees.')\n        ]))"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/seed_dialog.py",
+      "release_sha256": "3918503df32991fb69899b35e98bb96de4fd13669a6d890fbe10c1eba57d3d69",
+      "latest_sha256": "3918503df32991fb69899b35e98bb96de4fd13669a6d890fbe10c1eba57d3d69",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/seed_dialog.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/seed_dialog.py",
+      "excerpts": [
+        {
+          "start": 48,
+          "end": 64,
+          "text": "\n\ndef seed_warning_msg(seed):\n    return ''.join([\n        \"<p>\",\n        _(\"Please save these %d words on paper (order is important). \"),\n        _(\"This seed will allow you to recover your wallet in case \"\n          \"of computer failure.\"),\n        \"</p>\",\n        \"<b>\" + _(\"WARNING\") + \":</b>\",\n        \"<ul>\",\n        \"<li>\" + _(\"Never disclose your seed.\") + \"</li>\",\n        \"<li>\" + _(\"Never type it on a website.\") + \"</li>\",\n        \"<li>\" + _(\"Do not store it electronically.\") + \"</li>\",\n        \"</ul>\"\n    ]) % len(seed.split())\n"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/app.py",
+      "release_sha256": "e2aeb4631180cff9d2b301fb5dc68db628b836fff51b3ab9b0300694712654c3",
+      "latest_sha256": "e2aeb4631180cff9d2b301fb5dc68db628b836fff51b3ab9b0300694712654c3",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/app.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/app.py",
+      "excerpts": [
+        {
+          "start": 394,
+          "end": 420,
+          "text": "            app_state.config.set_key('last_update_check_time', when_checked, True)\n        self.update_check_signal.emit(success, result)\n\n    def initial_dialogs(self) -> None:\n        '''Suppressible dialogs that are shown when first opening the app.'''\n        dialogs.show_named('welcome-ESV-1.3.16')\n\n    def event_loop_started(self) -> None:\n        self.cosigner_pool = CosignerPool()\n        self.label_sync = LabelSync()\n        if app_state.config.get(\"show_crash_reporter\", default=True):\n            self.exception_hook = Exception_Hook(self)\n        self.timer.start()\n        signal.signal(signal.SIGINT, lambda *args: self.quit())\n        self.initial_dialogs()\n        path = app_state.config.get_cmdline_wallet_filepath()\n        if not self.start_new_window(path, app_state.config.get('url'), is_startup=True):\n            self.quit()\n\n    def run_app(self) -> None:\n        when_started = datetime.datetime.now().astimezone().isoformat()\n        app_state.config.set_key('previous_start_time', app_state.config.get(\"start_time\"))\n        app_state.config.set_key('start_time', when_started, True)\n        self.update_check()\n\n        threading.current_thread().setName('GUI')\n        self.timer.setSingleShot(False)"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/data/text/wallet-wizard/release-notes.html",
+      "release_sha256": "2c03f6e6fa81822c038f0eb0a8406ac6038cee32613dcd76b98586f2f367d166",
+      "latest_sha256": "2c03f6e6fa81822c038f0eb0a8406ac6038cee32613dcd76b98586f2f367d166",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/data/text/wallet-wizard/release-notes.html",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/data/text/wallet-wizard/release-notes.html",
+      "excerpts": [
+        {
+          "start": 1,
+          "end": 22,
+          "text": "<html>\n    <body>\n        <p style=\"color:#d17a00; font-weight:bold;\">\n            <b>ElectrumSVP 0.2.0:</b> Official release.\n        </p>\n\n        <p>\n            This release includes improvements to security, verification,\n            transaction control, reliability, platform compatibility, and\n            usability.\n        </p>\n\n        <p>\n            For the full release overview, please refer to the\n            <a href=\"https://electrumsv.io/articles/2026/electrumsvp-0_2_0.html\" target=\"_blank\">\n                official release article\n            </a>.\n        </p>\n\n        <ul>\n            <li><b>Header security & reliability:</b> Improved header integrity checks, synchronization reliability, and recovery tools, including a new Refresh Headers option.</li>\n"
+        }
+      ]
+    },
+    {
+      "path": "docs/standalone/index.rst",
+      "release_sha256": "6f9c911dd523437b99f4a385a48f1a595fce39b44a2b810cbf5212ab9f19b10c",
+      "latest_sha256": "6f9c911dd523437b99f4a385a48f1a595fce39b44a2b810cbf5212ab9f19b10c",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/docs/standalone/index.rst",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/docs/standalone/index.rst",
+      "excerpts": [
+        {
+          "start": 28,
+          "end": 42,
+          "text": "    much like a bank account. Read more about\n    :doc:`creating a wallet <getting-started/creating-a-wallet>`.\n\nHow do you create an account?\n    Each account in your wallet is much like a bank account, with the funds in each separated from\n    the others. Read more about :doc:`creating an account <getting-started/creating-an-account>`.\n\nHow do you receive a payment from someone else?\n    Each account has the ability to provide countless unique and private receiving addresses and\n    by giving a different one of these out to each person who will send you coins, allows you to\n    receive funds from them. Read more about\n    :doc:`receiving a payment <getting-started/receiving-a-payment>`.\n\nHow do you make a payment to someone else?\n    By obtaining an address from another person, if you have coins in one of your accounts, you"
+        }
+      ]
+    },
+    {
+      "path": "docs/standalone/getting-started/creating-a-wallet.rst",
+      "release_sha256": "6ad3a85112eef9e6ad103afd4183fad71d27ca464f5a3d4d96bec85082911e5b",
+      "latest_sha256": "6ad3a85112eef9e6ad103afd4183fad71d27ca464f5a3d4d96bec85082911e5b",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/docs/standalone/getting-started/creating-a-wallet.rst",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/docs/standalone/getting-started/creating-a-wallet.rst",
+      "excerpts": [
+        {
+          "start": 1,
+          "end": 18,
+          "text": "Creating a wallet\n=================\n\nFrom ElectrumSV 1.3 and beyond, a wallet is now a container for your accounts. This guide shows\nyou how to create an empty wallet with no accounts. After creating the wallet, you will of course\nwant to add an account to it, in order to be able to start using it.\n\nChoosing the location and file name\n-----------------------------------\n\nThe first step is to choose where to store your wallet, and what it\u2019s file name should be.\nIf you choose not to store your wallet in the default location that ElectrumSV uses, it is\nlikely that you will quickly be able to find it again in the \u201cRecently Opened Wallets\u201d list\nwhen you open it again in the future.\n\nStart off at the wallet selection page.\n\n.. figure:: images/creating-a-wallet-01-selection-page.png"
+        },
+        {
+          "start": 37,
+          "end": 58,
+          "text": "Add a mandatory password\n------------------------\n\nThe next step is setting a password for your new wallet. We require a password and there is no\nway to opt out, but you can always enter something like \u201cpassword\u201d or \u201c123456\u201d if you wish.\nThis is also required for hardware and watch-only wallets, where there is no key or seed word\ndata to encrypt.\n\n.. figure:: images/creating-a-wallet-03-add-password-dialog.png\n   :alt: blah\n   :align: center\n   :scale: 80%\n\n   The wallet file name dialog.\n\nOnce you have entered a password, and confirmed it, the \u201cOK\u201d button will become enabled and you\ncan click it (or just press the enter key) to open the new wallet.\n\n.. figure:: images/creating-a-wallet-04-new-wallet-window.png\n   :alt: blah\n   :align: center\n   :scale: 80%"
+        }
+      ]
+    },
+    {
+      "path": "docs/standalone/getting-started/receiving-a-payment.rst",
+      "release_sha256": "0f6930f9a949186f0320e832f2cb45af517946a02ae837567c11d9ad5d44c037",
+      "latest_sha256": "0f6930f9a949186f0320e832f2cb45af517946a02ae837567c11d9ad5d44c037",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/docs/standalone/getting-started/receiving-a-payment.rst",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/docs/standalone/getting-started/receiving-a-payment.rst",
+      "excerpts": [
+        {
+          "start": 1,
+          "end": 38,
+          "text": "Receiving a payment\n===================\n\nThere are a number of ways in which you can receive payments to a given account in your\nElectrumSV wallet. At this time, they all involve having the other party pay to a new address\nobtained from your account's receive tab.\n\n.. figure:: images/receiving-a-payment-01-receiving-tab.png\n   :alt: The receiving tab in a standard account.\n   :align: center\n   :width: 80%\n\n   The receiving tab in a standard account.\n\nTwo ways that someone can make a payment are:\n\n1. You copy the displayed address and give it out.\n2. The other party takes a photo of the displayed QR code and their wallet software lets them\n   pay to it.\n\nGiving out an address\n---------------------\n\nThe oldest way to receive a payment is to give out an address from your wallet to the other party,\nand then wait for them to pay you. In the future, this will not be supported, but for now it is.\nThe shown address is automatically replaced with another address, as the wallet detects that the\nshown address was used in an incoming payment. This kind of works, but not really, to assist the\nuser in always giving out a new fresh previously unused address.\n\n.. figure:: images/making-a-payment-01-receiving-tab.png\n   :alt: The new address offered in the receiving tab.\n   :align: center\n   :width: 80%\n\n   The new address offered in the receiving tab.\n\n.. important::\n   The flaw in paying to addresses is that the other party has no way to know that the address"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/network.py",
+      "release_sha256": "b612ee10dacdfd364eea798b6b3f568c5c2d504ad4f61f44324719da1794628f",
+      "latest_sha256": "27a32b2d875f12584d94a5f5448b452a00771750d5dffb386e2314263aff6f59",
+      "unchanged_in_latest": false,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/network.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/network.py",
+      "excerpts": [
+        {
+          "start": 1886,
+          "end": 1909,
+          "text": "    async def _monitor_active_keys(self, account) -> None:\n        '''Raises: RPCError, TaskTimeout'''\n        session = await self._main_session()\n        additional_keys = set(account.existing_active_keys())\n        while True:\n            session.logger.info(f'subscribing to {len(additional_keys):,d} new keys for {account}')\n            # Do in reverse to require fewer account re-sync loops\n            pairs = [ (k, script_type, scripthash_hex(script)) for k in additional_keys\n                for script_type, script in account.get_possible_scripts_for_id(k) ]\n            pairs.reverse()\n            await session.subscribe_to_triples(account, pairs)\n            additional_keys = await account.new_activated_keys()\n            session = await self._main_session()\n\n    async def _monitor_inactive_keys(self, account) -> None:\n        '''Raises: RPCError, TaskTimeout'''\n        while True:\n            keys = await account.new_deactivated_keys()\n            session = await self._main_session()\n            session.logger.info(f'unsubscribing from {len(keys):,d} '+\n                f'deactivated keys for {account}')\n            pairs = [ (k, script_type, scripthash_hex(script)) for k in keys\n                for script_type, script in account.get_possible_scripts_for_id(k) ]\n            await session.unsubscribe_from_pairs(account, pairs)"
+        },
+        {
+          "start": 2006,
+          "end": 2010,
+          "text": "\n    def auto_connect(self):\n        return app_state.config.get('auto_connect', True)\n\n    def is_connected(self):"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/verification_utils.py",
+      "release_sha256": "5a1a2fd93a4e3c971f0cc034d0f1c19ac547cd897c6babfe4ec1c63e9fd59440",
+      "latest_sha256": "95f5be4bc70457b2152a1f8066b9970a310025663f6f9e814554b665ab4fb18e",
+      "unchanged_in_latest": false,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/verification_utils.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/verification_utils.py",
+      "excerpts": [
+        {
+          "start": 335,
+          "end": 362,
+          "text": "def electrum_request(method, params, servers=None):\n    import socks\n    from concurrent.futures import ThreadPoolExecutor, as_completed\n\n    if servers is None:\n        servers = SERVERS\n\n    clean_params = [\n        p.hex() if isinstance(p, bytes) else p.lower() if isinstance(p, str) else p\n        for p in params\n    ]\n\n    server_items = list(servers.items())\n    random.shuffle(server_items)\n\n    use_tor = (\n        os.path.exists(\"/etc/os-release\")\n        and \"TAILS\" in open(\"/etc/os-release\").read().upper()\n    )\n\n    tor_proxy = (\"127.0.0.1\", 9050)\n\n    if not use_tor:\n        try:\n            with socket.create_connection(tor_proxy, timeout=1):\n                use_tor = True\n        except Exception:\n            pass"
+        },
+        {
+          "start": 380,
+          "end": 405,
+          "text": "            }\n\n            msg = (json.dumps(req) + \"\\n\").encode()\n\n            if use_tor:\n                sock = socks.socksocket()\n                sock.set_proxy(\n                    socks.SOCKS5,\n                    tor_proxy[0],\n                    tor_proxy[1],\n                )\n                sock.settimeout(TIMEOUT)\n                sock.connect((host, port))\n            else:\n                sock = socket.create_connection(\n                    (host, port),\n                    timeout=TIMEOUT,\n                )\n\n            context = ssl._create_unverified_context()\n\n            ssock = context.wrap_socket(\n                sock,\n                server_hostname=host,\n            )\n"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/exchange_rate.py",
+      "release_sha256": "56a1fa4241b44aab99061609b460c9064e2de6e818f9cc26f6c00a2946b2c533",
+      "latest_sha256": "56a1fa4241b44aab99061609b460c9064e2de6e818f9cc26f6c00a2946b2c533",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/exchange_rate.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/exchange_rate.py",
+      "excerpts": [
+        {
+          "start": 64,
+          "end": 77,
+          "text": "\n    def get_json(self, site, get_string):\n        # APIs must have https\n        url = ''.join(['https://', site, get_string])\n        response = requests.request(\n            'GET',\n            url,\n            headers={'User-Agent': 'ElectrumSV'},\n            timeout=10\n        )\n        response.raise_for_status()\n        return response.json()\n\n"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/gui/qt/account_wizard.py",
+      "release_sha256": "73ba5f327e0a1cb064f9f81e9a81d3035f523798a7f9fbe3fd5a2d7d2c61489b",
+      "latest_sha256": "e2065a768ce7223ef7f16b215669b9b44591a9a47f1654f077e7780f051cd437",
+      "unchanged_in_latest": false,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/gui/qt/account_wizard.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/account_wizard.py",
+      "excerpts": [
+        {
+          "start": 147,
+          "end": 198,
+          "text": "class AccountWizard(BaseWizard, MessageBoxMixin):\n    HELP_DIRNAME = \"account-wizard\"\n\n    _last_page_id: Optional[AccountPage] = None\n    _selected_device: Optional[Tuple[str, DeviceInfo]] = None\n    _keystore: Optional[KeyStore] = None\n    _keystore_type = ResultType.UNKNOWN\n\n    def __init__(self, main_window: ElectrumWindow,\n            flags: WizardFlags=DEFAULT_WIZARD_FLAGS, parent: Optional[QWidget]=None) -> None:\n        if parent is None:\n            parent = main_window\n        super().__init__(parent)\n\n        theme = theme_from_config(app_state.config, True)\n\n        if theme in (Theme.DARK, Theme.PINK, Theme.ORANGE):\n            self.setWizardStyle(QWizard.ClassicStyle)\n\n        self.flags = flags\n\n        self._main_window = main_window\n\n        self._wallet: Wallet = main_window._wallet\n\n        self._text_import_type: Optional[KeystoreTextType] = None\n        self._text_import_matches: Optional[KeystoreMatchType] = None\n\n        self.set_subtitle(\"\")\n        self.setModal(True)\n        self.setMinimumSize(600, 600)\n        self.setOption(QWizard.HaveCustomButton1, True)\n        self.button(QWizard.CustomButton1).setVisible(False)\n\n        self.setPage(AccountPage.ADD_ACCOUNT_MENU, AddAccountWizardPage(self))\n        self.setPage(AccountPage.IMPORT_ACCOUNT_TEXT, ImportWalletTextPage(self))\n        self.setPage(AccountPage.IMPORT_ACCOUNT_TEXT_CUSTOM, ImportWalletTextCustomPage(self))\n        self.setPage(AccountPage.CREATE_MULTISIG_ACCOUNT, CreateMultisigAccountPage(self))\n        self.setPage(AccountPage.CREATE_MULTISIG_ACCOUNT_CUSTOM,\n            CreateMultisigAccountCustomPage(self))\n        self.setPage(AccountPage.CREATE_MULTISIG_ACCOUNT_COSIGNERS,\n            MultisigAccountCosignerListPage(self))\n        #Removing HW support\n        #self.setPage(AccountPage.FIND_HARDWARE_WALLET, FindHardwareWalletAccountPage(self))\n        #self.setPage(AccountPage.SETUP_HARDWARE_WALLET, SetupHardwareWalletAccountPage(self))\n\n        self.setStartId(AccountPage.ADD_ACCOUNT_MENU)\n\n    # Used by hardware wallets.\n    def query_choice(self, msg: str, choices: Iterable[str]) -> Optional[int]:\n        return query_choice(self, msg, choices)\n"
+        },
+        {
+          "start": 222,
+          "end": 247,
+          "text": "    def get_text_import_type(self) -> Optional[KeystoreTextType]:\n        return self._text_import_type\n\n    def get_text_import_matches(self) -> Optional[KeystoreMatchType]:\n        return self._text_import_matches\n\n    def has_result(self) -> bool:\n        return self._keystore_type != ResultType.UNKNOWN\n\n    def get_keystore(self) -> KeyStore:\n        return self._keystore\n\n    def set_keystore_result(self, result_type: ResultType, keystore: Optional[KeyStore]) -> bool:\n        self._keystore_type = result_type\n        self._keystore = keystore\n\n        if keystore is None:\n            return False\n\n        # For now, all other result types are expected to be collected by the invoking logic of\n        # this account wizard instance.\n        if self.flags & WizardFlags.ACCOUNT_RESULT:\n            account = self._wallet.create_account_from_keystore(keystore)\n            return account is not None\n\n        return True"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/daemon.py",
+      "release_sha256": "897c1ec29c0299985ffc8315f08a8efd377ad5f8b8c398ca92cceb90742b128b",
+      "latest_sha256": "897c1ec29c0299985ffc8315f08a8efd377ad5f8b8c398ca92cceb90742b128b",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/daemon.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/daemon.py",
+      "excerpts": [
+        {
+          "start": 143,
+          "end": 161,
+          "text": "class Daemon(DaemonThread):\n    rest_server: Optional[AiohttpServer]\n    cmd_runner: Commands\n\n    def __init__(self, fd, is_gui: bool) -> None:\n        super().__init__('daemon')\n        app_state.daemon = self\n        config = app_state.config\n        self.config = config\n        if config.get('offline'):\n            self.network = None\n            self.fx_task = None\n\n            app_state.read_headers()\n        else:\n            self.network = Network()\n            app_state.fx = FxTask(app_state.config, self.network)\n            self.fx_task = app_state.async_.spawn(app_state.fx.refresh_loop)\n        self.wallets: Dict[str, Wallet] = {}"
+        }
+      ]
+    },
+    {
+      "path": "electrumsv/main.py",
+      "release_sha256": "3c5ff04f3a5be34b0df7dd8d1542a1f3ad75b3f74aba51fc5d1f9ecfaae612f8",
+      "latest_sha256": "3c5ff04f3a5be34b0df7dd8d1542a1f3ad75b3f74aba51fc5d1f9ecfaae612f8",
+      "unchanged_in_latest": true,
+      "source_url": "https://github.com/TruthMachine/ElectrumSVP/blob/672df8f4512f6adf16a3c99146baa6be9b93d86f/electrumsv/main.py",
+      "latest_url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/main.py",
+      "excerpts": [
+        {
+          "start": 295,
+          "end": 323,
+          "text": "    with app_state.async_ as async_:\n        d = daemon.Daemon(fd, is_gui)\n        app_state.app.setup_app()\n\n        d.start()\n        try:\n            app_state.app.run_app()\n        except KeyboardInterrupt:\n            pass\n        finally:\n            # Shut down the daemon before exiting the async loop\n            d.stop()\n            d.join()\n    sys.exit(0)\n\n\n\n\n\ndef enforce_requirements():\n    import sys\n    import os\n\n    # Are we running from source, and do we have the requirements? If not, do not apply.\n    requirement_path = os.path.join(\n        startup.base_dir, \"contrib\", \"requirements\", \"requirements.txt\")\n    if not os.path.exists(requirement_path):\n        return\n"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Search terms are discovery aids, not a proof of absence or automated disclosure-quality score",
+    "Negative findings are limited to reviewed surfaces; external translations, all past communications and private advice were not exhausted",
+    "No evidence about users' actual beliefs or comprehension was collected",
+    "A code/UI mismatch does not establish intent to deceive or actual covert collection"
+  ],
+  "source_pool_version_comparison": {
+    "672df8f4512f6adf16a3c99146baa6be9b93d86f": {
+      "core_hosts": [
+        "bsv.aftrek.org",
+        "electrum.server.sv",
+        "electrumx.gorillapool.io",
+        "esv.bitails.io",
+        "sv.electrumr.sv",
+        "sv.satoshi.io",
+        "sv2.electrumr.sv",
+        "sv2.satoshi.io"
+      ],
+      "helper_hosts": [
+        "bsv.aftrek.org",
+        "electrum.server.sv",
+        "electrumx.gorillapool.io",
+        "sv.electrumr.sv",
+        "sv.satoshi.io",
+        "sv2.electrumr.sv",
+        "sv2.satoshi.io",
+        "sv3.satoshi.io"
+      ],
+      "core_count": 8,
+      "helper_count": 8,
+      "union_count": 9,
+      "overlap_count": 7
+    },
+    "35b92ec9ddb7575d453e35ed018fe106d9169b54": {
+      "core_hosts": [
+        "bsv.aftrek.org",
+        "electrumx.gorillapool.io",
+        "esv.bitails.io",
+        "sv.electrumr.sv",
+        "sv.satoshi.io",
+        "sv2.electrumr.sv",
+        "sv2.satoshi.io",
+        "sv3.satoshi.io"
+      ],
+      "helper_hosts": [
+        "bsv.aftrek.org",
+        "electrumx.gorillapool.io",
+        "esv.bitails.io",
+        "sv.electrumr.sv",
+        "sv.satoshi.io",
+        "sv2.electrumr.sv",
+        "sv2.satoshi.io",
+        "sv3.satoshi.io"
+      ],
+      "core_count": 8,
+      "helper_count": 8,
+      "union_count": 8,
+      "overlap_count": 8
+    }
+  }
+}

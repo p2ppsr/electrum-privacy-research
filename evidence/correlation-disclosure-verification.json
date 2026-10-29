@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "actual_wallet_collections": 3,
+  "disclosed_identifiers": 120,
+  "checkout_address_anchors_identifiers": 40,
+  "distinct_shop_receiving_addresses": 3,
+  "observed_payer_flow_sats": 6500000,
+  "unattributed_payer_flow_sats": 1250000,
+  "ledger_created_after_all_captured_connections_closed": true,
+  "source_files_searched": 92,
+  "manually_reviewed_source_receipts": 18,
+  "public_technical_risk_awareness_evidence_present": true,
+  "actual_user_awareness_measured": false,
+  "disclosure_absence_is_bounded_manual_review": true
+}

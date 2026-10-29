@@ -6,6 +6,10 @@ Research date: October 28, 2026. Client: ElectrumSVP 0.2.0, pinned commit `672df
 
 **Major centralization risk:** that single segment contains **6/9 (66.7%)** of the literal Electrum destinations, **5/8 (62.5%)** of the core entries, and **6/8 (75%)** of the helper entries. Changing between these six names does not reduce exposure under this threat model. Their concentration also creates a shared network-provider dependency. These are endpoint-entry proportions, not measured traffic shares, selection probabilities, physical co-location, or six independent replicas. Actual uptime and common administration are separate questions.
 
+The nine-host counts below describe the tested **0.2.0 release**. [Newer public master has different pool counts](DISCLOSURE-AUDIT.md#version-specific-destination-counts): eight total names and five shared-segment names, without an identified corresponding change in the reviewed privacy messaging.
+
+A disclosed collection can become a lasting financial profile: [continued watching, cross-user flows and one-address shop identification](PERSISTENT-CORRELATION.md) do not require the user to return to the original server. A later identity anchor can label historical records. Under the covert-operator model this is financial surveillance infrastructure; no separate privacy opt-in is required for the default subscription behavior.
+
 ## Count the different relationships separately
 
 | Measure | Count | What the count means |
@@ -117,3 +121,5 @@ This audit does not identify these two websites' current legal operators or down
 The researcher's Bitails/WhatsOnChain reference probes, GitHub source access and documentation sites are not wallet-session destinations just because the investigation used them. Bitails APIs are separately relevant as the adapter's source-derived backend path.
 
 [Machine-readable counts and distributions](evidence/trust-model-20261028/model.json) are recomputable offline. [Pinned source receipts](evidence/trust-model-20261028/source-receipts.json) check the literal pools and relevant defaults against unchanged Git blobs. No source availability or deployment-attestation gap was resolved by counting endpoints.
+
+The [disclosure audit](DISCLOSURE-AUDIT.md) records partial optional Network help, missing explanations of the correlation consequences in reviewed consumer surfaces, a universal-proxy message that conflicts with the helper path, and the absence of measured user-awareness evidence.

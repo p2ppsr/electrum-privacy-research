@@ -23,6 +23,8 @@ def main():
     p.add_argument("--port", type=int, required=True)
     p.add_argument("--timeout", type=int, default=150)
     p.add_argument("--fixture", action="store_true")
+    p.add_argument("--empty-local", action="store_true",
+                   help="unfunded loopback-only observation for correlation research")
     args = p.parse_args()
     args.state.mkdir(parents=True, exist_ok=False)
     # Redirect only the wallet's hardcoded ~/.electrum-sv path. Never open the
@@ -45,7 +47,7 @@ def main():
     from electrumsv.bitcoin import scripthash_hex
     from electrumsv.keystore import bip44_derivation_cointype
     from electrumsv.networks import Net
-    if args.fixture:
+    if args.fixture or args.empty_local:
         # Keep manufactured ledger data entirely local, including verification helpers.
         from electrumsv import verification_utils
         verification_utils.SERVERS = {"127.0.0.1": {"s": args.port}}

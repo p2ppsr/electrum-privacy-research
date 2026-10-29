@@ -1,0 +1,4 @@
+{"progress": true, "connected": false, "responses": 0, "balance": 0, "sent": false}
+WARNING:config:not changing config key 'server' set on the command line
+2026-10-28 16:59:55,366:WARNING:config:not changing config key 'server' set on the command line
+{"status": "PASS", "connected": true, "initial_scripts": 40, "response_count": 40, "wallet_source_unchanged": true}

@@ -1,0 +1,12 @@
+{
+  "source": "PERSISTENT-CORRELATION.md",
+  "parse_and_render": "PASS",
+  "mermaid_version": "11.12.0",
+  "size": {
+    "x": 24,
+    "y": 24,
+    "width": 1052,
+    "height": 314.453125
+  },
+  "visual_review": "PASS: rendered diagram inspected; amounts, labels and arrows readable without clipping"
+}

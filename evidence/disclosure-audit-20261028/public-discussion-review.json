@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://api.github.com/repos/TruthMachine/ElectrumSVP/issues/19",
+    "tool_error": false,
+    "summary": "A public source reviewer reports unauthenticated normal network and verification-helper TLS in the 0.2.0 source, alongside other security findings.",
+    "records": [
+      {
+        "url": "https://github.com/TruthMachine/ElectrumSVP/issues/19",
+        "title": "Security review of v0.2.0 — four easy fixes (PR #18) + three larger findings",
+        "state": "closed",
+        "state_reason": "completed",
+        "created_at": "2026-10-09T15:22:31Z",
+        "updated_at": "2026-10-21T00:15:45Z",
+        "author_association": "NONE",
+        "body_replication": "Not republished; narrow analytical summary retained"
+      }
+    ]
+  },
+  {
+    "url": "https://api.github.com/repos/TruthMachine/ElectrumSVP/issues/19/comments",
+    "tool_error": false,
+    "summary": "The maintainer acknowledges unfinished certificate/hostname-authentication work, cites compatibility with existing certificates and the small server pool, and distinguishes malicious-server risks from direct key extraction. This is relevant technical risk awareness, not a consumer explanation of durable profiling or a remediation attestation.",
+    "records": [
+      {
+        "url": "https://github.com/TruthMachine/ElectrumSVP/issues/19#issuecomment-6105753556",
+        "created_at": "2026-10-11T05:16:13Z",
+        "updated_at": "2026-10-11T05:16:13Z",
+        "author_association": "OWNER",
+        "body_replication": "Not republished; narrow analytical summary retained"
+      }
+    ]
+  },
+  {
+    "url": "https://api.github.com/repos/TruthMachine/ElectrumSVP/issues/15",
+    "tool_error": false,
+    "summary": "An earlier public report requests fail-closed TLS behavior for the sweep fallback and a signing change. Its path-specific assertions are not substituted for this study's independent normal-core findings.",
+    "records": [
+      {
+        "url": "https://github.com/TruthMachine/ElectrumSVP/issues/15",
+        "title": "Sweep: ship deterministic-nonce fix to master + make TLS verification fail closed",
+        "state": "closed",
+        "state_reason": "completed",
+        "created_at": "2026-09-12T02:38:13Z",
+        "updated_at": "2026-10-21T00:15:43Z",
+        "author_association": "NONE",
+        "body_replication": "Not republished; narrow analytical summary retained"
+      }
+    ]
+  },
+  {
+    "url": "https://api.github.com/repos/TruthMachine/ElectrumSVP/issues/15/comments",
+    "tool_error": false,
+    "summary": "The maintainer acknowledges hostname-validation limits and compatibility with existing self-signed server certificates, and says certificate architecture will be handled separately.",
+    "records": [
+      {
+        "url": "https://github.com/TruthMachine/ElectrumSVP/issues/15#issuecomment-5647888907",
+        "created_at": "2026-09-12T18:36:56Z",
+        "updated_at": "2026-09-12T18:36:56Z",
+        "author_association": "OWNER",
+        "body_replication": "Not republished; narrow analytical summary retained"
+      }
+    ]
+  }
+]

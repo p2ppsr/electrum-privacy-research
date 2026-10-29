@@ -6,6 +6,8 @@ One normal ElectrumSVP account discloses a collection of wallet interests to its
 
 Start with [Who can see my wallet?](PRIVACY-STORIES.md) for everyday examples, or [the counted trust model and data-visibility diagram](TRUST-MODEL.md). The consumer model treats the six shared-segment endpoints as related and able to pool observations, and considers sharing across all providers. This is a threat assumption, distinct from verified ownership.
 
+The expanded [persistent-correlation study](PERSISTENT-CORRELATION.md) covers surveillance after departure, cross-user value flows and identifying a non-reusing shop from one checkout address. The [disclosure audit](DISCLOSURE-AUDIT.md) distinguishes partial Network help, missing reviewed risk explanations, a concrete proxy-scope mismatch and unmeasured user awareness. Nine-host counts refer to tested release 0.2.0; the audit separately records newer master's changed pools.
+
 ## What was actually demonstrated
 
 | Experiment | Actual components | Result |
@@ -14,6 +16,7 @@ Start with [Who can see my wallet?](PRIVACY-STORIES.md) for everyday examples, o
 | Controlled financial dossier | Unchanged ElectrumSVP wallet/network/signing code, recording TLS endpoint, explicitly manufactured Electrum protocol ledger | One wallet session disclosed 47 scripts and four transactions. Capture-only reconstruction recovered the payment, fee, change and remaining balance. |
 | Parallel verification disclosure | Exact upstream `electrum_request` function, eight controlled local TLS peers | All eight peers received the same transaction lookup before a winning response was returned. |
 | Default core routing observation | Unchanged wallet/core, fresh unfunded account, isolated paths, routing settings unset; client observation wrappers | Eight unique Electrum hosts had completed RPCs or helper TLS sends; one main received 40 script subscriptions. Helper sends carried only a block height. |
+| Persistent cross-user correlation | Three real empty-wallet captures, a simulated single-address shop anchor and a manufactured unsigned ledger constructed after all clients exited | One checkout address anchored 40 shop identifiers; two observed payer collections and one unattributed payer paid three fresh shop addresses. No wallet returned. |
 | Source provenance | Both bundled ElectrumR endpoints, documented source link, GitHub repository/releases lookup, publisher public-repository enumeration and repository/code search | Both endpoints advertised `ElectrumR 0.2.0`; no matching accessible public source or release artifact was found. |
 
 **We did not self-host or modify an ElectrumR binary.** Its documented repository returned HTTP 404 publicly and through the operator's authenticated GitHub account. Consequently, the financial experiment uses an explicitly labeled local protocol fixture, **not ElectrumR**. It contains manufactured, unconfirmed funding transactions with fictional parents, not consensus-valid real-chain deposits. The outgoing transaction is signed by the real wallet and its BSV signatures are independently checked against the fixture prevouts. No real BSV was funded or spent.
@@ -42,6 +45,8 @@ A [modeled later transaction](evidence/fixture-attempt-04/future-watch.json) als
 
 ## Read and reproduce
 
+- [Persistent monitoring, cross-user payments and checkout anchoring](PERSISTENT-CORRELATION.md)
+- [Disclosure, messaging and user-awareness evidence](DISCLOSURE-AUDIT.md)
 - [Plain-language privacy stories](PRIVACY-STORIES.md)
 - [Counted trust relationships, centralization risk and visibility diagram](TRUST-MODEL.md)
 - [Detailed findings, trust model and provenance gap](REPORT.md)

@@ -1,0 +1,196 @@
+{
+  "initial_rejected_queries": [
+    {
+      "term": "privacy",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20privacy&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:17.329Z",
+      "tool_error": true,
+      "outcome": {
+        "content_preview": [
+          "GitHub API error 422: {\"message\":\"Query must include 'is:issue' or 'is:pull-request'\",\"documentation_url\":\"https://docs.github.com/rest/search/search#search-issues-and-pull-requests\",\"status\":\"422\"}"
+        ],
+        "structured_keys": [
+          "error",
+          "error_code",
+          "error_data"
+        ]
+      }
+    },
+    {
+      "term": "proxy",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20proxy&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:17.364Z",
+      "tool_error": true,
+      "outcome": {
+        "content_preview": [
+          "GitHub API error 422: {\"message\":\"Query must include 'is:issue' or 'is:pull-request'\",\"documentation_url\":\"https://docs.github.com/rest/search/search#search-issues-and-pull-requests\",\"status\":\"422\"}"
+        ],
+        "structured_keys": [
+          "error",
+          "error_code",
+          "error_data"
+        ]
+      }
+    },
+    {
+      "term": "surveillance",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20surveillance&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:17.348Z",
+      "tool_error": true,
+      "outcome": {
+        "content_preview": [
+          "GitHub API error 422: {\"message\":\"Query must include 'is:issue' or 'is:pull-request'\",\"documentation_url\":\"https://docs.github.com/rest/search/search#search-issues-and-pull-requests\",\"status\":\"422\"}"
+        ],
+        "structured_keys": [
+          "error",
+          "error_code",
+          "error_data"
+        ]
+      }
+    },
+    {
+      "term": "server",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20server&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:17.346Z",
+      "tool_error": true,
+      "outcome": {
+        "content_preview": [
+          "GitHub API error 422: {\"message\":\"Query must include 'is:issue' or 'is:pull-request'\",\"documentation_url\":\"https://docs.github.com/rest/search/search#search-issues-and-pull-requests\",\"status\":\"422\"}"
+        ],
+        "structured_keys": [
+          "error",
+          "error_code",
+          "error_data"
+        ]
+      }
+    }
+  ],
+  "corrected_queries": [
+    {
+      "term": "privacy",
+      "kind": "is:issue",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Aissue%20privacy&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.426Z",
+      "tool_error": false,
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "term": "privacy",
+      "kind": "is:pull-request",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Apull-request%20privacy&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.434Z",
+      "tool_error": false,
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "term": "proxy",
+      "kind": "is:issue",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Aissue%20proxy&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.432Z",
+      "tool_error": false,
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "term": "proxy",
+      "kind": "is:pull-request",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Apull-request%20proxy&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.642Z",
+      "tool_error": false,
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "term": "surveillance",
+      "kind": "is:issue",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Aissue%20surveillance&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.669Z",
+      "tool_error": false,
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "term": "surveillance",
+      "kind": "is:pull-request",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Apull-request%20surveillance&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.692Z",
+      "tool_error": false,
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "term": "server",
+      "kind": "is:issue",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Aissue%20server&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.943Z",
+      "tool_error": false,
+      "total_count": 5,
+      "items": [
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/issues/19",
+          "title": "Security review of v0.2.0 — four easy fixes (PR #18) + three larger findings",
+          "state": "closed",
+          "created_at": "2026-10-09T15:22:31Z"
+        },
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/issues/17",
+          "title": "Wallet shows zero balance despite confirmed incoming transactions.",
+          "state": "closed",
+          "created_at": "2026-10-08T07:59:32Z"
+        },
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/issues/15",
+          "title": "Sweep: ship deterministic-nonce fix to master + make TLS verification fail closed",
+          "state": "closed",
+          "created_at": "2026-09-12T02:38:13Z"
+        },
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/issues/9",
+          "title": "Replace if/elif keystore dispatch with registry pattern",
+          "state": "closed",
+          "created_at": "2026-07-09T17:54:00Z"
+        },
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/issues/1",
+          "title": "Transaction BEEF proofs cannot be accessed on the Transaction History tab",
+          "state": "closed",
+          "created_at": "2025-10-09T14:51:37Z"
+        }
+      ]
+    },
+    {
+      "term": "server",
+      "kind": "is:pull-request",
+      "url": "https://api.github.com/search/issues?q=repo%3ATruthMachine%2FElectrumSVP%20is%3Apull-request%20server&per_page=30",
+      "retrieved_utc": "2026-10-29T00:06:24.907Z",
+      "tool_error": false,
+      "total_count": 3,
+      "items": [
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/pull/18",
+          "title": "Fix multisig password lockout, sweep socket leak, log leakage, and wallet file permissions",
+          "state": "closed",
+          "created_at": "2026-10-09T15:22:05Z"
+        },
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/pull/12",
+          "title": "daemon: fix headless 'daemon load_wallet' AttributeError (cmd_runner was never assigned)",
+          "state": "closed",
+          "created_at": "2026-09-02T02:15:50Z"
+        },
+        {
+          "url": "https://github.com/TruthMachine/ElectrumSVP/pull/13",
+          "title": "Fix macOS/Python 3.10 compatibility crashes for a from-source build",
+          "state": "closed",
+          "created_at": "2026-09-09T02:40:10Z"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Bounded keyword searches, not exhaustive proof of absence",
+    "Issue/PR discovery is not a population measure of user awareness"
+  ]
+}

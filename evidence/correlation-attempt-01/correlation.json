@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "mode": "actual empty-wallet captures plus manufactured later unsigned ledger; NOT real-chain funding or ElectrumR",
+  "observed_collections": [
+    {
+      "session": 2,
+      "script_count": 40
+    },
+    {
+      "session": 4,
+      "script_count": 40
+    },
+    {
+      "session": 6,
+      "script_count": 40
+    }
+  ],
+  "checkout": {
+    "label": "Fictional controlled web shop",
+    "address": "1PtXCMseMGrVipuNvkohhfwaguS5yvvF9t",
+    "context": "simulated public checkout; no actual shop contacted; one address only"
+  },
+  "checkout_matches_session": 6,
+  "checkout_hash": "00fe94d77ec189b9aac1b6a49b332de51bcc0d066608e4be9729ad647df953ad",
+  "anchored_collection_script_count": 40,
+  "unique_shop_receiving_scripts_used": 3,
+  "shop_gross_receipts_sats": 7750000,
+  "shop_receipts_from_observed_payer_collections_sats": 6500000,
+  "shop_receipts_from_unattributed_payers_sats": 1250000,
+  "shop_external_outflow_sats": 1100000,
+  "shop_remaining_observed_sats": 6649000,
+  "edges": [
+    {
+      "txid": "dff89530f39e718fc0970408cc17af3751a21e590e2c2d7d866a63e08485a67f",
+      "output": 0,
+      "value_sats": 8000000,
+      "from_session": null,
+      "to_session": 2,
+      "source_basis": "unattributed or mixed inputs"
+    },
+    {
+      "txid": "95de825c3a613febff174c5b67e2b4770d4f481b3357e9c1b141c3d94e04f7fe",
+      "output": 0,
+      "value_sats": 7000000,
+      "from_session": null,
+      "to_session": 4,
+      "source_basis": "unattributed or mixed inputs"
+    },
+    {
+      "txid": "b6ccd3f4c38d0713f08b3d168c6e63522b7062894c1ea8f96907df0216d713c1",
+      "output": 0,
+      "value_sats": 2500000,
+      "from_session": 2,
+      "to_session": 6,
+      "source_basis": "all inputs in one observed collection"
+    },
+    {
+      "txid": "053a1ba7db6f9bc6c85a03651d730cefb5e7085f8ca74643c3743b228b8f0ba6",
+      "output": 0,
+      "value_sats": 4000000,
+      "from_session": 4,
+      "to_session": 6,
+      "source_basis": "all inputs in one observed collection"
+    },
+    {
+      "txid": "986a475e8d16f9749d084998a030cda8179e0211b2b0a2703137c9df467abec1",
+      "output": 0,
+      "value_sats": 1250000,
+      "from_session": null,
+      "to_session": 6,
+      "source_basis": "unattributed or mixed inputs"
+    },
+    {
+      "txid": "78bf221a4daf819351fda2f1f2cc8a095817787aab2d14b17a73a877bf861680",
+      "output": 0,
+      "value_sats": 1100000,
+      "from_session": 6,
+      "to_session": null,
+      "source_basis": "all inputs in one observed collection"
+    }
+  ],
+  "transactions_unlinked_to_any_collection": [
+    "933dc51a05653ac23efc7345818e8f8b9d129354cfb04de24d3295863e9e3164",
+    "af2840a49d8752b50f9f09c076926024919bbe864d74eb6aeaeed169de10edaa"
+  ],
+  "ledger_generated_after_wallet_exit": true,
+  "inputs": [
+    "evidence/correlation-attempt-01/capture.jsonl",
+    "evidence/correlation-attempt-01/later-ledger.json",
+    "evidence/correlation-attempt-01/checkout.json"
+  ],
+  "wallet_or_ground_truth_input": false,
+  "limits": [
+    "Session interest is not cryptographic ownership or a proven natural person",
+    "An unobserved payer has no inferred identity; multi-owner or ambiguous inputs are not assigned to one payer",
+    "An undisclosed unrelated script does not become attributable from the known collection alone",
+    "No real shop contacted; no real user's data; no consensus validity or input-signature claim for the manufactured ledger"
+  ]
+}

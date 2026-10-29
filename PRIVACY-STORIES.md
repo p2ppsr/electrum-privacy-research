@@ -6,6 +6,8 @@ Opening this wallet asks a remote service which payments belong to the payment i
 
 In one fresh, unfunded default-core test, **eight Electrum hosts had successful responses or helper sends**. Only the selected main service received all **40 wallet payment identifiers**. The other traffic included startup block-header checks. The default desktop source also includes separate price and update requests. More recipients does not mean each receives the same data.
 
+This information is supplied during normal online use, without a separate privacy opt-in. Under the covert-operator model, it supports financial surveillance infrastructure: durable profiles and connections between people who pay one another.
+
 The people and situations below are fictional. They explain demonstrated capabilities and source findings, not accusations about anyone's actual retention practices. [The technical report](TRUST-MODEL.md) links each data path to evidence.
 
 ## Maya checks whether her wages arrived
@@ -30,7 +32,9 @@ Asha has never received money at a new address. The wallet can still ask about i
 
 It does not need to break the hash or obtain her recovery words. It compares the saved identifier with identifiers computed from public payments. The experiment modeled this later match after the wallet process exited.
 
-**Privacy expectation:** a new address and closing the app do not revoke an identifier already disclosed.
+The same applies to identifiers already used: the old operator can see later receipts and spends from public records even if Asha changes servers and never comes back. If the change returns to an already disclosed identifier, that link is visible too. Completely undisclosed addresses require another link; the operator did not receive an unlimited master key.
+
+**Privacy expectation:** a new address, quitting, unsubscribing or permanently leaving the server does not revoke identifiers already disclosed.
 
 ## Ben chooses a server he trusts
 
@@ -62,12 +66,41 @@ The default source fetches generic prices from `bananablocks.com` and checks `el
 
 **Privacy expectation:** distinguish routine app metadata from disclosure of a financial ledger, while accounting for both.
 
+## Mei runs a shop and never reuses an address
+
+Mei gives every customer a different payment address. Her wallet has nevertheless asked its serving service about a collection of receiving and change identifiers. A covert operator opens the shop's checkout as an ordinary prospective customer and learns just one address. It does not need to buy anything.
+
+If that address matches the disclosed collection, the operator can associate the collection with Mei's shop. It can then recognize receipts to other disclosed fresh addresses, examine earlier matching records, and keep watching those identifiers after the shop leaves the server. Address rotation did not hide the collection from the party that was given its membership. The anchor identifies a shop-associated collection; shared administration or watched outside addresses can affect what it proves about ownership.
+
+The controlled demonstration linked one checkout address to 40 identifiers. Three different shop addresses received fictional payments, and the observer reconstructed all three without any wallet returning. No actual shop or customer was investigated.
+
+**Privacy expectation:** fresh addresses alone do not stop a serving operator turning one checkout address into a wider view of the shop's observed finances.
+
+## Two customers pay the same shop
+
+Jon and Leila each use the wallet normally. The service already has separate collections associated with their connections. Their payments reach different addresses in the shop's observed collection. The operator can connect Jon's collection to the shop, connect Leila's collection to the shop, and record the amounts flowing along each link. Identity learned elsewhere can give those profiles names.
+
+In the controlled later ledger, two observed payer collections sent 2.5 million and 4 million fixture satoshis to the shop. Another payer sent 1.25 million, but that payer's identity stayed unknown because its collection had not been observed. Gross receipts do not by themselves establish business revenue or profit. Still, even a partly unnamed payment graph can reveal commercially sensitive relationships.
+
+**Privacy expectation:** the risk includes who pays whom and how much, across multiple users, without anyone enabling a financial-tracking feature.
+
+## Eli reads that the addresses are private
+
+Eli reads the linked documentation's description of private receiving addresses and sees that change addresses can improve privacy. He assumes that the serving service cannot connect his fresh addresses. That is a fictional but plausible misunderstanding: the service receives their payment identifiers together as part of synchronization.
+
+There is some useful disclosure in optional Network help about sending payment metadata for history. The reviewed material does not explain persistent watching, the shop anchor or cross-user payment graphs. Proxy help also says its settings apply to every connection, although the helper has a separate routing decision. Public issue discussions do acknowledge related server-authentication risks, so the project is not silent about every network risk. The audit did not measure what real users understood or whether Eli's imagined belief is common.
+
+**Privacy expectation:** explain the service's financial view before disclosure, and distinguish control of keys, protection from outside observers, and confidentiality from the service itself.
+
 ## What an understandable privacy screen would need to answer
 
 - Which recipients will get my wallet identifiers, individual transaction lookups, and ordinary app metadata?
 - Which choices apply to every network path, including helpers and proxies?
 - Which server names share infrastructure or are treated as one correlation group?
-- What can a recipient keep watching after I close the app?
+- What can a recipient keep watching after I close the app or permanently leave its server?
+- Can one checkout address identify other shop addresses, and can recipients link payments between users?
 - What is observed, what follows from source code, and what is a conservative sharing assumption?
 
 These are communication and product requirements for later work. This research does not implement a new wallet privacy screen or promise that changing a setting removes prior disclosures.
+
+See the [controlled correlation demonstration](PERSISTENT-CORRELATION.md) and [disclosure audit](DISCLOSURE-AUDIT.md). The reviewed default counts refer to the tested 0.2.0 release; newer public source changes the destination inventory, as recorded in the audit.
