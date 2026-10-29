@@ -10,6 +10,8 @@ Start with [Who can see my wallet?](PRIVACY-STORIES.md) for everyday examples, o
 
 The expanded [persistent-correlation study](PERSISTENT-CORRELATION.md) covers surveillance after departure, cross-user value flows and identifying a non-reusing shop from one checkout address. The [disclosure audit](DISCLOSURE-AUDIT.md) distinguishes partial Network help, missing reviewed risk explanations, a concrete proxy-scope mismatch and unmeasured user awareness. Nine-host counts refer to tested release 0.2.0; the audit separately records newer master's changed pools.
 
+[Claim-to-evidence ledger](CLAIMS.md) · [Publication readiness](PUBLICATION-READINESS.md) · [Apache-2.0 licensing and attribution](LICENSING.md)
+
 ## What was actually demonstrated
 
 | Experiment | Actual components | Result |

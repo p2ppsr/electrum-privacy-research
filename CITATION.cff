@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the versioned research snapshot and identify its experimental scope."
+title: "Electrum Wallet Privacy: Default Disclosure, Persistent Correlation and the Trust Model"
+type: software
+authors:
+  - name: "Peer-to-peer Privacy Systems Research, LLC."
+version: "0.1.0-prepublication"
+license: Apache-2.0
+repository-code: "https://github.com/p2ppsr/electrum-privacy-research"
+abstract: >-
+  Private prepublication research combining source review, controlled wallet
+  observations, financial-correlation demonstrations and disclosure analysis.
+  Experimental scope and unsupported claims are recorded in the claim ledger.
