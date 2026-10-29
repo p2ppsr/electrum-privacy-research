@@ -84,8 +84,8 @@
     "bytes": 2296
   },
   "RELEASE-NOTES.md": {
-    "sha256": "426605265a0c841db4d8755e0a98bab4a4ee7806a54bc7e3a89ab078052fcb4c",
-    "bytes": 2070
+    "sha256": "b88b42109abd5c24e3d919b1f7f407ee34e33b73751844ee1225097734c668ce",
+    "bytes": 2449
   },
   "REPORT.md": {
     "sha256": "f8c02b51aab7b9f5b2c790fa2647a7c80f549e79d87a688713737756756906a4",
@@ -839,6 +839,18 @@
     "sha256": "6a77ff898302a1f4aa59f945b8e1d1dd5dde05a89d3e52d2d887ec55b9c23717",
     "bytes": 46819
   },
+  "evidence/release-0.1.0/checks.json": {
+    "sha256": "7581e862390dc112918bd465d2bcf90e2474af7b9a847038db3acff051a12505",
+    "bytes": 523
+  },
+  "evidence/release-0.1.0/ci.json": {
+    "sha256": "b34c5e77d2754cd3b8b339a2a05759f79ac6d1af1d9cc4029b536875c0ee652e",
+    "bytes": 1955
+  },
+  "evidence/release-0.1.0/clean-export-validation.log": {
+    "sha256": "9b2da2db6bc7b1486849674d75aba4ff27c97741c8eec419d4493e0394bec72b",
+    "bytes": 4164
+  },
   "evidence/release-0.1.0/editorial-changes.json": {
     "sha256": "f73f7f249ca7cecffe287b3d01d9c19cf6569226f791847c5d969d7762d59cb1",
     "bytes": 724
@@ -846,6 +858,18 @@
   "evidence/release-0.1.0/editorial-validation.log": {
     "sha256": "24f8d5b48a11aae2861ce4e4f3e77d9b0ab9bc4a11740d941b43ebee4c2f74c4",
     "bytes": 4164
+  },
+  "evidence/release-0.1.0/gitleaks-export.log": {
+    "sha256": "6bf90521096e916f90bf88e5bbac365a0aa9af2959149b6c2b174f65bce7d016",
+    "bytes": 146
+  },
+  "evidence/release-0.1.0/gitleaks-history.log": {
+    "sha256": "e3a58a669239668609cc37363097c4a7ab997e72575850263e4d16d0e1c052bd",
+    "bytes": 177
+  },
+  "evidence/release-0.1.0/snapshot.json": {
+    "sha256": "944d7c7960625346b2159d8db801fbaa9850c826fe1386cbc67b50accfb7f65b",
+    "bytes": 1227
   },
   "evidence/server-sources-20261028/additional-components.json": {
     "sha256": "349db5d30864d96e6263ec6310b007b9dca84ca642e937ca7e7b81e7d1eb6ffb",
