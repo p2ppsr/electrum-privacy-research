@@ -1,0 +1,17 @@
+[
+  {
+    "attempt": 1,
+    "result": "FAILED export guard",
+    "detail": "Per-flowchart htmlLabels=false was insufficient in Mermaid 11.12.0; export contained foreignObject HTML labels. Global htmlLabels=false corrected portability before publication."
+  },
+  {
+    "attempt": 2,
+    "result": "Render PASS; readability revision required",
+    "detail": "The payment diagram text became small at 390 pixels. Shortened labels and a visible unit heading improved the exported diagram."
+  },
+  {
+    "attempt": 3,
+    "result": "PASS",
+    "detail": "Three portable accessible SVG exports rendered and visually inspected at normal and narrow widths; source and export hashes verified."
+  }
+]

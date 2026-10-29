@@ -1,5 +1,7 @@
 # Who can see my wallet?
 
+For a connected story that starts with the shopkeeper, read [the plain-English explainer](EXPLAINER.md). The examples below explore individual situations.
+
 Opening this wallet asks a remote service which payments belong to the payment identifiers it supplies. The service can remember those questions and join the answers together. That can expose a financial picture associated with a connection, even while the recovery words stay safely on the user's device.
 
 **For privacy decisions, this report assumes related services share what they see.** Six of the nine built-in Electrum destinations share one IPv4 segment. We treat those six as one group that can combine observations. We also consider sharing across all service providers. This is a cautious consumer assumption; common legal ownership and actual sharing have not been proved.

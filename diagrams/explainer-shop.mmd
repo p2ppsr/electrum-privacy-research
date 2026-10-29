@@ -1,0 +1,5 @@
+flowchart TB
+    W["Mei's wallet"] -->|"Normal payment checks"| R["Operator saves address fingerprints together"]
+    C["One address from Mei's checkout"] -->|"Matches a saved fingerprint"| S["Saved group can be labeled as Mei's shop"]
+    R -->|"The matching fingerprint links the group"| S
+    S --> P["Other matching payments can be linked to the shop profile"]

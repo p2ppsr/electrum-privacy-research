@@ -1,0 +1,4 @@
+flowchart TB
+    R["Earlier: operator keeps the fingerprint list"] --> M["Old operator recognizes matching receipts and spends"]
+    L["Mei leaves and never reconnects"] -->|"Later activity uses another service"| B["New payment records appear on the public blockchain"]
+    B -->|"Public records can be matched to the saved list"| M

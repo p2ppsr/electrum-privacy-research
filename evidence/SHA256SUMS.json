@@ -7,21 +7,25 @@
     "sha256": "d68abaa6f31ad36bf9dac9f26be0e01c74be1d5707c1f76b34f4d0d33ad3ba54",
     "bytes": 15312
   },
+  "EXPLAINER.md": {
+    "sha256": "e0e4be06e666e9b610443bdc434f5ef261a7ac669ff026e21baf5883ac207b9d",
+    "bytes": 11526
+  },
   "PERSISTENT-CORRELATION.md": {
-    "sha256": "c53d824489f1e812db1bf1fd798f4043ce6dd3a4e19617a7dd4ce5b5317224ec",
-    "bytes": 11822
+    "sha256": "0f39f31717d63e734dd2e8db6f2b4b48ff6b8e40000eecb836a09c196dc90931",
+    "bytes": 11937
   },
   "PRIVACY-STORIES.md": {
-    "sha256": "af480e88f5cddac80084d72b65da6e6f4d4d8041dd6b3244f6196c2a7ec3b39c",
-    "bytes": 11833
+    "sha256": "59f8c304e9e141874d5c4bf41f8a3bee630c47094c5c47d830e01990d8dd6fca",
+    "bytes": 11989
   },
   "README.md": {
-    "sha256": "538f6496fb3143f93367eed45743b71d9c21dfa57f37d791ab9f6715d72d0825",
-    "bytes": 8136
+    "sha256": "62748a34159774725f6a8f945c1719799c4f0178452d455e6ca4055e0ab55a1a",
+    "bytes": 8445
   },
   "REPORT.md": {
-    "sha256": "bdd10963e2c9fb817e30df0ebdad966819e55615ee657ba23312809f3bd49fb8",
-    "bytes": 58102
+    "sha256": "c5159f1fde39cd91df34b3685c899267d40745485ca0e01bdb48b07959444537",
+    "bytes": 58297
   },
   "REPRODUCE.md": {
     "sha256": "3f5f68a65e3503a6dd5c861f5d2749122d82cc015b6c95bf04891c0b603dd7b2",
@@ -30,6 +34,34 @@
   "TRUST-MODEL.md": {
     "sha256": "a4eb5025006ef381d568b2e66ddd057810e098d93d50413b0337e3f6c845c352",
     "bytes": 17963
+  },
+  "diagrams/README.md": {
+    "sha256": "fe26c4ad7c79f50e08e044b399a81f12407319ac0e4da6c27b393f6ff798abc2",
+    "bytes": 1130
+  },
+  "diagrams/explainer-lasting-watch.mmd": {
+    "sha256": "6eee4d25e81c23a13e122dd5d6e7f3b6f7bfc33bf84e006c5c218b3a575f16e4",
+    "bytes": 333
+  },
+  "diagrams/explainer-lasting-watch.svg": {
+    "sha256": "6408ccead63ba05069275f26d5f63c6742c1389f5a89d9acc9c73c722d392272",
+    "bytes": 15894
+  },
+  "diagrams/explainer-payment-links.mmd": {
+    "sha256": "223183878e6ee97d6cc4acfb4ddad9f143ea7069eff3a645e29eb570c26ca10f",
+    "bytes": 263
+  },
+  "diagrams/explainer-payment-links.svg": {
+    "sha256": "b8e22c229a514f248dc12012977b0aab0de54310598acf9a4004b172774d9b46",
+    "bytes": 14524
+  },
+  "diagrams/explainer-shop.mmd": {
+    "sha256": "c3d9dc69ad21e4ef750f9131df0d9c85d3c669e61cb9f5d7cca61f7cadd394b9",
+    "bytes": 365
+  },
+  "diagrams/explainer-shop.svg": {
+    "sha256": "4a3872e3a5f29879c2f14da0a2d515370595177145a43e59132619499ad8220c",
+    "bytes": 16700
   },
   "evidence/ATTEMPTS.md": {
     "sha256": "c5be75714900028420e67c73e68548fcc373ace62a4ebf9011a507ba47d11e24",
@@ -142,6 +174,18 @@
   "evidence/disclosure-audit-process.log": {
     "sha256": "d21400f58c3ba63ad42b64ad0b1309695b61b25d3b99b576b4ca84f86f282daf",
     "bytes": 111
+  },
+  "evidence/explainer-20261028/diagram-validation.json": {
+    "sha256": "f04844a629ae889616f697899601283f88d2f731ce9d041e5b985f465a806db9",
+    "bytes": 1751
+  },
+  "evidence/explainer-20261028/render-attempts.json": {
+    "sha256": "325d5882f568b3d36536773282aeaa7d6c4ce5fc81148e41fb9184f5406831b9",
+    "bytes": 691
+  },
+  "evidence/explainer-20261028/verification.json": {
+    "sha256": "9bed8267c27d29b5f042a4d417477f1959ad661788ae8db0aca4107393af1483",
+    "bytes": 607
   },
   "evidence/fanout-attempt-01/fanout.json": {
     "sha256": "f3c5d1b4d036fc134b52acad943dd5a413dca3bc036a1c209b2d857b168a9ddf",
@@ -470,6 +514,10 @@
   "requirements-wallet.lock.txt": {
     "sha256": "c98a645cde4969f5c368dd85c95fbc5a1b7a43e6d17a6eba9cf3f9d09943a094",
     "bytes": 692
+  },
+  "scripts/render-explainer-diagrams.cjs": {
+    "sha256": "c56e103c0da39434044950e705d1bade3d856c964f4ee7ebe075c4488abc2a8e",
+    "bytes": 4811
   },
   "scripts/validate.sh": {
     "sha256": "38e7a900e0595eb6331f3df8b643ae273cd80b2baa9af586b2e1ff7de2adb389",

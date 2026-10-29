@@ -1,5 +1,7 @@
 # A session can become a lasting financial profile
 
+For ordinary readers, [the shopkeeper explainer](EXPLAINER.md) walks through this mechanism with simple diagrams.
+
 **The original report contemplated continued watching, but did not fully develop cross-user correlation or the one-address shop scenario. This extension does.** The default online subscription behavior supplies the raw material without a separate privacy opt-in. Under this report's covert-operator model, the serving party acts as a **financial surveillance infrastructure operator**: it can build durable financial profiles and a payment graph between observed collections. This names the modeled function and capability, not an allegation that a particular public operator has been observed performing it.
 
 The [consumer sharing model](TRUST-MODEL.md) treats the six release-listed services in the shared IPv4 segment as related and pooling observations, and also considers pooling across all providers. The following correlations therefore need not happen inside just one named server or one original connection.

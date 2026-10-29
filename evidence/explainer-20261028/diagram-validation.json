@@ -1,0 +1,65 @@
+[
+  {
+    "name": "explainer-shop",
+    "mermaid_version": "11.12.0",
+    "parse_and_render": "PASS",
+    "source_sha256": "c3d9dc69ad21e4ef750f9131df0d9c85d3c669e61cb9f5d7cca61f7cadd394b9",
+    "svg_sha256": "4a3872e3a5f29879c2f14da0a2d515370595177145a43e59132619499ad8220c",
+    "width_736_view": {
+      "x": 24,
+      "y": 24,
+      "width": 553.671875,
+      "height": 506.984375
+    },
+    "width_390_view": {
+      "x": 24,
+      "y": 24,
+      "width": 390,
+      "height": 357.109375
+    },
+    "html_labels": false,
+    "accessible_svg_title_and_description": true
+  },
+  {
+    "name": "explainer-lasting-watch",
+    "mermaid_version": "11.12.0",
+    "parse_and_render": "PASS",
+    "source_sha256": "6eee4d25e81c23a13e122dd5d6e7f3b6f7bfc33bf84e006c5c218b3a575f16e4",
+    "svg_sha256": "6408ccead63ba05069275f26d5f63c6742c1389f5a89d9acc9c73c722d392272",
+    "width_736_view": {
+      "x": 24,
+      "y": 24,
+      "width": 528.203125,
+      "height": 448.59375
+    },
+    "width_390_view": {
+      "x": 24,
+      "y": 24,
+      "width": 390,
+      "height": 331.21875
+    },
+    "html_labels": false,
+    "accessible_svg_title_and_description": true
+  },
+  {
+    "name": "explainer-payment-links",
+    "mermaid_version": "11.12.0",
+    "parse_and_render": "PASS",
+    "source_sha256": "223183878e6ee97d6cc4acfb4ddad9f143ea7069eff3a645e29eb570c26ca10f",
+    "svg_sha256": "b8e22c229a514f248dc12012977b0aab0de54310598acf9a4004b172774d9b46",
+    "width_736_view": {
+      "x": 24,
+      "y": 24,
+      "width": 523.0625,
+      "height": 358.984375
+    },
+    "width_390_view": {
+      "x": 24,
+      "y": 24,
+      "width": 390,
+      "height": 267.671875
+    },
+    "html_labels": false,
+    "accessible_svg_title_and_description": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "document": "EXPLAINER.md",
+  "scope": "Editorial presentation of retained evidence; no new wallet or live-server experiment",
+  "document_link_targets_checked": 22,
+  "diagram_count": 3,
+  "accessible_svg_exports": true,
+  "rendered_at_widths": [
+    736,
+    390
+  ],
+  "visual_review": "PASS: all three diagrams inspected at normal and narrow widths; no clipped labels",
+  "underlying_evidence_rechecked": "python3 -S -m privacy_lab.verify_correlation: PASS",
+  "shop_anchor_identifiers": 40,
+  "shop_test_receipts_sats": 7750000,
+  "all_payment_amounts_marked_fictional": true
+}

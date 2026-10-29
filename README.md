@@ -1,5 +1,7 @@
 # Electrum wallet privacy research
 
+**Start here: [One checkout address can expose far more than one sale](EXPLAINER.md).** A plain-English explainer opens with a shopkeeper who gives every customer a fresh address, then shows how default wallet use can expose a lasting financial profile. It includes three diagrams and links to the evidence.
+
 One normal ElectrumSVP account discloses a collection of wallet interests to its main serving operator. That operator can retain the queried script hashes together with the connecting IP/session, reconstruct the associated ledger, identify wallet-associated outputs, and keep watching unused hashes after the wallet disconnects.
 
 **Research date: October 28, 2026. Private repository.** This evaluates what a covert operator can collect, without relying on promises about logging defaults, deletion, or acceptable use.
