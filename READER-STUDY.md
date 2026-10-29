@@ -1,4 +1,6 @@
-# Ordinary-reader comprehension protocol — prepared, not conducted
+# Optional ordinary-reader comprehension study
+
+This protocol is an optional follow-up for contributors, independent of publication. Findings and wording improvements can be submitted through [GitHub Issues](https://github.com/p2ppsr/electrum-privacy-research/issues) under the [contribution guide](CONTRIBUTING.md).
 
 No participants have been recruited, interviewed or tested. The text has not been demonstrated understandable to an average user merely because it is written in plain English.
 

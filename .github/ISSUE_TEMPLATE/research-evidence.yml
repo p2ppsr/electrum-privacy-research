@@ -1,0 +1,39 @@
+name: Research evidence, replication or question
+description: Contribute a correction, independent replication, interpretation or open question.
+title: "[Research] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        See CONTRIBUTING.md and OPEN-QUESTIONS.md. Use controlled test data and public evidence. Never include wallet files, recovery phrases, private keys, credentials or identifiable third-party financial histories. Keep discussion professional and focused on evidence.
+  - type: input
+    id: reference
+    attributes:
+      label: Claim or question
+      description: Reference C01–C18, OQ01–OQ14, or describe a new topic.
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution type
+      options:
+        - Correction
+        - Independent replication
+        - Additional evidence
+        - Interpretation or limitation
+        - Open question
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Finding or question
+      description: State the precise point, supporting evidence, alternative explanations and proposed correction where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Version, method and reproduction
+      description: Include source/artifact hashes, platform, controls, steps and expected/observed behavior where applicable. Public evidence links are welcome.

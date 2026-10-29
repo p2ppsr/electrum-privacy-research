@@ -1,6 +1,6 @@
 # Electrum privacy research
 
-**Private prepublication research — October 28–29, 2026.** What can a serving operator retain and correlate when people use ElectrumSVP 0.2.0? This studies technical capability, independently of logging defaults or retention promises. It does not establish actual surveillance by a named service.
+**Research release 0.1.0 — observations collected October 28–29, 2026.** What can a serving operator retain and correlate when people use ElectrumSVP 0.2.0? This studies technical capability, independently of logging defaults or retention promises. It does not establish actual surveillance by a named service.
 
 Start with **[the plain-English shopkeeper story](EXPLAINER.md)**: one checkout address can name a wider wallet-associated profile; changing servers cannot revoke identifiers already disclosed.
 
@@ -21,6 +21,6 @@ The tested release has eight core and eight helper names, a nine-name union, wit
 
 Read [the technical report](REPORT.md), [claim-to-evidence ledger](CLAIMS.md), [persistent correlation](PERSISTENT-CORRELATION.md), [disclosure audit](DISCLOSURE-AUDIT.md), [related work](RELATED-WORK.md), and [reproduction instructions](REPRODUCE.md). The [October 29 liveness table](evidence/liveness-20261029/liveness-table.md) appends bounded observations without overwriting October 28 samples.
 
-[Publication readiness](PUBLICATION-READINESS.md) tracks remaining human review, [right-of-reply drafts](REVIEW-PACKET.md) and [reader-study preparation](READER-STUDY.md). No outreach, user-comprehension result or public release is claimed.
+**Independent review and replication are invited through [GitHub Issues](https://github.com/p2ppsr/electrum-privacy-research/issues) and pull requests.** See the [open research questions](OPEN-QUESTIONS.md), [contribution guide](CONTRIBUTING.md) and [release notes](RELEASE-NOTES.md). Public review is ongoing; advance review, direct outreach and reader studies are not publication prerequisites. The [reader-study protocol](READER-STUDY.md) remains available for optional follow-up research.
 
 Original research is Apache-2.0, **© Peer-to-peer Privacy Systems Research, LLC.** See [LICENSE](LICENSE), [NOTICE](NOTICE), [third-party boundaries](LICENSING.md) and [citation metadata](CITATION.cff).

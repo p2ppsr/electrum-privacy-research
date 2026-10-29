@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "updated_on": "2026-10-29",
-  "publication_status": "private prepublication research",
+  "publication_status": "Research release 0.1.0; open review invited",
   "claims": [
     {
       "id": "C01",
@@ -15,7 +15,11 @@
         "evidence/packaged-gui-attempt-01/result.json"
       ],
       "limits": "40 identifiers for this fresh standard account; account types/history can differ.",
-      "next_check": "Independent package replication and human factual review."
+      "open_questions": [
+        "OQ01",
+        "OQ09",
+        "OQ14"
+      ]
     },
     {
       "id": "C02",
@@ -29,7 +33,10 @@
         "evidence/packaged-gui-attempt-01/result.json"
       ],
       "limits": "Main switching may disclose to further services; a connection represents interests rather than proven ownership.",
-      "next_check": "Independent package replication and human factual review."
+      "open_questions": [
+        "OQ07",
+        "OQ09"
+      ]
     },
     {
       "id": "C03",
@@ -40,7 +47,9 @@
         "evidence/fanout-attempt-01/fanout.json"
       ],
       "limits": "Not proof that all public peers receive every request; cancellation and failures can prevent delivery.",
-      "next_check": "Retain as bounded function-level observation."
+      "open_questions": [
+        "OQ08"
+      ]
     },
     {
       "id": "C04",
@@ -54,7 +63,9 @@
         "evidence/packaged-gui-attempt-01/result.json"
       ],
       "limits": "A block-height query is not a TXID or full wallet disclosure.",
-      "next_check": "Independent package replication and human factual review."
+      "open_questions": [
+        "OQ08"
+      ]
     },
     {
       "id": "C05",
@@ -69,7 +80,10 @@
         "evidence/chain-clean-replay-attempt-03/result.json"
       ],
       "limits": "Research adapter and regtest network/header-loader controls, not ElectrumR; no real-chain money; collection interests do not prove legal ownership.",
-      "next_check": "Independent researcher replication and source-pinned ElectrumR test if implementation becomes accessible."
+      "open_questions": [
+        "OQ10",
+        "OQ14"
+      ]
     },
     {
       "id": "C06",
@@ -85,7 +99,11 @@
         "evidence/chain-clean-replay-attempt-03/result.json"
       ],
       "limits": "Research adapter and regtest network/header-loader controls, not ElectrumR; no real-chain money; collection interests do not prove legal ownership.",
-      "next_check": "Independent researcher replication and source-pinned ElectrumR test if implementation becomes accessible."
+      "open_questions": [
+        "OQ09",
+        "OQ10",
+        "OQ14"
+      ]
     },
     {
       "id": "C07",
@@ -100,7 +118,10 @@
         "evidence/chain-clean-replay-attempt-03/result.json"
       ],
       "limits": "Research adapter and regtest network/header-loader controls, not ElectrumR; no real-chain money; collection interests do not prove legal ownership.",
-      "next_check": "Independent researcher replication and source-pinned ElectrumR test if implementation becomes accessible."
+      "open_questions": [
+        "OQ09",
+        "OQ14"
+      ]
     },
     {
       "id": "C08",
@@ -113,7 +134,10 @@
         "REPORT.md"
       ],
       "limits": "External evidence or heuristics may add links, which must be named separately.",
-      "next_check": "Extend negative controls for undisclosed addresses and overlapping watch-only collections."
+      "open_questions": [
+        "OQ09",
+        "OQ10"
+      ]
     },
     {
       "id": "C09",
@@ -125,7 +149,10 @@
         "evidence/live-attempt-02/capture.jsonl"
       ],
       "limits": "The relay capture uses loopback; an IP alone is not legal identity, and proxy exits differ from origin addresses.",
-      "next_check": "Packaged network metadata in an isolated application directory."
+      "open_questions": [
+        "OQ06",
+        "OQ09"
+      ]
     },
     {
       "id": "C10",
@@ -139,7 +166,9 @@
         "evidence/proxy-boundary-attempt-04/result.json"
       ],
       "limits": "Environment proxies and platform routing can separately affect traffic; no universal anonymity-leak measurement yet.",
-      "next_check": "Full GUI proxy/Tor/VPN and platform-wide routing qualification remains separate."
+      "open_questions": [
+        "OQ06"
+      ]
     },
     {
       "id": "C11",
@@ -154,7 +183,10 @@
         "evidence/tls-packaged-20261029-attempt-04/result.json"
       ],
       "limits": "Controlled selected frontend, not public DNS/network redirection; no passive TLS decryption or arbitrary confirmed-state bypass proved.",
-      "next_check": "Independent hostile-response audit and retest any source-pinned fix."
+      "open_questions": [
+        "OQ05",
+        "OQ11"
+      ]
     },
     {
       "id": "C12",
@@ -169,7 +201,10 @@
         "evidence/chain-clean-replay-attempt-03/result.json"
       ],
       "limits": "Research adapter and regtest network/header-loader controls, not ElectrumR; no real-chain money; collection interests do not prove legal ownership.",
-      "next_check": "Independent researcher replication and source-pinned ElectrumR test if implementation becomes accessible."
+      "open_questions": [
+        "OQ11",
+        "OQ14"
+      ]
     },
     {
       "id": "C13",
@@ -183,7 +218,10 @@
         "evidence/packaged-gui-attempt-01/result.json"
       ],
       "limits": "Not a complete security audit of every feature or malicious-response exploit.",
-      "next_check": "Independent package replication and human factual review."
+      "open_questions": [
+        "OQ01",
+        "OQ11"
+      ]
     },
     {
       "id": "C14",
@@ -196,7 +234,10 @@
         "evidence/publication-20261029/github-refresh.json"
       ],
       "limits": "A 404 does not prove proprietary licensing, deletion, actual retention or lack of every possible archive.",
-      "next_check": "Prepared publisher source-provenance questions; response not yet obtained."
+      "open_questions": [
+        "OQ02",
+        "OQ04"
+      ]
     },
     {
       "id": "C15",
@@ -209,7 +250,9 @@
         "evidence/disclosure-audit-20261028/source-audit.json"
       ],
       "limits": "Not proof one customer, process administrator, machine or legal operator runs all services.",
-      "next_check": "Refresh date-sensitive records and retain historical samples."
+      "open_questions": [
+        "OQ03"
+      ]
     },
     {
       "id": "C16",
@@ -221,7 +264,10 @@
         "evidence/trust-model-20261028/model.json"
       ],
       "limits": "Not a verified claim of common ownership or actual sharing; data visibility remains role-specific.",
-      "next_check": "Keep assumption labels in every public summary and diagram."
+      "open_questions": [
+        "OQ03",
+        "OQ13"
+      ]
     },
     {
       "id": "C17",
@@ -235,7 +281,9 @@
         "evidence/packaged-gui-attempt-01/result.json"
       ],
       "limits": "User comprehension was not measured; no proof of deliberate concealment or universal ignorance.",
-      "next_check": "Independent package replication and human factual review."
+      "open_questions": [
+        "OQ12"
+      ]
     },
     {
       "id": "C18",
@@ -248,7 +296,10 @@
         "evidence/liveness-20261029/summary.json"
       ],
       "limits": "Not an uptime SLA, global outage determination, archival completeness or deployed-build attestation.",
-      "next_check": "Refresh again near any eventual public release."
+      "open_questions": [
+        "OQ04",
+        "OQ14"
+      ]
     }
   ]
 }

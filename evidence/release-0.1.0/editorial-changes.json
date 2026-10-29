@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-29T21:13:26.068336+00:00",
+  "version": "0.1.0",
+  "publication_policy": "Open public review; independent review, outreach, response windows and reader studies are not publication prerequisites",
+  "removed_current_documents": [
+    "PUBLICATION-READINESS.md",
+    "REVIEW-PACKET.md"
+  ],
+  "open_questions": 14,
+  "claim_links": 18,
+  "open_question_anchors_verified": true,
+  "issues_enabled": true,
+  "visibility": "private; prepared for public release",
+  "outreach_performed": false,
+  "new_wallet_or_endpoint_experiments": false,
+  "historical_captures_and_receipts_preserved": true,
+  "validation_command": "RESEARCH_PYTHON=python3 bash scripts/validate.sh",
+  "validation_exit_code": 0
+}

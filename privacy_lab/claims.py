@@ -3,14 +3,14 @@ import argparse,json
 from pathlib import Path
 
 def render(value):
-    rows=['# Claim-to-evidence ledger','','Updated '+value['updated_on']+'. Status: **'+value['publication_status']+'**. Classifications describe support, not confidence that an operator behaves ethically. Historical failures remain evidence.','','| Claim | Classification and scope | Evidence | Limits / next check |','| --- | --- | --- | --- |']
+    rows=['# Claim-to-evidence ledger','','Updated '+value['updated_on']+'. Status: **'+value['publication_status']+'**. Classifications describe support, not confidence that an operator behaves ethically. Historical failures remain evidence.','','| Claim | Classification and scope | Evidence | Limits / open questions |','| --- | --- | --- | --- |']
     ids=set()
     for row in value['claims']:
         assert row['id'] not in ids;ids.add(row['id'])
         for path in row['evidence']:assert Path(path).exists(),path
         cell=lambda s:s.replace('|','\\|').replace('\n',' ')
         links='; '.join('['+p+']('+p+')' for p in row['evidence'])
-        rows.append('| **'+row['id']+'** '+cell(row['claim'])+' | '+cell(row['classification']+' — '+row['scope'])+' | '+links+' | '+cell(row['limits']+' Next: '+row['next_check'])+' |')
+        rows.append('| **'+row['id']+'** '+cell(row['claim'])+' | '+cell(row['classification']+' — '+row['scope'])+' | '+links+' | '+cell(row['limits'])+' Open questions: '+', '.join('['+question+'](OPEN-QUESTIONS.md#'+question.lower()+')' for question in row['open_questions'])+' |')
     return '\n'.join(rows)+'\n'
 def main():
     p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');a=p.parse_args();text=render(json.loads(Path('claims.json').read_text()))
