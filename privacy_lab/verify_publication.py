@@ -44,6 +44,9 @@ def main():
     package=read('evidence/packaged-wallet-20261029/python-module-comparison.json');assert len(package)==145 and all(row['ast_identical'] for row in package)
     proxy=read('evidence/proxy-boundary-attempt-04/result.json');assert proxy['core_proxy_connects']==1 and proxy['helper_additional_proxy_connects']==0 and len(proxy['operator_requests'])==2
     assert Path('CLAIMS.md').read_text()==render(read('claims.json'))
+    replica=read('evidence/valid-chain-clean-reproduction-01/result.json')
+    assert replica['shop_gross_receipts_sats']==9450000 and replica['shop_remaining_observed_sats']==8349000 and replica['old_observer_requests_after_departure']==0 and replica['node_verifychain']
+    assert read('evidence/clean-reproduction-node-20261029-attempt-03/result.json')['height']==201
     count=0
     for file in Path('.').glob('*.md'):
         for target in re.findall(r'\]\(([^)]+)\)',file.read_text()):

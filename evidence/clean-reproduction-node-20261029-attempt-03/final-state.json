@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "height": 204,
+  "peers": 0,
+  "verifychain": true,
+  "requested_controls": {
+    "blockassembler": "LEGACY",
+    "par": 1,
+    "maxparallelblocks": 1,
+    "maxparallelblocksperpeer": 1
+  },
+  "observed_log_notes": [
+    "Using 8 threads for script verification",
+    "JournalingBlockAssembler::CreateNewBlock"
+  ],
+  "causal_resolution": "No individual parameter is established as the cause of the earlier stall; the final requested configuration completed the clean run."
+}

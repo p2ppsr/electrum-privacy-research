@@ -1,0 +1,226 @@
+2026-10-29 20:29:51 [main] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-10-29 20:29:51 [main] Bitcoin SV version v1.2.3
+2026-10-29 20:29:51 [main] InitParameterInteraction: parameter interaction: -listen=0 -> setting -upnp=0
+2026-10-29 20:29:51 [main] InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2026-10-29 20:29:51 [main] Using -maxcoinsdbfiles=8192 (default: 8192)
+2026-10-29 20:29:51 [main] Validating signatures for all blocks.
+2026-10-29 20:29:51 [main] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-29 20:29:51 [main] Using the 'sse4' SHA256 implementation
+2026-10-29 20:29:51 [main] Using RdRand as an additional entropy source
+2026-10-29 20:29:51 [main] Default data directory /root/.bitcoin
+2026-10-29 20:29:51 [main] Using data directory /data/regtest
+2026-10-29 20:29:51 [main] Using config file /data/bitcoin.conf
+2026-10-29 20:29:51 [main] Using at most 125 automatic connections (1048576 file descriptors available, 8192 reserved for coins database files)
+2026-10-29 20:29:51 [main] Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2026-10-29 20:29:51 [main] Using 32 MiB out of 32 requested for invalid signature cache, able to store 1048576 elements
+2026-10-29 20:29:51 [main] Using 64 MiB out of 64 requested for script execution cache, able to store 2097152 elements
+2026-10-29 20:29:51 [main] Using 16 threads for block transaction verification
+2026-10-29 20:29:51 [main] Using 8 threads for script verification
+2026-10-29 20:29:51 [bitcoin-scriptch_3_0] bitcoin-scriptch_3_0 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_0] bitcoin-scriptch_0_0 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_1] bitcoin-scriptch_3_1 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_0] bitcoin-scriptch_1_0 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_2] bitcoin-scriptch_3_2 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_3] bitcoin-scriptch_3_3 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_1] bitcoin-scriptch_1_1 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_4] bitcoin-scriptch_3_4 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_2] bitcoin-scriptch_1_2 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_5] bitcoin-scriptch_3_5 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_7] bitcoin-scriptch_0_7 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_6] bitcoin-scriptch_3_6 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_3] bitcoin-scriptch_1_3 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_3_7] bitcoin-scriptch_3_7 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_4] bitcoin-scriptch_1_4 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_1] bitcoin-scriptch_0_1 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_5] bitcoin-scriptch_1_5 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_2] bitcoin-scriptch_0_2 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_6] bitcoin-scriptch_1_6 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_1_7] bitcoin-scriptch_1_7 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_0] bitcoin-scriptch_2_0 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_4] bitcoin-scriptch_0_4 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_1] bitcoin-scriptch_2_1 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_2] bitcoin-scriptch_2_2 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_3] bitcoin-scriptch_2_3 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_5] bitcoin-scriptch_0_5 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_4] bitcoin-scriptch_2_4 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_5] bitcoin-scriptch_2_5 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_6] bitcoin-scriptch_2_6 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_3] bitcoin-scriptch_0_3 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_2_7] bitcoin-scriptch_2_7 thread start
+2026-10-29 20:29:51 [bitcoin-scriptch_0_6] bitcoin-scriptch_0_6 thread start
+2026-10-29 20:29:51 [main] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:29:51 [main] Opened LevelDB successfully
+2026-10-29 20:29:51 [main] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:29:51 [main] Cross-check of mempool file and transaction database failed: Failed to open mempool file from disk. Continuing with empty mempool and transaction database.
+2026-10-29 20:29:51 [mempooldb-555557072820] Wiping LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:29:51 [mempooldb-555557072820] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:29:51 [mempooldb-555557072820] Opened LevelDB successfully
+2026-10-29 20:29:51 [mempooldb-555557072820] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:29:51 [scheduler] scheduler thread start
+2026-10-29 20:29:51 [main] libevent: getaddrinfo: address family for nodename not supported
+2026-10-29 20:29:51 [main] Binding RPC on address ::1 port 18332 failed.
+2026-10-29 20:29:51 [main] HTTP: creating work queue with 4 threads
+2026-10-29 20:29:51 [worker1-N-HTTPServer] HTTPServer ThreadPool thread 1 starting
+2026-10-29 20:29:51 [worker3-N-HTTPServer] HTTPServer ThreadPool thread 3 starting
+2026-10-29 20:29:51 [worker0-N-HTTPServer] HTTPServer ThreadPool thread 0 starting
+2026-10-29 20:29:51 [worker2-N-HTTPServer] HTTPServer ThreadPool thread 2 starting
+2026-10-29 20:29:51 [main] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2026-10-29 20:29:51 [main] init message: Verifying wallet(s)...
+2026-10-29 20:29:51 [main] Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-29 20:29:51 [main] Using wallet wallet.dat
+2026-10-29 20:29:51 [main] CDBEnv::Open: LogDir=/data/regtest/database ErrorFile=/data/regtest/db.log
+2026-10-29 20:29:51 [main] Created P2P message temporary storage: /data/regtest/p2p_recv_tmp
+2026-10-29 20:29:51 [worker0-N-ConnmanPool] ConnmanPool ThreadPool thread 0 starting
+2026-10-29 20:29:51 [worker2-N-ConnmanPool] ConnmanPool ThreadPool thread 2 starting
+2026-10-29 20:29:51 [worker1-N-ConnmanPool] ConnmanPool ThreadPool thread 1 starting
+2026-10-29 20:29:51 [worker4-N-ConnmanPool] ConnmanPool ThreadPool thread 4 starting
+2026-10-29 20:29:51 [worker3-N-ConnmanPool] ConnmanPool ThreadPool thread 3 starting
+2026-10-29 20:29:51 [worker5-N-ConnmanPool] ConnmanPool ThreadPool thread 5 starting
+2026-10-29 20:29:51 [worker6-N-ConnmanPool] ConnmanPool ThreadPool thread 6 starting
+2026-10-29 20:29:51 [worker7-N-ConnmanPool] ConnmanPool ThreadPool thread 7 starting
+2026-10-29 20:29:51 [worker8-N-ConnmanPool] ConnmanPool ThreadPool thread 8 starting
+2026-10-29 20:29:51 [worker9-N-ConnmanPool] ConnmanPool ThreadPool thread 9 starting
+2026-10-29 20:29:51 [worker10-N-ConnmanPool] ConnmanPool ThreadPool thread 10 starting
+2026-10-29 20:29:51 [worker11-N-ConnmanPool] ConnmanPool ThreadPool thread 11 starting
+2026-10-29 20:29:51 [worker12-N-ConnmanPool] ConnmanPool ThreadPool thread 12 starting
+2026-10-29 20:29:51 [worker13-N-ConnmanPool] ConnmanPool ThreadPool thread 13 starting
+2026-10-29 20:29:51 [worker14-N-ConnmanPool] ConnmanPool ThreadPool thread 14 starting
+2026-10-29 20:29:51 [worker15-N-ConnmanPool] ConnmanPool ThreadPool thread 15 starting
+2026-10-29 20:29:51 [worker0-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 0 starting
+2026-10-29 20:29:51 [worker6-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 6 starting
+2026-10-29 20:29:51 [worker7-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 7 starting
+2026-10-29 20:29:51 [worker8-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 8 starting
+2026-10-29 20:29:51 [worker9-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 9 starting
+2026-10-29 20:29:51 [worker10-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 10 starting
+2026-10-29 20:29:51 [worker1-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 1 starting
+2026-10-29 20:29:51 [worker11-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 11 starting
+2026-10-29 20:29:51 [worker12-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 12 starting
+2026-10-29 20:29:51 [worker15-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 15 starting
+2026-10-29 20:29:51 [worker13-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 13 starting
+2026-10-29 20:29:51 [worker2-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 2 starting
+2026-10-29 20:29:51 [worker14-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 14 starting
+2026-10-29 20:29:51 [worker3-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 3 starting
+2026-10-29 20:29:51 [worker4-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 4 starting
+2026-10-29 20:29:51 [worker5-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 5 starting
+2026-10-29 20:29:51 [worker0-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 0 starting
+2026-10-29 20:29:51 [worker1-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 1 starting
+2026-10-29 20:29:51 [worker2-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 2 starting
+2026-10-29 20:29:51 [worker3-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 3 starting
+2026-10-29 20:29:51 [worker4-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 4 starting
+2026-10-29 20:29:51 [rawtransactionvalidator] rawtransactionvalidator thread start
+2026-10-29 20:29:51 [main] Cache configuration:
+2026-10-29 20:29:51 [main] * Using 512.0MiB for block index database
+2026-10-29 20:29:51 [main] * Using 0.0MiB for Merkle Tree index database
+2026-10-29 20:29:51 [main] * Using 1024.0MiB for chain state database (LevelDB cache)
+2026-10-29 20:29:51 [main] * Using 7168.0MiB for in-memory UTXO set (plus 0.0MiB of disk space)
+2026-10-29 20:29:51 [main] * CoinsDB total budget 8192.0MiB (LevelDB 1024.0MiB + in-memory 7168.0MiB)
+2026-10-29 20:29:51 [main] Opening LevelDB in /data/regtest/frozentxos
+2026-10-29 20:29:51 [main] Opened LevelDB successfully
+2026-10-29 20:29:51 [main] Using obfuscation key for /data/regtest/frozentxos: 0000000000000000
+2026-10-29 20:29:51 [main] init message: Loading block index...
+2026-10-29 20:29:51 [main] Opening LevelDB in /data/regtest/blocks/index
+2026-10-29 20:29:51 [main] Opened LevelDB successfully
+2026-10-29 20:29:51 [main] Using obfuscation key for /data/regtest/blocks/index: 0000000000000000
+2026-10-29 20:29:51 [main] Opening LevelDB in /data/regtest/merkle/index
+2026-10-29 20:29:51 [main] Opened LevelDB successfully
+2026-10-29 20:29:51 [main] Using obfuscation key for /data/regtest/merkle/index: 0000000000000000
+2026-10-29 20:29:51 [worker0-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 0 starting
+2026-10-29 20:29:51 [worker1-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 1 starting
+2026-10-29 20:29:51 [worker2-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 2 starting
+2026-10-29 20:29:51 [worker3-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 3 starting
+2026-10-29 20:29:51 [main] Using up to 3 additional threads for Merkle tree computation
+2026-10-29 20:29:51 [main] LoadMerkleTreeIndexDB() : Index in the database is out of sync, rebuilding index from current data files
+2026-10-29 20:29:51 [main] Wiping LevelDB in /data/regtest/merkle/index
+2026-10-29 20:29:51 [main] Opening LevelDB in /data/regtest/merkle/index
+2026-10-29 20:29:51 [main] Opened LevelDB successfully
+2026-10-29 20:29:51 [main] Using obfuscation key for /data/regtest/merkle/index: 0000000000000000
+2026-10-29 20:29:51 [main] ReindexMerkleTreeStoreNL() : Merkle Trees index creation took 4ms
+2026-10-29 20:29:51 [main] Opening LevelDB in /data/regtest/chainstate
+2026-10-29 20:29:51 [main] Opened LevelDB successfully
+2026-10-29 20:29:51 [main] Wrote new obfuscate key for /data/regtest/chainstate: 503a12e9a8a79b65
+2026-10-29 20:29:51 [main] Using obfuscation key for /data/regtest/chainstate: 503a12e9a8a79b65
+2026-10-29 20:29:51 [main] LoadBlockFileInfo: last block file = 0
+2026-10-29 20:29:51 [main] LoadBlockFileInfo: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-29 20:29:51 [main] Checking all blk files are present...
+2026-10-29 20:29:51 [main] LoadBlockIndexDB: transaction index disabled
+2026-10-29 20:29:51 [main] Initializing databases...
+2026-10-29 20:29:51 [main] Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-29 20:29:51 [main] init message: Verifying blocks...
+2026-10-29 20:29:51 [main] CheckSafeModeParametersForAllForksOnStartup: global safe mode state restored to level 0 in 0ms
+2026-10-29 20:29:51 [main]  block index              35ms
+2026-10-29 20:29:51 [main] init message: Loading wallet...
+2026-10-29 20:29:51 [main] nFileVersion = 101020300
+2026-10-29 20:29:51 [main] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2026-10-29 20:29:51 [main] Performing wallet upgrade to 60000
+2026-10-29 20:29:52 [main] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2026-10-29 20:29:52 [main]  wallet                  654ms
+2026-10-29 20:29:52 [main] setKeyPool.size() = 2000
+2026-10-29 20:29:52 [main] mapWallet.size() = 0
+2026-10-29 20:29:52 [main] mapAddressBook.size() = 0
+2026-10-29 20:29:52 [main] connect=0
+2026-10-29 20:29:52 [main] datadir=/data
+2026-10-29 20:29:52 [main] discover=0
+2026-10-29 20:29:52 [main] dnsseed=0
+2026-10-29 20:29:52 [main] excessiveblocksize=100000000
+2026-10-29 20:29:52 [main] listen=0
+2026-10-29 20:29:52 [main] maxstackmemoryusageconsensus=10000000
+2026-10-29 20:29:52 [main] maxstackmemoryusagepolicy=10000000
+2026-10-29 20:29:52 [main] minminingtxfee=0.000005
+2026-10-29 20:29:52 [main] printtoconsole=1
+2026-10-29 20:29:52 [main] regtest=1
+2026-10-29 20:29:52 [main] server=1
+2026-10-29 20:29:52 [main] txindex=1
+2026-10-29 20:29:52 [main] upnp=0
+2026-10-29 20:29:52 [main] wallet=wallet.dat
+2026-10-29 20:29:52 [main] whitelistrelay=1
+2026-10-29 20:29:52 [import_files] import_files thread start
+2026-10-29 20:29:52 [loadblk] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-29 20:29:52 [main] Chainstate will NOT be preloaded
+2026-10-29 20:29:52 [main] mapBlockIndex.size() = 1
+2026-10-29 20:29:52 [main] nBestHeight = 0
+2026-10-29 20:29:52 [main] init message: Loading addresses...
+2026-10-29 20:29:52 [main] ERROR: Read: Failed to open file /data/regtest/peers.dat
+2026-10-29 20:29:52 [loadblk] Failed to deserialize mempool data on disk: Failed to open mempool file from disk. Continuing anyway with empty mempool.
+2026-10-29 20:29:52 [main] Invalid or missing peers.dat; recreating
+2026-10-29 20:29:52 [mempooldb-555557072820] Wiping LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:29:52 [main] init message: Loading banlist...
+2026-10-29 20:29:52 [mempooldb-555557072820] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:29:52 [main] ERROR: Read: Failed to open file /data/regtest/banlist.dat
+2026-10-29 20:29:52 [main] Invalid or missing banlist.dat; recreating
+2026-10-29 20:29:52 [main] init message: Starting network threads...
+2026-10-29 20:29:52 [main] DNS seeding disabled
+2026-10-29 20:29:52 [net] net thread start
+2026-10-29 20:29:52 [addcon] addcon thread start
+2026-10-29 20:29:52 [openstream] openstream thread start
+2026-10-29 20:29:52 [msghand] msghand thread start
+2026-10-29 20:29:52 [net] P2P socket handler waiting with poll()
+2026-10-29 20:29:52 [mempooldb-555557072820] NotFound: /data/regtest/mempoolTxDB: No such file or directory
+2026-10-29 20:29:52 [worker0-N-WebhookClient] WebhookClient ThreadPool thread 0 starting
+2026-10-29 20:29:52 [worker1-N-WebhookClient] WebhookClient ThreadPool thread 1 starting
+2026-10-29 20:29:52 [worker2-N-WebhookClient] WebhookClient ThreadPool thread 2 starting
+2026-10-29 20:29:52 [main] init message: Done loading
+2026-10-29 20:29:52 [worker3-N-WebhookClient] WebhookClient ThreadPool thread 3 starting
+2026-10-29 20:29:52 [main] Preload wait for shutdown
+2026-10-29 20:29:52 [worker2-N-HTTPServer] keypool reserve 1
+2026-10-29 20:29:52 [worker2-N-HTTPServer] keypool keep 1
+2026-10-29 20:29:52 [worker1-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:29:52 [worker1-N-HTTPServer] Pre-allocating up to position 0x100000 in rev00000.dat

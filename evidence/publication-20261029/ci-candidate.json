@@ -1,0 +1,60 @@
+{
+  "conclusion": "success",
+  "databaseId": 40949439368,
+  "headSha": "eb570ac36f9fe6ae5cc19dbc5613bed47e2d3577",
+  "jobs": [
+    {
+      "completedAt": "2026-10-29T20:29:15Z",
+      "conclusion": "success",
+      "databaseId": 123713333459,
+      "name": "verify",
+      "startedAt": "2026-10-29T20:29:10Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-29T20:29:11Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-29T20:29:11Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-29T20:29:12Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "number": 2,
+          "startedAt": "2026-10-29T20:29:11Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-29T20:29:13Z",
+          "conclusion": "success",
+          "name": "Reconstruct and verify retained evidence without live services",
+          "number": 3,
+          "startedAt": "2026-10-29T20:29:12Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-29T20:29:13Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "number": 6,
+          "startedAt": "2026-10-29T20:29:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-29T20:29:13Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "startedAt": "2026-10-29T20:29:13Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/p2ppsr/electrum-privacy-research/actions/runs/40949439368/job/123713333459"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/p2ppsr/electrum-privacy-research/actions/runs/40949439368"
+}

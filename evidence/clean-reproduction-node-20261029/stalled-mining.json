@@ -1,0 +1,10 @@
+{
+  "status": "FAILED",
+  "phase": "initial local regtest mining",
+  "observation": "RPC getblockcount remained responsive at height 0; generatetoaddress did not progress in the observed interval; owned process stopped",
+  "cgroup_pid_limit": 256,
+  "cgroup_pids_current": 99,
+  "cgroup_pid_limit_events": 0,
+  "cause": "unresolved; not evidence of public server behavior",
+  "disposable_state_removed": true
+}

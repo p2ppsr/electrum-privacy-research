@@ -1,0 +1,1079 @@
+2026-10-29 20:33:15 [main] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-10-29 20:33:15 [main] Bitcoin SV version v1.2.3
+2026-10-29 20:33:15 [main] InitParameterInteraction: parameter interaction: -listen=0 -> setting -upnp=0
+2026-10-29 20:33:15 [main] InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2026-10-29 20:33:15 [main] Using -maxcoinsdbfiles=8192 (default: 8192)
+2026-10-29 20:33:15 [main] Validating signatures for all blocks.
+2026-10-29 20:33:15 [main] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-29 20:33:15 [main] Using the 'sse4' SHA256 implementation
+2026-10-29 20:33:15 [main] Using RdRand as an additional entropy source
+2026-10-29 20:33:15 [main] Default data directory /root/.bitcoin
+2026-10-29 20:33:15 [main] Using data directory /data/regtest
+2026-10-29 20:33:15 [main] Using config file /data/bitcoin.conf
+2026-10-29 20:33:15 [main] Using at most 125 automatic connections (1048576 file descriptors available, 8192 reserved for coins database files)
+2026-10-29 20:33:15 [main] Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2026-10-29 20:33:15 [main] Using 32 MiB out of 32 requested for invalid signature cache, able to store 1048576 elements
+2026-10-29 20:33:15 [main] Using 64 MiB out of 64 requested for script execution cache, able to store 2097152 elements
+2026-10-29 20:33:15 [main] Using 16 threads for block transaction verification
+2026-10-29 20:33:15 [main] Using 8 threads for script verification
+2026-10-29 20:33:15 [bitcoin-scriptch_0_6] bitcoin-scriptch_0_6 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_0] bitcoin-scriptch_0_0 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_7] bitcoin-scriptch_0_7 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_2] bitcoin-scriptch_0_2 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_3] bitcoin-scriptch_0_3 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_4] bitcoin-scriptch_0_4 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_5] bitcoin-scriptch_0_5 thread start
+2026-10-29 20:33:15 [bitcoin-scriptch_0_1] bitcoin-scriptch_0_1 thread start
+2026-10-29 20:33:15 [main] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:33:15 [main] Opened LevelDB successfully
+2026-10-29 20:33:15 [main] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:33:15 [main] Cross-check of mempool file and transaction database failed: Failed to open mempool file from disk. Continuing with empty mempool and transaction database.
+2026-10-29 20:33:15 [mempooldb-5555570729a0] Wiping LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:33:15 [mempooldb-5555570729a0] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:33:15 [mempooldb-5555570729a0] Opened LevelDB successfully
+2026-10-29 20:33:15 [mempooldb-5555570729a0] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:33:15 [scheduler] scheduler thread start
+2026-10-29 20:33:15 [main] libevent: getaddrinfo: address family for nodename not supported
+2026-10-29 20:33:15 [main] Binding RPC on address ::1 port 18332 failed.
+2026-10-29 20:33:15 [main] HTTP: creating work queue with 4 threads
+2026-10-29 20:33:15 [worker0-N-HTTPServer] HTTPServer ThreadPool thread 0 starting
+2026-10-29 20:33:15 [worker1-N-HTTPServer] HTTPServer ThreadPool thread 1 starting
+2026-10-29 20:33:15 [worker3-N-HTTPServer] HTTPServer ThreadPool thread 3 starting
+2026-10-29 20:33:15 [worker2-N-HTTPServer] HTTPServer ThreadPool thread 2 starting
+2026-10-29 20:33:15 [main] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2026-10-29 20:33:15 [main] init message: Verifying wallet(s)...
+2026-10-29 20:33:15 [main] Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-29 20:33:15 [main] Using wallet wallet.dat
+2026-10-29 20:33:15 [main] CDBEnv::Open: LogDir=/data/regtest/database ErrorFile=/data/regtest/db.log
+2026-10-29 20:33:15 [main] Created P2P message temporary storage: /data/regtest/p2p_recv_tmp
+2026-10-29 20:33:15 [worker0-N-ConnmanPool] ConnmanPool ThreadPool thread 0 starting
+2026-10-29 20:33:15 [worker1-N-ConnmanPool] ConnmanPool ThreadPool thread 1 starting
+2026-10-29 20:33:15 [worker2-N-ConnmanPool] ConnmanPool ThreadPool thread 2 starting
+2026-10-29 20:33:15 [worker3-N-ConnmanPool] ConnmanPool ThreadPool thread 3 starting
+2026-10-29 20:33:15 [worker4-N-ConnmanPool] ConnmanPool ThreadPool thread 4 starting
+2026-10-29 20:33:15 [worker5-N-ConnmanPool] ConnmanPool ThreadPool thread 5 starting
+2026-10-29 20:33:15 [worker6-N-ConnmanPool] ConnmanPool ThreadPool thread 6 starting
+2026-10-29 20:33:15 [worker7-N-ConnmanPool] ConnmanPool ThreadPool thread 7 starting
+2026-10-29 20:33:15 [worker8-N-ConnmanPool] ConnmanPool ThreadPool thread 8 starting
+2026-10-29 20:33:15 [worker9-N-ConnmanPool] ConnmanPool ThreadPool thread 9 starting
+2026-10-29 20:33:15 [worker10-N-ConnmanPool] ConnmanPool ThreadPool thread 10 starting
+2026-10-29 20:33:15 [worker11-N-ConnmanPool] ConnmanPool ThreadPool thread 11 starting
+2026-10-29 20:33:15 [worker12-N-ConnmanPool] ConnmanPool ThreadPool thread 12 starting
+2026-10-29 20:33:15 [worker13-N-ConnmanPool] ConnmanPool ThreadPool thread 13 starting
+2026-10-29 20:33:15 [worker14-N-ConnmanPool] ConnmanPool ThreadPool thread 14 starting
+2026-10-29 20:33:15 [worker15-N-ConnmanPool] ConnmanPool ThreadPool thread 15 starting
+2026-10-29 20:33:15 [worker0-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 0 starting
+2026-10-29 20:33:15 [worker6-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 6 starting
+2026-10-29 20:33:15 [worker7-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 7 starting
+2026-10-29 20:33:15 [worker8-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 8 starting
+2026-10-29 20:33:15 [worker9-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 9 starting
+2026-10-29 20:33:15 [worker10-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 10 starting
+2026-10-29 20:33:15 [worker11-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 11 starting
+2026-10-29 20:33:15 [worker12-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 12 starting
+2026-10-29 20:33:15 [worker1-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 1 starting
+2026-10-29 20:33:15 [worker13-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 13 starting
+2026-10-29 20:33:15 [worker14-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 14 starting
+2026-10-29 20:33:15 [worker15-L-TxnValidatorPool] TxnValidatorPool ThreadPool thread 15 starting
+2026-10-29 20:33:15 [worker2-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 2 starting
+2026-10-29 20:33:15 [worker3-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 3 starting
+2026-10-29 20:33:15 [worker4-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 4 starting
+2026-10-29 20:33:15 [worker5-H-TxnValidatorPool] TxnValidatorPool ThreadPool thread 5 starting
+2026-10-29 20:33:15 [worker0-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 0 starting
+2026-10-29 20:33:15 [worker1-N-CAsyncTaskPool] CAsyncTaskPool ThreadPool thread 1 starting
+2026-10-29 20:33:15 [rawtransactionvalidator] rawtransactionvalidator thread start
+2026-10-29 20:33:15 [main] Cache configuration:
+2026-10-29 20:33:15 [main] * Using 512.0MiB for block index database
+2026-10-29 20:33:15 [main] * Using 0.0MiB for Merkle Tree index database
+2026-10-29 20:33:15 [main] * Using 1024.0MiB for chain state database (LevelDB cache)
+2026-10-29 20:33:15 [main] * Using 7168.0MiB for in-memory UTXO set (plus 0.0MiB of disk space)
+2026-10-29 20:33:15 [main] * CoinsDB total budget 8192.0MiB (LevelDB 1024.0MiB + in-memory 7168.0MiB)
+2026-10-29 20:33:15 [main] Opening LevelDB in /data/regtest/frozentxos
+2026-10-29 20:33:15 [main] Opened LevelDB successfully
+2026-10-29 20:33:15 [main] Using obfuscation key for /data/regtest/frozentxos: 0000000000000000
+2026-10-29 20:33:15 [main] init message: Loading block index...
+2026-10-29 20:33:15 [main] Opening LevelDB in /data/regtest/blocks/index
+2026-10-29 20:33:15 [main] Opened LevelDB successfully
+2026-10-29 20:33:15 [main] Using obfuscation key for /data/regtest/blocks/index: 0000000000000000
+2026-10-29 20:33:15 [main] Opening LevelDB in /data/regtest/merkle/index
+2026-10-29 20:33:15 [main] Opened LevelDB successfully
+2026-10-29 20:33:15 [main] Using obfuscation key for /data/regtest/merkle/index: 0000000000000000
+2026-10-29 20:33:15 [worker0-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 0 starting
+2026-10-29 20:33:15 [worker2-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 2 starting
+2026-10-29 20:33:15 [worker1-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 1 starting
+2026-10-29 20:33:15 [worker3-N-MerkleTreeThreadPool] MerkleTreeThreadPool ThreadPool thread 3 starting
+2026-10-29 20:33:15 [main] Using up to 3 additional threads for Merkle tree computation
+2026-10-29 20:33:15 [main] LoadMerkleTreeIndexDB() : Index in the database is out of sync, rebuilding index from current data files
+2026-10-29 20:33:15 [main] Wiping LevelDB in /data/regtest/merkle/index
+2026-10-29 20:33:15 [main] Opening LevelDB in /data/regtest/merkle/index
+2026-10-29 20:33:15 [main] Opened LevelDB successfully
+2026-10-29 20:33:15 [main] Using obfuscation key for /data/regtest/merkle/index: 0000000000000000
+2026-10-29 20:33:15 [main] ReindexMerkleTreeStoreNL() : Merkle Trees index creation took 5ms
+2026-10-29 20:33:15 [main] Opening LevelDB in /data/regtest/chainstate
+2026-10-29 20:33:15 [main] Opened LevelDB successfully
+2026-10-29 20:33:15 [main] Wrote new obfuscate key for /data/regtest/chainstate: 7d19fbfe5bcdf977
+2026-10-29 20:33:15 [main] Using obfuscation key for /data/regtest/chainstate: 7d19fbfe5bcdf977
+2026-10-29 20:33:15 [main] LoadBlockFileInfo: last block file = 0
+2026-10-29 20:33:15 [main] LoadBlockFileInfo: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-29 20:33:15 [main] Checking all blk files are present...
+2026-10-29 20:33:15 [main] LoadBlockIndexDB: transaction index disabled
+2026-10-29 20:33:15 [main] Initializing databases...
+2026-10-29 20:33:15 [main] Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-29 20:33:15 [main] init message: Verifying blocks...
+2026-10-29 20:33:15 [main] CheckSafeModeParametersForAllForksOnStartup: global safe mode state restored to level 0 in 1ms
+2026-10-29 20:33:15 [main]  block index              40ms
+2026-10-29 20:33:15 [main] init message: Loading wallet...
+2026-10-29 20:33:15 [main] nFileVersion = 101020300
+2026-10-29 20:33:15 [main] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2026-10-29 20:33:15 [main] Performing wallet upgrade to 60000
+2026-10-29 20:33:16 [main] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2026-10-29 20:33:16 [main]  wallet                  658ms
+2026-10-29 20:33:16 [main] setKeyPool.size() = 2000
+2026-10-29 20:33:16 [main] mapWallet.size() = 0
+2026-10-29 20:33:16 [main] mapAddressBook.size() = 0
+2026-10-29 20:33:16 [main] blockassembler=LEGACY
+2026-10-29 20:33:16 [main] connect=0
+2026-10-29 20:33:16 [main] datadir=/data
+2026-10-29 20:33:16 [main] discover=0
+2026-10-29 20:33:16 [main] dnsseed=0
+2026-10-29 20:33:16 [main] excessiveblocksize=100000000
+2026-10-29 20:33:16 [main] listen=0
+2026-10-29 20:33:16 [main] maxparallelblocks=1
+2026-10-29 20:33:16 [main] maxparallelblocksperpeer=1
+2026-10-29 20:33:16 [main] maxstackmemoryusageconsensus=10000000
+2026-10-29 20:33:16 [main] maxstackmemoryusagepolicy=10000000
+2026-10-29 20:33:16 [main] minminingtxfee=0.000005
+2026-10-29 20:33:16 [main] par=1
+2026-10-29 20:33:16 [main] printtoconsole=1
+2026-10-29 20:33:16 [main] regtest=1
+2026-10-29 20:33:16 [main] server=1
+2026-10-29 20:33:16 [main] txindex=1
+2026-10-29 20:33:16 [main] upnp=0
+2026-10-29 20:33:16 [main] wallet=wallet.dat
+2026-10-29 20:33:16 [main] whitelistrelay=1
+2026-10-29 20:33:16 [import_files] import_files thread start
+2026-10-29 20:33:16 [loadblk] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-29 20:33:16 [main] Chainstate will NOT be preloaded
+2026-10-29 20:33:16 [main] mapBlockIndex.size() = 1
+2026-10-29 20:33:16 [main] nBestHeight = 0
+2026-10-29 20:33:16 [main] init message: Loading addresses...
+2026-10-29 20:33:16 [main] ERROR: Read: Failed to open file /data/regtest/peers.dat
+2026-10-29 20:33:16 [main] Invalid or missing peers.dat; recreating
+2026-10-29 20:33:16 [loadblk] Failed to deserialize mempool data on disk: Failed to open mempool file from disk. Continuing anyway with empty mempool.
+2026-10-29 20:33:16 [mempooldb-5555570729a0] Wiping LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:33:16 [main] init message: Loading banlist...
+2026-10-29 20:33:16 [main] ERROR: Read: Failed to open file /data/regtest/banlist.dat
+2026-10-29 20:33:16 [main] Invalid or missing banlist.dat; recreating
+2026-10-29 20:33:16 [mempooldb-5555570729a0] Opening LevelDB in /data/regtest/mempoolTxDB
+2026-10-29 20:33:16 [main] init message: Starting network threads...
+2026-10-29 20:33:16 [main] DNS seeding disabled
+2026-10-29 20:33:16 [net] net thread start
+2026-10-29 20:33:16 [addcon] addcon thread start
+2026-10-29 20:33:16 [net] P2P socket handler waiting with poll()
+2026-10-29 20:33:16 [openstream] openstream thread start
+2026-10-29 20:33:16 [msghand] msghand thread start
+2026-10-29 20:33:16 [mempooldb-5555570729a0] Opened LevelDB successfully
+2026-10-29 20:33:16 [mempooldb-5555570729a0] Using obfuscation key for /data/regtest/mempoolTxDB: 0000000000000000
+2026-10-29 20:33:16 [loadblk] Failed to deserialize non-final mempool data on disk: Failed to open non-final mempool file from disk. Continuing anyway.
+2026-10-29 20:33:16 [loadblk] import_files thread exit
+2026-10-29 20:33:16 [worker0-N-WebhookClient] WebhookClient ThreadPool thread 0 starting
+2026-10-29 20:33:16 [worker1-N-WebhookClient] WebhookClient ThreadPool thread 1 starting
+2026-10-29 20:33:16 [worker2-N-WebhookClient] WebhookClient ThreadPool thread 2 starting
+2026-10-29 20:33:16 [main] init message: Done loading
+2026-10-29 20:33:16 [worker3-N-WebhookClient] WebhookClient ThreadPool thread 3 starting
+2026-10-29 20:33:16 [main] Preload wait for shutdown
+2026-10-29 20:33:16 [worker2-N-HTTPServer] keypool reserve 1
+2026-10-29 20:33:16 [worker2-N-HTTPServer] keypool keep 1
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Pre-allocating up to position 0x100000 in rev00000.dat
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=03b7714c47ab1e9aacb3550044c52c432daa304fc882ee281762e2e0a699f40d height=1 version=0x20000000 log2_work=2 tx=2 date='2026-10-29 20:33:16' progress=1.000000 cache=0.0MiB(1txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Leaving InitialBlockDownload (latching to false)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b38d0632d9af1aa4c1694b55a80b45bddae9d6fe629b2c3939a8ed127ce681fd  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=793b57056b91377dbd81df1c79e6a31e90ead264de0bbba6bad10d3fc5254fa2 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2026-10-29 20:33:17' progress=1.000000 cache=0.0MiB(2txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3df1054620acd34414c484bddd4d7ef59fee1a02686a0e74fb997fdbb9818d68  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5fb9eb338a1c56542c3e29dea1eb6f3af4164c877e820c6aa4527d48463de813 height=3 version=0x20000000 log2_work=3 tx=4 date='2026-10-29 20:33:17' progress=1.000000 cache=0.0MiB(3txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 120736f238f3b6cb1248a3ad5b242261d09bdfd2a08bda7720e67c80e48536ba  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1181a5f0753c44c6b238ee377c34099b0b68d3fc7c524f5b4581eaa28a6bbac8 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2026-10-29 20:33:18' progress=1.000000 cache=0.0MiB(4txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ae80d1e24ae6c73646e1fe98a4134f9926f4c34f6a3a0c6cfc349733fe5188b9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=49b21f8d9e9b16f8e7148576ee5ba37806537a3c0b526f88f45bc3b7f1bc2a9b height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2026-10-29 20:33:18' progress=1.000000 cache=0.0MiB(5txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3eef495bb111fba9abbb3796e3d34747305c06f975d25114e2ab79e9c62f695b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5f53506de87dbc9745225f2fdbe44796fda0ba325f194870908a1f0ebe9736b9 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2026-10-29 20:33:18' progress=1.000000 cache=0.0MiB(6txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 13a0600907eee1d71f19d09bcc9730590b7f9ab577f153e57067467f28b7f7fb  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6e54820ccb9dfa5be13c17a95b1144328c6dd5d85e677e93ab469e26ec639438 height=7 version=0x20000000 log2_work=4 tx=8 date='2026-10-29 20:33:18' progress=1.000000 cache=0.0MiB(7txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet daebf1fc62349c07d80e26620e108df9b8c0f34a413ebe26afa551054c0e58b8  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=039926fc9a36edc351bf898dbd871069b0f4acb008a5f33dad5b7493ef9aa9f0 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2026-10-29 20:33:19' progress=1.000000 cache=0.0MiB(8txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a76dd2987a16b300509d7ad428cbbd284324befab255fd8b48231bff9bd4ddf4  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3432054a0e5fbd129da70306aa8ae5958c9b2bbfdecbc1185f7b1cd33fa96071 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2026-10-29 20:33:19' progress=1.000000 cache=0.0MiB(9txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 4e5e118aed59285d373e987f80a178cc7959e56d61877176821a626e0b9080f0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2e4be49909a02275e3237326ab7322ec92ad1340eeed86de347c34559e98e048 height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2026-10-29 20:33:19' progress=1.000000 cache=0.0MiB(10txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet fe683da039c983beb70f17fb74db28b73efcd0ba6f499a05d3a5e711f7f5cdef  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1c773238f50fcf6202dfdae2dc3358f21c941093e679ce866221c213288a8cc1 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2026-10-29 20:33:19' progress=1.000000 cache=0.0MiB(11txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 825aea97b4f75ef075eb3fa312b6629d6a687b9e5bdbf38f063b031c3db51fec  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4d992c12025ce3d812592f549b69b492bd55de7e6ef894bab2bfaad41a881227 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2026-10-29 20:33:19' progress=1.000000 cache=0.0MiB(12txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6bb1f093d72a90313d5e2fbe9ebcfd40b1d0bc8efe3a1632ce66f6ba0f345362  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6a2ca0798c849097c50ee2b62e0b6891b89f392873478a05754ac45f34a8810d height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2026-10-29 20:33:19' progress=1.000000 cache=0.0MiB(13txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 4e30ffa72be2dd7b20eeb30ac7f170ab462f53703c4a5034b1dfa9d0fbea5a7b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=732e7dc51d5b537ba3ef1592a76c24a76f0cf639cc40991ef4db6fddcb199191 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2026-10-29 20:33:20' progress=1.000000 cache=0.0MiB(14txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 651dec5186d4ff0497edddc03d36e59574d28854d25da003c0ebbd5cba4c3430  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=10276eee6342d636625640e1aa01c3d8f3dfb16360c49b75c659a563affbdfa0 height=15 version=0x20000000 log2_work=5 tx=16 date='2026-10-29 20:33:20' progress=1.000000 cache=0.0MiB(15txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 20caded9b5ca7a924612d41333027f6ed3f06a5ddd6ca3c3b9f490fd3ec8926e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 168 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1a075fb61241bdee54f4fd349eaf8ee2e8c946f0496b6f4ad60b0038225a8a39 height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2026-10-29 20:33:20' progress=1.000000 cache=0.0MiB(16txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 14cd17a08b700346ff4aaafd23759d8f988a701cef4cd7749831e39aa8946909  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=119c7e1dccdc5c60018b3f77e774042c2014067741378da2aecfdc855bd3cceb height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2026-10-29 20:33:20' progress=1.000000 cache=0.0MiB(17txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 2e0e2e8d47536f9a6b559cbf0357fe09c71df7955ad32d857f3aebf57d6e3299  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5312f47393867c3250c3c720e3d9197239e9a58ffcff8064bdc3d44fd7e57da1 height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2026-10-29 20:33:20' progress=1.000000 cache=0.0MiB(18txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet f6de487a8d8f6061d507a9c903dc3033ad5f1951d6fd999c9b21413e97e4b81f  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5ae16181138de043f0b949acb254050ccd0a79c36e38628dd0c9a2cabbb82dd9 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2026-10-29 20:33:20' progress=1.000000 cache=0.0MiB(19txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 59d5d5d22199d959bb38b608c178703436ac79df2a08ad2ec0631ea7a44b2db4  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=289b5b94c43398784793f8fedc5c0ce6754f2e29f607ce1f090e9bb4ac7c74fb height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2026-10-29 20:33:21' progress=1.000000 cache=0.0MiB(20txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 301d30c73b1290169dd87ed263b783a4fd951e87b8c81e1b148d4e4fd433a9f1  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=64cca12bd234775117a9cbbe07b52c7b7245bb8129b817861c908347ff8d2a13 height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2026-10-29 20:33:21' progress=1.000000 cache=0.0MiB(21txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b775193690aeff111d9982f2d1f8e6cd10b708d48e31b3c2db335a98b5715e06  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2b3258ecfbfd9c8dbd959e0a839d14d27bbfff3fd16f0f55bb691e8545c15644 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2026-10-29 20:33:21' progress=1.000000 cache=0.0MiB(22txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet fb6eb3d34358c09186ac96dec8f520ade9b0797dfa8725263b43cab73ad766b9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5349672386f3ee2942947dc73a29ee26784b44880f7414adfed20fd9fc0f3eaa height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2026-10-29 20:33:21' progress=1.000000 cache=0.0MiB(23txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet f0712067883badba9059c48ba7bc749499304439d8923e71017b44e482cf1e7b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3105b299ee9f5f8947878cf6c6cfa47811f403b7993c10f5b67ff7b178972b08 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2026-10-29 20:33:21' progress=1.000000 cache=0.0MiB(24txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d102847ba168e1ce150d9d712ab742ce505f7f1c3a898147b29c3143691dc250  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=654a7568563d40065c9768bac06d514a434be3cf9ffb9f610a581062458ceb91 height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2026-10-29 20:33:21' progress=1.000000 cache=0.0MiB(25txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 9bc799d842f66c6892e4d087c6a6041c080f7fcfd868b17b27719e399c6d3059  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=633a5f3aa03dad7d8b32c9dc956a5473ae479fff15cf0a5f7b3e59384e4f2daf height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2026-10-29 20:33:22' progress=1.000000 cache=0.0MiB(26txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet bd28729a6dd89819465f0393dce21fb59694cc737c0c225f7ebeb9ea264a9ddc  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=56b13885c5b6f9bfca482239c5b970f0b7fda6b3405f4a1f77e318fcfd4a20aa height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2026-10-29 20:33:22' progress=1.000000 cache=0.0MiB(27txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 106828c8f9dfc51e002cc2d0baedebf213c1428ee4870e0aa2af0c658d3efd53  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5c93af8c81fee8e1429544f84ee8c05442503c2d16390bb6c450d997d6b980d3 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2026-10-29 20:33:22' progress=1.000000 cache=0.0MiB(28txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b6534bf892c924493e52dcef5a521a78909cc211bc958ba7b94749557094da4d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6054e980f04712c96d744428b11dae2f197a565e66055c81ed84d7e26e82c14c height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2026-10-29 20:33:22' progress=1.000000 cache=0.0MiB(29txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b16b005f40a3259cca3c10b0190572fdda3eb20a54ff96bf9104cb9b55ecadf5  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5941b85a056008deca32ae30958244a1f816dfc9ccd9bae0de20dce95f0821f5 height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2026-10-29 20:33:22' progress=1.000000 cache=0.0MiB(30txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 13eb4bba9bcabeac0ad05459610b59a8f7276363b32378de5d2f83454ccda6ab  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0c76812ef9ef42d949675212303faae41a76b14890a5d1b4fa880ba6085f3698 height=31 version=0x20000000 log2_work=6 tx=32 date='2026-10-29 20:33:22' progress=1.000000 cache=0.0MiB(31txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 40a9fc86b917af3c3d2a494d087c635ec008768e234ab8c4813f607c763d21d0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=708e18a916f5e51e6936999ae44d56c347d299c313dd78d01a305627e9690f3f height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2026-10-29 20:33:23' progress=1.000000 cache=0.0MiB(32txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 820b56f0b9a2dccdb9a2d59cc57bcb06bfc634c3ec63041eb5c6c368c0e3cde6  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2209f3b68be64ef4cee822672d5012df77446de7a9cdd6262d969832c3dec615 height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2026-10-29 20:33:23' progress=1.000000 cache=0.0MiB(33txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 88883b3b96ac47ea531c57020e3a8a4dbffbb3dbdbd666858fe60b72ba452b0e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=471b83cc8f55fbc78931893d3031427a30eafa034f9fe2c739bf1c0b86eeee26 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2026-10-29 20:33:23' progress=1.000000 cache=0.0MiB(34txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b475097924542b4277af695b3752e4d958eb239191659d0f1e844eada80abbb6  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=31ab905e282f87a5763c23a2d75bf0027739931979921709222e77fa64193f35 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2026-10-29 20:33:23' progress=1.000000 cache=0.0MiB(35txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6fa447b052a99b05e573bbd411672a4f7e61913d5b7763c05119538976623a3c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7040c4264d33d5085a03e6db384692129b37e4187b5f9370abcb53fae9673be7 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2026-10-29 20:33:23' progress=1.000000 cache=0.0MiB(36txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b64e8c060a3614c6bb1e35228ed028f41d4d576ec76400bf818845101dbd1c15  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3b98db95d2b82aeea37d6799d47b612b1aa5ba9289d5695aaceedc9526efc719 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2026-10-29 20:33:23' progress=1.000000 cache=0.0MiB(37txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ef5347f6f01bd521d9ba45b7e91674b7c6a68e80afded65a6dfe452a365a9d7c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=266d19dd1806a92ec7a356e34e08cb21a189e3001e07e66324039611aa3cd46c height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2026-10-29 20:33:24' progress=1.000000 cache=0.0MiB(38txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 160acc43827ef9f899e743aea2ae805d3ce19feaf86cbec28741aa9a39499c6e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=51ea9bf1a7db4ddda13a71b447d0317b3207ad2d8ab2d72f688ec5dea4617faa height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2026-10-29 20:33:24' progress=1.000000 cache=0.0MiB(39txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 49d4f1f115f763a2e7a59322c3a3fb3cb36e982d9dc99ed0fd0ec91f33663947  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=187ea6a9cfec5e654fa7af38482ceecb829cafa8b3b76ae1b297a3a2359944a5 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2026-10-29 20:33:24' progress=1.000000 cache=0.0MiB(40txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 339b6c929bc6732afff9b19efe39887a512ae3090e50d2382f9127ac9e0bb9b4  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=251b03d9d779c1d6fc357c18a9af6bf396f00497ed7eac909def3776b3ebccdc height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2026-10-29 20:33:24' progress=1.000000 cache=0.0MiB(41txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet c3d717c4a8db6d6c75f6a7ec60c0673a9126af8fde9dcddd46e478f570f87579  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=70cf6f2fc96c00212345fb5c338ad29af03b6ec9f3e6d8b42b6bf1c94ec4dd30 height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2026-10-29 20:33:24' progress=1.000000 cache=0.0MiB(42txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b58267d898be69944c521be9ac2f63e876facd8c6c6e03d76e9ee6d85acd2650  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2261ea3fa3fa71ce6e8fa38dc584f282bb60ed1853b3c3d142582109a523dcf9 height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2026-10-29 20:33:24' progress=1.000000 cache=0.0MiB(43txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 5fba2da7474ba62d8f038b918c158e85842ff8e945dd5bde3b7f99683da00e31  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3b7900e43fe5cb76ef4e0aa25743051b80d6a4199a9a5dd0b54b08f684f67968 height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2026-10-29 20:33:25' progress=1.000000 cache=0.0MiB(44txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 1add830106f7cd32c970c66f63f5f36bcb008871507f6d81c223529b7f2208b3  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7d25dc38c73b79e398dfae0918e0836e42b8636cd10e84037c1915fd07f79660 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2026-10-29 20:33:25' progress=1.000000 cache=0.0MiB(45txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 70957e1805c8e05c3fb20e250374329c128176b822982cfed2051f00ac3bbc04  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7bef667246daa97eeaee918b6ef495ffd9ce4544fd00bf2cb4ce2ff25d80fb70 height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2026-10-29 20:33:25' progress=1.000000 cache=0.0MiB(46txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 85966057c66203c5a334dbb518c9889da23fdce8a0e3cc307a29e23279cde3e9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=24025b95dab6deb33945c74fb4dd013b4b9c47286b0982e7f8d1a2cce09bf5ba height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2026-10-29 20:33:25' progress=1.000000 cache=0.0MiB(47txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 735f899b2ad9a9e6fb5e651ac5b85ca3f394b09dab5a73473532b970c5baed95  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=531df1f5bf6be92459ad670da9292e183dbe5968600dc2511db4adcdd0c26c7e height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2026-10-29 20:33:25' progress=1.000000 cache=0.0MiB(48txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 07e2504ca4e0de5b351815733a8dc31f334bcef0a9fded3a0715192fbb4ddb0b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5e41ce8ade456a408aeacbfaab6113090c7b72403b358c1716803942e720b31b height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2026-10-29 20:33:25' progress=1.000000 cache=0.0MiB(49txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ee3bd30879287efaf2febf08349de73c9c40a8e7b86e5c828d48c9b08fc92419  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4ed50b4f1fe6954d3b3f1a21d27d700f70c54cd40e94859f24f3495cecd0d7f8 height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2026-10-29 20:33:26' progress=1.000000 cache=0.0MiB(50txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a523183e92123a23f7ee4cee0f3ea425abfed6094b31fa97fb2b35df590deb89  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=22dc30d4bec9054c8a189cf3e01b22f2c744eebaca4aeafe6468bb646e7678e7 height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2026-10-29 20:33:26' progress=1.000000 cache=0.0MiB(51txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 4d6dd671c66dc244125c03de69fc389a7c0c875304422320f60e6d07f0b20ca0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6abb0cd7bd98810fa55a5b065e0fb504174f4892072daff92d6f8165b76c7a9c height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2026-10-29 20:33:26' progress=1.000000 cache=0.0MiB(52txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e8bbbf2b76e2464c15fd79598e8e3a5a67048f8c3f61e671b790b2395269f69c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=058531e907358e11a6d00ee3c998ae71382f820ee6e1e026973fe65fb8392a07 height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2026-10-29 20:33:26' progress=1.000000 cache=0.0MiB(53txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet bdf2e5ccc158aacc2825e3b04b5f000a4500d34ad5f64493673c17958a6501aa  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=748e164d0b1f0f016e6894fb3e73bae74087c28f3a3b371c67b96368286cdab2 height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2026-10-29 20:33:26' progress=1.000000 cache=0.0MiB(54txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 250764f40dbf57439ef950f2779a50e00e2b457a009ced8aabdbf368cdaf025c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=498b14d8b822e4888fb5fd6d4ec2381c31e1443e56208038993912c45bbb18e1 height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2026-10-29 20:33:26' progress=1.000000 cache=0.0MiB(55txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet c6ca211b294689ba4723962a808867f38921e90dd290599acd03719970068453  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1946781eb7db102d99f1954ff22677be50d90d03a1069115ecc236a2f50ff6eb height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2026-10-29 20:33:27' progress=1.000000 cache=0.0MiB(56txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 893d3646bc35305c0fd8758139b806e75271177afe1130486940d5ee79dfea3d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=19b39733ac514f7515f6c2ad6e16681bf3628f4827580d1c96ff561666428344 height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2026-10-29 20:33:27' progress=1.000000 cache=0.0MiB(57txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6ece4284ea514205aa6db6bea4740a8010aa0bd8a1559ec824c53eaf4fb0ee4d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7b9e3be7a7cdc0825d3be3f574c94b193dabfeec5f39796bed2bd18c64d03fb1 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2026-10-29 20:33:27' progress=1.000000 cache=0.0MiB(58txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d07f78827a2738dcc85007359ebc6fd672d876667c81e079d4693c05e9d8080b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=646eb26524884c2ec2fda0df1ed2a143ff286cd7af3ebeca78ce1230fa6dedc7 height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2026-10-29 20:33:27' progress=1.000000 cache=0.0MiB(59txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 87d12422ffd7fa89b7a60eaf36423a7d218c6e001393d8f2fd4749ffd36e374d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3256a191459ae36cd542deef3674b10236b949ffd5b665ea11d462a63c19c753 height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2026-10-29 20:33:27' progress=1.000000 cache=0.0MiB(60txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 2f5b057cfdec9ad1dd1108ae01435b0aee7e077186a7a13b768ecf545abb66ab  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=00b7f7fb31f6f1d0efd82c3abe4f09c8936d9b950481e241014db1f24f311edf height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2026-10-29 20:33:27' progress=1.000000 cache=0.0MiB(61txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet f54a3780920110757663c7732b62295837e4ea91eb932fe6400f239eb949806a  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0b45e3133063db22c29a4ef0522ff64d40c6704eb50d41771fa9cbe222bf0cd4 height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2026-10-29 20:33:28' progress=1.000000 cache=0.0MiB(62txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet c63321724193484b5c20cfea7bc35fab55a2664665243ea1c1627c587abd9fbe  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=524bf970b029758106f089392d00e3fc5ba95ab146da10729fee438014305495 height=63 version=0x20000000 log2_work=7 tx=64 date='2026-10-29 20:33:28' progress=1.000000 cache=0.0MiB(63txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 5945bcc30663345f44b1e5260fefc477bdfab18f11f5198a4f5573f5f7e36cbc  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=44705912213ea0029b26e9221a8928a2fbcadeedaa0f3a83ea16434a947f7efc height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2026-10-29 20:33:28' progress=1.000000 cache=0.0MiB(64txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 59209147cba1b38a7416226c2ceae91e62797ac85a0936b68934d29992084a7c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6f16da3227d76a4848731ec907fdb2b97d1dddf39589b1f2f4accd6b29735883 height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2026-10-29 20:33:28' progress=1.000000 cache=0.0MiB(65txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a402262f750cbc81f0c00c0b30855a43eaf9e782ead1ba36027a445509b79c4d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=73561aff9b8a5b4732df9180910401cf7b69bc5b89ff6742f46a4b51af5e3108 height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2026-10-29 20:33:28' progress=1.000000 cache=0.0MiB(66txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6c8badcb6fdb7a1943daa4074833ed0f07277c9313d22bc31de9e66d28a3b5e0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6fbee1a57b463accfb12e1ed89ab83e54ae16e5999dd758fdf670ec7208655ac height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2026-10-29 20:33:28' progress=1.000000 cache=0.0MiB(67txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 676c6d154e13a150e1a6f546c5426e444ea81ddfdf590aa2f201e031741fad22  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3745194a968a020d261022746aec5ac81665b89c6e3a834215bc8b01128af359 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2026-10-29 20:33:29' progress=1.000000 cache=0.0MiB(68txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b9cf7ca14f4cb3fc4a4410cad4cbdc352a35030560971e9752c79a6276f4ac18  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=391779071edd93b0a2964c62765b1587cb777c731f35dae5ad45d15218c879ea height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2026-10-29 20:33:29' progress=1.000000 cache=0.0MiB(69txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 89eea24ddf8e85766129f663df8e92e8586763919cf9bc09fd0018621c3eed28  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=48fcde7d2388c7c59e6cc6614b576e0c66d6d6568c31158b5c30103091e1a211 height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2026-10-29 20:33:29' progress=1.000000 cache=0.0MiB(70txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 610d39bb46534fe4d25b6c3a0f5c3e4cdb43469548daddcfbb2b3cf2403699cc  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4cf01698be48d810a7299d169ac508521047cd1fec21a5d6484863fb629f217b height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2026-10-29 20:33:29' progress=1.000000 cache=0.0MiB(71txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 377d66c948eff3a61d4498b9b31f14ae38143c783db72087135301a2a9dc4ce4  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=15f29f305fe89aa3bc74c93ec7354676b59e44e28580d026b283e9b1fd295054 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2026-10-29 20:33:29' progress=1.000000 cache=0.0MiB(72txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0f61fec0febdf1490693c4731f636a7487f216f418e866bc3befcf4bcb630eb4  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=28b8bb6ecb17b0df6826c9ddd31c2f35b08ae86fe528fc556a0177089d6e86ba height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2026-10-29 20:33:29' progress=1.000000 cache=0.0MiB(73txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 8a6ed672d03928c1dda2d9e040324c0393ca3db880d6617f9d96df1815746e96  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=246238ca4271ffad85a1a87d4ca4065dfa66ac91279df34e694c1c8cd1ca22c6 height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2026-10-29 20:33:30' progress=1.000000 cache=0.0MiB(74txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a96cfa21479d76703a3416d647cb216c6907f45ac6b5de9ff2c2ce71158ebca7  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5bee184060a82eca91eb8e2c7057c533f9634ce56376cd1b4c6712807b63b741 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2026-10-29 20:33:30' progress=1.000000 cache=0.0MiB(75txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 83eaf04a4c183e9929e6ba49d264f08940bc0a463f7c0c9d147adecda3120d0c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1fda2b68f427044b198737710ade4621937a60998c5916fea2e598e988afb478 height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2026-10-29 20:33:30' progress=1.000000 cache=0.0MiB(76txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 42f7ae639a1225fae75cd63310ea25ce3d0ea6fcb1dfaa3ff239dcca10e6d45c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=38cadbfaadc426d3262034ec2ac6977ed7af7dd47d2210e69e1e3d85353c56db height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2026-10-29 20:33:30' progress=1.000000 cache=0.0MiB(77txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 4efc835a438d0af203cc2681ea4081e2b80125a2514962808df36538c117ee05  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7feda342876d7f718e75a7385aaf6cd2065a829b3a020c53bbb26830ab00ada0 height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2026-10-29 20:33:30' progress=1.000000 cache=0.0MiB(78txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d4ede1ff7dfe7b0dcac8c4ac7bcaf3fd80432ad3945e9fca9037fc4b4e18bd29  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1c5d721a6c511e59cdadcc96b8ccdea1450e2e1eee06c631d1f8a4336d843ab9 height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2026-10-29 20:33:30' progress=1.000000 cache=0.0MiB(79txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3bbac52b4a6a43d84966e7f76aaf5a20b89a2cd507c77c0fd748e94eda760fbb  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2d0d90af408c3d6d5bd021130114ae95d6633cfa331c55ae3298e44def89e55a height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2026-10-29 20:33:31' progress=1.000000 cache=0.0MiB(80txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 07d75251a1ff96df1817d3e7d1789cfcf28d3ee1b7773cd3f130fe3a734f59dc  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4d2873e53fcc951863a7c36d069faee439e2daa68284efd038c12e3465a5ff0c height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2026-10-29 20:33:31' progress=1.000000 cache=0.0MiB(81txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 2d8cac39abe499870cfc39bf79bc51122e8314484dc64176ccc340a9b3a817c0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6c1d6ccf2cb203657a521e5cbf5c3ecd7be3c3aa19e7af76f4cdbd65b9abe1e9 height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2026-10-29 20:33:31' progress=1.000000 cache=0.0MiB(82txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet c64e1ae8d0ea423cade033ac36213e6a03add3b683c6b41dc0922540a9d4a761  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0de93f6ad07ae25a2f808cb219358fa6071f4a165bf3fd509d4eeb8e980c0361 height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2026-10-29 20:33:31' progress=1.000000 cache=0.0MiB(83txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 12ffe988034d6ff04fc18d46d038e2d3059e854b343b125514c77356efd89a0d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1b23edfe28d6c50379c73b1c29de355e2f45e48695c7926829433e5c3b73d6f5 height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2026-10-29 20:33:31' progress=1.000000 cache=0.0MiB(84txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 9c4ae3341fcbb3d2fd552ddd1926cfdd0d0161feb8fa403383ee7ff70fa96859  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6e573ca7b2741af6a993ebd298cfa8ec6b4cc5069221dc4247eb16c25bda6f80 height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2026-10-29 20:33:31' progress=1.000000 cache=0.0MiB(85txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ac6c4c3f6825f5ac065d90ff9c5be894dc62c18d075f3e051b00609f96b723f4  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=486099f6f0b3f48f4e5eb26bbae9b1ab29e18f811c3415e4601772abb113399d height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2026-10-29 20:33:32' progress=1.000000 cache=0.0MiB(86txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet f9d784574825241686c83c7ed59fde64977a8f8cf7e4c739c8cd8db84bfa5030  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=23913ae5cb28cb9b23b399ecbd62055eae43df3c8295acb5d23793732dfa293b height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2026-10-29 20:33:32' progress=1.000000 cache=0.0MiB(87txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b9934f187b87d0274e46d93f043be6b44f984d1df7ede9103088c7c0f9844b8a  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4500fd0d80eba4b3c297bd33ce5a65cbf17c27cfd55ac182a62f8c65d883e163 height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2026-10-29 20:33:32' progress=1.000000 cache=0.0MiB(88txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 5fa11eccbeee01e4d224ce91413a8ba48e5c6e6780d46b67227058748441aac0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=169c2af689d698d61f6561920ba9b4bd97f1dd2a93680233e11e426a70bbc230 height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2026-10-29 20:33:32' progress=1.000000 cache=0.0MiB(89txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b5ab2cdcf3d4f47b6877111178dd5cfc3da3319001b81b5b47a81aee449613a5  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=75c1ad87461ecd7f67898e277c3867ee3fc1986e47dd8616be8c4ca0600e0967 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2026-10-29 20:33:32' progress=1.000000 cache=0.0MiB(90txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 74102dd8ca8ed3689eb97366e6b2a6a73c280fe90685b4b755c075eebd4fbba2  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=47948a3de3a1719dcccf50e275d100bf109150b9042b39e50c32e158b162d818 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2026-10-29 20:33:32' progress=1.000000 cache=0.0MiB(91txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e1ba18cb59073956f13999e40fa3851456b91a812689823c8e5e70d2d97be905  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=06180cb300742cc9aabf056d3d436209d880e07d738a3e069599f9bc46687b2d height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2026-10-29 20:33:33' progress=1.000000 cache=0.0MiB(92txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a4d557edabe2c77df1d12dbab514f6701d2e17021d4d23c73788e4d2ba3b5344  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3a79975dbd2f534489bb5a1dd24c5cd2724645aaca852f82f5822e786ce60272 height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2026-10-29 20:33:33' progress=1.000000 cache=0.0MiB(93txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 148750a4f0f4ecdb1adf5b8ccee41b17366b3332823602ff9487afeeb428fde5  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0df06ad9a355b90a879b2c0ce6c21d0ce1587a164dc7e2fc210c9bbeed607af7 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2026-10-29 20:33:33' progress=1.000000 cache=0.0MiB(94txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ca6523561eef2e238d19cbd644e639a9f16c662f058be71d386f356610835e5a  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=491ae6e9000920221fdd8737f8d5f23691d2a8eeeefd7520b9e210d7d3a2f1a2 height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2026-10-29 20:33:33' progress=1.000000 cache=0.0MiB(95txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 8ef4f2dd76a0b7fbe2f7ca6ea9675a9b394221eb493814ec92ccaedb5d8dafff  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4e2db32a54931a7f82552c5762ccb8b73a67b198fae8de88d04da1446be82cc6 height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2026-10-29 20:33:33' progress=1.000000 cache=0.0MiB(96txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 20eebf4ed1d4de5da0cbf823438ebb7314276e496507bf625361a628ba86415c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=32085aa60f183ff1fa2c3ef6871c0671aeb8351267babed382f2a7d3bc333ef4 height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2026-10-29 20:33:33' progress=1.000000 cache=0.0MiB(97txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 068f2f3e634ee99a48a2114779d5cd7b8d59f433623904343e28dfd4e5be0782  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=358ebcd8025533f5dc593dc55fc346a95aa40458e043816954cda5240aee70e7 height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2026-10-29 20:33:34' progress=1.000000 cache=0.0MiB(98txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 21b2a3d3619cff90b830f8c66519bc50385cdbc7ec873c5987c002c2871c25fa  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3dab35deb837b27a74bb095c494905d3e48042fb9b2b5e15ca95add9ef18e6bf height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2026-10-29 20:33:34' progress=1.000000 cache=0.0MiB(99txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 9f046b1d315a61ae8cc44f4550c05f3e95907cd1af5da7b18509b1c6326362ac  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=20512b72afaf36fb8854d5487ed3e0ef20ab8199517c2da449109d02c685da99 height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2026-10-29 20:33:34' progress=1.000000 cache=0.0MiB(100txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 9e2ea9ef409813819d8150be86fa8debd6b4ee2c494b9e6b8739788e89f6cb56  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=15b31443694c3f66286cae5beea31d2df5ef0ff938e8d45077afb307f718c970 height=101 version=0x20000000 log2_work=7.6724253 tx=102 date='2026-10-29 20:33:34' progress=1.000000 cache=0.0MiB(101txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 15ccb091919223ce9fe11aeff7d58ad1624a5f87de6a71bab4190deb5729a783  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4ae38bc84efd45d6ffc51b054a46c5c8c0af8dba8d0c5357f75359e28d7320a6 height=102 version=0x20000000 log2_work=7.6865005 tx=103 date='2026-10-29 20:33:34' progress=1.000000 cache=0.0MiB(102txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 1746bc00960953d8d9d20e08c7630bfac9b60b10c4e9f71e4dee4fd7d1c765b5  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0eb8f28305828f47f777ab90344fe477bd8e56bbb5569c8a74cd7127c69f8e99 height=103 version=0x20000000 log2_work=7.7004397 tx=104 date='2026-10-29 20:33:34' progress=1.000000 cache=0.0MiB(103txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 760ed53be18b5c7093a58d196b3499a5e5ddb3899efa4eba20532daa76e679c1  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=34ef83fdede439fa4685a83087d0371293ef2e00faa8466e9adc2edba3d0bbf9 height=104 version=0x20000000 log2_work=7.7142455 tx=105 date='2026-10-29 20:33:35' progress=1.000000 cache=0.0MiB(104txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0f3b68bfb1c2ce6aa08865d936ee76dda8fa9564d266d466fe75cb398d06d2ec  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3bf7608eff3dd94ac5f61448fbae0548d65b4cd7aed1302e455800430d79375d height=105 version=0x20000000 log2_work=7.7279205 tx=106 date='2026-10-29 20:33:35' progress=1.000000 cache=0.0MiB(105txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 4dd91d0dabf6ca312ab50fd6ee54dc9bb28a25b7c52e654e7cdbf1218b456273  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=25d8a00a73afd678d6ad30f0d49003fd8f567e293491af6c08404120aed7b91b height=106 version=0x20000000 log2_work=7.741467 tx=107 date='2026-10-29 20:33:35' progress=1.000000 cache=0.0MiB(106txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3efe4d9c54c3000246a0418484de23a047c62059305ea57c906bc3ce0c91c588  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6dd51402292c03c9c07be19366f5327e22762025a94f0eebbcd5ef5c3416f06b height=107 version=0x20000000 log2_work=7.7548875 tx=108 date='2026-10-29 20:33:35' progress=1.000000 cache=0.0MiB(107txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6dcf6cf6a5712758cd0bf2908d24687d750c7f2047a9307cbb6500842f2d8e4a  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5c3df3b44c558a3de7e80561c36ba815566301208dea5527fa2750e2a8dc3674 height=108 version=0x20000000 log2_work=7.7681843 tx=109 date='2026-10-29 20:33:35' progress=1.000000 cache=0.0MiB(108txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a71347f5ea85843708d05241f3223c78e55ceeb7cf179ca2087f307faa5a7561  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4666c673d6367e45690d8576f467b1189eb44f8428c075dd7efd08453e83cf8a height=109 version=0x20000000 log2_work=7.7813597 tx=110 date='2026-10-29 20:33:35' progress=1.000000 cache=0.0MiB(109txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 686ea85ab7f90b6c884ddae96a8992a742a32b9793af1918bf67896780c37d1d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=65cb574938eaa015280fea36fc803d7ed4b674ad25e3af7d01c3cf7561e6c469 height=110 version=0x20000000 log2_work=7.7944159 tx=111 date='2026-10-29 20:33:36' progress=1.000000 cache=0.0MiB(110txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3c2564539064959c8ec8d7e669b6d9d930787190774ed2dc5daf242f00f35fae  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2578d27b5554fe4944b488a0591099ee3da16286f07a56118362c320e3ff81a0 height=111 version=0x20000000 log2_work=7.8073549 tx=112 date='2026-10-29 20:33:36' progress=1.000000 cache=0.0MiB(111txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d25469e0a6c1fb9213e6a3aa050534b069bb6c5928810ece7e1fd8c9d8f1f55b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1c8d06db4471299cc7debf5b18af0f3a2437516d3c120500a59f89d634f1be73 height=112 version=0x20000000 log2_work=7.820179 tx=113 date='2026-10-29 20:33:36' progress=1.000000 cache=0.0MiB(112txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3cbba761f57860fd824e197dc2ba63a439e2f7306054bddc6023a34efa2a0605  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=56e4fa379cdece4786473be3ca60c6bf4d84101984546e7dcf2ee6bde1cbf4a2 height=113 version=0x20000000 log2_work=7.83289 tx=114 date='2026-10-29 20:33:36' progress=1.000000 cache=0.0MiB(113txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 895c133e9c76a0cf77664363289ed189b7ca5610703591e55b0c4d85857fa7b7  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1b78a04e63a800c6f91de41c6b96ccd13c0de2e5fa91aefd43bac085b0d49b67 height=114 version=0x20000000 log2_work=7.8454901 tx=115 date='2026-10-29 20:33:36' progress=1.000000 cache=0.0MiB(114txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 87badd8818b97152ae0cf5e6d46edc1d1fd28d64bc2a0e826aa6481160298443  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2914e99e7343bb4eec9a694e56ea1af8a585d111f6811dc7631d77ab72f449bd height=115 version=0x20000000 log2_work=7.857981 tx=116 date='2026-10-29 20:33:36' progress=1.000000 cache=0.0MiB(115txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 20179629c45c72b4e47ef00ecd45e47fa290df91c6acecdeeae85b13874e6458  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6c2f82ae30e3057317989d028750cbbefb01fc9bffd312e667a001971ce88e71 height=116 version=0x20000000 log2_work=7.8703647 tx=117 date='2026-10-29 20:33:37' progress=1.000000 cache=0.0MiB(116txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 86cf2b092c6a2332ee6405269722d1363531549e664b53263312564a0caad0ae  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=351c7490ca656c3b8c21ba72831b3e30ab8df0e2803ece260a9255ad4b1f3e8e height=117 version=0x20000000 log2_work=7.882643 tx=118 date='2026-10-29 20:33:37' progress=1.000000 cache=0.0MiB(117txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 967c58eafe641acad851b8e7aa9ee810f59624955b736135761b7a7685678b8c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=59e7b4d810e15e1f7aaf6a2ba14682502a883f5c9c12b64fc01ac683aa172843 height=118 version=0x20000000 log2_work=7.8948178 tx=119 date='2026-10-29 20:33:37' progress=1.000000 cache=0.0MiB(118txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 31c9f88b9f38647502b179f815c9d4868addf96f125bb10413650720ea684767  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=685f96b59e54b50d2fecbc5810455d7400d684fc532bc274f8ff0e8e559b0e34 height=119 version=0x20000000 log2_work=7.9068906 tx=120 date='2026-10-29 20:33:37' progress=1.000000 cache=0.0MiB(119txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0f4af7584515af17332d611a4e6008c5ecdda6097ad55a3060e70e1c8e6ee9dd  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2f484a537c4f5245a7a6250f5d87b3d5aa536003973ae87dc6025597f6105560 height=120 version=0x20000000 log2_work=7.9188632 tx=121 date='2026-10-29 20:33:37' progress=1.000000 cache=0.0MiB(120txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a1752d74f3246319836b77bc644bf6c55070a188ba4dd23ff0d786d8837ad7d2  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=36da024c5aa02abdc35f35b03c5fc8dcd4cfde4b2d00565a42ff0a4ffea73e6a height=121 version=0x20000000 log2_work=7.9307373 tx=122 date='2026-10-29 20:33:37' progress=1.000000 cache=0.0MiB(121txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 229bd4d826b0e1e7954193b9ea60ccc6ec7b555775521c26cf6fc119f7ce17c2  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2113868489e66ba87d10ab8c6766863e9b96a5e49c33da1fd2f6ce53b2ab914a height=122 version=0x20000000 log2_work=7.9425145 tx=123 date='2026-10-29 20:33:38' progress=1.000000 cache=0.0MiB(122txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0c342e16708337cae04e4b8c932d6afd145b2bef33d2a874c741904186acf687  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3cb608e0f855a7b7e4fc7c84e5fff148334e72755f6742dc427d5fd1d36ef8fd height=123 version=0x20000000 log2_work=7.9541963 tx=124 date='2026-10-29 20:33:38' progress=1.000000 cache=0.0MiB(123txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet f3b4e8b886f42f88414101e3ea8bc001299c63aff922717196931e3cc80c456d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=38b225f246c12513cf9398d181d7e6bbed80198104884917243c54b71744f6e7 height=124 version=0x20000000 log2_work=7.9657843 tx=125 date='2026-10-29 20:33:38' progress=1.000000 cache=0.0MiB(124txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e86a427e531f98255b348c7e159128db6f49e611e8fd681cc47ed2456406e435  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=58c4d1715584f7fefc79fc03e0f31056ca1e8feca6992fd5b9d46504aecbc36e height=125 version=0x20000000 log2_work=7.9772799 tx=126 date='2026-10-29 20:33:38' progress=1.000000 cache=0.0MiB(125txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 672de36e53f8cf0e8bc86a41c213206f058b2a51e1632e6794d2a6b27099de09  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=04cbad5938275ab6d555ba8dedd73f7328f119224c75ed7009c2216b27c0d558 height=126 version=0x20000000 log2_work=7.9886847 tx=127 date='2026-10-29 20:33:38' progress=1.000000 cache=0.0MiB(126txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0155a07a8c678890bf08cc5fac836d2a54bac33f7ecc8889d6f68895d4bcc217  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 169 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7c05b233a8fa9bbf1e75dfd5d25ca867d7ca62ce76f516f0dcea5604c91e9fcf height=127 version=0x20000000 log2_work=8 tx=128 date='2026-10-29 20:33:38' progress=1.000000 cache=0.0MiB(127txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 5181d1a147f44c483249793536621cf38d33c7097506bda8d95d96f570c6a51c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=358525bcf08c1d5d96f1e1652a07ecb25a6374f4ffad4e060ee9203df73a2c95 height=128 version=0x20000000 log2_work=8.0112273 tx=129 date='2026-10-29 20:33:39' progress=1.000000 cache=0.0MiB(128txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 852c5dba4869b5975f70ee1118b1149d86c3972030427612854f4bcb131eeb4e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2d455e03095ff47c79638d9b457167f73e0ebb5a33e61e899efbb00f03f202e6 height=129 version=0x20000000 log2_work=8.0223678 tx=130 date='2026-10-29 20:33:39' progress=1.000000 cache=0.0MiB(129txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 2d0677cc2fa28632396880088b68f90745a2bed6a7cbfeb886ab3eac290988bb  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=18f27fedfe51d70519f2e4f37926641a52b34beed4321596e48811910f850019 height=130 version=0x20000000 log2_work=8.033423 tx=131 date='2026-10-29 20:33:39' progress=1.000000 cache=0.0MiB(130txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 8fc4cf9df262ae5d925d7b45fe0c77d806812a57c12cc7fb7c0aa9aa0e6a380f  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=41ac0e3700094283b511a288ea0ebea9afa46eda2d09bf499695de54f1ecc661 height=131 version=0x20000000 log2_work=8.0443941 tx=132 date='2026-10-29 20:33:39' progress=1.000000 cache=0.0MiB(131txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 54bee1d3589292158f2ced47fc68557ae1317222ebcaf3815b7a0d9f76e0e94e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=000c0e7b750b8bf50882dc3567e35ab6eed9375c3c03fa17987af8e733cdb5c0 height=132 version=0x20000000 log2_work=8.0552824 tx=133 date='2026-10-29 20:33:39' progress=1.000000 cache=0.0MiB(132txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 5ffcb5198452ef5121b46ae0a7d1dc025405e8c4a922c966f0c28219db69c60e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0aac4ba5981559099cc0b562a107fcdac222532f45a7e7084a80f5da31928c60 height=133 version=0x20000000 log2_work=8.0660892 tx=134 date='2026-10-29 20:33:39' progress=1.000000 cache=0.0MiB(133txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet bbaf1447e5e70083981f026a46407012247569129b00a0c00e3d90270e5b6c8d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7f0a6e5009640eaafb7d86aa2e2489d48b60262e400ad2a97d92671f171d109a height=134 version=0x20000000 log2_work=8.0768156 tx=135 date='2026-10-29 20:33:40' progress=1.000000 cache=0.0MiB(134txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 9df0bea811c8450fe317991138918ee54a4f742d2dcb7957b46c1128492fcc92  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4c59f6fcf30ac9de193f864297752dcfab6ede0cff247eca944d68f07d7d9a49 height=135 version=0x20000000 log2_work=8.0874628 tx=136 date='2026-10-29 20:33:40' progress=1.000000 cache=0.0MiB(135txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 70c4afac03460edb22ff924c9d3218cce0a29e5767d8848d4db68ad5a19f98bc  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7b62b1d0a144057dbec83909d7440ea17c6f324916b92539cb3a737f032ced53 height=136 version=0x20000000 log2_work=8.0980321 tx=137 date='2026-10-29 20:33:40' progress=1.000000 cache=0.0MiB(136txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet adb8edc4c76ce87ac3dea0033da84103fc043d8c39f12c0bc43996f19f784e84  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=04c41d2577021361c143cc48babd80ad259240d92cc81c0cf6b9d1179bf72d0b height=137 version=0x20000000 log2_work=8.1085245 tx=138 date='2026-10-29 20:33:40' progress=1.000000 cache=0.0MiB(137txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b03036d2a5d07155831496434fe52c4b0e6e66dc457d8f672de29eb53950f2c2  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=584d35b35c6bf54dc4260c7977b8489eed284279a742b233a35e6fe2536102fb height=138 version=0x20000000 log2_work=8.1189411 tx=139 date='2026-10-29 20:33:40' progress=1.000000 cache=0.0MiB(138txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6ac62f5d4db629e1dc46660259ffb4667d16ec5a0e6393d06172b4430fdb2f2d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=31bebb2ebc4fd605a7b69091e475e220f9bbddd92a916496490f14c9ba0a3795 height=139 version=0x20000000 log2_work=8.129283 tx=140 date='2026-10-29 20:33:40' progress=1.000000 cache=0.0MiB(139txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 7967b994c6d559f2009bdbf0826e61c9b85d0f9f1e9426d858da9a7124b6984d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=7ed522b6240c5574ec8023b40b193a11d7a2dd2db19f8400d36443622943ecd1 height=140 version=0x20000000 log2_work=8.1395514 tx=141 date='2026-10-29 20:33:41' progress=1.000000 cache=0.0MiB(140txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a44c8e607ed16dd67a888e668292a13fac8201c2b160deba75a4d217dc3b5fd8  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=62f78d38c003839fe3deb81d8bb4d866e592a33649f875f02e6a217a51126339 height=141 version=0x20000000 log2_work=8.1497471 tx=142 date='2026-10-29 20:33:41' progress=1.000000 cache=0.0MiB(141txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 229ae54a4fbe586fb6f19d5da02eaa10efb97ed76ae6fc868e04df13c8712246  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=561aebb28d9225f02f4e2f346f85b7fc4d2790c0e8627343bbc9ebee2c2af0d1 height=142 version=0x20000000 log2_work=8.1598713 tx=143 date='2026-10-29 20:33:41' progress=1.000000 cache=0.0MiB(142txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a7a06ec52ed7175e78dceebbad14f68aab161dd9f11111c2700f469b7f586c98  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2f2fa594e60dbd54900e4bb3e40a2868e10c411c5c73d64489c6db9e646e328c height=143 version=0x20000000 log2_work=8.169925 tx=144 date='2026-10-29 20:33:41' progress=1.000000 cache=0.0MiB(143txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet c7b05ad749ceeb5bf51990753c876b80788ccf0584b47320f491721b4f98fffa  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=12dc0302f30ffb88c830da58ac72bfdb4bc5fa80a7d3511823bfdb4124503185 height=144 version=0x20000000 log2_work=8.1799091 tx=145 date='2026-10-29 20:33:41' progress=1.000000 cache=0.0MiB(144txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e247a86827e161d094d0487243d2bc30c9eae2ccc96f5aeee5475c1f14f2f060  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=52b1514cf205edc83af5f6b6f35f31e4808c314ae0ff8ebe3a203116c1837f32 height=145 version=0x20000000 log2_work=8.1898246 tx=146 date='2026-10-29 20:33:41' progress=1.000000 cache=0.0MiB(145txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e898807343e7afa6eee2ae3b66b49dd1c4f3bdaa000f6e9dadaefaa955702ff7  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=440408689c6884c9bc219ca4a67ef4688047211edf4830887d6cd6c3e489fd2b height=146 version=0x20000000 log2_work=8.1996723 tx=147 date='2026-10-29 20:33:42' progress=1.000000 cache=0.0MiB(146txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 335e9181d7c35e367d6afb5b85ee3109fd6041b49aaac07609874316e1064031  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=19a5e0586618f9a11b4c3259ebf98eb269423dc129071121d231e0658f95fab6 height=147 version=0x20000000 log2_work=8.2094534 tx=148 date='2026-10-29 20:33:42' progress=1.000000 cache=0.0MiB(147txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d7448bd368f392101b6d2dc3d95064999ddf25e46265744f86e5d29e20443268  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=196db886c734adbcecb2eb30673b732ef27ac3cd2653a60f669f30a4eb7ef8b1 height=148 version=0x20000000 log2_work=8.2191685 tx=149 date='2026-10-29 20:33:42' progress=1.000000 cache=0.0MiB(148txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b3e1c622506bae4ecb0f6963c34e91197f376d08cd521908444ecf02f06c4d0c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0d65d91eb0f59856ac24502516905d42456317eec029a057816ce36d27a6fe4f height=149 version=0x20000000 log2_work=8.2288187 tx=150 date='2026-10-29 20:33:42' progress=1.000000 cache=0.0MiB(149txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0ec5115b68301c9068d0f68d03dc3903471fba27bb0dd7934d17da1101f87784  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=37e85edbe3244c7af91a458ce51511d3c140bd5fb1de45a9a5904e4c1c56500c height=150 version=0x20000000 log2_work=8.2384047 tx=151 date='2026-10-29 20:33:42' progress=1.000000 cache=0.0MiB(150txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 9cf39469161f7d77fd679efc5a9b3b23adec74b8c3773fecaeea45f5b771ec4e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=15c7c2d9e3a34f827ab730c1f74fa183497e0cd53169da016fb874af760876d4 height=151 version=0x20000000 log2_work=8.2479275 tx=152 date='2026-10-29 20:33:42' progress=1.000000 cache=0.0MiB(151txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 2f21f4dc7b3ed4a69365c5dd452915dbbb19a9f2151d8f0ed3fc12a1cc250697  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1dd563220960cd3e5f83d7e25f8bc4d7936e17b09e5360217721ac5970afac0d height=152 version=0x20000000 log2_work=8.2573878 tx=153 date='2026-10-29 20:33:43' progress=1.000000 cache=0.0MiB(152txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 78f708dc7545a6266158f785bbe7c6a429e91f1afc50e56177656b4b345dcc38  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5b0b5e15153d8efa397e5b3f5be2398571bb339d3520b85fcd983683c2d70f47 height=153 version=0x20000000 log2_work=8.2667865 tx=154 date='2026-10-29 20:33:43' progress=1.000000 cache=0.0MiB(153txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 87f9efd957baf97bf2aee8af7760be90ba263b083b91ce8148d7d3d1c3bcae08  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=027439dd34008de9ce2d6b5f5f2df3576fa5fcccf28ec6d800a377c606793dad height=154 version=0x20000000 log2_work=8.2761244 tx=155 date='2026-10-29 20:33:43' progress=1.000000 cache=0.0MiB(154txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a24431af74b7c372e805d6bcec3f8c23fe3654a56863fa79a6fe5c5e7c7d08d6  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=31fb4d89bceece8d2e2acd7a73bbc79f179da883eceb41740a1bb45831b56eea height=155 version=0x20000000 log2_work=8.2854022 tx=156 date='2026-10-29 20:33:43' progress=1.000000 cache=0.0MiB(155txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d879e70160cb218a81b5ffd95e27f85044626bf2fc5f688be6eb514172fc7f09  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=44a462d5aef5aec48de8d9643c33ce481f899ee482bbbd8c8b6a1e376dbc30d1 height=156 version=0x20000000 log2_work=8.2946207 tx=157 date='2026-10-29 20:33:43' progress=1.000000 cache=0.0MiB(156txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 8fc989560de416d25015b63c977e1c387579690cc241eab9f6a2c79f353a7c5c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6bbbdf2ade4d652e4152592f1f4255fd8edaded8e5493539c30e00ac0f94cb59 height=157 version=0x20000000 log2_work=8.3037807 tx=158 date='2026-10-29 20:33:43' progress=1.000000 cache=0.0MiB(157txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 462056ab0b5081c750cbde9bcf2c09f33614d71a39c1eb9ec564001d25dbbf44  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=38e39c34b55f6b12e851511268e4d271e8d0514213186e01f33b1237a9c5cb24 height=158 version=0x20000000 log2_work=8.312883 tx=159 date='2026-10-29 20:33:44' progress=1.000000 cache=0.0MiB(158txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ac599dd33a4928438becc4fa1a71438b5233d45e1ca10d00ed3cc4ee168a1593  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1c489bb9a43565b836a0226a21695f13d475b397c36105d321cdf0fb1e66016b height=159 version=0x20000000 log2_work=8.3219281 tx=160 date='2026-10-29 20:33:44' progress=1.000000 cache=0.0MiB(159txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 1acb0a2b3a91db7bb35efbb14ea99fe3cd6afc6f50c59d3aac8165564ddb289b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=11eacc5beedc2da6358c1383edf57aedec2f9065ede3ccc3244b2cd689c5063a height=160 version=0x20000000 log2_work=8.3309169 tx=161 date='2026-10-29 20:33:44' progress=1.000000 cache=0.0MiB(160txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet a16f1861b61d678175213c0efaa528da0bdaeb5ce5773b3f33872fce3e1448b1  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=41dba4421994771f996f179cc71a1ebb34c43319c07251a5bf3863097c0e75ba height=161 version=0x20000000 log2_work=8.33985 tx=162 date='2026-10-29 20:33:44' progress=1.000000 cache=0.0MiB(161txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6a3b8bfba173d8bdcf9a02b491080e6a76138cb38417e62ba7802dc0221b0b95  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=52a91ea98f9935eb2d82a460ab9562036ee24f16d5bf270e7ac8147fbdac4e3f height=162 version=0x20000000 log2_work=8.3487282 tx=163 date='2026-10-29 20:33:44' progress=1.000000 cache=0.0MiB(162txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 69e3ddf5938cd7dfb44e89c4e0d3a00c5fb4c08f2d529d4d88d08b04d2fbef5f  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=21084f405ef0a1506061f4e4db95cd571ee7ac8059f12d31eb71fc35c0482960 height=163 version=0x20000000 log2_work=8.357552 tx=164 date='2026-10-29 20:33:44' progress=1.000000 cache=0.0MiB(163txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 438a4f76be89602457db3b9f5cc8f53de05dbe0d456cd75234af10b5862e9041  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=79f27efbb603cd8f4dfe0fd217b502b07824cea222a3a478545c7d5c05b77a46 height=164 version=0x20000000 log2_work=8.3663222 tx=165 date='2026-10-29 20:33:45' progress=1.000000 cache=0.0MiB(164txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 30d5d75500a2393509136c4b0dc45f167a17d1643db20b7807de0ed9e548484e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6d951c6b48c132b2f1ec7dfcf4c63a047adfc2586c1539a9fca2494f43aa151d height=165 version=0x20000000 log2_work=8.3750394 tx=166 date='2026-10-29 20:33:45' progress=1.000000 cache=0.0MiB(165txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b736c3f2d2b8762cc7a97e0824f90aefc664ecf9223cadf25e597e2c150bc49e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0e234d1bd43bbdc4e3831db7601e24deb1ab2fb59499839e179c0eb49dc90633 height=166 version=0x20000000 log2_work=8.3837043 tx=167 date='2026-10-29 20:33:45' progress=1.000000 cache=0.0MiB(166txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 2a1918cc7c0adf24487cc1d5bada19fd0d0eff98b7906b88d4058ba9cfeaa8f5  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=742c926b79088d858567d0e896811bd0670b8702014f9355ef0b68d5abdfd0cc height=167 version=0x20000000 log2_work=8.3923174 tx=168 date='2026-10-29 20:33:45' progress=1.000000 cache=0.0MiB(167txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e53c2873f41a35877e353de3a88e012195b9dfc40f2bd2f1e208f3111a99e457  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4e998e9bf7730b6ceb98a5a13a4f97766b01575565a6fe173800ace3d36438c4 height=168 version=0x20000000 log2_work=8.4008794 tx=169 date='2026-10-29 20:33:45' progress=1.000000 cache=0.0MiB(168txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet bd3f8eee3606bb53f4853a53abb1724b2cb770d6fdfc67aca34966b1435c864b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4836c481a942d8c4fd2aba3841ac39f40547cfd969e3682b4a2fa13736d24b43 height=169 version=0x20000000 log2_work=8.4093909 tx=170 date='2026-10-29 20:33:45' progress=1.000000 cache=0.0MiB(169txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e96c1cab039d9f120d027be7549c0f50b2ffda97fb01f3f4b79e8022df86b701  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=65b9636b24ba2b6f07d85b6ed77135fe889a5ca174077673ab4d0989b327005b height=170 version=0x20000000 log2_work=8.4178525 tx=171 date='2026-10-29 20:33:46' progress=1.000000 cache=0.0MiB(170txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 41e8b90f4b8276e7a6d9e1cc012f84a99aa420b1836325d03ceccb905b603e08  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6abc5cdee2602b5d4a7157895ca51f3cdb1df2b857b4e4055b3dceeb2454a18d height=171 version=0x20000000 log2_work=8.4262648 tx=172 date='2026-10-29 20:33:46' progress=1.000000 cache=0.0MiB(171txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b3f6c6399ed50553f3d6a2610101faef75e9138a71f8131de756c2270973a1d1  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=270ad73fe314ea502845b8c4378d25f64aa0b81cd2ad812dc0d71faa600501d2 height=172 version=0x20000000 log2_work=8.4346282 tx=173 date='2026-10-29 20:33:46' progress=1.000000 cache=0.0MiB(172txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet edb10620f32fbe328a3ed871ee10fdcecbbe46c0af0214cee363451ea87cc1dd  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=56e4d95dfef706ca4f793f37b814e2889fdf489d8df9f4b63be1fc0595e777d8 height=173 version=0x20000000 log2_work=8.4429435 tx=174 date='2026-10-29 20:33:46' progress=1.000000 cache=0.0MiB(173txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet ed27ad216e3a273d7830fb3db4a84f5472164f6314475aeb9fcc56ad813cafe6  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6fb7c62f268d02999d2e13bb3b8cfba970d38057a43fe64d68748ac90c68bee6 height=174 version=0x20000000 log2_work=8.4512111 tx=175 date='2026-10-29 20:33:46' progress=1.000000 cache=0.0MiB(174txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 80ff12870d28caf96a7077f8eb3ea0b9b183988820e37a2923864f00abc668a9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4b678a85b0688beeedae5a46669aa1a831f56f56e17d1760d20b6eff85d9137d height=175 version=0x20000000 log2_work=8.4594316 tx=176 date='2026-10-29 20:33:46' progress=1.000000 cache=0.0MiB(175txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 6dd763ab39de7ff1d1288c8314b154d19ff40c4ac5a2f50613675114e630db5d  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1d90c13d689de7cb6e0657a64ccae953c5607f2005a2617fddabd02f2d857d94 height=176 version=0x20000000 log2_work=8.4676056 tx=177 date='2026-10-29 20:33:47' progress=1.000000 cache=0.0MiB(176txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet fee181675a4b0de5692d2ca03d008c36c6898b279fa354c9ab37ee7bc41d8701  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1f347d720221519e1dbe709589f83119041bf240134b79e54a540a8a7f251e0c height=177 version=0x20000000 log2_work=8.4757334 tx=178 date='2026-10-29 20:33:47' progress=1.000000 cache=0.0MiB(177txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 28963d32b0bd368525e7944e9d741b084c895466e5d89592c804db9274e551b9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=30f147dd325c16fd91471196fa1c0bd85d9b228dae6eecfe2ed780d0c1d4d69c height=178 version=0x20000000 log2_work=8.4838158 tx=179 date='2026-10-29 20:33:47' progress=1.000000 cache=0.0MiB(178txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 91c233c5f4a65a430eef7f2e3302a0f44bc2616c0fc21f51952838bf1c7c8549  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=68ead7b07650898a138bb2a2d98103d34d189a9d3cdb894681ae152cdbf688fa height=179 version=0x20000000 log2_work=8.4918531 tx=180 date='2026-10-29 20:33:47' progress=1.000000 cache=0.0MiB(179txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 3c95da1e30c303c8570640304dd9fb5e914798f92cdbaa6b052882614a0672a9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5952639eeb3822a784019e7e6913a69bbd4568a94fb455c44aa36843e1ad8705 height=180 version=0x20000000 log2_work=8.4998459 tx=181 date='2026-10-29 20:33:47' progress=1.000000 cache=0.0MiB(180txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 11a15bcc2ca1390529aeb28ced4d0b2e021caeee3a559aa4a7a560001b1bc14e  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6ee0cadc9d216c4745b89f81da7081af80745b3a8b637ce3b49916d307e47250 height=181 version=0x20000000 log2_work=8.5077946 tx=182 date='2026-10-29 20:33:47' progress=1.000000 cache=0.0MiB(181txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 28f2d24b8007999c2a5836d2864b5684e006d862e753fea4f4befcefb5469f08  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=311745b8d8a1a2c38f082c68b4f2af97392f93b43c49026ec25c3da566354dbe height=182 version=0x20000000 log2_work=8.5156998 tx=183 date='2026-10-29 20:33:48' progress=1.000000 cache=0.0MiB(182txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet b919384b5fab5a551fd7ca57b39ce2cb45368ef798242fa1c16bd2ee0bb88acd  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4a3f4b1c1f5f1b7d7a483883625ec70968ca2565467e01d3e6ab42dbbe1f4a5e height=183 version=0x20000000 log2_work=8.523562 tx=184 date='2026-10-29 20:33:48' progress=1.000000 cache=0.0MiB(183txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 83f812bd79532ad1795ab65e99a2cee91f2702b600e44732a953ce1bcdf8c423  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=18a9c1e21a10ef58634abead57fee935df65e059ffd818fac8ce7bc1e4a132c7 height=184 version=0x20000000 log2_work=8.5313815 tx=185 date='2026-10-29 20:33:48' progress=1.000000 cache=0.0MiB(184txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 29f04241cdefb8fd51267b4c8b7cd90f4c2e9d35b01f046db2329ab1bb7ae993  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=5779d03625247438ebb6875e52e270d7dbf20bd0de079055eef9bd9dc68eb676 height=185 version=0x20000000 log2_work=8.5391588 tx=186 date='2026-10-29 20:33:48' progress=1.000000 cache=0.0MiB(185txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0dbbf6dee63b6a74925c6426061a4da1a5f41a7d7b11af71cf7a87b0a42109b7  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=1c12f975f5350c0ecfcd30097e8b6d758f48e2159d561d6c56c4b8f22763e745 height=186 version=0x20000000 log2_work=8.5468945 tx=187 date='2026-10-29 20:33:48' progress=1.000000 cache=0.0MiB(186txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 15306609b2f2bc736c40daf86487d9b3e3219410215870ce40f44a1f256250cf  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=2845da615e9bf5cd2d6b1e6d83cbcf31259cdf34aa90392d90deda6c1a5c67c6 height=187 version=0x20000000 log2_work=8.5545889 tx=188 date='2026-10-29 20:33:48' progress=1.000000 cache=0.0MiB(187txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet c13bd09e4afb295bf644701817ba1f6f32d36fd123b6d25347c505981a82d7b9  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3a1ed378a154b15cbef929d5c8e2d1cc617a8ebd635f47687974c1ef408839a6 height=188 version=0x20000000 log2_work=8.5622424 tx=189 date='2026-10-29 20:33:49' progress=1.000000 cache=0.0MiB(188txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d1743ca590197a817714a75776162c080d27df20bddb3b97551a48ac4bbf79d2  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=6c37c7fff260c6d78a5d3e7ce5413996dad53ca815eeaf8d84fc923d3ed80ad7 height=189 version=0x20000000 log2_work=8.5698556 tx=190 date='2026-10-29 20:33:49' progress=1.000000 cache=0.0MiB(189txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 074ff441e51f3cc8073c131e5c0379a4b45209f07b495bcbdedcb4cd0fe9ee19  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4f0c5439e3f8e6cf8956568f1dbcde78baf1082157f8c8b20aa6e0f542c6dbb9 height=190 version=0x20000000 log2_work=8.5774288 tx=191 date='2026-10-29 20:33:49' progress=1.000000 cache=0.0MiB(190txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 31510493aa28fd58977cebbad398545be912cb3d3ce371b07a288953cc625b83  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3e79d1e55e499f093f9cf3f7caee4cfcc6c59ebd52c3c77ed1cbf719d0670cb1 height=191 version=0x20000000 log2_work=8.5849625 tx=192 date='2026-10-29 20:33:49' progress=1.000000 cache=0.0MiB(191txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet aa62236f56ba899bf23a7d7d03c48ef26ecaa21e7f42af00b2ba40450cad3ae0  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4f30ca98488436e6986a9a2df30c7a83420a43023ea187ddcb6692e6a9592d2f height=192 version=0x20000000 log2_work=8.592457 tx=193 date='2026-10-29 20:33:49' progress=1.000000 cache=0.0MiB(192txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 8a25ce21f30f881f74e43c8b530c923d7bd53b004f4756c56a51b32de4abea69  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=01070810c8ab6f96e95cb06c10293a4cc78a0df03142965fe44f272251ab533d height=193 version=0x20000000 log2_work=8.5999128 tx=194 date='2026-10-29 20:33:49' progress=1.000000 cache=0.0MiB(193txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 25d205fb362d3ca2da5d3291d730c58fb49ed3940afff077010d26b99b17f605  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=380bfd1484bab76791bc0a89755af2fb6308006ced0f9b8140d3f79d3c42f36c height=194 version=0x20000000 log2_work=8.6073303 tx=195 date='2026-10-29 20:33:50' progress=1.000000 cache=0.0MiB(194txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet bc21d8730d9b1cfaeb899b556d2c5a1d2ff344f17cdf8f00320bb9814101b753  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=353b12c831f4e04a9f6caf5f2be133d3543590aec159745a4beb4d189e462531 height=195 version=0x20000000 log2_work=8.6147098 tx=196 date='2026-10-29 20:33:50' progress=1.000000 cache=0.0MiB(195txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet f2917aa41eb8e73a9355defd2604efe4bbba1ba26ca7eabb689e2a68fcd53ae7  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=4360ccd474a4da66cb2466141609043da335b3fe7ec555db9dff52adbb26aa15 height=196 version=0x20000000 log2_work=8.6220518 tx=197 date='2026-10-29 20:33:50' progress=1.000000 cache=0.0MiB(196txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 609ba7ca200d322c2e3a4815c3fcadcf30f835a8f0f1baeaacfffe725ea9389c  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=51386652407eda5b1ac65d4278718196e104b52f49e6a0f58673195e0d6f3e52 height=197 version=0x20000000 log2_work=8.6293566 tx=198 date='2026-10-29 20:33:50' progress=1.000000 cache=0.0MiB(197txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 0181561c381813f3f7652c33a3f8ca71cf73eab173af03ee47e035a2d73c6f07  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=3144acb45f7a5de8dc80f4cfd79d07495c06c4e4e391b276b6f723ecad6c3f07 height=198 version=0x20000000 log2_work=8.6366246 tx=199 date='2026-10-29 20:33:50' progress=1.000000 cache=0.0MiB(198txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet 4f1977d191d8eee2d7a0df618d682e6d3276db8930800b8c4f3f2f4ecdd51f5b  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=0eb1b5e1777875f868bb5766606bb011c6ae353b6a01ed6f6f6f807d977aad78 height=199 version=0x20000000 log2_work=8.6438562 tx=200 date='2026-10-29 20:33:50' progress=1.000000 cache=0.0MiB(199txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet e806baf3920a3aee9ec27c807630e32b3699ce01e7b381e7b0fcc7b8a88690f1  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=398a611afefa89d34a5172d879a9b8ce8ff7931f458beeaf4138e6270fc2da69 height=200 version=0x20000000 log2_work=8.6510517 tx=201 date='2026-10-29 20:33:51' progress=1.000000 cache=0.0MiB(200txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet d40625a931548bfeae8fbded6caf2ff5290a2c8b5dbb39a4cc772dac3a63d703  new
+2026-10-29 20:33:16 [worker0-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 170 txs: 0 fees: 0 sigops 100
+2026-10-29 20:33:16 [worker0-N-HTTPServer] UpdateTip: new best=576cb19a713877527bb7e6b5c1118656dd315621dffafa30ebe090540c4e2807 height=201 version=0x20000000 log2_work=8.6582115 tx=202 date='2026-10-29 20:33:51' progress=1.000000 cache=0.0MiB(201txo)
+2026-10-29 20:33:16 [worker0-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:33:16 [worker0-N-HTTPServer] AddToWallet bd5c64419242640c224d9cee6502c43916e911748a1a131c6f10f93d11a3efb4  new
+2026-10-29 20:33:16 [worker2-N-HTTPServer] Verifying last 201 blocks at level 4
+2026-10-29 20:33:16 [worker2-N-HTTPServer] [0%]...[10%]...[20%]...[30%]...[40%]...[DONE].
+2026-10-29 20:33:16 [worker2-N-HTTPServer] No coin database inconsistencies in last 201 blocks (201 transactions)
+2026-10-29 20:34:08 [worker1-N-HTTPServer] keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2026-10-29 20:34:08 [worker1-N-HTTPServer] keypool reserve 1001
+2026-10-29 20:34:08 [worker1-N-HTTPServer] CommitTransaction:
+CTransaction(txid=00a9b1db0e, ver=2, vin.size=1, vout.size=2, nLockTime=201)
+    CTxIn(COutPoint(c64e1ae8d0, 0), scriptSig=4830450221009348fb21fa9c, nSequence=4294967294)
+    CTxOut(nValue=49.91995480, scriptPubKey=76a9148121b32ec4ddbf85d51b5057)
+    CTxOut(nValue=0.08000000, scriptPubKey=76a9141b756f0fbc4865f14d6809dc)
+2026-10-29 20:34:08 [worker1-N-HTTPServer] keypool keep 1001
+2026-10-29 20:34:08 [worker1-N-HTTPServer] AddToWallet 00a9b1db0e76eebf79c5b57eccec3584374033ec3232a7461872d9d643c03c42  new
+2026-10-29 20:34:08 [worker1-N-HTTPServer] AddToWallet 00a9b1db0e76eebf79c5b57eccec3584374033ec3232a7461872d9d643c03c42  
+2026-10-29 20:34:08 [worker1-N-HTTPServer] Relaying wtx 00a9b1db0e76eebf79c5b57eccec3584374033ec3232a7461872d9d643c03c42
+2026-10-29 20:34:09 [worker3-N-HTTPServer] keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2026-10-29 20:34:09 [worker3-N-HTTPServer] keypool reserve 1002
+2026-10-29 20:34:09 [worker3-N-HTTPServer] CommitTransaction:
+CTransaction(txid=0e47ccbae6, ver=2, vin.size=1, vout.size=2, nLockTime=201)
+    CTxIn(COutPoint(f9d7845748, 0), scriptSig=483045022100c9afdaacd4b2, nSequence=4294967294)
+    CTxOut(nValue=0.07000000, scriptPubKey=76a9144a960efd467a273610807fb5)
+    CTxOut(nValue=49.92995480, scriptPubKey=76a914da5e508f43d2fb95c433da0a)
+2026-10-29 20:34:09 [worker3-N-HTTPServer] keypool keep 1002
+2026-10-29 20:34:09 [worker3-N-HTTPServer] AddToWallet 0e47ccbae69a411b79a3ee07ce49416089206d6d457f95bc78c9aa8a2c1ff957  new
+2026-10-29 20:34:09 [worker3-N-HTTPServer] AddToWallet 0e47ccbae69a411b79a3ee07ce49416089206d6d457f95bc78c9aa8a2c1ff957  
+2026-10-29 20:34:09 [worker3-N-HTTPServer] Relaying wtx 0e47ccbae69a411b79a3ee07ce49416089206d6d457f95bc78c9aa8a2c1ff957
+2026-10-29 20:34:09 [worker2-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 622 txs: 2 fees: 9040 sigops 100
+2026-10-29 20:34:09 [worker2-N-HTTPServer] UpdateTip: new best=14d48d615c664cf3bee02f47d75c0b95ce6e5087279b0ac4cbc71cd9a275fc3d height=202 version=0x20000000 log2_work=8.6653359 tx=205 date='2026-10-29 20:34:09' progress=1.000000 cache=0.0MiB(206txo)
+2026-10-29 20:34:09 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:34:09 [worker2-N-HTTPServer] AddToWallet 675a349317c89162ce799a664c13fd732a19a369f3356f480cf980d7fdba879f  new
+2026-10-29 20:34:09 [worker2-N-HTTPServer] AddToWallet 00a9b1db0e76eebf79c5b57eccec3584374033ec3232a7461872d9d643c03c42  update
+2026-10-29 20:34:09 [worker2-N-HTTPServer] AddToWallet 0e47ccbae69a411b79a3ee07ce49416089206d6d457f95bc78c9aa8a2c1ff957  update
+2026-10-29 20:34:11 [worker1-N-HTTPServer] keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2026-10-29 20:34:11 [worker1-N-HTTPServer] keypool reserve 1003
+2026-10-29 20:34:11 [worker1-N-HTTPServer] CommitTransaction:
+CTransaction(txid=9f53e4b491, ver=2, vin.size=1, vout.size=2, nLockTime=202)
+    CTxIn(COutPoint(00a9b1db0e, 0), scriptSig=473044022049da04363fa711, nSequence=4294967294)
+    CTxOut(nValue=0.01250000, scriptPubKey=76a9149d6ca324b2dbb6fb96a55bad)
+    CTxOut(nValue=49.90740960, scriptPubKey=76a914fe4d805e8bfad3e6b02cc256)
+2026-10-29 20:34:11 [worker1-N-HTTPServer] keypool keep 1003
+2026-10-29 20:34:11 [worker1-N-HTTPServer] AddToWallet 9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7  new
+2026-10-29 20:34:11 [worker1-N-HTTPServer] AddToWallet 9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7  
+2026-10-29 20:34:11 [worker1-N-HTTPServer] Relaying wtx 9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7
+2026-10-29 20:34:11 [worker2-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 880 txs: 3 fees: 6520 sigops 100
+2026-10-29 20:34:11 [worker2-N-HTTPServer] UpdateTip: new best=42e9b2a6b3774a3a9a379fe148d92578601269b83887d486912872dc7038fcbd height=203 version=0x20000000 log2_work=8.6724253 tx=209 date='2026-10-29 20:34:11' progress=1.000000 cache=0.0MiB(211txo)
+2026-10-29 20:34:11 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:34:11 [worker2-N-HTTPServer] AddToWallet 122cfcab430b10f8c0ccbfec8fd1f5460cbcef35aaee46c07ea8d1dfcccb2733  new
+2026-10-29 20:34:11 [worker2-N-HTTPServer] AddToWallet 9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7  update
+2026-10-29 20:34:15 [worker1-N-HTTPServer] keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2026-10-29 20:34:15 [worker1-N-HTTPServer] keypool reserve 1004
+2026-10-29 20:34:15 [worker1-N-HTTPServer] CommitTransaction:
+CTransaction(txid=c9bb9b6bef, ver=2, vin.size=1, vout.size=2, nLockTime=203)
+    CTxIn(COutPoint(9f53e4b491, 1), scriptSig=4730440220592684e86b07dc, nSequence=4294967294)
+    CTxOut(nValue=0.01700000, scriptPubKey=76a9143aae131958f37f32815a5e98)
+    CTxOut(nValue=49.89036440, scriptPubKey=76a914b65539a500cbed604626c089)
+2026-10-29 20:34:15 [worker1-N-HTTPServer] keypool keep 1004
+2026-10-29 20:34:15 [worker1-N-HTTPServer] AddToWallet c9bb9b6bef8aa1e0364fd89e5e3964900ef3aa3edfccc88df23680af6817d8d8  new
+2026-10-29 20:34:15 [worker1-N-HTTPServer] AddToWallet c9bb9b6bef8aa1e0364fd89e5e3964900ef3aa3edfccc88df23680af6817d8d8  
+2026-10-29 20:34:15 [worker1-N-HTTPServer] Relaying wtx c9bb9b6bef8aa1e0364fd89e5e3964900ef3aa3edfccc88df23680af6817d8d8
+2026-10-29 20:34:16 [worker2-N-HTTPServer] JournalingBlockAssembler::CreateNewBlock(): total size: 620 txs: 2 fees: 5520 sigops 100
+2026-10-29 20:34:16 [worker2-N-HTTPServer] UpdateTip: new best=50e00092886496666da87f32d4ff92f2e9050d4288cae0a76d1bb159e3720aca height=204 version=0x20000000 log2_work=8.6794801 tx=212 date='2026-10-29 20:34:16' progress=1.000000 cache=0.0MiB(214txo)
+2026-10-29 20:34:16 [worker2-N-HTTPServer] Checking mempool TxDB: found 0 transactions
+2026-10-29 20:34:16 [worker2-N-HTTPServer] AddToWallet d76b511533eb7739ef76c855fdab6a29da17e8b9bd156ef7872173ee231c5446  new
+2026-10-29 20:34:16 [worker2-N-HTTPServer] AddToWallet c9bb9b6bef8aa1e0364fd89e5e3964900ef3aa3edfccc88df23680af6817d8d8  update
+2026-10-29 20:34:17 [worker3-N-HTTPServer] Verifying last 204 blocks at level 4
+2026-10-29 20:34:17 [worker3-N-HTTPServer] [0%]...[10%]...[20%]...[30%]...[40%]...[DONE].
+2026-10-29 20:34:18 [worker3-N-HTTPServer] No coin database inconsistencies in last 204 blocks (211 transactions)
+2026-10-29 20:34:51 [worker3-N-HTTPServer] Verifying last 204 blocks at level 4
+2026-10-29 20:34:51 [worker3-N-HTTPServer] [0%]...[10%]...[20%]...[30%]...[40%]...[DONE].
+2026-10-29 20:34:51 [worker3-N-HTTPServer] No coin database inconsistencies in last 204 blocks (211 transactions)

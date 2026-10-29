@@ -1,0 +1,5 @@
+{
+  "label": "Controlled valid-chain shop",
+  "address": "1M9gyp1wqdkYKLAaTbSxE2BRD4G3SZhTkK",
+  "context": "simulated checkout address; raw locking script is identical across address encodings"
+}

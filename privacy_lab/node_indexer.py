@@ -20,7 +20,7 @@ class NodeRPC:
 
     def __call__(self,method,*params):
         values=[json.dumps(p,separators=(",",":")) if not isinstance(p,str) else p for p in params]
-        r=subprocess.run(["docker","exec",self.container,"bitcoin-cli","-datadir=/data",method,*values],text=True,capture_output=True)
+        r=subprocess.run(["docker","exec",self.container,"bitcoin-cli","-datadir=/data",method,*values],text=True,capture_output=True,timeout=60)
         if r.returncode:
             raise RuntimeError(f"node {method}: {r.stderr.strip()}")
         try:return json.loads(r.stdout)

@@ -1,0 +1,28 @@
+2026-10-29 20:32:45 [main] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-10-29 20:32:45 [main] Bitcoin SV version v1.2.3
+2026-10-29 20:32:45 [main] InitParameterInteraction: parameter interaction: -listen=0 -> setting -upnp=0
+2026-10-29 20:32:45 [main] InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2026-10-29 20:32:45 [main] Using -maxcoinsdbfiles=8192 (default: 8192)
+2026-10-29 20:32:45 [main] Validating signatures for all blocks.
+2026-10-29 20:32:45 [main] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-29 20:32:45 [main] Error: -maxparallelblocksperpeer: Max parallel tasks per node count must be at least 1 and at most maxParallelBlocks
+Error: -maxparallelblocksperpeer: Max parallel tasks per node count must be at least 1 and at most maxParallelBlocks

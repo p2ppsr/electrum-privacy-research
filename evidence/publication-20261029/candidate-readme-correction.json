@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-29T20:29:18.747Z",
+  "url": "https://api.github.com/repos/repnettools/electrumrx/contents/README.rst",
+  "isError": false,
+  "result": {
+    "content": ".. image:: https://api.cirrus-ci.com/github/spesmilo/electrumx.svg?branch=master\n    :target: https://cirrus-ci.com/github/spesmilo/electrumx\n.. image:: https://coveralls.io/repos/github/spesmilo/electrumx/badge.svg\n    :target: https://coveralls.io/github/spesmilo/electrumx\n\n===============================================\nElectrumX - Reimplementation of electrum-server\n===============================================\n\n  :Licence: MIT\n  :Language: Python (>= 3.8)\n  :Original Author: Neil Booth\n\nThis project is a fork of `kyuupichan/electrumx <https://github.com/kyuupichan/electrumx>`_.\nThe original author dropped support for Bitcoin, which we intend to keep.\n\nElectrumX allows users to run their own Electrum server. It connects to your\nfull node and indexes the blockchain, allowing efficient querying of the history of\narbitrary addresses. The server can be exposed publicly, and joined to the public network\nof servers via peer discovery. As of May 2020, a significant chunk of the public\nElectrum server network runs ElectrumX.\n\nDocumentation\n=============\n\nSee `readthedocs <https://electrumx-spesmilo.readthedocs.io/>`_.\n\n",
+    "title": "README.rst",
+    "modified_date": null,
+    "url": "https://api.github.com/repos/repnettools/electrumrx/contents/README.rst",
+    "display_url": "https://api.github.com/repos/repnettools/electrumrx/contents/README.rst",
+    "display_title": "README.rst",
+    "structuredContent": {
+      "title": "README.rst",
+      "content": ".. image:: https://api.cirrus-ci.com/github/spesmilo/electrumx.svg?branch=master\n    :target: https://cirrus-ci.com/github/spesmilo/electrumx\n.. image:: https://coveralls.io/repos/github/spesmilo/electrumx/badge.svg\n    :target: https://coveralls.io/github/spesmilo/electrumx\n\n===============================================\nElectrumX - Reimplementation of electrum-server\n===============================================\n\n  :Licence: MIT\n  :Language: Python (>= 3.8)\n  :Original Author: Neil Booth\n\nThis project is a fork of `kyuupichan/electrumx <https://github.com/kyuupichan/electrumx>`_.\nThe original author dropped support for Bitcoin, which we intend to keep.\n\nElectrumX allows users to run their own Electrum server. It connects to your\nfull node and indexes the blockchain, allowing efficient querying of the history of\narbitrary addresses. The server can be exposed publicly, and joined to the public network\nof servers via peer discovery. As of May 2020, a significant chunk of the public\nElectrum server network runs ElectrumX.\n\nDocumentation\n=============\n\nSee `readthedocs <https://electrumx-spesmilo.readthedocs.io/>`_.\n\n",
+      "display_url": "https://api.github.com/repos/repnettools/electrumrx/contents/README.rst"
+    }
+  },
+  "collector_correction": "The earlier metadata collector attempted JSON.parse on a successful plaintext file response. The rejected collector row does not establish a failed source lookup. Actual README.rst fetch succeeded; README.md was a wrong guessed path."
+}

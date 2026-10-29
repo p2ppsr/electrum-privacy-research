@@ -1,0 +1,123 @@
+[
+  {
+    "utc": "2026-10-29T20:34:07.266603+00:00",
+    "phase": "node-and-observers-ready",
+    "node_version": "/Bitcoin SV:1.2.3/",
+    "node_height": 201,
+    "observer_ports": [
+      60469,
+      60470
+    ]
+  },
+  {
+    "utc": "2026-10-29T20:34:08.868987+00:00",
+    "phase": "three-wallets-disclosed-before-payments",
+    "initial_identifiers_per_wallet": 40,
+    "checkout_address_count": 1
+  },
+  {
+    "utc": "2026-10-29T20:34:10.905795+00:00",
+    "phase": "real-funding-confirmed",
+    "funding_txids": [
+      "00a9b1db0e76eebf79c5b57eccec3584374033ec3232a7461872d9d643c03c42",
+      "0e47ccbae69a411b79a3ee07ce49416089206d6d457f95bc78c9aa8a2c1ff957"
+    ]
+  },
+  {
+    "utc": "2026-10-29T20:34:13.211495+00:00",
+    "phase": "three-fresh-shop-addresses-paid-and-confirmed",
+    "incoming": [
+      "e8965c979ced39358f39c3ca4b0c6fccfe03e8dbc30b1cd21d455142b5000c2d",
+      "a8ad93760fa580b573c43c81a60435d209b3d1ee3c888bfb0f8002c2d5095f56",
+      "9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7"
+    ],
+    "shop": {
+      "balance_sats": 7750000,
+      "responses": 43,
+      "main_port": 60469,
+      "proofs": [
+        {
+          "txid": "e8965c979ced39358f39c3ca4b0c6fccfe03e8dbc30b1cd21d455142b5000c2d",
+          "height": 203,
+          "confirmations": 1,
+          "proof_stored": true
+        },
+        {
+          "txid": "a8ad93760fa580b573c43c81a60435d209b3d1ee3c888bfb0f8002c2d5095f56",
+          "height": 203,
+          "confirmations": 1,
+          "proof_stored": true
+        },
+        {
+          "txid": "9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7",
+          "height": 203,
+          "confirmations": 1,
+          "proof_stored": true
+        }
+      ],
+      "active_script_count": 43,
+      "status": "PASS"
+    }
+  },
+  {
+    "utc": "2026-10-29T20:34:15.506378+00:00",
+    "phase": "full-departure-from-observer-A",
+    "migration_sequence": 797,
+    "main_and_helper_move": {
+      "server_port": 60470,
+      "helper_explicitly_moved": true,
+      "status": "PASS"
+    }
+  },
+  {
+    "utc": "2026-10-29T20:34:17.308863+00:00",
+    "phase": "post-departure-receipt-spend-and-confirmations",
+    "later_receipt": "c9bb9b6bef8aa1e0364fd89e5e3964900ef3aa3edfccc88df23680af6817d8d8",
+    "outgoing": "1c62ae92479dc72c1ad9b580f1be2ef59b1109c79b530cd465e816056d03b1e2",
+    "shop": {
+      "balance_sats": 8349000,
+      "responses": 52,
+      "main_port": 60470,
+      "proofs": [
+        {
+          "txid": "e8965c979ced39358f39c3ca4b0c6fccfe03e8dbc30b1cd21d455142b5000c2d",
+          "height": 203,
+          "confirmations": 2,
+          "proof_stored": true
+        },
+        {
+          "txid": "a8ad93760fa580b573c43c81a60435d209b3d1ee3c888bfb0f8002c2d5095f56",
+          "height": 203,
+          "confirmations": 2,
+          "proof_stored": true
+        },
+        {
+          "txid": "9f53e4b49134c179074f154a3cffc548137d9dc3e6a2a134957b5fa926b77ab7",
+          "height": 203,
+          "confirmations": 2,
+          "proof_stored": true
+        },
+        {
+          "txid": "c9bb9b6bef8aa1e0364fd89e5e3964900ef3aa3edfccc88df23680af6817d8d8",
+          "height": 204,
+          "confirmations": 1,
+          "proof_stored": true
+        },
+        {
+          "txid": "1c62ae92479dc72c1ad9b580f1be2ef59b1109c79b530cd465e816056d03b1e2",
+          "height": 204,
+          "confirmations": 1,
+          "proof_stored": true
+        }
+      ],
+      "active_script_count": 52,
+      "status": "PASS"
+    }
+  },
+  {
+    "utc": "2026-10-29T20:34:18.178708+00:00",
+    "phase": "PASS",
+    "gross_sats": 9450000,
+    "remaining_sats": 8349000
+  }
+]

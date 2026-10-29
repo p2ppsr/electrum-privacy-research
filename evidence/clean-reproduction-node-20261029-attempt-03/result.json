@@ -1,0 +1,9 @@
+{
+  "image": "bitcoinsv/bitcoin-sv@sha256:d96fe4786a00e5fc10bc9e0e76a6006376f9472d4eb74d07e4c1e0d019493d33",
+  "container": "electrum-privacy-bsv-20261029",
+  "internal_network": "electrum-privacy-lab-20261029",
+  "mined_blocks": 201,
+  "height": 201,
+  "peers": 0,
+  "verifychain": true
+}
