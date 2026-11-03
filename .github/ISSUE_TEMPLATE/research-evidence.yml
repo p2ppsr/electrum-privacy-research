@@ -10,7 +10,7 @@ body:
     id: reference
     attributes:
       label: Claim or question
-      description: Reference C01–C18, OQ01–OQ14, or describe a new topic.
+      description: Reference C01–C25, OQ01–OQ16, or describe a new topic.
     validations:
       required: true
   - type: dropdown

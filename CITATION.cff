@@ -4,10 +4,12 @@ title: "Electrum Wallet Privacy: Default Disclosure, Persistent Correlation and 
 type: software
 authors:
   - name: "Peer-to-peer Privacy Systems Research, LLC."
-version: "0.1.0"
+version: "0.2.0"
 license: Apache-2.0
 repository-code: "https://github.com/p2ppsr/electrum-privacy-research"
 abstract: >-
   Reproducible research combining source review, controlled wallet
   observations, financial-correlation demonstrations and disclosure analysis.
-  Experimental scope and unsupported claims are recorded in the claim ledger.
+  Includes dated public-response analysis, default-risk decisions and ecosystem
+  accountability questions. Experimental scope, attributed statements and
+  unsupported claims are recorded separately in the claim ledger.

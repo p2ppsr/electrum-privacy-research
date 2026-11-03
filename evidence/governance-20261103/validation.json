@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T18:59:19.762840+00:00",
+  "scope": "Documentation/public-record revision; no new wallet or live endpoint experiment",
+  "validation": {
+    "existing_unit_tests": 11,
+    "offline_evidence_verifiers": "PASS",
+    "claims": "25 entries generated and checked",
+    "questions": "16 stable anchors; root Markdown anchors checked",
+    "historical_experimental_files_changed": false,
+    "clean_staged_export_validation": "PASS under system Python3",
+    "public_staged_export_secret_scan": "PASS; gitleaks dir, exit 0, no findings"
+  },
+  "scan_attempts": [
+    {
+      "scope": "Whole local working directory including ignored runtime/dependencies",
+      "outcome": "Canceled with SIGTERM (143) before completion; not a passed scan or finding"
+    },
+    {
+      "scope": "Only staged public export, excluding ignored runtime",
+      "outcome": "PASS"
+    }
+  ],
+  "limits": [
+    "Public metadata/source checks and attributed statements do not independently validate unpublished fixes.",
+    "X retrieval returned 403; researcher account remains attributed.",
+    "Final payload is regenerated and rechecked after recording this receipt."
+  ]
+}

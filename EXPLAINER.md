@@ -12,6 +12,8 @@ Payments to other addresses in that collection can now be associated with Mei's 
 
 Mei is fictional. This explainer describes what a covert operator could collect, not evidence that a particular public service has done so. The research examined ElectrumSVP 0.2.0 and controlled wallet sessions on October 28–29, 2026. [What was tested](#what-we-demonstrated).
 
+**November 3 update:** these consequences are now part of a public technical discussion. Knowing that a risk is inherent in the protocol does not tell an ordinary user who can save their information or what limits apply. The maintainer acknowledges query visibility and reports future changes; public source and release status are tracked separately from those claims. [Known risks, responsibility and open questions](ACCOUNTABILITY.md) · [Dated disclosure and remediation record](DISCLOSURE-TIMELINE.md).
+
 ## How one address opens a wider view
 
 An address is where a customer sends a payment. Its fingerprint is a stable identifier the service can match to blockchain records. The wallet sends several fingerprints through the same connection, so the service learns that they are being checked together.

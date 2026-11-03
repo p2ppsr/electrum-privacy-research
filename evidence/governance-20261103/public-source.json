@@ -1,0 +1,48 @@
+{
+  "review_date": "2026-11-03",
+  "scope": "Source only at pinned public master; not new binary qualification",
+  "sources": [
+    {
+      "path": "electrumsv/network.py",
+      "ref": "35b92ec9ddb7575d453e35ed018fe106d9169b54",
+      "git_blob_sha": "7dd39f52c4375ea93a07bf750727b1bc1a5ac15e",
+      "file_sha256_utf8": "27a32b2d875f12584d94a5f5448b452a00771750d5dffb386e2314263aff6f59",
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/network.py#L296-L308",
+      "first_line": 296,
+      "last_line": 308,
+      "excerpt": "    def _sslc(self):\n        if self.protocol != 's':\n            return None\n        return ssl.SSLContext(ssl.PROTOCOL_TLS)\n\n    def _connector(self, session_factory, proxy):\n        return connect_rs(\n            self.host,\n            self.port,\n            proxy=proxy,\n            session_factory=session_factory,\n            ssl=self._sslc()\n        )"
+    },
+    {
+      "path": "electrumsv/verification_utils.py",
+      "ref": "35b92ec9ddb7575d453e35ed018fe106d9169b54",
+      "git_blob_sha": "c899c2137c5ad2bc6ad4be33b4a1af275ca3728f",
+      "file_sha256_utf8": "95f5be4bc70457b2152a1f8066b9970a310025663f6f9e814554b665ab4fb18e",
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/verification_utils.py#L335-L405",
+      "first_line": 335,
+      "last_line": 405,
+      "excerpt": "\ndef electrum_request(method, params, servers=None):\n    import socks\n    from concurrent.futures import ThreadPoolExecutor, as_completed\n\n    if servers is None:\n        servers = SERVERS\n\n    clean_params = [\n        p.hex() if isinstance(p, bytes) else p.lower() if isinstance(p, str) else p\n        for p in params\n    ]\n\n    server_items = list(servers.items())\n    random.shuffle(server_items)\n\n    use_tor = (\n        os.path.exists(\"/etc/os-release\")\n        and \"TAILS\" in open(\"/etc/os-release\").read().upper()\n    )\n\n    tor_proxy = (\"127.0.0.1\", 9050)\n\n    if not use_tor:\n        try:\n            with socket.create_connection(tor_proxy, timeout=1):\n                use_tor = True\n        except Exception:\n            pass\n\n    def try_server(item):\n        host, info = item\n        port = info.get(\"s\")\n\n        if not port:\n            return None\n\n        sock = None\n        ssock = None\n        attempt_start = time.perf_counter()\n\n        try:\n            req = {\n                \"id\": 0,\n                \"method\": method,\n                \"params\": clean_params,\n            }\n\n            msg = (json.dumps(req) + \"\\n\").encode()\n\n            if use_tor:\n                sock = socks.socksocket()\n                sock.set_proxy(\n                    socks.SOCKS5,\n                    tor_proxy[0],\n                    tor_proxy[1],\n                )\n                sock.settimeout(TIMEOUT)\n                sock.connect((host, port))\n            else:\n                sock = socket.create_connection(\n                    (host, port),\n                    timeout=TIMEOUT,\n                )\n\n            context = ssl._create_unverified_context()\n\n            ssock = context.wrap_socket(\n                sock,\n                server_hostname=host,\n            )"
+    },
+    {
+      "path": "electrumsv/wallet.py",
+      "ref": "35b92ec9ddb7575d453e35ed018fe106d9169b54",
+      "git_blob_sha": "d892a92af3aee93e860544044d3ec08890b0718d",
+      "file_sha256_utf8": "87ba55c8c764127a022c9da06b6f0fbd1b47ae489742734c2806c3d158e3fe38",
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/wallet.py#L878-L946",
+      "first_line": 878,
+      "last_line": 946,
+      "excerpt": "    def get_spendable_coins(self, domain: Optional[List[int]], config) -> List[UTXO]:\n        \"\"\"\n        Return spendable UTXOs for this account.\n        Respects:\n            - Coin-level frozen state (exclude_frozen=True)\n            - Key-level frozen state (exclude UTXOs whose keys are frozen)\n            - Maturity\n            - Confirmed-only setting from config\n        \"\"\"\n        confirmed_only = config.get('confirmed_only', False)\n        # Include all UTXOs that are spendable according to coin-level rules\n        utxos = self.get_utxos(exclude_frozen=True, mature=True, confirmed_only=confirmed_only)\n\n        # Filter out UTXOs whose keys are frozen\n        utxos = [utxo for utxo in utxos if not self.is_frozen_key(utxo.keyinstance_id)]\n\n        # If a subset of keys is requested, filter further\n        if domain is not None:\n            utxos = [utxo for utxo in utxos if utxo.keyinstance_id in domain]\n\n        return utxos\n\n\n    def get_utxos(self, exclude_frozen=False, mature=False, confirmed_only=False) -> List[UTXO]:\n        '''Note exclude_frozen=True checks for coin-level frozen status. '''\n        mempool_height = self._wallet.get_local_height() + 1\n        def is_spendable_utxo(utxo):\n            metadata = self.get_transaction_metadata(utxo.tx_hash)\n            if exclude_frozen and self.is_frozen_utxo(utxo):\n                return False\n            if confirmed_only and metadata.height <= 0:\n                return False\n            # A coin is spendable at height + COINBASE_MATURITY)\n            if mature and utxo.is_coinbase and \\\n                    mempool_height < metadata.height + COINBASE_MATURITY:\n                return False\n            return True\n        with self._utxos_lock:\n            return [ utxo for utxo in self._utxos.values() if is_spendable_utxo(utxo)]\n\n    def existing_active_keys(self) -> List[int]:\n        with self._activated_keys_lock:\n            self._activated_keys = []\n            return [ key_id for (key_id, key) in self._keyinstances.items()\n                if key.flags & KeyInstanceFlag.IS_ACTIVE ]\n\n    def get_frozen_balance(self) -> Tuple[int, int, int]:\n        with self._utxos_lock:\n            return self.get_balance(self._frozen_coins)\n\n    def get_balance(self, domain=None, exclude_frozen_coins: bool=False) -> Tuple[int, int, int]:\n        with self._utxos_lock:\n            if domain is None:\n                domain = set(self._utxos.keys())\n            c = u = x = 0\n            for k in domain:\n                if exclude_frozen_coins and k in self._frozen_coins:\n                    continue\n                o = self._utxos[k]\n                metadata = cast(TxData, self.get_transaction_metadata(o.tx_hash))\n                metadata_height = cast(int, metadata.height)\n                if o.is_coinbase and metadata_height + COINBASE_MATURITY > \\\n                        self._wallet.get_local_height():\n                    x += o.value\n                elif metadata_height > 0:\n                    c += o.value\n                else:\n                    u += o.value\n            return c, u, x"
+    },
+    {
+      "path": "electrumsv/gui/qt/main_window.py",
+      "ref": "35b92ec9ddb7575d453e35ed018fe106d9169b54",
+      "git_blob_sha": "e46a816997631d2ddb99dba346a89829e68e5f5b",
+      "file_sha256_utf8": "3733f6d8f3d96eb1bd6df9af0b90268b128ceabc0f6118a33eb93fdf9c4cff8e",
+      "url": "https://github.com/TruthMachine/ElectrumSVP/blob/35b92ec9ddb7575d453e35ed018fe106d9169b54/electrumsv/gui/qt/main_window.py#L2028-L2037",
+      "first_line": 2028,
+      "last_line": 2037,
+      "excerpt": "    def set_status_bar_balance(self, shown: bool) -> None:\n        if shown:\n            balance = 0\n            for account in self._wallet.get_accounts():\n                c, u, x = account.get_balance()\n                balance += c\n            bsv_status, fiat_status = app_state.get_amount_and_units(balance)\n        else:\n            bsv_status, fiat_status = _(\"Unknown\"), None\n        self._status_bar.set_balance_status(bsv_status, fiat_status)"
+    }
+  ],
+  "receipt_recorded_at_utc": "2026-11-03T18:56:23.233331+00:00",
+  "retrieved_on": "2026-11-03"
+}

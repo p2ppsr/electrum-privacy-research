@@ -88,3 +88,19 @@ The main experiment and nine-host tables remain pinned to released **0.2.0**. Th
 | Observed master `35b92ec9` | 8 / 8 / 8 | 8 | 5/8 in core, helper and union | 4 |
 
 Master comments out `electrum.server.sv`, adds `sv3.satoshi.io` to core and adds Bitails to the helper. Its core and helper lists therefore coincide. The concentration and surveillance mechanisms remain relevant, while exact version counts must not be mixed. No newer-master runtime experiment or packaged-binary qualification was performed in this follow-up. Relevant public source changes do not constitute an observed privacy disclosure or a remedy for retained-data correlation.
+
+## November 3 public-response assessment
+
+The [new public response](https://github.com/TruthMachine/ElectrumSVP/issues/21#issuecomment-6540727570) adds explicit awareness of query grouping and financial profiling, describes existing privacy features, acknowledges unverified helper TLS, reports operator contact and announces local changes. It is stronger evidence of technical awareness than the earlier bounded review. It does not measure consumer understanding or demonstrate the announced implementation. The [dated receipt](evidence/governance-20261103/public-record.json) and [timeline](DISCLOSURE-TIMELINE.md) distinguish statements, source and shipped behavior. Earlier no-outreach statements describe this repository's collection work at that time; a later encrypted report and public exchange are now recorded.
+
+| Public response topic | Research assessment | Still open |
+| --- | --- | --- |
+| Merkle proofs and lack of demonstrated coin theft | Agreed: valid inclusion against trusted headers and private-key custody have distinct integrity boundaries; no automatic theft was shown | Query confidentiality, retention, omission and misleading displays are not resolved by inclusion proofs |
+| Protocol behavior is known | The study does not claim discovery of Electrum query grouping as a novel protocol weakness | Implementation/default/package evidence, enduring observation and accessible risk disclosure remain useful even for a known architectural exposure |
+| Fresh addresses and shop correlation | Our shop uses different receiving addresses. One address labels a group already learned through a wallet session; this is additional information beyond public address reuse | Whether coin control, output splitting or decoys mitigate this observer needs explicit measurement |
+| Tor and TAILS | Our test identified arbitrary proxy-setting separation; local Tor detection already existed. No blanket Tor/TAILS leak was demonstrated | Complete route coverage, failure behavior and accurate GUI assurance, including claimed unpublished changes |
+| TLS compatibility and operator contact | Reported contact is evidence of a coordination claim, not proof no coordination exists | Reproducible compatibility matrix, authenticated defaults and audit of all helper paths |
+| Balance and coinbase/CPFP fixes | Maintainer reports enforcing verified state in local code and passing tests | Published changes, official artifact tests and a targeted forged-height GUI reproduction |
+| Privacy policies and accountability | Query visibility is acknowledged | Named recipients, source/build provenance and attributable, auditable data-access/retention/sharing commitments covering every route |
+
+The researcher's reported hostile treatment is recorded as an attributed account in [the timeline](DISCLOSURE-TIMELINE.md#reported-treatment-and-inaccessible-evidence). The linked X thread returned 403 to the retrieval tool; no unobserved quotations or motives are asserted. Disagreement about novelty or severity does not refute the controlled capabilities. Acknowledged and claimed improvements should receive credit and a clear verification status.

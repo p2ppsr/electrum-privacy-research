@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-29",
-  "publication_status": "Research release 0.1.0; open review invited",
+  "updated_on": "2026-11-03",
+  "publication_status": "Public research revision 0.2.0; ongoing open review",
   "claims": [
     {
       "id": "C01",
@@ -163,7 +163,8 @@
         "evidence/trust-model-20261028/source-receipts.json",
         "DISCLOSURE-AUDIT.md",
         "MITIGATIONS.md",
-        "evidence/proxy-boundary-attempt-04/result.json"
+        "evidence/proxy-boundary-attempt-04/result.json",
+        "DISCLOSURE-TIMELINE.md"
       ],
       "limits": "Environment proxies and platform routing can separately affect traffic; no universal anonymity-leak measurement yet.",
       "open_questions": [
@@ -180,7 +181,8 @@
         "evidence/ownership-20261028/tls-certificates.json",
         "CERTIFICATES.md",
         "evidence/tls-source-20261029-attempt-03/result.json",
-        "evidence/tls-packaged-20261029-attempt-04/result.json"
+        "evidence/tls-packaged-20261029-attempt-04/result.json",
+        "DISCLOSURE-TIMELINE.md"
       ],
       "limits": "Controlled selected frontend, not public DNS/network redirection; no passive TLS decryption or arbitrary confirmed-state bypass proved.",
       "open_questions": [
@@ -227,11 +229,12 @@
       "id": "C14",
       "claim": "Matching public ElectrumR implementation source/build was not obtained.",
       "classification": "bounded discovery finding",
-      "scope": "Recorded public/authenticated discovery and official documented source URL, October 28.",
+      "scope": "Recorded bounded discovery October 28\u201329, plus documented-source URL refresh November 3.",
       "evidence": [
         "evidence/server-sources-20261028/",
         "evidence/provenance-20261028/source-discovery.json",
-        "evidence/publication-20261029/github-refresh.json"
+        "evidence/publication-20261029/github-refresh.json",
+        "evidence/governance-20261103/public-record.json"
       ],
       "limits": "A 404 does not prove proprietary licensing, deletion, actual retention or lack of every possible archive.",
       "open_questions": [
@@ -273,12 +276,13 @@
       "id": "C17",
       "claim": "Reviewed consumer disclosure incompletely explains the wider profiling consequences; some public technical risk awareness exists.",
       "classification": "bounded discovery finding",
-      "scope": "92 English source/docs files, 18 manual receipts, six public pages and selected public discussions.",
+      "scope": "92 English source/docs files, 18 manual receipts, six public pages and selected public discussions. November 3 public-response review supplements technical-awareness evidence.",
       "evidence": [
         "DISCLOSURE-AUDIT.md",
         "evidence/disclosure-audit-20261028/",
         "PACKAGED-WALLET.md",
-        "evidence/packaged-gui-attempt-01/result.json"
+        "evidence/packaged-gui-attempt-01/result.json",
+        "evidence/governance-20261103/public-record.json"
       ],
       "limits": "User comprehension was not measured; no proof of deliberate concealment or universal ignorance.",
       "open_questions": [
@@ -298,6 +302,119 @@
       "limits": "Not an uptime SLA, global outage determination, archival completeness or deployed-build attestation.",
       "open_questions": [
         "OQ04",
+        "OQ14"
+      ]
+    },
+    {
+      "id": "C19",
+      "claim": "November 3 public master still contains the reviewed unauthenticated TLS paths and height-based balance code; latest-release API returns v0.2.0.",
+      "classification": "public source/publication observation",
+      "scope": "Pinned public master 35b92ec9 and GitHub latest-release metadata; no new runtime experiment.",
+      "evidence": [
+        "evidence/governance-20261103/public-record.json",
+        "evidence/governance-20261103/public-source.json",
+        "DISCLOSURE-TIMELINE.md"
+      ],
+      "limits": "Unpublished work may exist. Latest-release metadata is not a survey of every branch, prerelease or distribution channel.",
+      "open_questions": [
+        "OQ05",
+        "OQ11",
+        "OQ14"
+      ]
+    },
+    {
+      "id": "C20",
+      "claim": "The maintainer announces stricter TLS as a future option initially disabled by default.",
+      "classification": "attributed public statement",
+      "scope": "Issue #21 maintainer reply, October 31 UTC / October 30 PDT.",
+      "evidence": [
+        "evidence/governance-20261103/public-record.json",
+        "CERTIFICATES.md"
+      ],
+      "limits": "Implementation, complete path coverage and later shipping/default behavior have not been independently verified.",
+      "open_questions": [
+        "OQ05",
+        "OQ16",
+        "OQ12"
+      ]
+    },
+    {
+      "id": "C21",
+      "claim": "The maintainer reports local verified-state balance/coinbase/CPFP changes and helper custom-proxy inheritance with local tests.",
+      "classification": "attributed public statement",
+      "scope": "Issue #21 reply; claimed changes described as unpublished.",
+      "evidence": [
+        "evidence/governance-20261103/public-record.json",
+        "DISCLOSURE-TIMELINE.md",
+        "MITIGATIONS.md"
+      ],
+      "limits": "No reproduction of those changes; historical tests remain specific to the examined release. No blanket Tor/TAILS bypass was demonstrated.",
+      "open_questions": [
+        "OQ06",
+        "OQ11",
+        "OQ14"
+      ]
+    },
+    {
+      "id": "C22",
+      "claim": "The maintainer reports satoshi.io operator contact, substantial infrastructure responsibility and Rust server development.",
+      "classification": "attributed public statement",
+      "scope": "Issue #21 reply; record of reported coordination.",
+      "evidence": [
+        "evidence/governance-20261103/public-record.json",
+        "ACCOUNTABILITY.md"
+      ],
+      "limits": "Not independent ownership, common-administration, migration, source or deployment attestation; no inference that coordination is absent.",
+      "open_questions": [
+        "OQ03",
+        "OQ02",
+        "OQ04",
+        "OQ16"
+      ]
+    },
+    {
+      "id": "C23",
+      "claim": "The newer public response acknowledges query grouping and financial profiling as privacy considerations.",
+      "classification": "public discussion observation",
+      "scope": "Issue #21 maintainer reply supplements earlier technical-awareness evidence.",
+      "evidence": [
+        "evidence/governance-20261103/public-record.json",
+        "DISCLOSURE-AUDIT.md"
+      ],
+      "limits": "Acknowledgment does not measure consumer understanding, establish adequate disclosure or prove implemented privacy protection. No novelty claim is necessary for the controlled capability.",
+      "open_questions": [
+        "OQ12",
+        "OQ10",
+        "OQ13"
+      ]
+    },
+    {
+      "id": "C24",
+      "claim": "GitHub records an encrypted report, reporter plaintext and later maintainer response; exact reported attacks and preceding X disclosure sequence remain unverified here.",
+      "classification": "publication observation and attributed researcher account",
+      "scope": "Issue #21 metadata/comments; November 3 X retrieval failed with 403.",
+      "evidence": [
+        "evidence/governance-20261103/public-record.json",
+        "DISCLOSURE-TIMELINE.md"
+      ],
+      "limits": "Earlier #19 already publicly discussed certificate authentication. Failed retrieval does not prove removal; private agreements and motives are not inferred.",
+      "open_questions": [
+        "OQ15"
+      ]
+    },
+    {
+      "id": "C25",
+      "claim": "Reviewed balance calculation counts positive stored height without requiring verified proof state in that calculation.",
+      "classification": "source-derived integrity concern",
+      "scope": "Release and public master source; server history populates height separately from proof acquisition.",
+      "evidence": [
+        "evidence/governance-20261103/public-source.json",
+        "CERTIFICATES.md",
+        "evidence/fixture-attempt-04/run.json"
+      ],
+      "limits": "Precise forged-height GUI exploit remains unperformed. Fictional unconfirmed-funding fixture required a deliberate send and did not prove direct theft or valid real-chain spending. Claimed local correction remains unverified.",
+      "open_questions": [
+        "OQ11",
         "OQ14"
       ]
     }

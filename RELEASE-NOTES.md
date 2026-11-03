@@ -1,4 +1,12 @@
-# Research release 0.1.0
+# Research revision 0.2.0 — November 3, 2026
+
+This public update adds [default-risk and ecosystem accountability analysis](ACCOUNTABILITY.md), a [disclosure/remediation timeline](DISCLOSURE-TIMELINE.md), seven new claim entries (C19–C25), and prioritized questions with stable existing IDs plus OQ15/OQ16. README and the shopkeeper explainer now surface current privacy consequences, known risks and review responsibilities. Authentication, proof-gated accounting, privacy, retention and signing remain distinct properties.
+
+The new [public-record](evidence/governance-20261103/public-record.json) and [pinned-source](evidence/governance-20261103/public-source.json) receipts support the November 3 refresh. Public master remains `35b92ec9`; latest-release API returns v0.2.0. The maintainer's planned optional stricter TLS, local integrity/proxy fixes and reported operator coordination are attributed statements awaiting independent verification. No new runtime or endpoint-liveness results are claimed. The inaccessible X thread and reported treatment are explicitly scoped; earlier public awareness is preserved. Original experiments, failures and v0.1.0 remain unchanged.
+
+The repository was already public when this update began. This supersedes historical descriptions of its then-private visibility; the exact date it became public was not established by this update. Review continues through Issues and pull requests, without further private outreach, right-of-reply requirements or advance approval. Original work remains Apache-2.0, © Peer-to-peer Privacy Systems Research, LLC.; third-party statements retain their own attribution boundaries. This revision is identified by its commit on main; no GitHub Release or new tag is required to read it.
+
+# Research release 0.1.0 — historical snapshot
 
 This release contains the claim-to-evidence ledger, plain-English shopkeeper explainer, diagrams, versioned source and infrastructure observations, official macOS wallet capture, valid-chain shop/departure demonstration, certificate matrix, routing tests and reproduction tools. The underlying observations were collected October 28–29, 2026.
 

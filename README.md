@@ -1,8 +1,14 @@
 # Electrum privacy research
 
-**Research release 0.1.0 — observations collected October 28–29, 2026.** What can a serving operator retain and correlate when people use ElectrumSVP 0.2.0? This studies technical capability, independently of logging defaults or retention promises. It does not establish actual surveillance by a named service.
+**Public research revision 0.2.0 — November 3, 2026.** Experiments collected October 28–29 examine what an operator can retain during ordinary ElectrumSVP 0.2.0 use. This update examines known privacy risks, security tradeoffs and accountability. Capability is assessed independently of logging defaults or retention promises; actual surveillance by a named service is not established.
 
 Start with **[the plain-English shopkeeper story](EXPLAINER.md)**: one checkout address can name a wider wallet-associated profile; changing servers cannot revoke identifiers already disclosed.
+
+**What users and reviewers need to know:** default queries enable lasting financial observation without exposing spending keys. Inclusion proofs do not conceal queries or prevent retention. Fresh addresses do not remove grouping already disclosed to a service. Unauthenticated TLS additionally allows a capable active intermediary to obtain that service's visibility; passive capture alone cannot decrypt it.
+
+**Known risks and claimed remediation:** the [public maintainer response](https://github.com/TruthMachine/ElectrumSVP/issues/21#issuecomment-6540727570) acknowledges query visibility, proposes stricter TLS initially disabled by default, and reports unpublished integrity/proxy fixes and operator contact. On November 3, public master still contains the reviewed unauthenticated core/helper paths and latest release remains v0.2.0. Those local changes have not been independently tested. See [dated evidence and status](DISCLOSURE-TIMELINE.md); optional authentication, if shipped as described, would leave default exposure in place.
+
+**Start the accountability review here:** [who controls and receives the data](ACCOUNTABILITY.md), [the highest-priority unanswered questions](OPEN-QUESTIONS.md), and [what was reported, acknowledged, claimed and released](DISCLOSURE-TIMELINE.md). The central questions are who accepts default risks, what users are told before disclosure, and which operator/source/retention commitments can be verified. These are governance and ecosystem dependencies as well as technical issues. No inference of bad intent, actual pooling or an impossibility of future privacy commitments is needed to identify those gaps.
 
 | Completed experiment | Result and scope |
 | --- | --- |

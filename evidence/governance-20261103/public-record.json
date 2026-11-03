@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-11-03",
+  "method": "Read-only GitHub connector GETs; summaries and hashes, not full third-party comment redistribution. Timestamps are API metadata; no private messages read or sent.",
+  "issues": [
+    {
+      "number": 19,
+      "html_url": "https://github.com/TruthMachine/ElectrumSVP/issues/19",
+      "title": "Security review of v0.2.0 \u2014 four easy fixes (PR #18) + three larger findings",
+      "state": "closed",
+      "state_reason": "completed",
+      "created_at": "2026-10-09T15:22:31Z",
+      "updated_at": "2026-10-21T00:15:45Z",
+      "closed_at": "2026-10-21T00:15:45Z",
+      "author": "RobGanon",
+      "body_sha256_utf8": "88d516547bf06537d98c9f0666587fc663a464b44b788aef17b73c29e6eaf4d4"
+    },
+    {
+      "number": 21,
+      "html_url": "https://github.com/TruthMachine/ElectrumSVP/issues/21",
+      "title": "Coordinated security disclosure",
+      "state": "closed",
+      "state_reason": "completed",
+      "created_at": "2026-10-29T23:18:32Z",
+      "updated_at": "2026-10-31T07:40:47Z",
+      "closed_at": "2026-10-30T00:42:29Z",
+      "author": "ty-everett",
+      "body_sha256_utf8": "4c33b6eaeed67ec853732903b1028c011adb331ad9b30420ce4847bed823c48e"
+    }
+  ],
+  "comments": [
+    {
+      "id": 6105753556,
+      "html_url": "https://github.com/TruthMachine/ElectrumSVP/issues/19#issuecomment-6105753556",
+      "created_at": "2026-10-11T05:16:13Z",
+      "updated_at": "2026-10-11T05:16:13Z",
+      "author": "TruthMachine",
+      "body_sha256_utf8": "243e7214195341bfa36336ff3bca71e3d0d15f32959453ba2a6434aada864be4",
+      "summary": "Maintainer credits contributions and reports accepting fixes; defers broader authentication while citing certificate compatibility and a small server pool."
+    },
+    {
+      "id": 6512044366,
+      "html_url": "https://github.com/TruthMachine/ElectrumSVP/issues/21#issuecomment-6512044366",
+      "created_at": "2026-10-30T00:42:29Z",
+      "updated_at": "2026-10-30T00:42:29Z",
+      "author": "ty-everett",
+      "body_sha256_utf8": "222bf0e9d27270a88dbd197634a067713267571df7be861a696c3e249965558f",
+      "summary": "Reporter publishes plaintext research disclosure, says maintainer no longer considers coordinated handling necessary and already made public statements; links an X thread."
+    },
+    {
+      "id": 6540727570,
+      "html_url": "https://github.com/TruthMachine/ElectrumSVP/issues/21#issuecomment-6540727570",
+      "created_at": "2026-10-31T07:40:47Z",
+      "updated_at": "2026-10-31T07:40:47Z",
+      "author": "TruthMachine",
+      "body_sha256_utf8": "b5f38b9a277a60d2f1d43e3e4b35e48c8c8dff5f87f0a72ccf4d23a7f8b8ffda",
+      "summary": "Maintainer acknowledges unverified helper TLS and grouped-query privacy; announces optional stricter TLS initially disabled; claims unpublished balance/coinbase/CPFP and SOCKS inheritance fixes and local tests; reports satoshi.io operator contact and Rust server development; disputes novelty and some impact interpretations."
+    }
+  ],
+  "maintainer_narrow_quote": {
+    "url": "https://github.com/TruthMachine/ElectrumSVP/issues/21#issuecomment-6540727570",
+    "text": "This option will initially be disabled by default."
+  },
+  "public_master": {
+    "sha": "35b92ec9ddb7575d453e35ed018fe106d9169b54",
+    "commit_date": "2026-10-11T05:04:52Z",
+    "url": "https://api.github.com/repos/TruthMachine/ElectrumSVP/branches/master"
+  },
+  "latest_release": {
+    "tag_name": "v0.2.0",
+    "html_url": "https://github.com/TruthMachine/ElectrumSVP/releases/tag/v0.2.0",
+    "published_at": "2026-09-17T01:33:59Z",
+    "updated_at": "2026-09-17T01:34:43Z"
+  },
+  "documented_electrumr_source": {
+    "url": "https://api.github.com/repos/KeyvanJS/ElectrumR",
+    "is_error": true,
+    "response": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}"
+  },
+  "failed_x_retrieval": {
+    "url": "https://x.com/ProjectBabbage/status/2115935556383445090",
+    "date": "2026-11-03",
+    "tool": "web open",
+    "reported_status": 403,
+    "limits": "No text retrieved. Does not establish removal or absence; treatment and preceding disclosure sequence remain attributed researcher account."
+  },
+  "researcher_account": {
+    "date": "2026-11-03",
+    "source": "Direct instruction from researcher in this project conversation",
+    "summary": "Researcher reports personal attacks/smears, rejection of coordinated handling and public disclosure before a fix. Exact public statements and preceding private sequence not independently verified in this update."
+  },
+  "limits": [
+    "No new package runtime, public TLS endpoint or liveness experiment.",
+    "No independent verification of unpublished changes, local tests, operator contact or a Rust server deployment.",
+    "A source-body hash identifies retrieved bytes, not their truth or complete edit history.",
+    "No legal ownership, actual surveillance or inability ever to make privacy commitments inferred."
+  ],
+  "receipt_recorded_at_utc": "2026-11-03T18:56:23.233331+00:00",
+  "retrieved_on": "2026-11-03"
+}

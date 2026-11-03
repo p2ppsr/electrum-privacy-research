@@ -4,6 +4,14 @@ Research dates: 2026-10-28–29, America/Los_Angeles. Scope: a covert serving op
 
 Start with [the plain-English shopkeeper explainer](EXPLAINER.md) for a guided account of default disclosure, cross-user payment links and lasting observation, with diagrams and evidence links.
 
+## November 3 accountability update
+
+This public research revision adds [accountability and default risk acceptance](ACCOUNTABILITY.md), a [disclosure/remediation timeline](DISCLOSURE-TIMELINE.md) and [prioritized open questions](OPEN-QUESTIONS.md). Existing controlled results remain unchanged. Public technical awareness now includes the maintainer's acknowledgment of grouped-query privacy and unauthenticated helper TLS, proposed optional strict verification initially disabled, reported operator contact, and claimed local integrity/proxy fixes. [Response assessment](DISCLOSURE-AUDIT.md#november-3-public-response-assessment).
+
+At the November 3 check, latest release remained v0.2.0 and public master remained `35b92ec9`; reviewed core/helper TLS and height-based balance code were unchanged. These are source/publication observations, not a new runtime qualification. Matching ElectrumR's documented source URL again returned 404. The new Rust implementation mentioned by the maintainer is an unverified statement requiring separate provenance. No new server liveness observation was performed. [Receipts](evidence/governance-20261103/).
+
+The governance concern is whether default risk decisions, data recipients, consumer explanations and commitments are verifiable across the ecosystem. Difficulty coordinating authentication is not proof privacy commitments are impossible; no coordination at all, malicious intent, actual profiling and common ownership are not inferred. Reported hostile treatment and the disputed disclosure sequence are attributed and scoped in the timeline. Open review remains available without further private outreach or advance approval.
+
 ## October 29 validation update
 
 The [claim-to-evidence ledger](CLAIMS.md) now links the official [macOS GUI capture](PACKAGED-WALLET.md), [consensus-valid local-chain shop and departure experiment](VALID-CHAIN.md), [36 certificate tests](CERTIFICATES.md), [measured proxy boundary](MITIGATIONS.md) and [fresh-state 210-block replay with negative controls](evidence/chain-clean-replay-attempt-03/result.json). Earlier manufactured fixtures below remain historical evidence and retain their original limits. The latest valid-chain result reconstructs 9,450,000 satoshis gross and 8,349,000 remaining after both routes move, with zero further client requests to the old observer. No real-chain money or real merchant was involved.

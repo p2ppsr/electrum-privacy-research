@@ -131,3 +131,21 @@ The [disclosure audit](DISCLOSURE-AUDIT.md) records partial optional Network hel
 The [packaged GUI capture](PACKAGED-WALLET.md) confirms the role distinction with network settings unset: seven core hosts completed requests, seven helper hosts received header lookups, and the union was **eight Electrum hostnames**. Its main, `sv2.electrumr.sv`, completed all 40 financial identifier subscriptions. Five responding names in the union were on the shared-prefix assumption; the sixth literal shared-prefix name, `electrum.server.sv`, remained unresponsive in bounded samples. DNS/socket audit also observed update/rate-service names `electrumsv.io` and `bananablocks.com`; these are separate generic-service roles. There were 11 external DNS names including the unresponsive literal server, not 11 verified independent financial-data operators.
 
 Do not add hostname counts, association buckets, infrastructure organizations and DNS-provider brands as though each were an independent legal trust party. The exact independent legal operator count remains unknown. In the conservative shared-prefix model, five observed names in this desktop session can combine what their respective roles disclosed; in the all-provider pooling model all financial observations may join. Neither assumption grants a generic HTTP/DNS service financial RPC contents it was not shown to receive. Active impersonation enabled by weak certificate checks is a separate conditional threat, described in [CERTIFICATES](CERTIFICATES.md).
+
+## Active interception expands the trust boundary
+
+November 3 analysis adds the active path threat to the existing recipient roles. The diagram is conditional: it does not assert a provider attacked a user. Capturing the selected main connection exposes its queried collection; intercepting only auxiliary/header traffic gives less information. No real-network redirection was performed.
+
+```mermaid
+flowchart LR
+    U["Wallet / ordinary use"] -->|"TLS without peer authentication"| A["Active on-path intermediary<br/>Wi-Fi / ISP on direct route<br/>VPN provider / clearnet Tor exit"]
+    A -->|"Separate TLS relay"| S["Intended Electrum service"]
+    A -->|"Can retain main-session queries"| D["Saved financial interest collection"]
+    S -->|"Receives queries even with authenticated TLS"| D
+    C["Later public chain + outside identity anchor"] --> D
+    D --> W["Lasting matching of disclosed scripts/outpoints<br/>No further wallet session required"]
+```
+
+An ISP outside an intact VPN/Tor tunnel does not automatically see the inner connection. A Tor exit generally lacks the home IP; a checkout address can still label a profile. DNS/control or routing manipulation must actually place the attacker on the relevant path. Passive TLS capture does not decrypt requests. [Certificate evidence](CERTIFICATES.md) and [routing boundaries](MITIGATIONS.md) distinguish those cases.
+
+Authenticated transport limits impersonation; it cannot prevent the intended service retaining queries. Policies, identity records, audit access and enforcement belong in a separate [accountability assessment](ACCOUNTABILITY.md). Exact independent-party counts remain unknown and role-specific observations must not be added as though they were disjoint legal organizations. New code, defaults and statements are tracked in [the disclosure timeline](DISCLOSURE-TIMELINE.md).
