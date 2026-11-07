@@ -30,3 +30,7 @@ Read [the technical report](REPORT.md), [claim-to-evidence ledger](CLAIMS.md), [
 **Independent review and replication are invited through [GitHub Issues](https://github.com/p2ppsr/electrum-privacy-research/issues) and pull requests.** See the [open research questions](OPEN-QUESTIONS.md), [contribution guide](CONTRIBUTING.md) and [release notes](RELEASE-NOTES.md). Public review is ongoing; advance review, direct outreach and reader studies are not publication prerequisites. The [reader-study protocol](READER-STUDY.md) remains available for optional follow-up research.
 
 Original research is Apache-2.0, **© Peer-to-peer Privacy Systems Research, LLC.** See [LICENSE](LICENSE), [NOTICE](NOTICE), [third-party boundaries](LICENSING.md) and [citation metadata](CITATION.cff).
+
+## Conflict of interest
+
+This research is published by Peer-to-peer Privacy Systems Research, LLC (P2PPSR / Project Babbage). Ty Everett and Project Babbage develop and promote BRC-100-based wallet technology, which competes with the Electrum wallet design examined here. Readers should consider this potential commercial and technical conflict of interest and assess the findings against the published evidence and reproduction methods.
